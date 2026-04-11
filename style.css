@@ -66,9 +66,24 @@ header {
 
 .header-right {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 2px;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.nav-link {
+  font-size: 0.78rem;
+  color: var(--text-sub);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  transition: color 0.2s;
+}
+.nav-link:hover { color: var(--primary); }
+
+.header-divider {
+  width: 1px;
+  height: 18px;
+  background: var(--border);
 }
 
 .update-label {
@@ -154,9 +169,50 @@ header {
   color: #fff;
 }
 
+.filter-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.search-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  width: 13px;
+  height: 13px;
+  color: var(--text-muted);
+  pointer-events: none;
+}
+
+.search-input {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  color: var(--text-main);
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 7px 12px 7px 30px;
+  width: 220px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.search-input::placeholder { color: var(--text-muted); }
+.search-input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(196,149,106,0.12);
+}
+.search-input::-webkit-search-cancel-button { cursor: pointer; }
+
 .paper-count {
   font-size: 0.78rem;
   color: var(--text-muted);
+  white-space: nowrap;
 }
 
 /* ─── Container & Grid ───────────────────────────────────── */
@@ -542,6 +598,47 @@ header {
 @media (max-width: 640px) {
   .dr-preview-card { flex-direction: column; align-items: flex-start; }
   .dr-preview-cta { width: 100%; justify-content: center; }
+}
+
+/* Cite button */
+.btn-cite {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.75rem;
+  font-family: var(--font-sans);
+  padding: 6px 13px;
+  border-radius: 7px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  background: transparent;
+  color: var(--text-sub);
+  border: 1px solid var(--border);
+}
+.btn-cite svg { width: 12px; height: 12px; flex-shrink: 0; }
+.btn-cite:hover { border-color: var(--primary); color: var(--primary); }
+
+/* Toast */
+.toast {
+  position: fixed;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%) translateY(12px);
+  background: var(--text-main);
+  color: #fff;
+  font-size: 0.82rem;
+  padding: 10px 22px;
+  border-radius: 8px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.22s ease, transform 0.22s ease;
+  z-index: 2000;
+  white-space: nowrap;
+}
+.toast.toast-show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
 }
 
 /* ─── PDF Reader Modal ───────────────────────────────────── */

@@ -16,7 +16,7 @@ from pathlib import Path
 
 TODAY = datetime.date.today().isoformat()
 DATA_FILE  = Path(__file__).parent.parent / "data" / "papers.json"
-MAX_PAPERS  = 120
+MAX_PAPERS  = 300
 DAILY_LIMIT = 2   # New papers per category per day
 
 # ── Journal IF lookup ────────────────────────────────────────────────────────

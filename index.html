@@ -18,6 +18,8 @@
         <span class="logo-sub">运动科学研究室 · Sports Science Lab</span>
       </div>
       <div class="header-right">
+        <a class="nav-link" href="archive.html">归档 / Archive</a>
+        <div class="header-divider"></div>
         <span class="update-label">最后更新 / Last updated</span>
         <span class="update-date" id="lastUpdated">—</span>
       </div>
@@ -46,7 +48,7 @@
     </div>
   </section>
 
-  <!-- Filter Bar -->
+  <!-- Filter & Search Bar -->
   <div class="filter-wrap">
     <div class="filter-bar">
       <button class="filter-btn active" data-cat="all">全部 / All</button>
@@ -54,8 +56,14 @@
       <button class="filter-btn" data-cat="performance">运动表现 / Performance</button>
       <button class="filter-btn" data-cat="supplements">运动补剂 / Supplements</button>
     </div>
-    <div class="paper-count">
-      <span id="paperCount">—</span> 篇文献
+    <div class="filter-right">
+      <div class="search-wrap">
+        <svg class="search-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8">
+          <circle cx="6.5" cy="6.5" r="4.5"/><path d="M10.5 10.5 L14 14"/>
+        </svg>
+        <input type="search" id="searchInput" class="search-input" placeholder="搜索标题、作者、期刊…" autocomplete="off" />
+      </div>
+      <div class="paper-count"><span id="paperCount">—</span> 篇</div>
     </div>
   </div>
 

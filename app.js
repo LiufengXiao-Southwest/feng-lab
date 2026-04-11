@@ -6,6 +6,8 @@ const CAT_LABELS = {
 
 let allPapers = [];
 let activeCategory = 'all';
+let activeSearch   = '';
+let searchTimer    = null;
 
 async function loadPapers() {
   try {
@@ -139,6 +141,12 @@ function buildCard(p) {
     <div class="card-actions">
       ${readBtn}
       ${doiBtn}
+      <button class="btn-cite" onclick="copyBibTeX('${p.id || ''}')">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8">
+          <path d="M4 2h8a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1z"/>
+          <path d="M6 2v4l1.5-1 1.5 1V2"/>
+        </svg>引用
+      </button>
     </div>
   </div>
 
@@ -151,15 +159,36 @@ function formatDate(str) {
   return `${y}/${m}/${d}`;
 }
 
+function getFilteredPapers() {
+  let papers = activeCategory === 'all'
+    ? allPapers
+    : allPapers.filter(p => p.category === activeCategory);
+
+  if (activeSearch) {
+    const q = activeSearch.toLowerCase();
+    papers = papers.filter(p =>
+      (p.title_en   || '').toLowerCase().includes(q) ||
+      (p.title_zh   || '').toLowerCase().includes(q) ||
+      (p.abstract_en|| '').toLowerCase().includes(q) ||
+      (p.abstract_zh|| '').toLowerCase().includes(q) ||
+      (p.authors    || []).join(' ').toLowerCase().includes(q) ||
+      (p.journal    || '').toLowerCase().includes(q)
+    );
+  }
+  return papers;
+}
+
 function setFilter(cat) {
   activeCategory = cat;
   document.querySelectorAll('.filter-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.cat === cat);
   });
-  const filtered = cat === 'all'
-    ? allPapers
-    : allPapers.filter(p => p.category === cat);
-  renderPapers(filtered);
+  renderPapers(getFilteredPapers());
+}
+
+function setSearch(q) {
+  activeSearch = q.trim();
+  renderPapers(getFilteredPapers());
 }
 
 // ── Deep Read ────────────────────────────────────────────────────────────────
@@ -192,6 +221,51 @@ function renderDeepRead(dr) {
         <path d="M6 4 L10 8 L6 12"/>
       </svg>
     </a>`;
+}
+
+// ── BibTeX Export ────────────────────────────────────────────────────────────
+function copyBibTeX(id) {
+  const p = allPapers.find(x => x.id === id);
+  if (!p) return;
+  const firstAuthor = (p.authors || ['Unknown'])[0].split(' ').pop();
+  const key = firstAuthor + (p.year || '');
+  const authors = (p.authors || []).join(' and ');
+  const doi = p.doi || '';
+  const bibtex = `@article{${key},
+  title   = {${(p.title_en || '').replace(/[{}]/g, '')}},
+  author  = {${authors}},
+  journal = {${p.journal || ''}},
+  year    = {${p.year || ''}},
+  doi     = {${doi}}
+}`;
+  navigator.clipboard.writeText(bibtex)
+    .then(() => showToast('BibTeX 已复制 ✓'))
+    .catch(() => {
+      // Fallback for browsers without clipboard API
+      const ta = document.createElement('textarea');
+      ta.value = bibtex;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+      showToast('BibTeX 已复制 ✓');
+    });
+}
+
+function showToast(msg) {
+  let t = document.getElementById('toast');
+  if (!t) {
+    t = document.createElement('div');
+    t.id = 'toast';
+    t.className = 'toast';
+    document.body.appendChild(t);
+  }
+  t.textContent = msg;
+  t.classList.add('toast-show');
+  clearTimeout(t._timer);
+  t._timer = setTimeout(() => t.classList.remove('toast-show'), 2200);
 }
 
 // ── PDF Reader Modal ─────────────────────────────────────────────────────────
@@ -254,6 +328,16 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.filter-btn').forEach(btn => {
     btn.addEventListener('click', () => setFilter(btn.dataset.cat));
   });
+
+  const searchInput = document.getElementById('searchInput');
+  if (searchInput) {
+    searchInput.addEventListener('input', () => {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(() => setSearch(searchInput.value), 280);
+    });
+    searchInput.addEventListener('search', () => setSearch(searchInput.value));
+  }
+
   loadPapers();
   loadDeepRead();
 });

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>文献归档 · FENG LAB</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .archive-layout {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 32px 32px 80px;
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 40px;
+      align-items: start;
+    }
+
+    /* Sidebar */
+    .archive-nav {
+      position: sticky;
+      top: 80px;
+    }
+
+    .archive-nav-title {
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
+
+    .archive-nav-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .archive-nav-list a {
+      display: block;
+      font-size: 0.82rem;
+      color: var(--text-sub);
+      text-decoration: none;
+      padding: 5px 10px;
+      border-radius: 6px;
+      transition: all 0.15s;
+    }
+    .archive-nav-list a:hover {
+      background: var(--primary-light);
+      color: var(--primary);
+    }
+    .archive-nav-list .nav-count {
+      font-size: 0.68rem;
+      color: var(--text-muted);
+      margin-left: 6px;
+    }
+
+    /* Main content */
+    .archive-main {}
+
+    .archive-search-bar {
+      margin-bottom: 28px;
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+    .archive-search-bar .search-icon {
+      position: absolute;
+      left: 12px;
+      width: 14px;
+      height: 14px;
+      color: var(--text-muted);
+    }
+    .archive-search-bar input {
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      width: 100%;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 14px 10px 36px;
+      outline: none;
+      color: var(--text-main);
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .archive-search-bar input::placeholder { color: var(--text-muted); }
+    .archive-search-bar input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(196,149,106,0.12);
+    }
+
+    /* Month group */
+    .archive-group { margin-bottom: 36px; }
+
+    .archive-month-header {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--primary-light);
+    }
+
+    .archive-month-label {
+      font-family: var(--font-serif);
+      font-size: 1.15rem;
+      color: var(--text-main);
+    }
+
+    .archive-month-count {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+    }
+
+    /* Paper row */
+    .archive-row {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: start;
+      gap: 12px;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--border);
+      transition: background 0.15s;
+    }
+    .archive-row:last-child { border-bottom: none; }
+    .archive-row:hover { background: #FDFAF6; border-radius: 8px; padding-left: 8px; }
+
+    .archive-row-tags {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      min-width: 72px;
+    }
+
+    .archive-row-cat {
+      font-size: 0.6rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 2px 7px;
+      border-radius: 100px;
+    }
+    .archive-row-cat.tag-biomechanics { background: var(--primary-light); color: var(--primary); }
+    .archive-row-cat.tag-performance  { background: #EBF0F8; color: #4A6FA5; }
+    .archive-row-cat.tag-supplements  { background: #EBF5EC; color: #3D7A45; }
+
+    .archive-row-oa {
+      font-size: 0.58rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      padding: 2px 6px;
+      border-radius: 100px;
+      background: #E6F4EA;
+      color: #2E7D32;
+      border: 1px solid #A5D6A7;
+    }
+
+    .archive-row-body { flex: 1; min-width: 0; }
+
+    .archive-row-title {
+      font-size: 0.88rem;
+      font-weight: 500;
+      color: var(--text-main);
+      line-height: 1.4;
+      margin-bottom: 3px;
+    }
+    .archive-row-title-zh {
+      font-size: 0.78rem;
+      color: var(--text-sub);
+      line-height: 1.4;
+      margin-bottom: 5px;
+    }
+    .archive-row-meta {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .archive-row-journal { font-style: italic; font-family: var(--font-serif); }
+
+    .archive-row-actions {
+      display: flex;
+      gap: 6px;
+      align-items: flex-start;
+      flex-shrink: 0;
+    }
+
+    .archive-empty {
+      color: var(--text-muted);
+      font-size: 0.88rem;
+      padding: 48px 0;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .archive-layout {
+        grid-template-columns: 1fr;
+        padding: 20px 16px 60px;
+        gap: 24px;
+      }
+      .archive-nav { position: static; display: none; }
+      .archive-row { grid-template-columns: auto 1fr; }
+      .archive-row-actions { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-main">FENG LAB</span>
+        <span class="logo-sub">运动科学研究室 · Sports Science Lab</span>
+      </div>
+      <div class="header-right">
+        <a class="nav-link" href="index.html">← 返回首页</a>
+        <div class="header-divider"></div>
+        <span class="update-label">文献归档</span>
+        <span class="update-date">Archive</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="archive-layout">
+    <!-- Sidebar nav -->
+    <aside class="archive-nav">
+      <div class="archive-nav-title">按月跳转</div>
+      <ul class="archive-nav-list" id="archiveNavList"></ul>
+    </aside>
+
+    <!-- Main -->
+    <div class="archive-main">
+      <div class="archive-search-bar">
+        <svg class="search-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8">
+          <circle cx="6.5" cy="6.5" r="4.5"/><path d="M10.5 10.5 L14 14"/>
+        </svg>
+        <input type="search" id="archiveSearch" placeholder="搜索全部归档文献…" autocomplete="off" />
+      </div>
+      <div id="archiveContent">
+        <div class="loading">正在加载归档 / Loading archive…</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-inner">
+      <span>FENG LAB © 2026</span>
+      <span>由 AI Agent 自动更新 · Auto-updated by AI Agent</span>
+    </div>
+  </footer>
+
+  <script>
+    const CAT = {
+      biomechanics: { zh: '生物力学', cls: 'tag-biomechanics' },
+      performance:  { zh: '运动表现', cls: 'tag-performance'  },
+      supplements:  { zh: '运动补剂', cls: 'tag-supplements'  },
+    };
+
+    let allPapers = [];
+
+    function formatMonth(ym) {
+      const [y, m] = ym.split('-');
+      const months = ['一','二','三','四','五','六','七','八','九','十','十一','十二'];
+      return `${y} 年 ${months[+m - 1]} 月`;
+    }
+
+    function groupByMonth(papers) {
+      const groups = {};
+      for (const p of papers) {
+        const ym = (p.date_added || '').slice(0, 7) || 'unknown';
+        if (!groups[ym]) groups[ym] = [];
+        groups[ym].push(p);
+      }
+      return groups;
+    }
+
+    function buildRow(p) {
+      const cat = CAT[p.category] || { zh: p.category, cls: '' };
+      const doi = p.doi || '';
+      const doiHref = doi.startsWith('http') ? doi : (doi ? `https://doi.org/${doi}` : '');
+      const oaTag = p.is_open_access ? `<span class="archive-row-oa">OA</span>` : '';
+      const ifTag = p.impact_factor ? `<span class="if-badge">IF ${p.impact_factor}</span>` : '';
+      const citTag = (p.citation_count && p.citation_count > 0)
+        ? `<span class="cit-badge">◈ ${p.citation_count}</span>` : '';
+      const doiBtn = doiHref
+        ? `<a class="btn-doi" href="${doiHref}" target="_blank" rel="noopener" style="font-size:0.7rem;padding:4px 10px">↗</a>`
+        : '';
+      const authors = (p.authors || []).slice(0, 3).join(', ') +
+        ((p.authors || []).length > 3 ? ' et al.' : '');
+
+      return `
+<div class="archive-row">
+  <div class="archive-row-tags">
+    <span class="archive-row-cat ${cat.cls}">${cat.zh}</span>
+    ${oaTag}
+  </div>
+  <div class="archive-row-body">
+    <div class="archive-row-title">${p.title_en || ''}</div>
+    ${p.title_zh ? `<div class="archive-row-title-zh">${p.title_zh}</div>` : ''}
+    <div class="archive-row-meta">
+      <span class="archive-row-journal">${p.journal || ''}</span>
+      <span>${p.year || ''}</span>
+      <span>${authors}</span>
+      ${ifTag}${citTag}
+    </div>
+  </div>
+  <div class="archive-row-actions">${doiBtn}</div>
+</div>`;
+    }
+
+    function renderArchive(papers) {
+      const groups = groupByMonth(papers);
+      const months = Object.keys(groups).sort((a, b) => b.localeCompare(a));
+
+      if (months.length === 0) {
+        document.getElementById('archiveContent').innerHTML =
+          '<div class="archive-empty">暂无文献 / No papers found.</div>';
+        return;
+      }
+
+      // Sidebar nav
+      document.getElementById('archiveNavList').innerHTML = months.map(ym => `
+        <li>
+          <a href="#month-${ym}">
+            ${formatMonth(ym)}
+            <span class="nav-count">${groups[ym].length}</span>
+          </a>
+        </li>`).join('');
+
+      // Main content
+      document.getElementById('archiveContent').innerHTML = months.map(ym => `
+        <div class="archive-group" id="month-${ym}">
+          <div class="archive-month-header">
+            <span class="archive-month-label">${formatMonth(ym)}</span>
+            <span class="archive-month-count">${groups[ym].length} 篇</span>
+          </div>
+          ${groups[ym].map(buildRow).join('')}
+        </div>`).join('');
+    }
+
+    async function loadArchive() {
+      const base = location.pathname.replace(/\/[^/]*$/, '');
+      const res  = await fetch(base + '/data/papers.json');
+      const json = await res.json();
+      allPapers  = json.papers || [];
+      document.title = `文献归档 (${allPapers.length}) · FENG LAB`;
+      renderArchive(allPapers);
+    }
+
+    // Search
+    let timer = null;
+    document.getElementById('archiveSearch').addEventListener('input', function() {
+      clearTimeout(timer);
+      timer = setTimeout(() => {
+        const q = this.value.trim().toLowerCase();
+        if (!q) { renderArchive(allPapers); return; }
+        const filtered = allPapers.filter(p =>
+          (p.title_en   || '').toLowerCase().includes(q) ||
+          (p.title_zh   || '').toLowerCase().includes(q) ||
+          (p.abstract_en|| '').toLowerCase().includes(q) ||
+          (p.abstract_zh|| '').toLowerCase().includes(q) ||
+          (p.authors    || []).join(' ').toLowerCase().includes(q) ||
+          (p.journal    || '').toLowerCase().includes(q)
+        );
+        renderArchive(filtered);
+      }, 280);
+    });
+
+    loadArchive();
+  </script>
+</body>
+</html>
