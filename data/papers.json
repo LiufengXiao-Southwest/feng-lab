@@ -2,6 +2,50 @@
   "last_updated": "2026-04-11",
   "papers": [
     {
+      "id": "2abc8e19",
+      "title_en": "Muscle Synergy Patterns During Running: Coordinative Mechanisms From a Neuromechanical Perspective",
+      "title_zh": "",
+      "authors": [
+        "Ye Ma",
+        "Shixin Lin",
+        "Shengxing Fu",
+        "Yuwei Liu",
+        "Chenyi Guo"
+      ],
+      "journal": "",
+      "year": 2025,
+      "date_added": "2026-04-11",
+      "category": "biomechanics",
+      "doi": "",
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "Running is a fundamental form of human locomotion and a key task for evaluating neuromuscular control and lower-limb coordination. In recent years, muscle synergy analysis based on surface electromyography (sEMG) has become an important approach in this area. This review focuses on muscle synergies during running, outlining core neural control theories and biomechanical optimization hypotheses, summarizing commonly used decomposition methods (e.g., PCA, ICA, FA, NMF) and emerging autoencoder-based approaches. We synthesize findings on the development and evolution of running-related synergies across the lifespan, examine how running surface, speed, foot-strike pattern, fatigue, and performance level modulate synergy patterns, and describe characteristic alterations in populations with knee osteoarthritis, patellofemoral pain, and stroke. Current evidence suggests that the number and basi",
+      "abstract_zh": "",
+      "keywords": []
+    },
+    {
+      "id": "56c7ff61",
+      "title_en": "Running-induced fatigue influences lower extremity muscle synergy and related biomechanics.",
+      "title_zh": "",
+      "authors": [
+        "Yongxin Xu",
+        "Yang Yang",
+        "Siyuan He",
+        "Chenhao Yang",
+        "Shen Zhang"
+      ],
+      "journal": "Gait & Posture",
+      "year": 2025,
+      "date_added": "2026-04-11",
+      "category": "biomechanics",
+      "doi": "10.1016/j.gaitpost.2025.03.008",
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "BACKGROUND\nFatigue changes muscle activation patterns as an adaptation strategy in multi-joint movements. However, due to groups of muscles involved in running, the across-muscle neurological regulation before and after fatigue is unclear. The central nervous system may employ low-dimensional modular structures, known as muscle synergies, to describe the muscle coordination in a multi-joint movement such as running.\n\n\nRESEARCH QUESTION\nThis study aimed to explore the effect of fatigue on lower extremity muscle synergy and biomechanical characteristics in running.\n\n\nMETHOD\nTwelve healthy male participants were recruited. The kinematic, kinetic, and surface electromyography data of nine muscles (i.e., gluteus maximus, biceps femoris, rectus femoris, vastus medialis, vastus lateralis, tibialis anterior, medial gastrocnemius, lateral gastrocnemius, and soleus) were synchronously recorded on ",
+      "abstract_zh": "",
+      "keywords": []
+    },
+    {
       "id": "b18e527f",
       "title_en": "KineticsSense: A Multimodal Wearable Sensor Framework for Modeling Lower-Limb Motion Kinetics",
       "title_zh": "",
