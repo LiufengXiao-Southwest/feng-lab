@@ -105,15 +105,15 @@ def save_history(history: dict):
     )
 
 
-# ── Claude API: generate structured reading ───────────────────────────────────
+# ── Gemini API: generate structured reading ──────────────────────────────────
 
 def generate_deep_read(paper: dict, journal: dict) -> dict:
-    import anthropic
+    import google.generativeai as genai
 
-    title    = paper.get("title", "")
-    abstract = paper.get("abstract", "")
-    year     = paper.get("year", "")
-    doi      = paper.get("externalIds", {}).get("DOI", "")
+    title     = paper.get("title", "")
+    abstract  = paper.get("abstract", "")
+    year      = paper.get("year", "")
+    doi       = paper.get("externalIds", {}).get("DOI", "")
     citations = paper.get("citationCount", 0)
     authors_raw = [a.get("name", "") for a in (paper.get("authors") or [])[:6]]
     authors_str = ", ".join(authors_raw[:4]) + (" et al." if len(authors_raw) > 4 else "")
@@ -182,14 +182,11 @@ Be specific and accurate to this paper. Do NOT write generic placeholder text.
   ]
 }}"""
 
-    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-    msg = client.messages.create(
-        model="claude-opus-4-6",
-        max_tokens=4096,
-        messages=[{"role": "user", "content": prompt}],
-    )
+    genai.configure(api_key=os.environ["GEMINI_API_KEY"])
+    model = genai.GenerativeModel("gemini-2.0-flash")
+    response = model.generate_content(prompt)
 
-    raw = msg.content[0].text.strip()
+    raw = response.text.strip()
     # Strip accidental code fences
     if raw.startswith("```"):
         parts = raw.split("```")

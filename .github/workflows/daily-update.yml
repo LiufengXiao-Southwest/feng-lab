@@ -22,14 +22,14 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests anthropic
+        run: pip install requests google-generativeai
 
       - name: Fetch latest papers
         run: python scripts/fetch_papers.py
 
       - name: Generate daily deep read
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/fetch_deep_read.py
 
       - name: Commit and push if changed
