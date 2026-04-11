@@ -149,6 +149,102 @@ function setFilter(cat) {
   renderPapers(filtered);
 }
 
+// ── Deep Read ────────────────────────────────────────────────────────────────
+async function loadDeepRead() {
+  try {
+    const base = location.pathname.replace(/\/[^/]*$/, '');
+    const res  = await fetch(base + '/data/deep_read.json');
+    const dr   = await res.json();
+    renderDeepRead(dr);
+    document.getElementById('deepReadSection').style.display = '';
+  } catch (e) {
+    console.warn('No deep read data:', e);
+  }
+}
+
+function renderDeepRead(dr) {
+  // Paper info bar
+  const doi     = dr.doi || '';
+  const doiHref = doi.startsWith('http') ? doi : `https://doi.org/${doi}`;
+  const oaBadge = dr.is_open_access ? '<span class="oa-badge">Open Access</span>' : '';
+  const readBtn = dr.pdf_url
+    ? `<button class="btn-read" onclick="openReader('${dr.pdf_url.replace(/'/g,"\\'")}','${(dr.title_en||'').replace(/'/g,"\\'")}')">◎ 阅读原文</button>`
+    : '';
+
+  document.getElementById('drPaperBar').innerHTML = `
+    <div class="dr-paper-meta">
+      <div class="dr-paper-tags">${oaBadge}<span class="dr-if">IF ${dr.impact_factor || '—'}</span></div>
+      <div class="dr-paper-title-en">${dr.title_en || ''}</div>
+      <div class="dr-paper-title-zh">${dr.title_zh || ''}</div>
+      <div class="dr-paper-sub">${dr.authors || ''} · <em>${dr.journal || ''}</em> ${dr.year || ''}, ${dr.volume_page || ''}</div>
+    </div>
+    <div class="dr-paper-actions">
+      ${readBtn}
+      ${doi ? `<a class="btn-doi" href="${doiHref}" target="_blank" rel="noopener">↗ DOI</a>` : ''}
+    </div>`;
+
+  // Analysis cards
+  const grid = document.getElementById('drGrid');
+  grid.innerHTML = dr.sections.map(s => {
+    if (s.id === 'results') return buildStatsCard(s);
+    if (s.id === 'appraisal') return buildAppraisalCard(s);
+    return buildTextCard(s);
+  }).join('');
+}
+
+function buildTextCard(s) {
+  const body = (s.content_zh || '').replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>');
+  const bodyEn = (s.content_en || '').replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>');
+  return `
+<div class="dr-card dr-card-${s.id}">
+  <div class="dr-card-header">
+    <span class="dr-icon">${s.icon}</span>
+    <div>
+      <div class="dr-card-title">${s.title_zh}</div>
+      <div class="dr-card-title-en">${s.title_en}</div>
+    </div>
+  </div>
+  <div class="dr-card-body">${body}</div>
+  <div class="dr-card-body-en">${bodyEn}</div>
+</div>`;
+}
+
+function buildStatsCard(s) {
+  const stats = (s.stats || []).map(st => `
+    <div class="dr-stat">
+      <div class="dr-stat-value">${st.value}</div>
+      <div class="dr-stat-label">${st.label_zh}</div>
+      <div class="dr-stat-note">${st.note || ''}</div>
+    </div>`).join('');
+  return `
+<div class="dr-card dr-card-results dr-card-wide">
+  <div class="dr-card-header">
+    <span class="dr-icon">${s.icon}</span>
+    <div>
+      <div class="dr-card-title">${s.title_zh}</div>
+      <div class="dr-card-title-en">${s.title_en}</div>
+    </div>
+  </div>
+  <div class="dr-stats-grid">${stats}</div>
+</div>`;
+}
+
+function buildAppraisalCard(s) {
+  const pros = (s.pros_zh || []).map(p => `<li class="dr-pro">✓ ${p}</li>`).join('');
+  const cons = (s.cons_zh || []).map(c => `<li class="dr-con">✗ ${c}</li>`).join('');
+  return `
+<div class="dr-card dr-card-appraisal">
+  <div class="dr-card-header">
+    <span class="dr-icon">${s.icon}</span>
+    <div>
+      <div class="dr-card-title">${s.title_zh}</div>
+      <div class="dr-card-title-en">${s.title_en}</div>
+    </div>
+  </div>
+  <ul class="dr-check-list">${pros}${cons}</ul>
+</div>`;
+}
+
 // ── PDF Reader Modal ─────────────────────────────────────────────────────────
 function openReader(pdfUrl, title) {
   let modal = document.getElementById('readerModal');
@@ -210,4 +306,5 @@ document.addEventListener('DOMContentLoaded', () => {
     btn.addEventListener('click', () => setFilter(btn.dataset.cat));
   });
   loadPapers();
+  loadDeepRead();
 });

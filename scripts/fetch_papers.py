@@ -14,34 +14,25 @@ from pathlib import Path
 
 TODAY = datetime.date.today().isoformat()
 DATA_FILE = Path(__file__).parent.parent / "data" / "papers.json"
-MAX_PAPERS = 80
+MAX_PAPERS   = 80
+DAILY_LIMIT  = 2   # New papers fetched per category per day (total = 6)
 
-# ── Search topics ────────────────────────────────────────────────────────────
+# ── Search topics (first query in each list is highest priority) ─────────────
 SEARCHES = {
     "biomechanics": [
-        "gait biomechanics IMU inertial measurement unit wearable",
-        "movement phenotype classification machine learning sports",
-        "muscle synergy electromyography EMG running locomotion",
-        "plantar pressure sports biomechanics treadmill",
-        "motion capture human movement analysis kinematics",
-        "multi-sensor fusion biomechanics",
-        "individual variability movement pattern athlete",
+        "movement phenotype gait biomechanics IMU EMG plantar pressure",
+        "multi-sensor fusion human motion analysis sports",
+        "muscle synergy electromyography running locomotion",
     ],
     "performance": [
-        "rate of force development athletic performance",
-        "neuromuscular fatigue sports performance",
-        "countermovement jump sprint performance training",
-        "running economy biomechanics performance",
-        "training load monitoring athlete",
-        "muscle activation sports performance strength",
+        "rate of force development neuromuscular athletic performance",
+        "sprint jump training load sports performance",
+        "running economy fatigue biomechanics",
     ],
     "supplements": [
-        "creatine supplementation exercise performance recovery",
-        "collagen peptide tendon ligament injury recovery",
-        "caffeine sport ergogenic aid performance",
-        "beta-alanine sports performance supplementation",
-        "sports nutrition supplement randomized controlled trial",
-        "nitrate beetroot exercise performance",
+        "creatine collagen caffeine sports supplement exercise RCT",
+        "ergogenic aids sports nutrition randomized controlled trial",
+        "nitrate beta-alanine sport performance supplementation",
     ],
 }
 
@@ -119,12 +110,18 @@ def main():
 
     new_papers = []
     for category, queries in SEARCHES.items():
-        print(f"\n▸ {category}")
+        print(f"\n▸ {category} (target: {DAILY_LIMIT} new papers)")
+        collected = []
         for q in queries:
+            if len(collected) >= DAILY_LIMIT:
+                break
             print(f"  {q[:55]}...")
-            fetched = fetch_ss(q, category, limit=3)
-            print(f"  → {len(fetched)} papers")
-            new_papers.extend(fetched)
+            fetched = fetch_ss(q, category, limit=DAILY_LIMIT * 2)
+            collected.extend(fetched)
+            collected = dedupe(collected)
+            print(f"  → {len(fetched)} fetched, {len(collected)} unique so far")
+        new_papers.extend(collected[:DAILY_LIMIT])
+    print(f"\nNew papers collected today: {len(new_papers)}")
 
     # Merge: new first, then keep existing (preserves manual edits / ZH translations)
     merged = dedupe(new_papers + existing.get("papers", []))
