@@ -2,6 +2,48 @@
   "last_updated": "2026-04-11",
   "papers": [
     {
+      "id": "40ac52a8",
+      "title_en": "The Role of High-Intensity Interval Training (HIIT) in Neuromuscular Adaptations: Implications for Strength and Power Development—A Review",
+      "title_zh": "",
+      "authors": [
+        "Chi-Hsiang Hung",
+        "Chun-Hsien Su",
+        "Dong Wang"
+      ],
+      "journal": "Life",
+      "year": 2025,
+      "date_added": "2026-04-11",
+      "category": "performance",
+      "doi": "10.3390/life15040657",
+      "impact_factor": "",
+      "citation_count": 24,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "High-intensity Interval Training (HIIT) is increasingly recognized for enhancing neuromuscular function, strength, power, and overall athletic performance. This review systematically examined peer-reviewed studies published between 2000 and 2025, focusing on HIIT’s impact on motor unit recruitment, muscle fiber composition, neuromuscular efficiency, maximal strength, rate of force development (RFD), muscle hypertrophy, and power output. Findings indicate that HIIT significantly improves neuromuscular activation by increasing motor unit recruitment and synchronization, particularly in fast-twitch fibers essential for explosive movements. HIIT also promotes shifts toward Type II and hybrid Type IIa fibers, enhancing strength and endurance. However, despite its effectiveness in boosting RFD and explosive power, HIIT is less efficient than traditional resistance training for maximizing absol",
+      "abstract_zh": "",
+      "keywords": []
+    },
+    {
+      "id": "76a6efa8",
+      "title_en": "Computational Analysis of Neuromuscular Adaptations to Strength and Plyometric Training: An Integrated Modeling Study",
+      "title_zh": "",
+      "authors": [
+        "D. Mănescu"
+      ],
+      "journal": "Sports",
+      "year": 2025,
+      "date_added": "2026-04-11",
+      "category": "performance",
+      "doi": "10.3390/sports13090298",
+      "impact_factor": "",
+      "citation_count": 8,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "Understanding neuromuscular adaptations resulting from specific training modalities is crucial for optimizing athletic performance and injury prevention. This in silico proof-of-concept study aimed to computationally model and predict neuromuscular adaptations induced by strength and plyometric training, integrating musculoskeletal simulations and machine learning techniques. A validated musculoskeletal model (OpenSim 4.4; 23 DOF, 92 musculotendon actuators) was scaled to a representative athlete (180 cm, 75 kg). Plyometric (vertical jumps, horizontal broad jumps, drop jumps) and strength exercises (back squat, deadlift, leg press) were simulated to evaluate biomechanical responses, including ground reaction forces, muscle activations, joint kinetics, and rate of force development (RFD). Predictive analyses employed artificial neural networks and random forest regression models trained o",
+      "abstract_zh": "",
+      "keywords": []
+    },
+    {
       "id": "2abc8e19",
       "title_en": "Muscle Synergy Patterns During Running: Coordinative Mechanisms From a Neuromechanical Perspective",
       "title_zh": "",
