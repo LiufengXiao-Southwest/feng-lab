@@ -25,6 +25,8 @@ jobs:
         run: pip install requests google-generativeai
 
       - name: Fetch latest papers
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/fetch_papers.py
 
       - name: Generate daily deep read

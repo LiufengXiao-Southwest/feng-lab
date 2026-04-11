@@ -59,6 +59,16 @@ function buildCard(p) {
     ? `<span class="oa-badge">Open Access</span>`
     : '';
 
+  // IF badge
+  const ifBadge = p.impact_factor
+    ? `<span class="if-badge">IF ${p.impact_factor}</span>`
+    : '';
+
+  // Citation badge
+  const citBadge = (p.citation_count && p.citation_count > 0)
+    ? `<span class="cit-badge">◈ ${p.citation_count}</span>`
+    : '';
+
   // DOI link button
   const doiBtn = doiHref
     ? `<a class="btn-doi" href="${doiHref}" target="_blank" rel="noopener" title="原文页面">
@@ -86,8 +96,9 @@ function buildCard(p) {
   }
 
   const titleZh  = p.title_zh    ? `<div class="card-title-zh">${p.title_zh}</div>` : '';
-  const absLabel = p.abstract_zh ? 'Abstract / 摘要' : 'Abstract';
+  const absLabel = p.abstract_zh ? '摘要 / Abstract' : 'Abstract';
   const absZh    = p.abstract_zh ? `<div class="abstract-zh">${p.abstract_zh}</div>` : '';
+  const absEn    = p.abstract_zh ? `<div class="abstract-en abstract-en-secondary">${p.abstract_en || ''}</div>` : `<div class="abstract-en">${p.abstract_en || ''}</div>`;
 
   return `
 <article class="card">
@@ -96,6 +107,7 @@ function buildCard(p) {
     <div class="card-tags">
       <span class="card-tag ${cat.cls}">${cat.zh} / ${cat.en}</span>
       ${oaBadge}
+      ${ifBadge}
     </div>
     <span class="card-date">${formatDate(p.date_added)}</span>
   </div>
@@ -110,14 +122,15 @@ function buildCard(p) {
   <div class="card-journal">
     <span class="journal-name">${p.journal || ''}</span>
     <span class="journal-year">${p.year || ''}</span>
+    ${citBadge}
   </div>
 
   <div class="card-divider"></div>
 
   <div>
     <div class="abstract-label">${absLabel}</div>
-    <div class="abstract-en">${p.abstract_en || ''}</div>
     ${absZh}
+    ${absEn}
   </div>
 
   ${keywords ? `<div class="keywords-wrap">${keywords}</div>` : ''}

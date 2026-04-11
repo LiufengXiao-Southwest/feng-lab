@@ -278,6 +278,7 @@ header {
   align-items: center;
   gap: 8px;
   font-size: 0.76rem;
+  flex-wrap: wrap;
 }
 
 .journal-name {
@@ -288,6 +289,32 @@ header {
 
 .journal-year {
   color: var(--text-muted);
+}
+
+/* IF badge */
+.if-badge {
+  font-size: 0.63rem;
+  font-weight: 600;
+  color: #7B5EA7;
+  background: #F0EAF8;
+  border: 1px solid #D8C8F0;
+  padding: 2px 7px;
+  border-radius: 100px;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+/* Citation badge */
+.cit-badge {
+  font-size: 0.63rem;
+  font-weight: 500;
+  color: #4A6FA5;
+  background: #EBF0F8;
+  border: 1px solid #C8D8F0;
+  padding: 2px 7px;
+  border-radius: 100px;
+  white-space: nowrap;
+  margin-left: auto;
 }
 
 /* Divider */
@@ -314,9 +341,15 @@ header {
 }
 
 .abstract-zh {
-  font-size: 0.8rem;
+  font-size: 0.82rem;
   color: var(--text-sub);
-  line-height: 1.65;
+  line-height: 1.7;
+}
+
+.abstract-en-secondary {
+  font-size: 0.76rem;
+  color: var(--text-muted);
+  line-height: 1.6;
   margin-top: 8px;
   padding-top: 8px;
   border-top: 1px dashed var(--border);
