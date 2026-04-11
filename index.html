@@ -43,22 +43,37 @@
 
   <!-- Hero -->
   <section class="hero">
-    <h1>每日科研简报</h1>
-    <p>Daily Research Digest</p>
-    <p class="hero-desc">生物力学 · 运动表现 · 运动补剂</p>
+    <div class="hero-inner">
+      <div class="hero-left">
+        <div class="hero-eyebrow">运动科学研究室 · Sports Science Lab</div>
+        <h1>每日科研简报</h1>
+        <p class="hero-sub">Daily Research Digest &nbsp;·&nbsp; 生物力学 · 运动表现 · 运动补剂</p>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-value" id="heroTotal">—</div>
+          <div class="hero-stat-label">收录文献</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-value" id="heroToday">—</div>
+          <div class="hero-stat-label">今日更新</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-value" id="heroLastDate">—</div>
+          <div class="hero-stat-label">最后更新</div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Deep Read Section (preview only) -->
   <section class="deep-read-section" id="deepReadSection" style="display:none">
     <div class="dr-container">
       <div class="dr-section-header">
-        <span class="dr-section-icon">◎</span>
-        <div>
-          <div class="dr-section-title">每日精读 · Daily Deep Read</div>
-          <div class="dr-section-sub">引导式拆解经典高分文献 · Guided breakdown of landmark papers</div>
-        </div>
+        <span class="dr-section-label">◎ 每日精读 · Daily Deep Read</span>
+        <div class="dr-section-label-divider"></div>
+        <a class="dr-section-link" href="deep-read-archive.html">查看存档 →</a>
       </div>
-      <!-- Preview Card -->
       <div class="dr-preview-card" id="drPreviewCard"></div>
     </div>
   </section>
@@ -75,6 +90,14 @@
       <button class="filter-btn filter-btn-bookmark" data-cat="bookmarks" id="bookmarkFilterBtn" style="display:none">★ 收藏夹</button>
     </div>
     <div class="filter-right">
+      <button class="stats-toggle-btn" id="statsToggleBtn" onclick="toggleStats()">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7">
+          <rect x="1" y="9" width="3" height="6" rx="1"/>
+          <rect x="6" y="5" width="3" height="10" rx="1"/>
+          <rect x="11" y="1" width="3" height="14" rx="1"/>
+        </svg>
+        统计
+      </button>
       <div class="search-wrap">
         <svg class="search-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8">
           <circle cx="6.5" cy="6.5" r="4.5"/><path d="M10.5 10.5 L14 14"/>
@@ -85,6 +108,18 @@
     </div>
   </div>
 
+  <!-- Stats Chart Section -->
+  <div class="stats-section" id="statsSection">
+    <div class="stats-grid" style="margin-top:12px">
+      <div class="stats-chart-wrap">
+        <canvas id="catChart"></canvas>
+      </div>
+      <div class="stats-bar-wrap" id="statsBarWrap">
+        <div class="stats-bar-title">分类分布 / Category Breakdown</div>
+      </div>
+    </div>
+  </div>
+
   <!-- Bookmark Export Bar -->
   <div class="export-bar" id="exportBar">
     <div class="export-bar-inner">
@@ -92,30 +127,6 @@
       <div class="export-bar-actions">
         <button class="btn-export-bibtex" onclick="exportAllBibTeX()">批量导出 BibTeX</button>
         <button class="btn-clear-bookmarks" onclick="clearAllBookmarks()">清空收藏</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Stats Toggle -->
-  <div class="stats-toggle-wrap">
-    <button class="stats-toggle-btn" id="statsToggleBtn" onclick="toggleStats()">
-      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7">
-        <rect x="1" y="9" width="3" height="6" rx="1"/>
-        <rect x="6" y="5" width="3" height="10" rx="1"/>
-        <rect x="11" y="1" width="3" height="14" rx="1"/>
-      </svg>
-      文献统计
-    </button>
-  </div>
-
-  <!-- Stats Chart Section -->
-  <div class="stats-section" id="statsSection">
-    <div class="stats-grid">
-      <div class="stats-chart-wrap">
-        <canvas id="catChart"></canvas>
-      </div>
-      <div class="stats-bar-wrap" id="statsBarWrap">
-        <div class="stats-bar-title">分类分布 / Category Breakdown</div>
       </div>
     </div>
   </div>

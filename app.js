@@ -143,7 +143,7 @@ async function loadPapers() {
 
     renderPapers(allPapers);
     updateBookmarkUI();
-    renderStats();
+    renderHeroStats(json);
   } catch (e) {
     const grid = document.getElementById('paperGrid');
     if (grid) grid.innerHTML =
@@ -213,6 +213,7 @@ function buildCard(p, isBookmarked = false) {
 
   const safeId = (p.id || '').replace(/'/g, "\\'");
   const bookmarkBtn = `<button class="btn-bookmark${isBookmarked ? ' bookmarked' : ''}" data-id="${p.id || ''}" onclick="toggleBookmark('${safeId}')" title="${isBookmarked ? '取消收藏' : '收藏'}">★</button>`;
+  const cardTopRight = `<div class="card-top-right">${bookmarkBtn}<span class="card-date">${formatDate(p.date_added)}</span></div>`;
 
   const titleZh  = p.title_zh    ? `<div class="card-title-zh">${p.title_zh}</div>` : '';
   const absLabel = p.abstract_zh ? '摘要 / Abstract' : 'Abstract';
@@ -230,7 +231,7 @@ function buildCard(p, isBookmarked = false) {
       ${oaBadge}
       ${ifBadge}
     </div>
-    <span class="card-date">${formatDate(p.date_added)}</span>
+    ${cardTopRight}
   </div>
 
   <div>
@@ -257,16 +258,15 @@ function buildCard(p, isBookmarked = false) {
   ${keywords ? `<div class="keywords-wrap">${keywords}</div>` : ''}
 
   <div class="card-footer">
+    <button class="btn-cite" onclick="copyBibTeX('${safeId}')">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8">
+        <path d="M4 2h8a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1z"/>
+        <path d="M6 2v4l1.5-1 1.5 1V2"/>
+      </svg>引用
+    </button>
     <div class="card-actions">
       ${readBtn}
       ${doiBtn}
-      <button class="btn-cite" onclick="copyBibTeX('${safeId}')">
-        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8">
-          <path d="M4 2h8a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1z"/>
-          <path d="M6 2v4l1.5-1 1.5 1V2"/>
-        </svg>引用
-      </button>
-      ${bookmarkBtn}
     </div>
   </div>
 
@@ -323,6 +323,23 @@ function setFilter(cat) {
 function setSearch(q) {
   activeSearch = q.trim();
   renderPapers(getFilteredPapers());
+}
+
+// ── Hero Stats ────────────────────────────────────────────────────────────────
+function renderHeroStats(json) {
+  const papers = json.papers || [];
+  const today = new Date().toISOString().slice(0, 10);
+  const todayCount = papers.filter(p => (p.date_added || '').startsWith(today)).length;
+  const lastDate = json.last_updated || '';
+
+  const el = (id, val) => { const e = document.getElementById(id); if (e) e.textContent = val; };
+  el('heroTotal', papers.length);
+  el('heroToday', todayCount || '0');
+  // Show last updated as MM/DD
+  if (lastDate) {
+    const parts = lastDate.split('-');
+    el('heroLastDate', parts.length === 3 ? `${parts[1]}/${parts[2]}` : lastDate);
+  }
 }
 
 // ── Stats Chart ───────────────────────────────────────────────────────────────
@@ -392,8 +409,10 @@ function updateChartColors() {
 
 function toggleStats() {
   const sec = document.getElementById('statsSection');
+  const btn = document.getElementById('statsToggleBtn');
   if (!sec) return;
   const show = sec.classList.toggle('show');
+  if (btn) btn.classList.toggle('active', show);
   if (show && allPapers.length) renderStats();
 }
 
@@ -414,16 +433,20 @@ function renderDeepRead(dr) {
   const oaBadge = dr.is_open_access ? '<span class="oa-badge">Open Access</span>' : '';
   const ifBadge = dr.impact_factor
     ? `<span class="dr-if">IF ${dr.impact_factor}</span>` : '';
+  const citBadge = (dr.citation_count && dr.citation_count > 0)
+    ? `<span class="cit-badge">◈ ${dr.citation_count}</span>` : '';
+  const journalLine = [dr.journal, dr.year].filter(Boolean).join(' · ');
 
   document.getElementById('drPreviewCard').innerHTML = `
     <div class="dr-preview-meta">
-      <div class="dr-preview-badges">${oaBadge}${ifBadge}</div>
+      <div class="dr-preview-badges">${oaBadge}${ifBadge}${citBadge}</div>
       <div class="dr-preview-title-en">${dr.title_en || ''}</div>
       <div class="dr-preview-title-zh">${dr.title_zh || ''}</div>
+      ${journalLine ? `<div style="margin-top:8px;font-size:0.72rem;color:var(--text-muted);font-style:italic;font-family:var(--font-serif)">${journalLine}</div>` : ''}
     </div>
     <a class="dr-preview-cta" href="deep-read.html">
       进入精读
-      <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
+      <svg width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
         <path d="M6 4 L10 8 L6 12"/>
       </svg>
     </a>`;
