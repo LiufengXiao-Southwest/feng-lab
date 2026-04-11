@@ -49,15 +49,41 @@ function buildCard(p) {
     .map(k => `<span class="keyword">${k}</span>`)
     .join('');
 
-  const doi = p.doi || '';
-  const doiHref = doi.startsWith('http') ? doi : `https://doi.org/${doi}`;
-  const doiBtn = doi
-    ? `<a class="doi-link" href="${doiHref}" target="_blank" rel="noopener">
+  const doi     = p.doi || '';
+  const doiHref = doi.startsWith('http') ? doi : (doi ? `https://doi.org/${doi}` : '');
+  const pdfUrl  = p.pdf_url || '';
+  const isOA    = p.is_open_access || false;
+
+  // OA badge
+  const oaBadge = isOA
+    ? `<span class="oa-badge">Open Access</span>`
+    : '';
+
+  // DOI link button
+  const doiBtn = doiHref
+    ? `<a class="btn-doi" href="${doiHref}" target="_blank" rel="noopener" title="原文页面">
         <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8">
           <path d="M6 2H3a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-3"/>
           <path d="M10 2h4v4"/><path d="M16 2 9 9"/>
-        </svg>DOI</a>`
+        </svg>原文</a>`
     : '';
+
+  // Read button — opens modal for OA PDFs, else goes to DOI page
+  let readBtn = '';
+  if (pdfUrl) {
+    const safeTitle = (p.title_en || '').replace(/"/g, '&quot;');
+    readBtn = `<button class="btn-read" onclick="openReader('${pdfUrl.replace(/'/g,"\\'")}','${safeTitle}')" title="在线阅读">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8">
+        <rect x="2" y="1" width="10" height="14" rx="1"/>
+        <path d="M5 5h6M5 8h6M5 11h4"/>
+      </svg>阅读</button>`;
+  } else if (doiHref) {
+    readBtn = `<a class="btn-read" href="${doiHref}" target="_blank" rel="noopener" title="跳转查看">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8">
+        <rect x="2" y="1" width="10" height="14" rx="1"/>
+        <path d="M5 5h6M5 8h6M5 11h4"/>
+      </svg>查看</a>`;
+  }
 
   const titleZh  = p.title_zh    ? `<div class="card-title-zh">${p.title_zh}</div>` : '';
   const absLabel = p.abstract_zh ? 'Abstract / 摘要' : 'Abstract';
@@ -67,7 +93,10 @@ function buildCard(p) {
 <article class="card">
 
   <div class="card-top">
-    <span class="card-tag ${cat.cls}">${cat.zh} / ${cat.en}</span>
+    <div class="card-tags">
+      <span class="card-tag ${cat.cls}">${cat.zh} / ${cat.en}</span>
+      ${oaBadge}
+    </div>
     <span class="card-date">${formatDate(p.date_added)}</span>
   </div>
 
@@ -93,7 +122,12 @@ function buildCard(p) {
 
   ${keywords ? `<div class="keywords-wrap">${keywords}</div>` : ''}
 
-  <div class="card-footer">${doiBtn}</div>
+  <div class="card-footer">
+    <div class="card-actions">
+      ${readBtn}
+      ${doiBtn}
+    </div>
+  </div>
 
 </article>`;
 }
@@ -115,7 +149,62 @@ function setFilter(cat) {
   renderPapers(filtered);
 }
 
-// Bind filter buttons
+// ── PDF Reader Modal ─────────────────────────────────────────────────────────
+function openReader(pdfUrl, title) {
+  let modal = document.getElementById('readerModal');
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.id = 'readerModal';
+    modal.className = 'reader-modal';
+    modal.innerHTML = `
+      <div class="reader-overlay" onclick="closeReader()"></div>
+      <div class="reader-panel">
+        <div class="reader-header">
+          <span class="reader-title" id="readerTitle"></span>
+          <div class="reader-controls">
+            <a class="reader-btn-new" id="readerNewTab" target="_blank" rel="noopener">
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M6 2H3a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-3"/>
+                <path d="M10 2h4v4"/><path d="M16 2 9 9"/>
+              </svg>新标签页打开
+            </a>
+            <button class="reader-btn-close" onclick="closeReader()">✕</button>
+          </div>
+        </div>
+        <iframe id="readerFrame" class="reader-frame" allowfullscreen></iframe>
+      </div>`;
+    document.body.appendChild(modal);
+  }
+
+  document.getElementById('readerTitle').textContent = title;
+  document.getElementById('readerNewTab').href = pdfUrl;
+
+  // Try direct embed first; fall back to Google Docs viewer
+  const frame = document.getElementById('readerFrame');
+  frame.src = '';
+  setTimeout(() => {
+    frame.src = `https://docs.google.com/viewer?url=${encodeURIComponent(pdfUrl)}&embedded=true`;
+  }, 50);
+
+  modal.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeReader() {
+  const modal = document.getElementById('readerModal');
+  if (modal) {
+    modal.classList.remove('active');
+    document.getElementById('readerFrame').src = '';
+    document.body.style.overflow = '';
+  }
+}
+
+// Close on Escape key
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeReader();
+});
+
+// ── Init ─────────────────────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.filter-btn').forEach(btn => {
     btn.addEventListener('click', () => setFilter(btn.dataset.cat));

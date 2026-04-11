@@ -206,6 +206,13 @@ header {
   gap: 12px;
 }
 
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+
 .card-tag {
   flex-shrink: 0;
   font-size: 0.68rem;
@@ -220,6 +227,19 @@ header {
 
 .card-tag.tag-performance { background: #EBF0F8; color: #4A6FA5; }
 .card-tag.tag-supplements { background: #EBF5EC; color: #3D7A45; }
+
+/* OA Badge */
+.oa-badge {
+  font-size: 0.63rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 100px;
+  background: #E6F4EA;
+  color: #2E7D32;
+  border: 1px solid #A5D6A7;
+}
 
 .card-date {
   font-size: 0.72rem;
@@ -322,33 +342,153 @@ header {
 .card-footer {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   margin-top: auto;
   padding-top: 4px;
 }
 
-.doi-link {
+.card-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+/* Shared button base */
+.btn-read, .btn-doi {
   display: inline-flex;
   align-items: center;
   gap: 5px;
   font-size: 0.75rem;
-  color: var(--primary);
+  font-family: var(--font-sans);
+  padding: 6px 13px;
+  border-radius: 7px;
+  cursor: pointer;
   text-decoration: none;
-  border: 1px solid var(--primary-light);
-  padding: 5px 12px;
-  border-radius: 6px;
   transition: all 0.2s ease;
+  border: none;
 }
 
-.doi-link:hover {
-  background: var(--primary);
-  color: #fff;
-  border-color: var(--primary);
-}
-
-.doi-link svg {
+.btn-read svg, .btn-doi svg {
   width: 12px;
   height: 12px;
+  flex-shrink: 0;
+}
+
+/* Read button — filled */
+.btn-read {
+  background: var(--primary);
+  color: #fff;
+}
+.btn-read:hover {
+  background: #a87a54;
+  color: #fff;
+}
+
+/* DOI button — outlined */
+.btn-doi {
+  background: transparent;
+  color: var(--text-sub);
+  border: 1px solid var(--border);
+}
+.btn-doi:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+/* ─── PDF Reader Modal ───────────────────────────────────── */
+.reader-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+.reader-modal.active { display: flex; }
+
+.reader-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(44,40,37,0.55);
+  backdrop-filter: blur(4px);
+}
+
+.reader-panel {
+  position: relative;
+  z-index: 1;
+  background: var(--card-bg);
+  border-radius: 14px;
+  width: min(92vw, 1000px);
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 24px 80px rgba(44,40,37,0.25);
+}
+
+.reader-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--border);
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.reader-title {
+  font-family: var(--font-serif);
+  font-size: 0.9rem;
+  color: var(--text-main);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+}
+
+.reader-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.reader-btn-new {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.75rem;
+  color: var(--text-sub);
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+.reader-btn-new svg { width: 11px; height: 11px; }
+.reader-btn-new:hover { border-color: var(--primary); color: var(--primary); }
+
+.reader-btn-close {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-sub);
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+.reader-btn-close:hover { background: var(--bg); color: var(--text-main); }
+
+.reader-frame {
+  flex: 1;
+  width: 100%;
+  border: none;
+  background: var(--bg);
 }
 
 /* ─── Footer ─────────────────────────────────────────────── */

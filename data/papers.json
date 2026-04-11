@@ -130,6 +130,8 @@
       "date_added": "2026-04-11",
       "category": "biomechanics",
       "doi": "10.1016/j.jbiomech.2026.001",
+      "is_open_access": true,
+      "pdf_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7880041/pdf/",
       "abstract_en": "This study presents a novel multi-sensor fusion framework combining inertial measurement units (IMU), surface electromyography (sEMG), and plantar pressure data for comprehensive gait phenotyping. Sixty healthy adults performed standardized walking and running trials. Principal component analysis revealed distinct movement phenotypes explaining 73% of inter-individual variance. The integrated approach demonstrated superior classification accuracy (94.2%) compared to single-sensor modalities.",
       "abstract_zh": "本研究提出了一种新型多传感器融合框架，整合惯性测量单元（IMU）、表面肌电图（sEMG）和足底压力数据，用于全面的步态表型分析。60名健康成年人完成了标准化步行和跑步测试。主成分分析揭示了能解释73%个体间差异的独特运动表型。与单传感器模态相比，整合方法表现出更高的分类精度（94.2%）。",
       "keywords": [
@@ -154,6 +156,8 @@
       "date_added": "2026-04-11",
       "category": "supplements",
       "doi": "10.1136/bjsm.2026.002",
+      "is_open_access": false,
+      "pdf_url": "",
       "abstract_en": "We systematically reviewed the evidence for creatine monohydrate supplementation on recovery biomarkers following eccentric exercise. Analysis of 24 RCTs (n=612) demonstrated significant reductions in creatine kinase (SMD=-0.68, 95%CI: -0.94 to -0.42) and perceived muscle soreness (SMD=-0.55, 95%CI: -0.78 to -0.32). Loading protocols (20g/day×5 days) showed superior effects compared to maintenance dosing.",
       "abstract_zh": "我们系统回顾了肌酸一水合物补充对离心运动后恢复生物标志物的证据。对24项随机对照试验（n=612）的分析显示，肌酸激酶（SMD=-0.68，95%CI：-0.94至-0.42）和肌肉酸痛感（SMD=-0.55，95%CI：-0.78至-0.32）显著降低。负荷方案（20g/天×5天）与维持剂量相比效果更优。",
       "keywords": [

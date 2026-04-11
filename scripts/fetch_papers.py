@@ -46,7 +46,7 @@ SEARCHES = {
 }
 
 SS_URL    = "https://api.semanticscholar.org/graph/v1/paper/search"
-SS_FIELDS = "title,authors,year,abstract,externalIds,publicationDate,venue"
+SS_FIELDS = "title,authors,year,abstract,externalIds,publicationDate,venue,isOpenAccess,openAccessPdf"
 
 # ── Fetch ────────────────────────────────────────────────────────────────────
 def fetch_ss(query: str, category: str, limit: int = 4) -> list:
@@ -69,20 +69,25 @@ def fetch_ss(query: str, category: str, limit: int = 4) -> list:
 
             doi = p.get("externalIds", {}).get("DOI", "")
             authors = [a.get("name", "") for a in (p.get("authors") or [])[:5]]
+            is_oa = bool(p.get("isOpenAccess"))
+            oa_pdf = p.get("openAccessPdf") or {}
+            pdf_url = oa_pdf.get("url", "")
 
             papers.append({
                 "id": hashlib.md5((title + str(p.get("year", ""))).encode()).hexdigest()[:8],
-                "title_en":    title,
-                "title_zh":    "",
-                "authors":     authors,
-                "journal":     (p.get("venue") or ""),
-                "year":        (p.get("year") or datetime.date.today().year),
-                "date_added":  TODAY,
-                "category":    category,
-                "doi":         doi,
-                "abstract_en": abstract[:900],
-                "abstract_zh": "",
-                "keywords":    [],
+                "title_en":       title,
+                "title_zh":       "",
+                "authors":        authors,
+                "journal":        (p.get("venue") or ""),
+                "year":           (p.get("year") or datetime.date.today().year),
+                "date_added":     TODAY,
+                "category":       category,
+                "doi":            doi,
+                "is_open_access": is_oa,
+                "pdf_url":        pdf_url,
+                "abstract_en":    abstract[:900],
+                "abstract_zh":    "",
+                "keywords":       [],
             })
 
         time.sleep(1.2)  # Be polite to the API
