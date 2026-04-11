@@ -65,8 +65,10 @@ Q1_JOURNALS = {
     "clinical rehabilitation":                    "3.6",
     "disability and rehabilitation":              "3.2",
     "pm&r":                                       "3.3",
-    # ── Biomechanics (Q1 in their category, IF >= 3) ────────────────────────
-    "journal of biomechanics":                    "3.0",   # upgraded to 3.0 in 2024
+    # ── Biomechanics ────────────────────────────────────────────────────────
+    "journal of biomechanics":                    "2.8",   # Q1 in Biomedical Engineering
+    "gait & posture":                             "2.5",   # Q1 in Orthopedics
+    "gait and posture":                           "2.5",
     "journal of neuroengineering and rehabilitation": "5.5",
     "frontiers in bioengineering and biotechnology": "4.3",
     # ── Nutrition / Physiology ──────────────────────────────────────────────
@@ -80,14 +82,26 @@ Q1_JOURNALS = {
 
 MIN_IF = 3.0   # Hard minimum impact factor
 
+# Journals that are JCR Q1 in their specific niche category but have IF < MIN_IF.
+# These bypass the MIN_IF threshold check.
+FIELD_Q1_WHITELIST = {
+    "journal of biomechanics",   # Q1 in Biomedical Engineering / Biophysics
+    "gait & posture",            # Q1 in Orthopedics
+    "gait and posture",
+}
+
 def lookup_q1(venue: str):
     """Return (if_str, is_q1) for a venue string.
-    is_q1=True only if the venue matches a known Q1 journal with IF >= MIN_IF.
+    is_q1=True if:
+      - venue matches a Q1_JOURNALS entry with IF >= MIN_IF, OR
+      - venue matches a FIELD_Q1_WHITELIST entry (category-specific Q1, IF < MIN_IF)
     """
     v = venue.lower()
     for key, if_val in Q1_JOURNALS.items():
         if key in v:
-            return if_val, float(if_val) >= MIN_IF
+            in_whitelist = any(w in v for w in FIELD_Q1_WHITELIST)
+            passes_if    = float(if_val) >= MIN_IF
+            return if_val, passes_if or in_whitelist
     return "", False
 
 # ── Search topics ─────────────────────────────────────────────────────────────
