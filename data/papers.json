@@ -2,10 +2,129 @@
   "last_updated": "2026-04-11",
   "papers": [
     {
+      "id": "4e934c96",
+      "title_en": "Variability of the Sprint Step Movement Pattern and Its Association with Hamstring Injury Risk",
+      "title_zh": "",
+      "authors": [
+        "M. Jopek",
+        "M. Krzysztofik",
+        "Dariusz Mroczek",
+        "Adam Zając",
+        "Krzysztof Maćkała"
+      ],
+      "journal": "Journal of Clinical Medicine",
+      "year": 2025,
+      "date_added": "2026-04-11",
+      "category": "biomechanics",
+      "doi": "10.3390/jcm15010281",
+      "abstract_en": "Background: This study investigated how kinematic parameters vary during repeated 50 m sprints and their relationship with movement stability and hamstring injury risk among sprinters at different competitive levels. Methods: Eighteen male Polish National Team sprinters (nine elite, nine sub-elite) performed four 50 m sprints, with measurements of step length, frequency, ground contact time, and flight time taken using the OptoJumpNEXT system across the entire track. The fastest and slowest trials were analyzed, and a 26-question survey examined participants’ hamstring injury history and prevention strategies. Results: Results showed that elite sprinters posted faster times, higher step frequency, shorter ground contact times, and increased step velocity, indicating more stable, consistent sprint mechanics. About 89% of athletes reported previous hamstring injuries, mainly during the lat",
+      "abstract_zh": "",
+      "keywords": []
+    },
+    {
+      "id": "2d2aa5b8",
+      "title_en": "Endangered bowhead whales might buffer climate change with individual variability in movement patterns",
+      "title_zh": "",
+      "authors": [
+        "Benia V R Nowak",
+        "C. Lydersen",
+        "M. P. Heide-Jørgensen",
+        "A. Trites",
+        "Kit M. Kovacs"
+      ],
+      "journal": "Scientific Reports",
+      "year": 2026,
+      "date_added": "2026-04-11",
+      "category": "biomechanics",
+      "doi": "10.1038/s41598-026-36908-1",
+      "abstract_en": "Assessing the vulnerability of species to global climate change and their capacity for resilience is a central challenge in ecology. Responses are variable and difficult to predict but understanding the resilience of intrinsically vulnerable species is necessary for management of natural populations. Bowhead whales (Balaena mysticetus) have recovered from historical over-exploitation in several Arctic regions. However, the East Greenland-Svalbard-Barents Sea (EGSB) population remains endangered, with little known about their habitat use, foraging ecology, or potential resilience. We analysed location data from 38 EGSB bowhead whales instrumented between 2017 and 2021. We performed home range analyses, fitted a modified resource selection function, and estimated move persistence to assess the influence of environmental conditions on movement patterns using linear mixed-effects modelling. ",
+      "abstract_zh": "",
+      "keywords": []
+    },
+    {
+      "id": "43916af3",
+      "title_en": "Assessment of the inter and intra-individual variability in the jump of agility dogs.",
+      "title_zh": "",
+      "authors": [
+        "Patricia López",
+        "L. Gutiérrez-Cepeda",
+        "Francisco Miró"
+      ],
+      "journal": "Research in Veterinary Science",
+      "year": 2025,
+      "date_added": "2026-04-11",
+      "category": "biomechanics",
+      "doi": "10.1016/j.rvsc.2025.105749",
+      "abstract_en": "Although significant progress has been made in recent years regarding jumping biomechanics of agility dogs, there is still a lack of data on the specific biomechanical pattern of the jump. The main objective of the present study was to describe the biomechanic variables involved in the jumping pattern of agility dogs, analyzing both intra- and inter-individual variability. Eleven agility dogs were analyzed while jumping over a 60-cm hurdle. Results of low or acceptable and similar intra and inter-individual coefficients of variation obtained in variables such as percentage of take-off and landing distances, percentages of take-off and landing durations, maximum jump height, jump height at the hurdle and percentage duration to maximum jump height, may indicate these variables as components of a general biomechanical pattern of jumping in agility dogs. Low or acceptable and consistent intr",
+      "abstract_zh": "",
+      "keywords": []
+    },
+    {
+      "id": "1251ea6e",
+      "title_en": "Monitoring physiological training load of elite athlete swimmer on specific preparation phase",
+      "title_zh": "",
+      "authors": [
+        "Irmantara Subagio",
+        "A. Pranoto",
+        "Bekir Erhan Orhan",
+        "Dwi Cahyo Kartiko",
+        "M. Bawono"
+      ],
+      "journal": "Retos",
+      "year": 2025,
+      "date_added": "2026-04-11",
+      "category": "performance",
+      "doi": "10.47197/retos.v66.113251",
+      "abstract_en": "Introduction: The trainer's role in designing a plan for altering the training load in the training program, which attempts to push the limits of adaptability while avoiding overtraining, injury, and detraining, helps to ensure the program's success.\nObjective: This study examined how monitoring training load during the early specific preparation phase affects the physical condition and body composition of elite swimmers.\nMethodology: The research method used was a cohort research design, which is an observational research that focuses on a group of individuals with specific characteristics who are followed over time to evaluate the training load during a special preparation phase in 17d elite swimmers athletes. Training load is assessed using sRPE, body composition is measured using InBody 970, physical condition is measured using VO2max, power, and flexibility, and wearable aircraft (h",
+      "abstract_zh": "",
+      "keywords": []
+    },
+    {
+      "id": "67e4b514",
+      "title_en": "Applications of Heart Rate Variability in Monitoring Training Load and Recovery: Theoretical Foundations and Practical Implications",
+      "title_zh": "",
+      "authors": [
+        "Jun Liao",
+        "Zongyan Li",
+        "Xinwei Chen"
+      ],
+      "journal": "International Journal of Biology and Life Sciences",
+      "year": 2026,
+      "date_added": "2026-04-11",
+      "category": "performance",
+      "doi": "10.54097/bdthvn96",
+      "abstract_en": "Training load–recovery management aims to dynamically align external stimuli with an athlete’s adaptive capacity, yet conventional monitoring approaches remain constrained by inter-individual variability, contextual confounding, and limited comparability across time scales. Heart rate variability (HRV), conceptualized as a time-series phenotype of sinus RR-interval fluctuations, can provide a longitudinal reference of cardiac autonomic modulation—particularly vagally mediated modulation—under standardized resting conditions, thereby complementing the internal load–recovery monitoring chain. This review synthesizes the theoretical foundations, interpretive frameworks, and applied evidence of HRV in sport sciences. Mechanistically, we outline how autonomic regulation contributes to exercise stress and post-exercise re-equilibration, and we delineate the physiological meaning and inferentia",
+      "abstract_zh": "",
+      "keywords": []
+    },
+    {
+      "id": "c7c67ca0",
+      "title_en": "Deep reinforcement learning-driven personalized training load control algorithm for competitive sports performance optimization",
+      "title_zh": "",
+      "authors": [
+        "Xiaoyu Xia",
+        "Qiaonan Chen",
+        "Zizhuo Wang"
+      ],
+      "journal": "Scientific Reports",
+      "year": 2025,
+      "date_added": "2026-04-11",
+      "category": "performance",
+      "doi": "10.1038/s41598-025-30453-z",
+      "abstract_en": "Traditional training load management methods in competitive sports rely heavily on subjective assessments and standardized protocols, often failing to account for individual physiological variations and dynamic adaptation responses. This research proposes a deep reinforcement learning (DRL) framework for personalized training load optimization that integrates real-time physiological monitoring, individual athlete characteristics, and adaptive decision-making algorithms. The proposed system employs a hybrid neural network architecture combining multilayer perceptrons and convolutional neural networks to process heterogeneous physiological data and generate training prescriptions. Empirical validation across multiple sports disciplines including track and field, swimming, and ball sports, with ethical approval (IRB: DU-IRB-2023-001), shows performance improvements averaging 12.3% (95% CI: ",
+      "abstract_zh": "",
+      "keywords": []
+    },
+    {
       "id": "001",
       "title_en": "Multi-Sensor Fusion for Human Gait Phenotyping: IMU, EMG, and Plantar Pressure Integration",
       "title_zh": "用于人体步态表型分析的多传感器融合：IMU、肌电与足底压力整合",
-      "authors": ["Chen, L.", "Wang, H.", "Liu, Y.", "Zhang, M."],
+      "authors": [
+        "Chen, L.",
+        "Wang, H.",
+        "Liu, Y.",
+        "Zhang, M."
+      ],
       "journal": "Journal of Biomechanics",
       "year": 2026,
       "date_added": "2026-04-11",
@@ -13,13 +132,23 @@
       "doi": "10.1016/j.jbiomech.2026.001",
       "abstract_en": "This study presents a novel multi-sensor fusion framework combining inertial measurement units (IMU), surface electromyography (sEMG), and plantar pressure data for comprehensive gait phenotyping. Sixty healthy adults performed standardized walking and running trials. Principal component analysis revealed distinct movement phenotypes explaining 73% of inter-individual variance. The integrated approach demonstrated superior classification accuracy (94.2%) compared to single-sensor modalities.",
       "abstract_zh": "本研究提出了一种新型多传感器融合框架，整合惯性测量单元（IMU）、表面肌电图（sEMG）和足底压力数据，用于全面的步态表型分析。60名健康成年人完成了标准化步行和跑步测试。主成分分析揭示了能解释73%个体间差异的独特运动表型。与单传感器模态相比，整合方法表现出更高的分类精度（94.2%）。",
-      "keywords": ["gait phenotyping", "IMU", "EMG", "plantar pressure", "sensor fusion"]
+      "keywords": [
+        "gait phenotyping",
+        "IMU",
+        "EMG",
+        "plantar pressure",
+        "sensor fusion"
+      ]
     },
     {
       "id": "002",
       "title_en": "Creatine Supplementation and Muscle Recovery Following Eccentric Exercise: A Systematic Review and Meta-Analysis",
       "title_zh": "肌酸补充与离心运动后肌肉恢复：系统综述与荟萃分析",
-      "authors": ["Smith, R.", "Johnson, A.", "Brown, T."],
+      "authors": [
+        "Smith, R.",
+        "Johnson, A.",
+        "Brown, T."
+      ],
       "journal": "British Journal of Sports Medicine",
       "year": 2026,
       "date_added": "2026-04-11",
@@ -27,13 +156,23 @@
       "doi": "10.1136/bjsm.2026.002",
       "abstract_en": "We systematically reviewed the evidence for creatine monohydrate supplementation on recovery biomarkers following eccentric exercise. Analysis of 24 RCTs (n=612) demonstrated significant reductions in creatine kinase (SMD=-0.68, 95%CI: -0.94 to -0.42) and perceived muscle soreness (SMD=-0.55, 95%CI: -0.78 to -0.32). Loading protocols (20g/day×5 days) showed superior effects compared to maintenance dosing.",
       "abstract_zh": "我们系统回顾了肌酸一水合物补充对离心运动后恢复生物标志物的证据。对24项随机对照试验（n=612）的分析显示，肌酸激酶（SMD=-0.68，95%CI：-0.94至-0.42）和肌肉酸痛感（SMD=-0.55，95%CI：-0.78至-0.32）显著降低。负荷方案（20g/天×5天）与维持剂量相比效果更优。",
-      "keywords": ["creatine", "muscle recovery", "eccentric exercise", "meta-analysis", "DOMS"]
+      "keywords": [
+        "creatine",
+        "muscle recovery",
+        "eccentric exercise",
+        "meta-analysis",
+        "DOMS"
+      ]
     },
     {
       "id": "003",
       "title_en": "Rate of Force Development as a Predictor of Athletic Performance: A Longitudinal Analysis",
       "title_zh": "力量发展速率作为运动表现预测指标：纵向分析",
-      "authors": ["Garcia, P.", "Martinez, S.", "Lee, K."],
+      "authors": [
+        "Garcia, P.",
+        "Martinez, S.",
+        "Lee, K."
+      ],
       "journal": "International Journal of Sports Physiology and Performance",
       "year": 2026,
       "date_added": "2026-04-10",
@@ -41,13 +180,24 @@
       "doi": "10.1123/ijspp.2026.003",
       "abstract_en": "Rate of force development (RFD) measured at 0-50ms, 0-100ms, and 0-200ms time intervals was assessed in 89 collegiate athletes over two competitive seasons. Early-phase RFD (0-50ms) demonstrated the strongest correlation with sprint performance (r=-0.74, p<0.001) and countermovement jump height (r=0.71, p<0.001). Neuromuscular training interventions targeting early-phase RFD produced 18% improvements in sprint times.",
       "abstract_zh": "在89名大学生运动员的两个竞技赛季中，测量了0-50ms、0-100ms和0-200ms时间间隔的力量发展速率（RFD）。早期RFD（0-50ms）与短跑成绩（r=-0.74，p<0.001）和反向跳高度（r=0.71，p<0.001）的相关性最强。针对早期RFD的神经肌肉训练干预使短跑时间提高了18%。",
-      "keywords": ["rate of force development", "sprint", "countermovement jump", "neuromuscular", "athletic performance"]
+      "keywords": [
+        "rate of force development",
+        "sprint",
+        "countermovement jump",
+        "neuromuscular",
+        "athletic performance"
+      ]
     },
     {
       "id": "004",
       "title_en": "Movement Phenotype Classification Using Wearable Sensors and Machine Learning in Recreational Runners",
       "title_zh": "利用可穿戴传感器和机器学习对休闲跑者进行运动表型分类",
-      "authors": ["Kim, J.", "Park, S.", "Choi, H.", "Yoon, D."],
+      "authors": [
+        "Kim, J.",
+        "Park, S.",
+        "Choi, H.",
+        "Yoon, D."
+      ],
       "journal": "Sensors",
       "year": 2026,
       "date_added": "2026-04-10",
@@ -55,13 +205,23 @@
       "doi": "10.3390/s26040004",
       "abstract_en": "This study developed a machine learning pipeline for classifying movement phenotypes in 120 recreational runners using a tri-axial IMU placed at the lumbar spine. A random forest classifier achieved 91.3% accuracy in identifying four distinct running phenotypes associated with injury risk. Longitudinal tracking revealed phenotype stability over 12 weeks, suggesting these represent genuine biomechanical signatures rather than task-specific adaptations.",
       "abstract_zh": "本研究开发了一种机器学习管道，利用放置在腰椎处的三轴IMU对120名休闲跑者的运动表型进行分类。随机森林分类器在识别与损伤风险相关的四种不同跑步表型时达到了91.3%的准确率。纵向追踪显示表型在12周内保持稳定，表明这些代表了真正的生物力学特征而非任务特异性适应。",
-      "keywords": ["movement phenotype", "IMU", "machine learning", "running", "injury risk"]
+      "keywords": [
+        "movement phenotype",
+        "IMU",
+        "machine learning",
+        "running",
+        "injury risk"
+      ]
     },
     {
       "id": "005",
       "title_en": "Collagen Peptide Supplementation and Tendon Biomechanics: Structural and Functional Adaptations",
       "title_zh": "胶原肽补充与肌腱生物力学：结构和功能适应",
-      "authors": ["Thompson, E.", "White, C.", "Davis, N."],
+      "authors": [
+        "Thompson, E.",
+        "White, C.",
+        "Davis, N."
+      ],
       "journal": "American Journal of Sports Medicine",
       "year": 2026,
       "date_added": "2026-04-09",
@@ -69,13 +229,23 @@
       "doi": "10.1177/ajsm.2026.005",
       "abstract_en": "We investigated the effects of 15g/day collagen peptide supplementation combined with vitamin C on Achilles tendon stiffness and cross-sectional area in 44 recreational athletes over 12 weeks. Ultrasound elastography revealed significant increases in tendon stiffness (+12.4%, p=0.003) and collagen fibril density in the supplementation group. Concurrent eccentric exercise training amplified these adaptations, supporting a synergistic mechanism.",
       "abstract_zh": "我们研究了15g/天胶原肽补充结合维生素C对44名休闲运动员跟腱刚度和横截面积12周的影响。超声弹性成像显示补充组肌腱刚度显著增加（+12.4%，p=0.003），胶原纤维密度也有所提升。同期离心运动训练放大了这些适应，支持协同机制。",
-      "keywords": ["collagen peptide", "tendon", "Achilles", "stiffness", "elastography"]
+      "keywords": [
+        "collagen peptide",
+        "tendon",
+        "Achilles",
+        "stiffness",
+        "elastography"
+      ]
     },
     {
       "id": "006",
       "title_en": "Muscle Synergy Analysis During Running at Different Speeds: Implications for Fatigue and Performance",
       "title_zh": "不同速度跑步时的肌肉协同分析：对疲劳和表现的影响",
-      "authors": ["Nakamura, T.", "Suzuki, K.", "Tanaka, H."],
+      "authors": [
+        "Nakamura, T.",
+        "Suzuki, K.",
+        "Tanaka, H."
+      ],
       "journal": "Journal of Electromyography and Kinesiology",
       "year": 2026,
       "date_added": "2026-04-09",
@@ -83,7 +253,13 @@
       "doi": "10.1016/j.jelekin.2026.006",
       "abstract_en": "Surface EMG from 16 lower limb muscles was recorded during treadmill running at 8, 10, 12, and 14 km/h in 28 trained runners. Non-negative matrix factorization identified 4 dominant muscle synergies accounting for >90% of EMG variance. Synergy structure remained consistent across speeds, but synergy activation coefficients showed speed-dependent modulation. Fatigue-induced synergy merging (3→2 synergies) predicted performance decrements with 85% sensitivity.",
       "abstract_zh": "记录了28名训练有素跑者在跑台上以8、10、12和14km/h速度跑步时16块下肢肌肉的表面肌电。非负矩阵分解识别出4个主要肌肉协同，解释了>90%的肌电方差。协同结构在不同速度下保持一致，但协同激活系数显示出速度依赖的调制。疲劳诱导的协同合并（3→2个协同）以85%的敏感性预测了表现下降。",
-      "keywords": ["muscle synergy", "EMG", "running", "fatigue", "non-negative matrix factorization"]
+      "keywords": [
+        "muscle synergy",
+        "EMG",
+        "running",
+        "fatigue",
+        "non-negative matrix factorization"
+      ]
     }
   ]
 }
