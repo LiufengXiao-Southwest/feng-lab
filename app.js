@@ -41,15 +41,27 @@ function renderPapers(papers) {
 
 function buildCard(p) {
   const cat = CAT_LABELS[p.category] || { zh: p.category, en: p.category, cls: '' };
-  const authors = p.authors.length > 3
+  const authors = (p.authors || []).length > 3
     ? p.authors.slice(0, 3).join(', ') + ' et al.'
-    : p.authors.join(', ');
+    : (p.authors || []).join(', ');
 
   const keywords = (p.keywords || [])
     .map(k => `<span class="keyword">${k}</span>`)
     .join('');
 
-  const doiHref = p.doi.startsWith('http') ? p.doi : `https://doi.org/${p.doi}`;
+  const doi = p.doi || '';
+  const doiHref = doi.startsWith('http') ? doi : `https://doi.org/${doi}`;
+  const doiBtn = doi
+    ? `<a class="doi-link" href="${doiHref}" target="_blank" rel="noopener">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8">
+          <path d="M6 2H3a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-3"/>
+          <path d="M10 2h4v4"/><path d="M16 2 9 9"/>
+        </svg>DOI</a>`
+    : '';
+
+  const titleZh  = p.title_zh    ? `<div class="card-title-zh">${p.title_zh}</div>` : '';
+  const absLabel = p.abstract_zh ? 'Abstract / 摘要' : 'Abstract';
+  const absZh    = p.abstract_zh ? `<div class="abstract-zh">${p.abstract_zh}</div>` : '';
 
   return `
 <article class="card">
@@ -60,37 +72,28 @@ function buildCard(p) {
   </div>
 
   <div>
-    <div class="card-title-en">${p.title_en}</div>
-    <div class="card-title-zh">${p.title_zh}</div>
+    <div class="card-title-en">${p.title_en || ''}</div>
+    ${titleZh}
   </div>
 
   <div class="card-authors">${authors}</div>
 
   <div class="card-journal">
-    <span class="journal-name">${p.journal}</span>
-    <span class="journal-year">${p.year}</span>
+    <span class="journal-name">${p.journal || ''}</span>
+    <span class="journal-year">${p.year || ''}</span>
   </div>
 
   <div class="card-divider"></div>
 
   <div>
-    <div class="abstract-label">Abstract / 摘要</div>
-    <div class="abstract-en">${p.abstract_en}</div>
-    <div class="abstract-zh">${p.abstract_zh}</div>
+    <div class="abstract-label">${absLabel}</div>
+    <div class="abstract-en">${p.abstract_en || ''}</div>
+    ${absZh}
   </div>
 
   ${keywords ? `<div class="keywords-wrap">${keywords}</div>` : ''}
 
-  <div class="card-footer">
-    <a class="doi-link" href="${doiHref}" target="_blank" rel="noopener">
-      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8">
-        <path d="M6 2H3a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-3"/>
-        <path d="M10 2h4v4"/>
-        <path d="M16 2 9 9"/>
-      </svg>
-      DOI
-    </a>
-  </div>
+  <div class="card-footer">${doiBtn}</div>
 
 </article>`;
 }
