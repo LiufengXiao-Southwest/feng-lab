@@ -8,11 +8,16 @@ Auto-translates titles + abstracts via Gemini API.
 
 import json
 import os
+import sys
 import time
 import hashlib
 import datetime
 import requests
 from pathlib import Path
+
+# Windows UTF-8 fix
+if sys.stdout.encoding and sys.stdout.encoding.lower() != 'utf-8':
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
 TODAY = datetime.date.today().isoformat()
 DATA_FILE  = Path(__file__).parent.parent / "data" / "papers.json"

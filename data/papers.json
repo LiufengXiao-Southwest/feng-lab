@@ -1,6 +1,98 @@
 {
-  "last_updated": "2026-04-11",
+  "last_updated": "2026-04-12",
   "papers": [
+    {
+      "id": "840e7782",
+      "title_en": "Developing negative split pacing in endurance athletes: practical guidelines and training models",
+      "title_zh": "",
+      "authors": [
+        "G. Grivas",
+        "Kousar Safari",
+        "Mohammad Hemmatinafar"
+      ],
+      "journal": "Frontiers in Physiology",
+      "year": 2026,
+      "date_added": "2026-04-12",
+      "category": "performance",
+      "doi": "10.3389/fphys.2026.1741125",
+      "impact_factor": "",
+      "citation_count": 1,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "Negative split pacing—finishing the second half of a race faster than the first—is a hallmark of elite endurance performance and a key indicator of physiological control, fatigue resistance, and strategic pacing literacy. Rather than being an inherent talent, it represents a trainable skill integrating physiological, cognitive, and behavioral regulation. This mini review synthesizes evidence from performance analyses, physiological studies, and coaching practice to outline how negative split capacity can be systematically developed. We summarize training foundations, mesocycle design, and monitoring tools that support its acquisition. Mechanistically, successful negative splits are linked to improved lactate threshold (LT), VO2 kinetics, running economy (RE), central fatigue resistance, and pacing awareness. Practically, progression runs, split-pace long runs, and interval ladders promot",
+      "abstract_zh": "",
+      "keywords": []
+    },
+    {
+      "id": "44888e70",
+      "title_en": "Effects of resistance training on running economy: a systematic review and meta-analysis",
+      "title_zh": "",
+      "authors": [
+        "Arthur Zecchin",
+        "L. C. R. de Lima",
+        "Enrico F Puggina",
+        "Márcio Fernando Tasinafo-Júnior"
+      ],
+      "journal": "Retos",
+      "year": 2025,
+      "date_added": "2026-04-12",
+      "category": "performance",
+      "doi": "10.47197/retos.v71.113574",
+      "impact_factor": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "Introduction: Running economy (RE) is a determining factor in the performance of long-distance runners, influencing energy efficiency and expenditure. Endurance training has been proposed as a strategy to improve RE, although its effectiveness is still debated.\nObjective: To systematically and meta-analytically review studies that evaluated the effects of endurance training on RE in long-distance runners (≥10 km).\nMethodology: A systematic search was conducted in PubMed, Web of Science, and Scopus, with no date restrictions, until March 2024. Manuscripts that met the inclusion criteria were analyzed.\nResults: Of 895 studies found, 8 were included. Risk of bias was assessed, and inverse variance-weighted standardized mean differences (SMDs) were calculated to estimate the overall effect of endurance training on RE, with 95% CI. A total of 80 subjects were analyzed (age: 36.2 ± 6 years; VO",
+      "abstract_zh": "",
+      "keywords": []
+    },
+    {
+      "id": "eac6a90f",
+      "title_en": "\"Unlocking Athletic Potential: Exploring Exercise Physiology from Mechanisms to Performance\": Evidence-based sports supplements: a redox analysis.",
+      "title_zh": "",
+      "authors": [
+        "Nikos V. Margaritelis",
+        "James N. Cobley",
+        "George G. Nastos",
+        "Konstantinos Papanikolaou",
+        "Stephen J. Bailey"
+      ],
+      "journal": "Free Radical Biology & Medicine",
+      "year": 2024,
+      "date_added": "2026-04-12",
+      "category": "supplements",
+      "doi": "10.1016/j.freeradbiomed.2024.08.012",
+      "impact_factor": "",
+      "citation_count": 6,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "Despite the overwhelming number of sports supplements on the market, only seven are currently recognized as effective. Biological functions are largely regulated through redox reactions, yet no comprehensive analysis of the redox properties of these supplements has been compiled. Here, we analyze the redox characteristics of these seven supplements: bicarbonates, beta-alanine, caffeine, creatine, nitrates, carbohydrates, and proteins. Our findings suggest that all sports supplements exhibit some degree of redox activity. However, the precise physiological implications of these redox properties remain unclear. Future research, employing unconventional perspectives and methodologies, will reveal new redox pixels of the exercise physiology and sports nutrition picture.",
+      "abstract_zh": "",
+      "keywords": []
+    },
+    {
+      "id": "22d76ceb",
+      "title_en": "The interaction of caffeine on creatine absorption",
+      "title_zh": "",
+      "authors": [
+        "Iara Rodrigues dos Santos",
+        "Karine Amâncio dos Reis",
+        "Rafaela de Jesus Santos Lucas",
+        "E. Barros"
+      ],
+      "journal": "International Seven Journal of Multidisciplinary",
+      "year": 2023,
+      "date_added": "2026-04-12",
+      "category": "supplements",
+      "doi": "10.56238/isevmjv2n1-002",
+      "impact_factor": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "Introduction: Creatine and caffeine are food supplements used as ergogenic resources by athletes and practitioners of physical activity. In sports, caffeine has been commercialized because, besides inhibiting pain, it also helps in the development of muscle strength and improves sports performance. Creatine tends to improve high intensity and short duration exercise in sports performance and helps in the recovery period. Objective: To analyze and investigate the interaction of caffeine on creatine absorption. Methods: This article was developed from a bibliographic review in Medline, Lilacs, Ebsco and Google Academic databases, where books, magazines and articles were read. Result: The findings are mixed and may be strongly influenced by the type of training, supplementation dose, exercise time, ingested schedule, and genetic influence that acts on fast or slow metabolization regarding t",
+      "abstract_zh": "",
+      "keywords": []
+    },
     {
       "id": "2abc8e19",
       "title_en": "Muscle Synergy Patterns During Running: Coordinative Mechanisms From a Neuromechanical Perspective",

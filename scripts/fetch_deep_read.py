@@ -9,10 +9,15 @@ Requires: ANTHROPIC_API_KEY environment variable
 
 import json
 import os
+import sys
 import time
 import datetime
 import requests
 from pathlib import Path
+
+# Windows UTF-8 fix
+if sys.stdout.encoding and sys.stdout.encoding.lower() != 'utf-8':
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
 TODAY     = datetime.date.today().isoformat()
 YEAR_FROM = datetime.date.today().year - 5
