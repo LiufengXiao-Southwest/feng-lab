@@ -22,9 +22,10 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != 'utf-8':
 TODAY     = datetime.date.today().isoformat()
 YEAR_FROM = datetime.date.today().year - 5
 
-ROOT           = Path(__file__).parent.parent
-DEEP_READ_FILE = ROOT / "data" / "deep_read.json"
-HISTORY_FILE   = ROOT / "data" / "deep_read_history.json"
+ROOT                = Path(__file__).parent.parent
+DEEP_READ_FILE      = ROOT / "data" / "deep_read.json"
+HISTORY_FILE        = ROOT / "data" / "deep_read_history.json"
+HISTORY_FULL_FILE   = ROOT / "data" / "deep_read_history_full.json"
 
 # Target journals: query_name is used both to search SS and to match venue field
 JOURNALS = [
@@ -300,6 +301,39 @@ def main():
         history.setdefault("used_dois", []).append(selected_doi)
         history["used_dois"] = history["used_dois"][-90:]
         save_history(history)
+
+    # Save full entry to history_full.json (keeps last 60 entries for archive page)
+    try:
+        if HISTORY_FULL_FILE.exists():
+            full_history = json.loads(HISTORY_FULL_FILE.read_text(encoding="utf-8"))
+        else:
+            full_history = {"entries": []}
+
+        entries = full_history.get("entries", [])
+        # Avoid duplicate dates
+        entries = [e for e in entries if e.get("date") != TODAY]
+        # Store a summary entry (no full sections to keep file small)
+        summary = {
+            "date":           TODAY,
+            "title_en":       output["title_en"],
+            "title_zh":       output["title_zh"],
+            "authors":        output["authors"],
+            "journal":        output["journal"],
+            "year":           output["year"],
+            "doi":            output["doi"],
+            "impact_factor":  output["impact_factor"],
+            "is_open_access": output["is_open_access"],
+            "citation_count": output.get("citation_count", 0),
+        }
+        entries.insert(0, summary)
+        entries = entries[:60]  # Keep last 60 entries
+        full_history["entries"] = entries
+        HISTORY_FULL_FILE.write_text(
+            json.dumps(full_history, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        print(f"  ✓ deep_read_history_full.json updated ({len(entries)} entries).")
+    except Exception as e:
+        print(f"  [!] Could not update history_full: {e}")
 
     print(f"✓ Done.")
 
