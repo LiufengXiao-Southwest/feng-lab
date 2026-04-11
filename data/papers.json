@@ -2,6 +2,93 @@
   "last_updated": "2026-04-11",
   "papers": [
     {
+      "id": "b18e527f",
+      "title_en": "KineticsSense: A Multimodal Wearable Sensor Framework for Modeling Lower-Limb Motion Kinetics",
+      "title_zh": "",
+      "authors": [
+        "Wenbo Zhang",
+        "Chenxu Zhang",
+        "Yang Gao",
+        "Zhanpeng Jin"
+      ],
+      "journal": "Proceedings of the ACM on Interactive Mobile Wearable and Ubiquitous Technologies",
+      "year": 2025,
+      "date_added": "2026-04-11",
+      "category": "biomechanics",
+      "doi": "10.1145/3749462",
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "Current human motion analysis primarily emphasizes kinematics, often neglecting underlying biomechanical factors such as muscle activation and force generation. This restricts a comprehensive understanding of movement mechanics, particularly in rehabilitation and sports science. To bridge this gap, we propose KineticsSense, a multimodal framework integrating inertial measurement units (IMUs) and plantar pressure data to predict lower-limb electromyography (EMG) signals, capturing the kinetics of human motion. By leveraging the complementary strengths of IMU-derived kinematic features and pressure-based ground reaction force estimations, KineticsSense provides a richer biomechanical representation beyond conventional kinematic analyses. Through extensive experiments covering a diverse range of lower-limb activities --- including walking, running, squats, and jumps --- we demonstrate the r",
+      "abstract_zh": "",
+      "keywords": []
+    },
+    {
+      "id": "e35fb939",
+      "title_en": "Multimodal biomechanical dataset from transtibial amputees and able-bodied adults across five locomotion tasks",
+      "title_zh": "",
+      "authors": [
+        "Victoria E. Abarca",
+        "Jorge Chavez",
+        "Leonardo Eulogio",
+        "C. Viviano",
+        "Dante A. Elías"
+      ],
+      "journal": "Scientific Data",
+      "year": 2025,
+      "date_added": "2026-04-11",
+      "category": "biomechanics",
+      "doi": "10.1038/s41597-025-06472-w",
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "This dataset addresses the need for multimodal biomechanical recordings during over-ground walking, ramps, and stairs by synchronously capturing electromyographic (EMG), inertial (IMU), and plantar pressure data. We collected data from 45 adults (15 with unilateral transtibial amputation and 30 without amputation) who completed five standardized locomotor tasks: level walking, ramp ascent/descent, and stair ascent/descent. Each participant performed 50 supervised trials. Wireless EMG and IMU sensors (Delsys Trigno Avanti) measured muscle activation and kinematics, while intelligent insoles (XSENSOR) captured plantar pressure distribution. Raw data were saved in.hpf (EMG/IMU) and.XSN (pressure) formats, with processed outputs in.csv files. All data are organized by task and sensor type, including complete participant metadata. Key dataset outputs include time-normalized EMG amplitudes, se",
+      "abstract_zh": "",
+      "keywords": []
+    },
+    {
+      "id": "648b34a9",
+      "title_en": "The effects of a nutritional intervention on the sports nutrition knowledge and nutritional status of track and field athletes: protocol for a randomized controlled trial",
+      "title_zh": "",
+      "authors": [
+        "R. Jayawardena",
+        "K. Weerasinghe",
+        "I. Nanayakkara",
+        "Terrence Madhujith",
+        "A. Hills"
+      ],
+      "journal": "Trials",
+      "year": 2025,
+      "date_added": "2026-04-11",
+      "category": "supplements",
+      "doi": "10.1186/s13063-024-08683-9",
+      "is_open_access": true,
+      "pdf_url": "https://doi.org/10.1186/s13063-024-08683-9",
+      "abstract_en": "Sports nutrition plays a crucial role in providing the fuel to meet the energy demands of athletes’ training programmes, enhancing adaptations associated with training, and ensuring rapid recovery between workouts. However, evidence suggests that the dietary habits of many athletes are unsatisfactory when compared to sport-specific nutrition recommendations. This discrepancy is mainly due to a lack of up-to-date, evidence-based nutritional knowledge. Hence, this parallel-group, randomized controlled clinical trial aims to evaluate the effectiveness of a 16-week evidence-based, culturally appropriate, personalized sports nutrition intervention on the sports nutrition knowledge and nutritional status of track and field athletes in Sri Lanka, in comparison to a control group that does not receive this intervention. Elite and highly trained track and field athletes, competing at the national",
+      "abstract_zh": "",
+      "keywords": []
+    },
+    {
+      "id": "8f5db5a8",
+      "title_en": "Educational intervention using a mobile app to enhance sports nutrition knowledge and dietary habits in student-athletes: a randomized controlled trial",
+      "title_zh": "",
+      "authors": [
+        "W. Alkasasbeh",
+        "A. Amawi",
+        "Sabah Jamil Al-Nawaiseh",
+        "Deefallah Alshorman",
+        "Kawthar Alshdaifat"
+      ],
+      "journal": "Frontiers in Education",
+      "year": 2025,
+      "date_added": "2026-04-11",
+      "category": "supplements",
+      "doi": "10.3389/feduc.2025.1622166",
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "The increasing use of digital tools in education offers innovative ways to improve health behaviors. This study aims to evaluate the effectiveness of a mobile application intervention in enhancing sports nutrition knowledge and improving dietary habits among university student-athletes.A total of 100 university student-athletes were randomly assigned to either an experimental group (n = 50), which utilized the “MyFitnessPal” mobile application for nutrition education, or a control group (n = 50), which received traditional lecture-based instruction. Both groups completed validated pre- and post-intervention questionnaires over a three-month period to assess changes in sports nutrition knowledge and dietary habits.The experimental group showed significantly greater improvements in both sports nutrition knowledge and dietary habits compared to the control group (p < 0.05).These findings su",
+      "abstract_zh": "",
+      "keywords": []
+    },
+    {
       "id": "4e934c96",
       "title_en": "Variability of the Sprint Step Movement Pattern and Its Association with Hamstring Injury Risk",
       "title_zh": "",
