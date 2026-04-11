@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>每日精读 · FENG LAB</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* ── Detail page specific ── */
+    .detail-back {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 28px 32px 0;
+    }
+
+    .detail-back a {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.78rem;
+      color: var(--text-sub);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .detail-back a:hover { color: var(--primary); }
+
+    .detail-wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px 32px 80px;
+    }
+
+    /* Paper hero */
+    .detail-paper-hero {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px 32px;
+      margin-bottom: 32px;
+      box-shadow: var(--shadow);
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .detail-paper-meta { flex: 1; }
+
+    .detail-paper-badges {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+
+    .detail-paper-title-en {
+      font-family: var(--font-serif);
+      font-size: 1.25rem;
+      font-weight: 500;
+      line-height: 1.45;
+      color: var(--text-main);
+      margin-bottom: 8px;
+    }
+
+    .detail-paper-title-zh {
+      font-size: 1rem;
+      color: var(--text-sub);
+      line-height: 1.55;
+      margin-bottom: 12px;
+    }
+
+    .detail-paper-sub {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    .detail-paper-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+
+    /* Section label */
+    .detail-section-label {
+      font-size: 0.68rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+    }
+
+    /* Section cards stack */
+    .detail-cards {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    /* Each section card */
+    .dsc {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .dsc-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 18px 24px 16px;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(to right, #FAF5EE, var(--card-bg));
+    }
+
+    .dsc-icon {
+      font-size: 1.2rem;
+      color: var(--primary);
+      flex-shrink: 0;
+      width: 28px;
+      text-align: center;
+    }
+
+    .dsc-title-zh {
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--text-main);
+    }
+
+    .dsc-title-en {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      margin-top: 2px;
+      letter-spacing: 0.03em;
+    }
+
+    /* Two-column parallel content */
+    .dsc-body {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .dsc-col-zh {
+      padding: 22px 24px;
+      border-right: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--text-sub);
+      line-height: 1.75;
+      background: #FDFCFA;
+    }
+
+    .dsc-col-en {
+      padding: 22px 24px;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      line-height: 1.75;
+    }
+
+    .dsc-col-label {
+      font-size: 0.6rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--primary);
+      opacity: 0.7;
+      margin-bottom: 10px;
+    }
+
+    /* Stats card (wide, single column) */
+    .dsc-stats-body {
+      padding: 22px 24px;
+    }
+
+    .dsc-stats-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .dsc-stat {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px 16px;
+      text-align: center;
+    }
+
+    .dsc-stat-value {
+      font-family: var(--font-serif);
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: var(--primary);
+      line-height: 1.2;
+      margin-bottom: 4px;
+    }
+
+    .dsc-stat-label-zh {
+      font-size: 0.72rem;
+      color: var(--text-sub);
+      font-weight: 500;
+    }
+
+    .dsc-stat-label-en {
+      font-size: 0.62rem;
+      color: var(--text-muted);
+      margin-top: 2px;
+      font-style: italic;
+    }
+
+    .dsc-stat-note {
+      font-size: 0.63rem;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    /* Appraisal card (two-column lists) */
+    .dsc-appraisal-body {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .dsc-appraisal-col {
+      padding: 22px 24px;
+    }
+
+    .dsc-appraisal-col:first-child {
+      border-right: 1px solid var(--border);
+      background: #FDFCFA;
+    }
+
+    .dsc-appraisal-col-label {
+      font-size: 0.6rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--primary);
+      opacity: 0.7;
+      margin-bottom: 12px;
+    }
+
+    .dsc-check-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .dsc-check-list li {
+      font-size: 0.82rem;
+      line-height: 1.5;
+      padding: 8px 12px;
+      border-radius: 6px;
+    }
+
+    .dsc-pro-zh { background: #EEFAF0; color: #2E7D32; }
+    .dsc-con-zh { background: #FDF5EE; color: #8B5A2B; }
+    .dsc-pro-en { background: #F4FBF5; color: #3A8A45; font-size: 0.75rem !important; }
+    .dsc-con-en { background: #FEF8F2; color: #9B6535; font-size: 0.75rem !important; }
+
+    @media (max-width: 700px) {
+      .detail-wrap { padding: 16px 16px 60px; }
+      .detail-back { padding: 20px 16px 0; }
+      .detail-paper-hero { flex-direction: column; padding: 20px; }
+      .dsc-body { grid-template-columns: 1fr; }
+      .dsc-col-zh { border-right: none; border-bottom: 1px solid var(--border); }
+      .dsc-stats-grid { grid-template-columns: repeat(2, 1fr); }
+      .dsc-appraisal-body { grid-template-columns: 1fr; }
+      .dsc-appraisal-col:first-child { border-right: none; border-bottom: 1px solid var(--border); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-main">FENG LAB</span>
+        <span class="logo-sub">运动科学研究室 · Sports Science Lab</span>
+      </div>
+      <div class="header-right">
+        <span class="update-label">每日精读</span>
+        <span class="update-date">Daily Deep Read</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Back link -->
+  <div class="detail-back">
+    <a href="index.html">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8">
+        <path d="M10 4 L6 8 L10 12"/>
+      </svg>
+      返回简报首页 / Back to digest
+    </a>
+  </div>
+
+  <!-- Content -->
+  <div class="detail-wrap" id="detailWrap">
+    <div class="loading">正在加载精读内容 / Loading…</div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-inner">
+      <span>FENG LAB © 2026</span>
+      <span>由 AI Agent 自动更新 · Auto-updated by AI Agent</span>
+    </div>
+  </footer>
+
+  <script>
+    function md(str) {
+      return (str || '')
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\n/g, '<br>');
+    }
+
+    function buildTextCard(s) {
+      return `
+<div class="dsc">
+  <div class="dsc-header">
+    <span class="dsc-icon">${s.icon}</span>
+    <div>
+      <div class="dsc-title-zh">${s.title_zh}</div>
+      <div class="dsc-title-en">${s.title_en}</div>
+    </div>
+  </div>
+  <div class="dsc-body">
+    <div class="dsc-col-zh">
+      <div class="dsc-col-label">中文</div>
+      ${md(s.content_zh)}
+    </div>
+    <div class="dsc-col-en">
+      <div class="dsc-col-label">English</div>
+      ${md(s.content_en)}
+    </div>
+  </div>
+</div>`;
+    }
+
+    function buildStatsCard(s) {
+      const stats = (s.stats || []).map(st => `
+        <div class="dsc-stat">
+          <div class="dsc-stat-value">${st.value}</div>
+          <div class="dsc-stat-label-zh">${st.label_zh}</div>
+          <div class="dsc-stat-label-en">${st.label_en}</div>
+          <div class="dsc-stat-note">${st.note || ''}</div>
+        </div>`).join('');
+      return `
+<div class="dsc">
+  <div class="dsc-header">
+    <span class="dsc-icon">${s.icon}</span>
+    <div>
+      <div class="dsc-title-zh">${s.title_zh}</div>
+      <div class="dsc-title-en">${s.title_en}</div>
+    </div>
+  </div>
+  <div class="dsc-stats-body">
+    <div class="dsc-stats-grid">${stats}</div>
+  </div>
+</div>`;
+    }
+
+    function buildAppraisalCard(s) {
+      const prosZh = (s.pros_zh || []).map((p, i) => `
+        <li class="dsc-pro-zh">✓ ${p}</li>`).join('');
+      const consZh = (s.cons_zh || []).map(c => `
+        <li class="dsc-con-zh">✗ ${c}</li>`).join('');
+      const prosEn = (s.pros_en || []).map(p => `
+        <li class="dsc-pro-en">✓ ${p}</li>`).join('');
+      const consEn = (s.cons_en || []).map(c => `
+        <li class="dsc-con-en">✗ ${c}</li>`).join('');
+      return `
+<div class="dsc">
+  <div class="dsc-header">
+    <span class="dsc-icon">${s.icon}</span>
+    <div>
+      <div class="dsc-title-zh">${s.title_zh}</div>
+      <div class="dsc-title-en">${s.title_en}</div>
+    </div>
+  </div>
+  <div class="dsc-appraisal-body">
+    <div class="dsc-appraisal-col">
+      <div class="dsc-appraisal-col-label">中文</div>
+      <ul class="dsc-check-list">${prosZh}${consZh}</ul>
+    </div>
+    <div class="dsc-appraisal-col">
+      <div class="dsc-appraisal-col-label">English</div>
+      <ul class="dsc-check-list">${prosEn}${consEn}</ul>
+    </div>
+  </div>
+</div>`;
+    }
+
+    async function loadDetail() {
+      const base = location.pathname.replace(/\/[^/]*$/, '');
+      const res  = await fetch(base + '/data/deep_read.json');
+      const dr   = await res.json();
+
+      document.title = `${dr.title_zh || 'Daily Deep Read'} · FENG LAB`;
+
+      const doi     = dr.doi || '';
+      const doiHref = doi.startsWith('http') ? doi : (doi ? `https://doi.org/${doi}` : '');
+      const oaBadge = dr.is_open_access
+        ? '<span class="oa-badge">Open Access</span>' : '';
+      const ifBadge = dr.impact_factor
+        ? `<span class="dr-if">IF ${dr.impact_factor}</span>` : '';
+      const readBtn = dr.pdf_url
+        ? `<button class="btn-read" onclick="openReader('${dr.pdf_url.replace(/'/g,"\\'")}','${(dr.title_en||'').replace(/'/g,"\\'")}')">◎ 阅读原文</button>`
+        : '';
+      const doiBtn  = doiHref
+        ? `<a class="btn-doi" href="${doiHref}" target="_blank" rel="noopener">↗ DOI</a>` : '';
+
+      const cards = (dr.sections || []).map(s => {
+        if (s.id === 'results')   return buildStatsCard(s);
+        if (s.id === 'appraisal') return buildAppraisalCard(s);
+        return buildTextCard(s);
+      }).join('');
+
+      document.getElementById('detailWrap').innerHTML = `
+        <div class="detail-paper-hero">
+          <div class="detail-paper-meta">
+            <div class="detail-paper-badges">${oaBadge}${ifBadge}</div>
+            <div class="detail-paper-title-en">${dr.title_en || ''}</div>
+            <div class="detail-paper-title-zh">${dr.title_zh || ''}</div>
+            <div class="detail-paper-sub">
+              ${dr.authors || ''}<br>
+              <em>${dr.journal || ''}</em> ${dr.year || ''}${dr.volume_page ? ', ' + dr.volume_page : ''}
+            </div>
+          </div>
+          <div class="detail-paper-actions">
+            ${readBtn}
+            ${doiBtn}
+          </div>
+        </div>
+        <div class="detail-section-label">结构化精读 · Structured Reading</div>
+        <div class="detail-cards">${cards}</div>`;
+    }
+
+    // PDF reader modal (reuse same logic)
+    function openReader(pdfUrl, title) {
+      let modal = document.getElementById('readerModal');
+      if (!modal) {
+        modal = document.createElement('div');
+        modal.id = 'readerModal';
+        modal.className = 'reader-modal';
+        modal.innerHTML = `
+          <div class="reader-overlay" onclick="closeReader()"></div>
+          <div class="reader-panel">
+            <div class="reader-header">
+              <span class="reader-title" id="readerTitle"></span>
+              <div class="reader-controls">
+                <a class="reader-btn-new" id="readerNewTab" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <path d="M6 2H3a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-3"/>
+                    <path d="M10 2h4v4"/><path d="M16 2 9 9"/>
+                  </svg>新标签页打开
+                </a>
+                <button class="reader-btn-close" onclick="closeReader()">✕</button>
+              </div>
+            </div>
+            <iframe id="readerFrame" class="reader-frame" allowfullscreen></iframe>
+          </div>`;
+        document.body.appendChild(modal);
+      }
+      document.getElementById('readerTitle').textContent = title;
+      document.getElementById('readerNewTab').href = pdfUrl;
+      const frame = document.getElementById('readerFrame');
+      frame.src = '';
+      setTimeout(() => {
+        frame.src = `https://docs.google.com/viewer?url=${encodeURIComponent(pdfUrl)}&embedded=true`;
+      }, 50);
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeReader() {
+      const modal = document.getElementById('readerModal');
+      if (modal) {
+        modal.classList.remove('active');
+        document.getElementById('readerFrame').src = '';
+        document.body.style.overflow = '';
+      }
+    }
+
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeReader(); });
+
+    loadDetail();
+  </script>
+</body>
+</html>

@@ -395,7 +395,7 @@ header {
   color: var(--primary);
 }
 
-/* ─── Deep Read Section ──────────────────────────────────── */
+/* ─── Deep Read Section (homepage preview) ───────────────── */
 .deep-read-section {
   background: linear-gradient(to bottom, #F5EFE6, var(--bg));
   border-bottom: 1px solid var(--border);
@@ -412,7 +412,7 @@ header {
   display: flex;
   align-items: center;
   gap: 14px;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .dr-section-icon {
@@ -435,23 +435,27 @@ header {
   letter-spacing: 0.03em;
 }
 
-/* Paper info bar */
-.dr-paper-bar {
+/* Preview card — title + CTA only */
+.dr-preview-card {
   background: var(--card-bg);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 20px 24px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 20px;
-  margin-bottom: 20px;
+  padding: 24px 28px;
   box-shadow: var(--shadow);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  transition: box-shadow 0.25s ease;
 }
 
-.dr-paper-meta { flex: 1; }
+.dr-preview-card:hover {
+  box-shadow: var(--shadow-hover);
+}
 
-.dr-paper-tags {
+.dr-preview-meta { flex: 1; }
+
+.dr-preview-badges {
   display: flex;
   gap: 8px;
   align-items: center;
@@ -469,157 +473,42 @@ header {
   letter-spacing: 0.04em;
 }
 
-.dr-paper-title-en {
+.dr-preview-title-en {
   font-family: var(--font-serif);
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   font-weight: 500;
   color: var(--text-main);
   line-height: 1.45;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 
-.dr-paper-title-zh {
-  font-size: 0.85rem;
+.dr-preview-title-zh {
+  font-size: 0.88rem;
   color: var(--text-sub);
-  line-height: 1.5;
-  margin-bottom: 8px;
+  line-height: 1.55;
 }
 
-.dr-paper-sub {
-  font-size: 0.75rem;
-  color: var(--text-muted);
-}
-
-.dr-paper-actions {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  flex-shrink: 0;
-}
-
-/* Analysis grid */
-.dr-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-}
-
-.dr-card {
-  background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 20px;
-  box-shadow: var(--shadow);
-}
-
-.dr-card-wide {
-  grid-column: 1 / -1;
-}
-
-.dr-card-header {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  margin-bottom: 14px;
-}
-
-.dr-icon {
-  font-size: 1.1rem;
-  color: var(--primary);
-  margin-top: 2px;
-  flex-shrink: 0;
-}
-
-.dr-card-title {
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: var(--text-main);
-}
-
-.dr-card-title-en {
-  font-size: 0.7rem;
-  color: var(--text-muted);
-  margin-top: 1px;
-  letter-spacing: 0.02em;
-}
-
-.dr-card-body {
-  font-size: 0.82rem;
-  color: var(--text-sub);
-  line-height: 1.7;
-}
-
-.dr-card-body-en {
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  line-height: 1.65;
-  margin-top: 10px;
-  padding-top: 10px;
-  border-top: 1px dashed var(--border);
-}
-
-/* Stats */
-.dr-stats-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
-}
-
-.dr-stat {
-  background: var(--bg);
-  border-radius: 8px;
-  padding: 14px 16px;
-  text-align: center;
-}
-
-.dr-stat-value {
-  font-family: var(--font-serif);
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: var(--primary);
-  line-height: 1.2;
-  margin-bottom: 4px;
-}
-
-.dr-stat-label {
-  font-size: 0.72rem;
-  color: var(--text-sub);
-  font-weight: 500;
-}
-
-.dr-stat-note {
-  font-size: 0.65rem;
-  color: var(--text-muted);
-  margin-top: 3px;
-}
-
-/* Appraisal */
-.dr-check-list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
+.dr-preview-cta {
+  display: inline-flex;
+  align-items: center;
   gap: 6px;
+  flex-shrink: 0;
+  background: var(--primary);
+  color: #fff;
+  font-size: 0.82rem;
+  font-family: var(--font-sans);
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.2s;
 }
 
-.dr-check-list li {
-  font-size: 0.8rem;
-  line-height: 1.5;
-  padding: 6px 10px;
-  border-radius: 6px;
-}
-
-.dr-pro { background: #EEFAF0; color: #2E7D32; }
-.dr-con { background: #FDF5EE; color: #8B5A2B; }
-
-@media (max-width: 900px) {
-  .dr-grid { grid-template-columns: 1fr 1fr; }
-  .dr-stats-grid { grid-template-columns: repeat(2, 1fr); }
-}
+.dr-preview-cta:hover { background: #a87a54; }
 
 @media (max-width: 640px) {
-  .dr-grid { grid-template-columns: 1fr; }
-  .dr-stats-grid { grid-template-columns: repeat(2, 1fr); }
-  .dr-paper-bar { flex-direction: column; }
+  .dr-preview-card { flex-direction: column; align-items: flex-start; }
+  .dr-preview-cta { width: 100%; justify-content: center; }
 }
 
 /* ─── PDF Reader Modal ───────────────────────────────────── */
