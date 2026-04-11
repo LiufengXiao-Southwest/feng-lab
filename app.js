@@ -9,7 +9,8 @@ let activeCategory = 'all';
 
 async function loadPapers() {
   try {
-    const res = await fetch('data/papers.json');
+    const base = location.pathname.replace(/\/[^/]*$/, '');
+    const res = await fetch(base + '/data/papers.json');
     const json = await res.json();
     allPapers = json.papers || [];
 
