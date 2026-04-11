@@ -169,6 +169,17 @@ header {
   color: #fff;
 }
 
+/* 本周热点 button — gold accent */
+.filter-btn-week {
+  border-color: #D4A843;
+  color: #9A7420;
+}
+.filter-btn-week:hover, .filter-btn-week.active {
+  background: #D4A843;
+  border-color: #D4A843;
+  color: #fff;
+}
+
 .filter-right {
   display: flex;
   align-items: center;
@@ -283,6 +294,7 @@ header {
 
 .card-tag.tag-performance { background: #EBF0F8; color: #4A6FA5; }
 .card-tag.tag-supplements { background: #EBF5EC; color: #3D7A45; }
+.card-tag.tag-preprint    { background: #FDF3E7; color: #B06A1A; }
 
 /* OA Badge */
 .oa-badge {

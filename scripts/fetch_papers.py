@@ -77,6 +77,11 @@ SEARCHES = {
         "nitrate beta-alanine sport performance supplementation",
         "protein intake muscle recovery exercise adaptation",
     ],
+    "preprint": [
+        "sports biomechanics running gait injury bioRxiv preprint 2024",
+        "exercise performance neuromuscular training preprint medRxiv",
+        "wearable sensor IMU motion analysis sports preprint",
+    ],
 }
 
 SS_URL    = "https://api.semanticscholar.org/graph/v1/paper/search"

@@ -2,6 +2,7 @@ const CAT_LABELS = {
   biomechanics: { zh: '生物力学', en: 'Biomechanics', cls: 'tag-biomechanics' },
   performance:  { zh: '运动表现', en: 'Performance',  cls: 'tag-performance'  },
   supplements:  { zh: '运动补剂', en: 'Supplements',  cls: 'tag-supplements'  },
+  preprint:     { zh: '预印本',   en: 'Preprint',     cls: 'tag-preprint'     },
 };
 
 let allPapers = [];
@@ -160,9 +161,21 @@ function formatDate(str) {
 }
 
 function getFilteredPapers() {
-  let papers = activeCategory === 'all'
-    ? allPapers
-    : allPapers.filter(p => p.category === activeCategory);
+  let papers;
+
+  if (activeCategory === 'all') {
+    papers = allPapers;
+  } else if (activeCategory === 'week') {
+    // Last 7 days, sorted by citation count desc
+    const cutoff = new Date();
+    cutoff.setDate(cutoff.getDate() - 7);
+    const cutoffStr = cutoff.toISOString().slice(0, 10);
+    papers = allPapers
+      .filter(p => (p.date_added || '') >= cutoffStr)
+      .sort((a, b) => (b.citation_count || 0) - (a.citation_count || 0));
+  } else {
+    papers = allPapers.filter(p => p.category === activeCategory);
+  }
 
   if (activeSearch) {
     const q = activeSearch.toLowerCase();

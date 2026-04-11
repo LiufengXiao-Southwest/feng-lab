@@ -43,3 +43,8 @@ jobs:
             git commit -m "update: daily literature & deep read $(date +%Y-%m-%d)" &&
             git push
           )
+
+      - name: Send Feishu notification
+        env:
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+        run: python scripts/notify_feishu.py
