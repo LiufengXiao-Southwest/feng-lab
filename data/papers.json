@@ -1,6 +1,97 @@
 {
-  "last_updated": "2026-04-11",
+  "last_updated": "2026-04-12",
   "papers": [
+    {
+      "id": "2cbad2bf",
+      "title_en": "Lower limb muscle activation and biomechanics during single-leg hopping in different directions",
+      "title_zh": "",
+      "authors": [
+        "Yu Gu",
+        "Wanyan Su",
+        "Nawfal Malik",
+        "Thanh Nguyen",
+        "Anne Jordan"
+      ],
+      "journal": "Frontiers in Sports and Active Living",
+      "year": 2026,
+      "date_added": "2026-04-12",
+      "category": "biomechanics",
+      "doi": "10.3389/fspor.2025.1733669",
+      "impact_factor": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "Background Single-leg forward and vertical hopping are commonly employed to evaluate knee neuromuscular function following anterior cruciate ligament reconstruction. However, similar hopping performance between limbs does not ensure full knee recovery. Single-leg backward hopping has been suggested to impose greater knee kinetics, but its effects on lower limb muscle activation and kinematics remain unclear. Purpose To quantify the effect of hopping directions on lower limb muscle activation and biomechanics during jumping, focusing on the knee joint. Methods Forty-eight injury-free participants performed single-leg forward/vertical/backward hopping with motion, force, and surface electromyography data collected. Peak and mean muscle activation of quadriceps, hamstrings, and triceps surae, peak trunk/hip/knee/ankle angles, and hip/knee/ankle moments in the sagittal plane during the jumpi",
+      "abstract_zh": "",
+      "keywords": []
+    },
+    {
+      "id": "65cb1ddc",
+      "title_en": "Optimization of college students’ track and field sprinting technique based on biomechanical analysis",
+      "title_zh": "",
+      "authors": [
+        "Tao Huang"
+      ],
+      "journal": "Molecular &amp; Cellular Biomechanics",
+      "year": 2025,
+      "date_added": "2026-04-12",
+      "category": "biomechanics",
+      "doi": "10.62617/mcb1871",
+      "impact_factor": "",
+      "citation_count": 1,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "Sprinting performance is affected by a variety of biomechanical factors, and optimizing the techniques in all phases is crucial for improving performance. Based on biomechanical analysis, this study used experimental methods such as high-speed camera, motion capture system, force platform and electromyography to collect and analyze data on stride length, stride frequency, ground reaction force and muscle activation pattern of sprinters. The results showed that optimizing the starting posture, acceleration gait matching, uniform running economy and anti-fatigue ability in the closing phase can effectively improve the sprinting performance. Through the targeted technical optimization strategy, sprinters were able to significantly reduce speed loss and enhance the stability in the sprinting phase. This study can provide scientific guidance for sprinting special training, sports biomechanics",
+      "abstract_zh": "",
+      "keywords": []
+    },
+    {
+      "id": "eac6a90f",
+      "title_en": "\"Unlocking Athletic Potential: Exploring Exercise Physiology from Mechanisms to Performance\": Evidence-based sports supplements: a redox analysis.",
+      "title_zh": "",
+      "authors": [
+        "Nikos V. Margaritelis",
+        "James N. Cobley",
+        "George G. Nastos",
+        "Konstantinos Papanikolaou",
+        "Stephen J. Bailey"
+      ],
+      "journal": "Free Radical Biology & Medicine",
+      "year": 2024,
+      "date_added": "2026-04-12",
+      "category": "supplements",
+      "doi": "10.1016/j.freeradbiomed.2024.08.012",
+      "impact_factor": "",
+      "citation_count": 6,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "Despite the overwhelming number of sports supplements on the market, only seven are currently recognized as effective. Biological functions are largely regulated through redox reactions, yet no comprehensive analysis of the redox properties of these supplements has been compiled. Here, we analyze the redox characteristics of these seven supplements: bicarbonates, beta-alanine, caffeine, creatine, nitrates, carbohydrates, and proteins. Our findings suggest that all sports supplements exhibit some degree of redox activity. However, the precise physiological implications of these redox properties remain unclear. Future research, employing unconventional perspectives and methodologies, will reveal new redox pixels of the exercise physiology and sports nutrition picture.",
+      "abstract_zh": "",
+      "keywords": []
+    },
+    {
+      "id": "22d76ceb",
+      "title_en": "The interaction of caffeine on creatine absorption",
+      "title_zh": "",
+      "authors": [
+        "Iara Rodrigues dos Santos",
+        "Karine Amâncio dos Reis",
+        "Rafaela de Jesus Santos Lucas",
+        "E. Barros"
+      ],
+      "journal": "International Seven Journal of Multidisciplinary",
+      "year": 2023,
+      "date_added": "2026-04-12",
+      "category": "supplements",
+      "doi": "10.56238/isevmjv2n1-002",
+      "impact_factor": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "Introduction: Creatine and caffeine are food supplements used as ergogenic resources by athletes and practitioners of physical activity. In sports, caffeine has been commercialized because, besides inhibiting pain, it also helps in the development of muscle strength and improves sports performance. Creatine tends to improve high intensity and short duration exercise in sports performance and helps in the recovery period. Objective: To analyze and investigate the interaction of caffeine on creatine absorption. Methods: This article was developed from a bibliographic review in Medline, Lilacs, Ebsco and Google Academic databases, where books, magazines and articles were read. Result: The findings are mixed and may be strongly influenced by the type of training, supplementation dose, exercise time, ingested schedule, and genetic influence that acts on fast or slow metabolization regarding t",
+      "abstract_zh": "",
+      "keywords": []
+    },
     {
       "id": "40ac52a8",
       "title_en": "The Role of High-Intensity Interval Training (HIIT) in Neuromuscular Adaptations: Implications for Strength and Power Development—A Review",

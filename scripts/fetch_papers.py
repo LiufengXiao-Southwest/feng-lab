@@ -258,7 +258,7 @@ def translate_papers(papers: list) -> list:
         try:
             import google.generativeai as genai
             genai.configure(api_key=api_key)
-            model = genai.GenerativeModel("gemini-2.0-flash")
+            model = genai.GenerativeModel("gemini-2.5-flash-preview-04-17")
             resp = model.generate_content(prompt)
             raw = resp.text.strip()
             if raw.startswith("```"):

@@ -189,7 +189,7 @@ Be specific and accurate to this paper. Do NOT write generic placeholder text.
 }}"""
 
     genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-    model = genai.GenerativeModel("gemini-2.0-flash")
+    model = genai.GenerativeModel("gemini-2.5-flash-preview-04-17")
     response = model.generate_content(prompt)
 
     raw = response.text.strip()
