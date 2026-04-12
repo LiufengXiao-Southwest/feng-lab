@@ -41,6 +41,7 @@ jobs:
           git add data/papers.json data/deep_read.json data/deep_read_history.json
           git diff --staged --quiet || (
             git commit -m "update: daily literature & deep read $(date +%Y-%m-%d)" &&
+            git pull --rebase &&
             git push
           )
 
