@@ -311,7 +311,7 @@ def main():
     new_papers = translate_papers(new_papers)
 
     # Also backfill any existing papers still missing translation (up to 10 per run)
-    needs_translation = [p for p in existing_papers if not p.get("title_zh") or not p.get("abstract_zh")][:10]
+    needs_translation = [p for p in existing_papers if not p.get("title_zh") or not p.get("abstract_zh")][:25]
     if needs_translation:
         print(f"\nBackfilling {len(needs_translation)} existing papers...")
         needs_translation = translate_papers(needs_translation)
