@@ -1,40 +1,33 @@
 {
-  "date": "2026-04-11",
-  "title_en": "Effectiveness of progressive tendon-loading exercise therapy in patients with patellar tendinopathy: a randomised clinical trial",
-  "title_zh": "渐进式肌腱负荷训练对髌腱病患者的疗效：随机临床试验",
-  "authors": "Breda SJ, Oei EHG, Zwerver J, et al.",
-  "journal": "British Journal of Sports Medicine",
+  "date": "2026-05-27",
+  "title_en": "Can Biomechanical Testing After Anterior Cruciate Ligament Reconstruction Identify Athletes at Risk for Subsequent ACL Injury to the Contralateral Uninjured Limb?",
+  "title_zh": "前交叉韧带重建术后的生物力学测试能否识别对侧未受伤肢体后续ACL损伤风险的运动员？",
+  "authors": "E. King, C. Richter, Katherine A. J. Daniels, A. Franklyn-Miller et al.",
+  "journal": "American Journal of Sports Medicine",
   "year": 2021,
-  "volume_page": "55: 501–509",
-  "doi": "10.1136/bjsports-2020-103403",
-  "impact_factor": "18.4",
+  "volume_page": "",
+  "doi": "10.1177/0363546520985283",
+  "impact_factor": "5.5",
   "is_open_access": true,
-  "pdf_url": "https://bjsm.bmj.com/content/bjsports/55/9/501.full.pdf",
-  "category": "supplements",
+  "pdf_url": "https://e-space.mmu.ac.uk/627066/1/Can_biomechanical_testing_after_ACL_Reconstruction_identify_athletes_at_risk_for_subsequent_ACL_injury_to_the_contralateral_uninjured_limb.pdf",
+  "category": "biomechanics",
+  "citation_count": 84,
   "sections": [
     {
       "id": "why",
       "icon": "◎",
       "title_zh": "为什么值得读",
       "title_en": "Why It Matters",
-      "content_zh": "髌腱病（跳跃膝）影响高达 45% 的精英跳跃类运动员（篮球、排球），58% 的患者甚至因此影响职业生涯。当前 NICE 指南推荐的标准治疗是离心训练（EET）——但它要求患者在疼痛中训练，依从性差、赛季内效果有争议。本研究是该领域迄今样本量最大的 RCT，首次头对头比较了渐进式肌腱负荷训练（PTLE）与离心训练，结果直接挑战了指南推荐。",
-      "content_en": "Patellar tendinopathy affects up to 45% of elite jumping athletes and impairs careers in 58% of cases. Current NICE guidelines recommend eccentric exercise therapy (EET) — which requires training through pain, with poor adherence and debated in-season efficacy. This is the largest RCT in this field to date, directly comparing progressive tendon-loading exercise (PTLE) against EET, challenging the existing guideline recommendation."
+      "content_zh": "本研究解决了运动员在ACL重建术后，对侧未受伤的ACL比重建侧韧带更易发生损伤的关键临床悖论。它通过识别对侧肢体与未来ACL损伤相关的特定生物力学缺陷（矢状面力学、增强式能力、股四头肌力量），填补了研究空白，将关注点从手术侧膝盖转移开。该研究高被引量反映了其对指导高危人群的靶向康复策略和加强损伤预防方案的重要影响。",
+      "content_en": "This study addresses the critical clinical paradox that athletes are more likely to injure their healthy contralateral ACL than their reconstructed one after ACLR. It fills a significant gap by identifying specific biomechanical deficits (sagittal plane mechanics, plyometric ability, quadriceps strength) in the *contralateral* limb that predict future ACL injury, shifting focus from the operated knee. Its high citation count reflects its impact on informing targeted rehabilitation strategies and enhancing injury prevention protocols in this high-risk population."
     },
     {
       "id": "design",
       "icon": "⊞",
       "title_zh": "研究设计速览",
       "title_en": "Study Design",
-      "content_zh": "**类型**：单盲、区组随机对照试验（JUMPER 研究）\n**样本**：76 名患者，平均年龄 24 岁，76% 为男性\n**入组**：临床诊断 + 超声确认的髌腱病，VISA-P < 80 分\n**随访**：基线、12 周、24 周\n**主要结局**：VISA-P 量表（疼痛 + 功能 + 运动能力，满分 100）\n**分析**：意向性治疗分析（ITT），GEE 模型",
-      "content_en": "**Type**: Investigator-blinded, block-randomised controlled trial (JUMPER Study)\n**Sample**: 76 patients, mean age 24y, 76% male\n**Inclusion**: Clinical + ultrasound-confirmed PT, VISA-P < 80\n**Follow-up**: Baseline, 12 weeks, 24 weeks\n**Primary outcome**: VISA-P questionnaire (pain + function + sport ability, max 100)\n**Analysis**: Intention-to-treat, Generalised Estimating Equations"
-    },
-    {
-      "id": "intervention",
-      "icon": "▷",
-      "title_zh": "两组干预方案",
-      "title_en": "PTLE vs EET",
-      "content_zh": "**PTLE（干预组）**：4 阶段渐进式负荷，均在可接受疼痛范围内进行（VAS ≤ 3）\n① 等长训练：单腿腿举/腿伸，60° 屈膝，5×45s，70% MVC\n② 等张训练：逐渐增加负荷与关节活动范围\n③ 储能/增强式训练：跳跃深蹲、箱跳、变向冲刺\n④ 专项训练：篮球、排球等运动专项动作\n\n**EET（对照组）**：25° 斜板单腿离心下蹲，**要求在疼痛中训练**（VAS ≥ 5），每日 2 次 × 12 周",
-      "content_en": "**PTLE (intervention)**: 4 progressive stages, all within acceptable pain (VAS ≤ 3)\n① Isometric: single-leg press/extension, 60° flexion, 5×45s at 70% MVC\n② Isotonic: progressive load and range of motion\n③ Energy-storage: jump squats, box jumps, cutting movements\n④ Sport-specific: basketball, volleyball drills, etc.\n\n**EET (control)**: Single-leg decline squat on 25° board, **training through pain required** (VAS ≥ 5), twice daily × 12 weeks"
+      "content_zh": "**类型**: 病例对照研究 (证据等级3)\n**样本**: N = 1045名运动员在ACL重建术后9个月接受评估；993名运动员完成了2年随访\n**研究对象**: 参与一级体育运动的男性运动员，在ACL重建术后9个月进行评估\n**主要结局**: 2年随访时发生对侧ACL损伤的运动员与未发生损伤运动员之间的差异\n**测量指标**: 等速肌力测试、跳跃和变向测试的3D生物力学分析、患者报告结局\n**分析方法**: 组间差异分析，逻辑回归用于预测对侧ACL损伤",
+      "content_en": "**Type**: Case-control study (Level of evidence, 3)\n**Sample**: N = 1045 athletes assessed 9 months post-ACLR; 993 had 2-year follow-up\n**Participants**: Male athletes returning to level 1 sports, assessed 9 months post-ACLR\n**Primary Outcome**: Differences between athletes who sustained a contralateral ACL injury and those who did not at 2-year follow-up\n**Measures**: Isokinetic strength testing, 3D biomechanical analysis of jump and change-of-direction tests, patient-reported outcomes\n**Analysis Method**: Between-group differences analysis, logistic regression for predicting contralateral ACL injury"
     },
     {
       "id": "results",
@@ -42,12 +35,42 @@
       "title_zh": "核心数据",
       "title_en": "Key Numbers",
       "stats": [
-        { "label_zh": "PTLE 组 VISA-P 改善", "label_en": "PTLE improvement", "value": "+28 分", "note": "56 → 84" },
-        { "label_zh": "EET 组 VISA-P 改善",  "label_en": "EET improvement",  "value": "+18 分", "note": "57 → 75" },
-        { "label_zh": "组间差值（24周）",      "label_en": "Between-group diff", "value": "9 分",  "note": "95%CI 1–16，p=0.023 ✓" },
-        { "label_zh": "恢复至伤前运动水平",    "label_en": "Return to sport",   "value": "43% vs 27%", "note": "p=0.13，呈趋势" },
-        { "label_zh": "运动时疼痛（VAS）",     "label_en": "Exercise pain VAS", "value": "2 vs 4",    "note": "p=0.006 ✓" },
-        { "label_zh": "「极满意」患者比例",    "label_en": "Excellent satisfaction", "value": "38% vs 10%", "note": "p=0.009 ✓" }
+        {
+          "label_zh": "对侧ACL损伤数",
+          "label_en": "Contralateral ACL injuries",
+          "value": "67",
+          "note": "在993名完成随访的运动员中发生"
+        },
+        {
+          "label_zh": "同侧ACL再损伤数",
+          "label_en": "Ipsilateral ACL re-injuries",
+          "value": "38",
+          "note": "在993名完成随访的运动员中发生"
+        },
+        {
+          "label_zh": "股四头肌力量差异",
+          "label_en": "Quadriceps strength difference",
+          "value": "较低",
+          "note": "对侧ACL损伤组的对侧肢体，与无损伤组相比"
+        },
+        {
+          "label_zh": "AUC范围",
+          "label_en": "AUC range",
+          "value": "0.74-0.80",
+          "note": "解释组别归属的能力，公平到良好"
+        },
+        {
+          "label_zh": "患者报告结局差异",
+          "label_en": "Patient-reported outcomes difference",
+          "value": "无差异",
+          "note": "无法区分对侧损伤风险"
+        },
+        {
+          "label_zh": "肢体对称性差异",
+          "label_en": "Limb symmetry difference",
+          "value": "无差异",
+          "note": "临床表现和生物力学指标在变向任务中无法区分"
+        }
       ]
     },
     {
@@ -55,18 +78,40 @@
       "icon": "◐",
       "title_zh": "方法学评价",
       "title_en": "Critical Appraisal",
-      "pros_zh": ["该领域迄今样本量最大的 RCT", "超声确认诊断，入组标准严格", "研究者全程盲法 + ITT 分析", "预先注册统计分析方案"],
-      "cons_zh": ["患者层面无法实施盲法（干预性质决定）", "两组依从性均偏低（PTLE 40%，EET 49%）", "随访仅 24 周，长期效果未知", "以无监督居家训练为主，与临床现实有差距"],
-      "pros_en": ["Largest RCT in this field to date", "Ultrasound-confirmed diagnosis, strict inclusion", "Investigator-blinded throughout + ITT analysis", "Pre-registered statistical analysis plan"],
-      "cons_en": ["Patient blinding impossible by design", "Low adherence in both groups (PTLE 40%, EET 49%)", "Only 24 weeks follow-up — long-term unknown", "Unsupervised home-based program may not reflect clinical reality"]
+      "pros_zh": [
+        "庞大的前瞻性队列研究样本量 (N=1045)，增强了统计效力。",
+        "首次前瞻性地关注对侧未受伤肢体，解决了临床上亟待解决的问题。",
+        "采用3D生物力学分析，数据客观且精细。",
+        "研究对象为参与一级体育运动的男性运动员，结果具有高水平运动的临床相关性。",
+        "2年随访期提供了重要的长期伤害数据。"
+      ],
+      "cons_zh": [
+        "研究对象仅限男性运动员，结果不适用于女性群体。",
+        "尽管是队列研究，但预测能力（AUC 0.74-0.80）仅为“中等至良好”，可能不足以进行高精度个体风险预测。",
+        "主要发现集中在跳跃任务，变向任务的指标未能区分风险，可能忽略了多平面运动的复杂性。",
+        "研究未直接评估或比较干预措施对降低风险的有效性。"
+      ],
+      "pros_en": [
+        "Large prospective cohort sample size (N=1045), enhancing statistical power.",
+        "First to prospectively focus on the contralateral uninjured limb, addressing a critical clinical gap.",
+        "Utilized 3D biomechanical analysis, providing objective and detailed data.",
+        "Participants were male athletes in level 1 sports, making results highly clinically relevant for high-level athletics.",
+        "2-year follow-up period provided important long-term injury data."
+      ],
+      "cons_en": [
+        "Study cohort limited to male athletes, results are not generalizable to females.",
+        "Despite being a cohort study, predictive ability (AUC 0.74-0.80) is only 'fair to good,' possibly insufficient for high-precision individual risk prediction.",
+        "Key findings concentrated on jump tasks, while change-of-direction tasks did not differentiate risk, potentially overlooking multi-planar movement complexities.",
+        "The study did not directly evaluate or compare the effectiveness of interventions to reduce identified risks."
+      ]
     },
     {
       "id": "takeaway",
       "icon": "◆",
       "title_zh": "研究启示",
       "title_en": "Takeaway",
-      "content_zh": "**1. 肌腱康复不必强求痛苦**：在可接受疼痛范围内的渐进式负荷同样有效，且运动体验更好，这对提升患者依从性有重要临床意义。\n\n**2. 负荷分期是关键机制**：等长→等张→储能→专项的分期思路，在其他肌腱病（跟腱、网球肘）研究中同样值得验证。\n\n**3. 依从性是最大挑战**：两组不到 50% 的依从率说明，方案设计再好，若缺乏监督指导，效果将大打折扣——这为运动表现与生物力学研究提供了一个重要的干预变量。\n\n**4. 与你的研究的联结**：髌腱刚度（超声弹性成像）、神经肌肉控制模式（sEMG）和足底压力分布的变化可作为量化康复响应的客观生物力学指标，与 VISA-P 形成互补。",
-      "content_en": "**1. No pain, similar gain**: Exercise within acceptable pain limits is equally effective with better experience — clinically important for adherence.\n\n**2. Staged loading is the key mechanism**: The isometric→isotonic→energy-storage→sport-specific progression is worth testing across other tendinopathies (Achilles, lateral epicondylalgia).\n\n**3. Adherence is the real bottleneck**: <50% adherence in both arms shows that even well-designed protocols fail without supervision — a critical variable for your biomechanics research.\n\n**4. Link to your lab**: Tendon stiffness (shear-wave elastography), neuromuscular control (sEMG), and plantar pressure changes are objective biomechanical markers that complement VISA-P in quantifying rehabilitation response."
+      "content_zh": "**1. 重新评估对侧肢体的“健康”状态：** ACL重建术后，对侧肢体并非完全“健康”，而具有更高的ACL损伤风险。评估时必须将对侧肢体视为潜在的风险因素，而不是单纯的对照。\n\n**2. 核心风险指标：** 对侧肢体的股四头肌力量、矢状面控制能力以及增强式跳跃能力（尤其是下落跳跃任务中）是预测未来ACL损伤的关键生物力学因素。这提示康复训练应更侧重于这些特定方面。\n\n**3. 肢体对称性局限性：** 传统的肢体对称性指数在预测对侧ACL损伤方面作用有限。临床医生和研究者应超越单纯的对称性评估，转向关注绝对的生物力学缺陷。\n\n**4. 生物力学工具指导靶向康复：** **三维运动捕捉系统**和**测力台**可以定量评估股四头肌力量、矢状面力学和增强式能力。利用这些**生物力学仪器**可以精确识别缺陷，并指导康复计划，例如加强股四头肌训练、提高下落跳跃任务中的减速和落地控制，以降低对侧肢体的ACL损伤风险。",
+      "content_en": "**1. Re-evaluate the 'health' of the contralateral limb:** Post-ACLR, the contralateral limb is not truly 'healthy' but carries a higher risk of ACL injury. It must be considered a potential risk factor during assessment, not merely a control.\n\n**2. Key risk indicators:** Contralateral quadriceps strength, sagittal plane control, and plyometric ability (especially during drop jump tasks) are critical biomechanical factors predicting future ACL injury. This suggests rehabilitation should focus more on these specific aspects.\n\n**3. Limitations of limb symmetry:** Traditional limb symmetry indices have limited utility in predicting contralateral ACL injury. Clinicians and researchers should move beyond simple symmetry assessment to focus on absolute biomechanical deficits.\n\n**4. Biomechanical tools for targeted rehabilitation:** **3D motion capture systems** and **force plates** can quantitatively assess quadriceps strength, sagittal plane mechanics, and plyometric ability. Utilizing these **biomechanical instruments** can precisely identify deficits and guide rehabilitation programs, such as enhancing quadriceps strengthening and improving deceleration and landing control during drop jump tasks, to reduce contralateral ACL injury risk."
     }
   ]
 }
