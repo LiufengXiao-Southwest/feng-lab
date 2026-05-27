@@ -2,3 +2,5 @@
 Thumbs.db
 *.log
 scripts/__pycache__/
+__pycache__/
+.venv/

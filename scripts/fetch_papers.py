@@ -2,7 +2,7 @@
 """
 FENG LAB — Daily Literature Fetcher
 Searches Semantic Scholar for papers on configured topics.
-Merges new findings into data/papers.json.
+Writes today's top 6 findings to data/papers.json and appends them to data/archive.json.
 Auto-translates titles + abstracts via Gemini API.
 """
 
@@ -21,8 +21,8 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != 'utf-8':
 
 TODAY = datetime.date.today().isoformat()
 DATA_FILE  = Path(__file__).parent.parent / "data" / "papers.json"
-MAX_PAPERS  = 300
-DAILY_LIMIT = 2   # New papers per category per day
+ARCHIVE_FILE = Path(__file__).parent.parent / "data" / "archive.json"
+DAILY_LIMIT = 6
 
 # ── JCR Q1 Journals (IF >= 3.0) ──────────────────────────────────────────────
 # Key = lowercase substring to match venue string; Value = IF
@@ -226,6 +226,51 @@ def dedupe(papers: list) -> list:
     return result
 
 
+def impact_factor_value(paper: dict) -> float:
+    try:
+        return float(paper.get("impact_factor") or 0)
+    except (TypeError, ValueError):
+        return 0.0
+
+
+def select_top_daily_papers(papers: list, limit: int = DAILY_LIMIT) -> list:
+    """Select the best papers across all categories."""
+    unique = dedupe(papers)
+    return sorted(
+        unique,
+        key=lambda p: (
+            p.get("citation_count") or 0,
+            impact_factor_value(p),
+            p.get("year") or 0,
+        ),
+        reverse=True,
+    )[:limit]
+
+
+def write_daily_outputs(papers: list, data_file: Path = DATA_FILE, archive_file: Path = ARCHIVE_FILE, today=None) -> None:
+    date_str = (today or datetime.date.today()).isoformat()
+    today_papers = []
+    for paper in papers:
+        item = dict(paper)
+        item["date_added"] = date_str
+        today_papers.append(item)
+
+    data_file.parent.mkdir(parents=True, exist_ok=True)
+    with open(data_file, "w", encoding="utf-8") as f:
+        json.dump({"last_updated": date_str, "papers": today_papers}, f, ensure_ascii=False, indent=2)
+
+    archive = {"last_updated": date_str, "dates": {}}
+    if archive_file.exists():
+        with open(archive_file, "r", encoding="utf-8") as f:
+            archive = json.load(f)
+        archive.setdefault("dates", {})
+
+    archive["last_updated"] = date_str
+    archive["dates"][date_str] = today_papers
+    with open(archive_file, "w", encoding="utf-8") as f:
+        json.dump(archive, f, ensure_ascii=False, indent=2)
+
+
 # ── Gemini translation ────────────────────────────────────────────────────────
 def translate_papers(papers: list) -> list:
     """Fill title_zh and abstract_zh for papers missing translations."""
@@ -282,50 +327,25 @@ def translate_papers(papers: list) -> list:
 def main():
     print(f"FENG LAB — Daily fetch  [{TODAY}]")
 
-    existing = {"last_updated": TODAY, "papers": []}
-    if DATA_FILE.exists():
-        with open(DATA_FILE, "r", encoding="utf-8") as f:
-            existing = json.load(f)
-
-    existing_papers = existing.get("papers", [])
-
     # Fetch new papers
     # Use larger per-query limit (15) because Q1 filtering discards many results
     new_papers = []
     for category, queries in SEARCHES.items():
-        print(f"\n▸ {category} (target: {DAILY_LIMIT} new, Q1/IF≥{MIN_IF} filter: {'off' if category == 'preprint' else 'on'})")
-        collected = []
+        print(f"\n▸ {category} (Q1/IF≥{MIN_IF} filter: {'off' if category == 'preprint' else 'on'})")
         for q in queries:
-            if len(collected) >= DAILY_LIMIT:
-                break
             print(f"  query: {q[:65]}...")
             fetched = fetch_ss(q, category, limit=15)
-            collected.extend(fetched)
-            collected = dedupe(collected)
-        new_papers.extend(collected[:DAILY_LIMIT])
-        print(f"  → {min(len(collected), DAILY_LIMIT)} paper(s) selected for {category}")
+            new_papers.extend(fetched)
 
     print(f"\nNew papers collected: {len(new_papers)}")
+    selected_papers = select_top_daily_papers(new_papers)
+    print(f"Top papers selected: {len(selected_papers)}")
 
     # Translate new papers that are missing translations
-    new_papers = translate_papers(new_papers)
+    selected_papers = translate_papers(selected_papers)
+    write_daily_outputs(selected_papers)
 
-    # Also backfill any existing papers still missing translation (up to 10 per run)
-    needs_translation = [p for p in existing_papers if not p.get("title_zh") or not p.get("abstract_zh")][:25]
-    if needs_translation:
-        print(f"\nBackfilling {len(needs_translation)} existing papers...")
-        needs_translation = translate_papers(needs_translation)
-
-    # Merge
-    merged = dedupe(new_papers + existing_papers)
-    merged = sorted(merged, key=lambda p: p.get("date_added", ""), reverse=True)
-    merged = merged[:MAX_PAPERS]
-
-    output = {"last_updated": TODAY, "papers": merged}
-    with open(DATA_FILE, "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
-
-    print(f"\n✓ Done. Total papers: {len(merged)}")
+    print(f"\n✓ Done. Today's papers: {len(selected_papers)}")
 
 
 if __name__ == "__main__":

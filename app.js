@@ -159,7 +159,7 @@ function renderPapers(papers) {
   count.textContent = papers.length;
 
   if (papers.length === 0) {
-    grid.innerHTML = '<div class="loading">暂无文献 / No papers found.</div>';
+    grid.innerHTML = '<div class="loading">今日暂无新文献</div>';
     return;
   }
 
