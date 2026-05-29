@@ -1,33 +1,33 @@
 {
-  "date": "2026-05-27",
-  "title_en": "Can Biomechanical Testing After Anterior Cruciate Ligament Reconstruction Identify Athletes at Risk for Subsequent ACL Injury to the Contralateral Uninjured Limb?",
-  "title_zh": "前交叉韧带重建术后的生物力学测试能否识别对侧未受伤肢体后续ACL损伤风险的运动员？",
-  "authors": "E. King, C. Richter, Katherine A. J. Daniels, A. Franklyn-Miller et al.",
+  "date": "2026-05-29",
+  "title_en": "The Sprint Mechanics Assessment Score: A Qualitative Screening Tool for the In-field Assessment of Sprint Running Mechanics",
+  "title_zh": "冲刺力学评估评分：一种用于现场评估冲刺跑力学模式的定性筛选工具",
+  "authors": "C. Bramah, Jonas Tawiah-Dodoo, Samantha Rhodes, J. D. Elliott et al.",
   "journal": "American Journal of Sports Medicine",
-  "year": 2021,
+  "year": 2024,
   "volume_page": "",
-  "doi": "10.1177/0363546520985283",
+  "doi": "10.1177/03635465241235525",
   "impact_factor": "5.5",
   "is_open_access": true,
-  "pdf_url": "https://e-space.mmu.ac.uk/627066/1/Can_biomechanical_testing_after_ACL_Reconstruction_identify_athletes_at_risk_for_subsequent_ACL_injury_to_the_contralateral_uninjured_limb.pdf",
+  "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/03635465241235525",
   "category": "biomechanics",
-  "citation_count": 84,
+  "citation_count": 21,
   "sections": [
     {
       "id": "why",
       "icon": "◎",
       "title_zh": "为什么值得读",
       "title_en": "Why It Matters",
-      "content_zh": "本研究解决了运动员在ACL重建术后，对侧未受伤的ACL比重建侧韧带更易发生损伤的关键临床悖论。它通过识别对侧肢体与未来ACL损伤相关的特定生物力学缺陷（矢状面力学、增强式能力、股四头肌力量），填补了研究空白，将关注点从手术侧膝盖转移开。该研究高被引量反映了其对指导高危人群的靶向康复策略和加强损伤预防方案的重要影响。",
-      "content_en": "This study addresses the critical clinical paradox that athletes are more likely to injure their healthy contralateral ACL than their reconstructed one after ACLR. It fills a significant gap by identifying specific biomechanical deficits (sagittal plane mechanics, plyometric ability, quadriceps strength) in the *contralateral* limb that predict future ACL injury, shifting focus from the operated knee. Its high citation count reflects its impact on informing targeted rehabilitation strategies and enhancing injury prevention protocols in this high-risk population."
+      "content_zh": "该研究引入了“冲刺力学评估评分”（S-MAS），这是首个针对与腘绳肌拉伤相关的冲刺跑力学模式进行现场评估的定性工具。它填补了将实验室生物力学原理应用于实际运动场景的空白，为教练和康复师提供了一种可靠且易于使用的筛选方法，以识别潜在的损伤风险。其高实用性和良好的可靠性是它在短时间内获得21次引用的主要原因。",
+      "content_en": "This study introduces the Sprint Mechanics Assessment Score (S-MAS), the first qualitative tool for in-field assessment of sprint running mechanics associated with hamstring strain injury. It bridges the gap between lab-based biomechanical principles and practical sports settings, offering coaches and rehabilitators a reliable and easy-to-use screening method to identify potential injury risks. Its high practicality and good reliability are key reasons for its 21 citations in a short period."
     },
     {
       "id": "design",
       "icon": "⊞",
       "title_zh": "研究设计速览",
       "title_en": "Study Design",
-      "content_zh": "**类型**: 病例对照研究 (证据等级3)\n**样本**: N = 1045名运动员在ACL重建术后9个月接受评估；993名运动员完成了2年随访\n**研究对象**: 参与一级体育运动的男性运动员，在ACL重建术后9个月进行评估\n**主要结局**: 2年随访时发生对侧ACL损伤的运动员与未发生损伤运动员之间的差异\n**测量指标**: 等速肌力测试、跳跃和变向测试的3D生物力学分析、患者报告结局\n**分析方法**: 组间差异分析，逻辑回归用于预测对侧ACL损伤",
-      "content_en": "**Type**: Case-control study (Level of evidence, 3)\n**Sample**: N = 1045 athletes assessed 9 months post-ACLR; 993 had 2-year follow-up\n**Participants**: Male athletes returning to level 1 sports, assessed 9 months post-ACLR\n**Primary Outcome**: Differences between athletes who sustained a contralateral ACL injury and those who did not at 2-year follow-up\n**Measures**: Isokinetic strength testing, 3D biomechanical analysis of jump and change-of-direction tests, patient-reported outcomes\n**Analysis Method**: Between-group differences analysis, logistic regression for predicting contralateral ACL injury"
+      "content_zh": "**类型**: 前瞻性队列研究（诊断）；证据级别3。\n**研究对象**: 136名精英足球运动员（用于建立常模数据），其中36名（18男18女）用于信度评估。\n**数据采集**: 使用慢动作相机记录最大冲刺跑（35米）过程。\n**主要结局**: 新型筛选工具S-MAS的观察者内和观察者间信度；S-MAS常模数据。\n**分析方法**: 采用组内相关系数（ICC）评估总分信度；采用Kappa系数和百分比一致性评估单个项目信度；通过T分数计算常模数据；使用Mann-Whitney U检验评估性别差异；使用Wilcoxon符号秩检验评估肢体间差异。",
+      "content_en": "**Type**: Cohort study (diagnosis); Level of evidence, 3.\n**Participants**: 136 elite soccer players (for normative data), with 36 players (18 men, 18 women) for reliability assessment.\n**Data Collection**: Maximal sprint running trials (35 m) recorded using a slow-motion camera.\n**Primary outcome**: Intrarater and interrater reliability of the novel screening tool S-MAS; normative S-MAS data.\n**Analysis**: Intraclass correlation coefficients (ICCs) for overall score reliability; Kappa coefficients with percentage agreements for individual score item reliability; T-scores for normative data; Mann-Whitney U test for between-sex differences; Wilcoxon signed-rank test for between-limb differences."
     },
     {
       "id": "results",
@@ -36,40 +36,46 @@
       "title_en": "Key Numbers",
       "stats": [
         {
-          "label_zh": "对侧ACL损伤数",
-          "label_en": "Contralateral ACL injuries",
-          "value": "67",
-          "note": "在993名完成随访的运动员中发生"
+          "label_zh": "S-MAS总分观察者内信度",
+          "label_en": "S-MAS overall intrarater reliability",
+          "value": "ICC 0.828",
+          "note": "95% CI, 0.688-0.908 (良好)"
         },
         {
-          "label_zh": "同侧ACL再损伤数",
-          "label_en": "Ipsilateral ACL re-injuries",
-          "value": "38",
-          "note": "在993名完成随访的运动员中发生"
+          "label_zh": "S-MAS总分观察者间信度",
+          "label_en": "S-MAS overall interrater reliability",
+          "value": "ICC 0.799",
+          "note": "95% CI, 0.642-0.892 (良好)"
         },
         {
-          "label_zh": "股四头肌力量差异",
-          "label_en": "Quadriceps strength difference",
-          "value": "较低",
-          "note": "对侧ACL损伤组的对侧肢体，与无损伤组相比"
+          "label_zh": "S-MAS测量标准误",
+          "label_en": "S-MAS Standard Error of Measurement",
+          "value": "1分",
+          "note": "意味着测试结果变异性小"
         },
         {
-          "label_zh": "AUC范围",
-          "label_en": "AUC range",
-          "value": "0.74-0.80",
-          "note": "解释组别归属的能力，公平到良好"
+          "label_zh": "单个项目观察者内一致性",
+          "label_en": "Individual item intrarater agreement",
+          "value": "75% - 88.8%",
+          "note": "Kappa系数显示中度到实质性一致性"
         },
         {
-          "label_zh": "患者报告结局差异",
-          "label_en": "Patient-reported outcomes difference",
-          "value": "无差异",
-          "note": "无法区分对侧损伤风险"
+          "label_zh": "单个项目观察者间一致性",
+          "label_en": "Individual item interrater agreement",
+          "value": "66.6% - 88.8%",
+          "note": "Kappa系数显示中度到实质性一致性"
         },
         {
-          "label_zh": "肢体对称性差异",
-          "label_en": "Limb symmetry difference",
-          "value": "无差异",
-          "note": "临床表现和生物力学指标在变向任务中无法区分"
+          "label_zh": "男性平均S-MAS总分",
+          "label_en": "Mean S-MAS overall score (men)",
+          "value": "4.2",
+          "note": "与女性无显著差异 (P = .27)"
+        },
+        {
+          "label_zh": "女性平均S-MAS总分",
+          "label_en": "Mean S-MAS overall score (women)",
+          "value": "3.8",
+          "note": "与男性无显著差异 (P = .27)"
         }
       ]
     },
@@ -79,30 +85,32 @@
       "title_zh": "方法学评价",
       "title_en": "Critical Appraisal",
       "pros_zh": [
-        "庞大的前瞻性队列研究样本量 (N=1045)，增强了统计效力。",
-        "首次前瞻性地关注对侧未受伤肢体，解决了临床上亟待解决的问题。",
-        "采用3D生物力学分析，数据客观且精细。",
-        "研究对象为参与一级体育运动的男性运动员，结果具有高水平运动的临床相关性。",
-        "2年随访期提供了重要的长期伤害数据。"
+        "首次提出用于现场评估冲刺跑力学模式的定性工具，填补了实践空白。",
+        "S-MAS表现出良好的观察者内和观察者间信度，工具本身可靠。",
+        "易于使用且实用性强，可轻松整合到日常训练和康复实践中。",
+        "提供了男性和女性足球运动员的常模数据，便于结果解读和比较。",
+        "专注于腘绳肌拉伤这一常见且重要的运动损伤。"
       ],
       "cons_zh": [
-        "研究对象仅限男性运动员，结果不适用于女性群体。",
-        "尽管是队列研究，但预测能力（AUC 0.74-0.80）仅为“中等至良好”，可能不足以进行高精度个体风险预测。",
-        "主要发现集中在跳跃任务，变向任务的指标未能区分风险，可能忽略了多平面运动的复杂性。",
-        "研究未直接评估或比较干预措施对降低风险的有效性。"
+        "作为定性工具，其结果可能仍受到评估者主观判断的影响。",
+        "研究对象仅限于精英足球运动员，其结果推广至其他运动项目或人群的普适性可能有限。",
+        "研究设计为队列研究，主要关注关联性，尚未通过前瞻性研究验证S-MAS与腘绳肌拉伤发生率的直接因果关系。",
+        "常模数据采集阶段仅由一名评估者完成所有视频评分，可能存在系统偏差。",
+        "证据级别为3，相较于干预性研究（如RCT）证据级别较低。"
       ],
       "pros_en": [
-        "Large prospective cohort sample size (N=1045), enhancing statistical power.",
-        "First to prospectively focus on the contralateral uninjured limb, addressing a critical clinical gap.",
-        "Utilized 3D biomechanical analysis, providing objective and detailed data.",
-        "Participants were male athletes in level 1 sports, making results highly clinically relevant for high-level athletics.",
-        "2-year follow-up period provided important long-term injury data."
+        "Introduces the first qualitative tool for in-field assessment of sprint running mechanics, filling a practical gap.",
+        "S-MAS demonstrates good intrarater and interrater reliability, indicating tool robustness.",
+        "Easy-to-use and practical, allowing for seamless integration into routine training and rehabilitation practices.",
+        "Provides normative data for male and female soccer players, facilitating interpretation and comparison.",
+        "Focuses on hamstring strain injury, a common and significant athletic injury."
       ],
       "cons_en": [
-        "Study cohort limited to male athletes, results are not generalizable to females.",
-        "Despite being a cohort study, predictive ability (AUC 0.74-0.80) is only 'fair to good,' possibly insufficient for high-precision individual risk prediction.",
-        "Key findings concentrated on jump tasks, while change-of-direction tasks did not differentiate risk, potentially overlooking multi-planar movement complexities.",
-        "The study did not directly evaluate or compare the effectiveness of interventions to reduce identified risks."
+        "As a qualitative tool, its results may still be influenced by the assessor's subjective judgment.",
+        "Study participants are limited to elite soccer players, potentially limiting generalizability to other sports or populations.",
+        "The cohort study design primarily investigates associations; direct causal links between S-MAS and HSI incidence are yet to be validated by prospective studies.",
+        "A single assessor scored all videos during the normative data collection phase, potentially introducing systematic bias.",
+        "Level of evidence 3 is lower compared to interventional studies (e.g., RCTs)."
       ]
     },
     {
@@ -110,8 +118,8 @@
       "icon": "◆",
       "title_zh": "研究启示",
       "title_en": "Takeaway",
-      "content_zh": "**1. 重新评估对侧肢体的“健康”状态：** ACL重建术后，对侧肢体并非完全“健康”，而具有更高的ACL损伤风险。评估时必须将对侧肢体视为潜在的风险因素，而不是单纯的对照。\n\n**2. 核心风险指标：** 对侧肢体的股四头肌力量、矢状面控制能力以及增强式跳跃能力（尤其是下落跳跃任务中）是预测未来ACL损伤的关键生物力学因素。这提示康复训练应更侧重于这些特定方面。\n\n**3. 肢体对称性局限性：** 传统的肢体对称性指数在预测对侧ACL损伤方面作用有限。临床医生和研究者应超越单纯的对称性评估，转向关注绝对的生物力学缺陷。\n\n**4. 生物力学工具指导靶向康复：** **三维运动捕捉系统**和**测力台**可以定量评估股四头肌力量、矢状面力学和增强式能力。利用这些**生物力学仪器**可以精确识别缺陷，并指导康复计划，例如加强股四头肌训练、提高下落跳跃任务中的减速和落地控制，以降低对侧肢体的ACL损伤风险。",
-      "content_en": "**1. Re-evaluate the 'health' of the contralateral limb:** Post-ACLR, the contralateral limb is not truly 'healthy' but carries a higher risk of ACL injury. It must be considered a potential risk factor during assessment, not merely a control.\n\n**2. Key risk indicators:** Contralateral quadriceps strength, sagittal plane control, and plyometric ability (especially during drop jump tasks) are critical biomechanical factors predicting future ACL injury. This suggests rehabilitation should focus more on these specific aspects.\n\n**3. Limitations of limb symmetry:** Traditional limb symmetry indices have limited utility in predicting contralateral ACL injury. Clinicians and researchers should move beyond simple symmetry assessment to focus on absolute biomechanical deficits.\n\n**4. Biomechanical tools for targeted rehabilitation:** **3D motion capture systems** and **force plates** can quantitatively assess quadriceps strength, sagittal plane mechanics, and plyometric ability. Utilizing these **biomechanical instruments** can precisely identify deficits and guide rehabilitation programs, such as enhancing quadriceps strengthening and improving deceleration and landing control during drop jump tasks, to reduce contralateral ACL injury risk."
+      "content_zh": "**实用化的现场评估工具**：S-MAS为运动科学家、教练员和康复师提供了一种可靠且操作简便的现场工具，能够有效评估运动员的冲刺跑力学模式，而无需复杂的实验室设备。\n\n**腘绳肌损伤风险筛选**：通过S-MAS，可以初步识别出可能存在与腘绳肌拉伤相关不良力学模式的运动员。这有助于在损伤发生前进行早期干预，优化训练方案和康复策略。\n\n**未来研究的基础**：S-MAS的标准化和可靠性使其成为未来深入研究冲刺跑生物力学与损伤之间关系的基础工具。研究人员可以结合S-MAS评分，进一步利用**惯性测量单元（IMU）**、**表面肌电图（sEMG）**或**高速运动捕捉系统**等量化设备，对高风险运动员的运动模式进行更精细的生物力学分析，从而验证和拓展S-MAS的洞察力。\n\n**常模数据指导训练**：研究提供的男性和女性常模数据可作为评估运动员表现和进展的参考基线，帮助从业者更好地理解运动员的冲刺力学标准，并据此制定个性化的训练和干预计划。",
+      "content_en": "**Practical In-field Assessment Tool**: S-MAS offers sports scientists, coaches, and rehabilitators a reliable and easy-to-use in-field tool for effectively assessing athletes' sprint running mechanics without the need for complex laboratory equipment.\n\n**Hamstring Injury Risk Screening**: S-MAS can serve as an initial screening tool to identify athletes who may exhibit unfavorable mechanical patterns associated with hamstring strain injuries. This enables early intervention before injury occurs, optimizing training programs and rehabilitation strategies.\n\n**Foundation for Future Research**: The standardization and reliability of S-MAS make it a foundational tool for future in-depth research into the relationship between sprint biomechanics and injury. Researchers can combine S-MAS scores with quantitative equipment such as **Inertial Measurement Units (IMUs)**, **surface Electromyography (sEMG)**, or **high-speed motion capture systems** to conduct more detailed biomechanical analyses of high-risk athletes' movement patterns, thereby validating and extending the insights provided by S-MAS.\n\n**Normative Data for Training Guidance**: The provided normative data for male and female athletes can serve as a reference baseline for evaluating athlete performance and progress, helping practitioners better understand standard sprint mechanics and develop personalized training and intervention plans accordingly."
     }
   ]
 }
