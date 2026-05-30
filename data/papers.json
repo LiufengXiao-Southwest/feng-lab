@@ -1,4 +1,145 @@
 {
-  "last_updated": "2026-05-29",
-  "papers": []
+  "last_updated": "2026-05-30",
+  "papers": [
+    {
+      "id": "6f023330",
+      "title_en": "The Fundamentals and Applications of Wearable Sensor Devices in Sports Medicine: A Scoping Review.",
+      "title_zh": "运动医学中可穿戴传感器设备的基础与应用：一项范围综述",
+      "authors": [
+        "Reena J. Olsen",
+        "Sayyida S. Hasan",
+        "Joshua J. Woo",
+        "D. Nawabi",
+        "Prem N. Ramkumar"
+      ],
+      "journal": "Arthroscopy: The Journal of Arthroscopy And Related",
+      "year": 2024,
+      "date_added": "2026-05-30",
+      "category": "preprint",
+      "doi": "10.1016/j.arthro.2024.01.042",
+      "impact_factor": "",
+      "citation_count": 27,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "PURPOSE\nThe purpose of this review is to (1) characterize the various forms of wearable sensor devices (WSDs) and (2) review the peer-reviewed literature of applied wearable technology within sports medicine.\n\n\nMETHODS\nA systematic search of PubMed and EMBASE databases, from inception through 2023, was conducted to identify eligible studies utilizing WSDs within sports medicine. Data extraction was performed of study demographics and sensor specifications. Included studies were categorized by application: athletic training, rehabilitation, and research.\n\n\nRESULTS\n43 studies met criteria for inclusion in this review. Forms of WSDs include pedometers, accelerometers, encoders (consisting of magnetometers and gyroscopes), force sensors, global positioning system (GPS) trackers, and inertial measurement units (IMUs). Outcome metrics include step counts; gait, limb motion, and angular positio",
+      "abstract_zh": "目的：本综述旨在 (1) 描述可穿戴传感器设备（WSDs）的各种形式，并 (2) 审查运动医学领域中应用可穿戴技术的同行评审文献。方法：对PubMed和EMBASE数据库从建库到2023年的文献进行了系统搜索，以识别运动医学中利用WSDs的符合条件的研究。对研究的人口统计学数据和传感器规格进行了数据提取。纳入研究按应用进行分类：运动训练、康复和研究。结果：43项研究符合纳入标准。",
+      "keywords": []
+    },
+    {
+      "id": "bb804234",
+      "title_en": "The running gait analysis technology: A comprehensive systematic literature review.",
+      "title_zh": "跑步步态分析技术：一项全面的系统性文献综述",
+      "authors": [
+        "Ravinder Kumar",
+        "Priyanka Bogia",
+        "Vikram Singh",
+        "T. O. Reddy"
+      ],
+      "journal": "Journal of Orthopaedics",
+      "year": 2024,
+      "date_added": "2026-05-30",
+      "category": "preprint",
+      "doi": "10.1016/j.jor.2024.10.013",
+      "impact_factor": "",
+      "citation_count": 6,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "Background\nRunning is practiced worldwide, but more than 50 % of runners suffer some form of musculoskeletal injury each year. Biomechanics of running is an important aspect of sports medicine and gait analysis is central in the study of running mechanics for prevention of injuries and enhancing performance.\n\n\nObjectives\nThe purpose of this systematic literature review is to Saragiotto et al. (2014 Apr 4) 1 assess the methods employed in conducting gait analysis studies from 2020 to 2024, 2 discuss spatiotemporal characteristics, bilateral asymmetry, and RRI, (Lenhart et al., 2014 Mar) 3 present wearable technology, and (Willson et al., 2014) 4 provide recommendations for future research and application based on the findings.\n\n\nMethods\nThe study was conducted following the PRISMA guidelines and was registered in the PROSPERO database under the number CRD42024572642. The systematic search",
+      "abstract_zh": "背景：跑步在全球范围内普及，但每年有超过50%的跑者遭受某种形式的肌肉骨骼损伤。跑步生物力学是运动医学的重要方面，步态分析在研究跑步力学以预防损伤和提高表现方面至关重要。目的：本系统性文献综述旨在 Saragiotto 等人（2014年4月4日）1 评估2020年至2024年间进行步态分析研究所采用的方法，2 讨论时空特征、双侧不对称性和跑步相关损伤（RRI），（Lenhart 等人，2014年3月）3 呈现",
+      "keywords": []
+    },
+    {
+      "id": "436856b6",
+      "title_en": "Biomechanics and Injury Prevention for Barefoot/Minimalist Running",
+      "title_zh": "赤足/极简跑步的生物力学与损伤预防",
+      "authors": [
+        "Gregory M. Connors",
+        "J. Mathew",
+        "E. Freeland"
+      ],
+      "journal": "JBJS Reviews",
+      "year": 2023,
+      "date_added": "2026-05-30",
+      "category": "preprint",
+      "doi": "10.2106/jbjs.rvw.23.00098",
+      "impact_factor": "",
+      "citation_count": 5,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "Category: Sports; Midfoot/Forefoot Introduction/Purpose: Running-related injuries are common despite technological advances in running shoes. Recently, there has been a movement towards barefoot/minimalist running. Proponents of barefoot running state that this style of running provides beneficial modifications to the gait cycle and prevents running-related injuries. The purpose of this review is to analyze the biomechanical consequences of barefoot/minimalist running and determine if barefoot/minimal style running prevents running- related injuries. Methods: A literature search was done on PUBMED using the keywords: Barefoot running, minimalist running, injury prevention, injury rate, foot-strike pattern, vertical loading rate, biomechanics, and clinical outcomes. Studies were then grouped into biomechanical studies and clinical outcome studies. Biomechanical studies were included if th",
+      "abstract_zh": "类别：运动；中足/前足。引言/目的：尽管跑鞋技术不断进步，跑步相关损伤仍然常见。最近，出现了一种转向赤足/极简跑步的趋势。赤足跑步的支持者认为，这种跑步方式能对步态周期产生有益的改变并预防跑步相关损伤。本综述的目的是分析赤足/极简跑步的生物力学后果，并确定赤足/极简风格的跑步是否能预防跑步相关损伤。方法：在PU上进行了文献检索。",
+      "keywords": []
+    },
+    {
+      "id": "1d251b24",
+      "title_en": "VibRun: Real-time Unobtrusive Gait Analysis for Treadmill Running via Footstep Vibrations",
+      "title_zh": "VibRun：通过脚步振动实现跑步机跑步实时非侵入性步态分析",
+      "authors": [
+        "Tianhao Wu",
+        "Yi Wu",
+        "Bibek Poudel",
+        "Syed Irfan Ali Meerza",
+        "Rajasi Gore Athawale"
+      ],
+      "journal": "Proceedings of the ACM on Interactive Mobile Wearable and Ubiquitous Technologies",
+      "year": 2025,
+      "date_added": "2026-05-30",
+      "category": "preprint",
+      "doi": "10.1145/3749539",
+      "impact_factor": "",
+      "citation_count": 4,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "Accurate and real-time gait analysis is essential for enhancing performance and reducing injury risks in treadmill running. In this paper, we introduce VibRun, an unobtrusive gait analysis system that estimates key physiological metrics, such as cadence, ground contact time, stride time, center of pressure, and plantar pressure distribution, through footstep vibrations captured by low-cost treadmill-mounted sensors. Leveraging advanced multi-task transformer models, our system offers a robust, real-time solution to monitor and analyze running biomechanics without requiring intrusive wearable devices. This approach enables seamless integration into virtual sports, gaming platforms, and immersive exercise environments, enhancing the running experience by providing personalized feedback. By offering precise biomechanical insights in real-time, VibRun paves the way for future applications in",
+      "abstract_zh": "准确和实时的步态分析对于提高跑步机跑步表现和降低受伤风险至关重要。本文介绍VibRun，一种非侵入性步态分析系统，它通过低成本跑步机安装传感器捕获的脚步振动，估算关键生理指标，如步频、触地时间、步长时间、压力中心和足底压力分布。利用先进的多任务Transformer模型，我们的系统提供了一个稳健的实时解决方案，用于监测和分析跑步生物力学，而无需侵入性可穿戴设备。",
+      "keywords": []
+    },
+    {
+      "id": "b2c4c2bb",
+      "title_en": "Inertial measurement units (IMUs) for biomechanical analysis in sport: a review of applications, challenges and future directions",
+      "title_zh": "惯性测量单元（IMU）在运动生物力学分析中的应用：综述其应用、挑战与未来方向",
+      "authors": [
+        "Jiaju Zhu",
+        "Zijun Ye",
+        "Runnan Liu",
+        "Junyi Liu"
+      ],
+      "journal": "Sensor Review",
+      "year": 2025,
+      "date_added": "2026-05-30",
+      "category": "preprint",
+      "doi": "10.1108/sr-04-2025-0261",
+      "impact_factor": "",
+      "citation_count": 4,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "This paper aims to provide a critical, up-to-date synthesis of how inertial measurement units (IMUs) are used in sports biomechanics, clarifying their capabilities, common methodological pitfalls and the research gaps that must be closed for IMUs to become routine, high-value tools in performance analysis, injury prevention and rehabilitation.\n \n \n \n A structured narrative review collated peer-reviewed studies (2010-April 2025) that: (i) describe IMU hardware or fusion algorithms; (ii) validate IMU-derived variables against gold-standard motion-capture or force-plate data; or (iii) apply IMUs to quantify technique, load or motor control in real-world sport. Key information was extracted on sensor specifications, calibration and processing pipelines, validation metrics and sport-specific outcomes, then organized into five thematic sections: fundamental principles, sport-by-sport applicati",
+      "abstract_zh": "本文旨在对惯性测量单元（IMU）在运动生物力学中的应用进行批判性的最新综合，阐明其能力、常见的方法学缺陷以及为使IMU成为表现分析、损伤预防和康复中常规高价值工具而必须弥补的研究空白。一项结构化的叙述性综述收集了2010年至2025年4月期间的同行评审研究，这些研究：(i) 描述了IMU硬件或融合算法；(ii) 将IMU衍生变量与金标准运动捕捉或测力台数据进行验证；或 (iii) 应用IMU。",
+      "keywords": []
+    },
+    {
+      "id": "55cc403f",
+      "title_en": "Detection of Foot Contact Using Inertial Measurement Units in Sports Movements: A Systematic Review",
+      "title_zh": "运动中惯性测量单元检测足部接触：一项系统性综述",
+      "authors": [
+        "M. Mendicino",
+        "José Miguel Palha de Araújo dos Santos",
+        "Pietro Margheriti",
+        "S. Zaffagnini",
+        "S. Di Paolo"
+      ],
+      "journal": "Applied Sciences",
+      "year": 2025,
+      "date_added": "2026-05-30",
+      "category": "preprint",
+      "doi": "10.3390/app151810250",
+      "impact_factor": "",
+      "citation_count": 3,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "Inertial Measurement Units (IMUs) offer promising alternatives to traditional motion capture systems, especially in real-world sports scenarios. Accurate foot contact detection (FCD) is crucial for biomechanical analysis, and since on-the-field force plates are unsuitable, IMU-based FCD algorithms have been extensively investigated. However, sports activities leading to musculoskeletal injuries are multidirectional and high-dynamics in nature and FCD algorithms, which have mostly been studied in gait analysis, might sensibly worsen performance. This systematic review (PROSPERO, ID: CRD420251010584) aimed to evaluate IMU-based FCD algorithms applied to high-dynamics sports tasks, identifying strengths, limitations, and areas for improvement. A multi-database search was conducted until May 2025. Studies were included if they applied IMU-based FCD algorithms in high-dynamic movements. In to",
+      "abstract_zh": "惯性测量单元（IMU）为传统运动捕捉系统提供了有前景的替代方案，特别是在真实的运动场景中。准确的足部接触检测（FCD）对于生物力学分析至关重要，鉴于现场测力台不适用，基于IMU的FCD算法已得到广泛研究。然而，导致肌肉骨骼损伤的运动活动本质上是多方向和高动态的，而主要在步态分析中研究的FCD算法可能会显著降低性能。本系统性综述（PROSPERO，ID：CRD42025101）",
+      "keywords": []
+    }
+  ]
 }
