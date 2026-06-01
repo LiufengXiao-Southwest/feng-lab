@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-31",
+  "last_updated": "2026-06-01",
   "dates": {
     "2026-04-09": [
       {
@@ -744,6 +744,152 @@
         "keywords": []
       }
     ],
-    "2026-05-31": []
+    "2026-05-31": [],
+    "2026-06-01": [
+      {
+        "id": "2575ea92",
+        "title_en": "Building for the Future: A Systematic Review of the Effects of Eccentric Resistance Training on Measures of Physical Performance in Youth Athletes",
+        "title_zh": "展望未来：离心抗阻训练对青少年运动员身体表现指标影响的系统综述",
+        "authors": [
+          "Thomas E. Bright",
+          "Matthew J. Handford",
+          "Peter D. Mundy",
+          "Jason P. Lake",
+          "N. Theis"
+        ],
+        "journal": "Sports Medicine",
+        "year": 2023,
+        "date_added": "2026-06-01",
+        "category": "performance",
+        "doi": "10.1007/s40279-023-01843-y",
+        "impact_factor": "9.8",
+        "citation_count": 39,
+        "is_open_access": true,
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40279-023-01843-y.pdf",
+        "abstract_en": "Background Eccentric resistance training is recognised as an effective stimulus for enhancing measures of muscular strength and power in adult populations; however, its value in youth athletes is currently not well understood. Objective The aim of this systematic review was to critically appraise the effects of eccentric resistance training on measures of physical performance (i.e. muscular strength, jump, sprint and change of direction) in youth athletes 18 years of age and under. Methods Original journal articles published between 1950 and June 2022 were retrieved from electronic search engines of PubMed, SPORTDiscus and Google Scholar’s advanced search option. Full journal articles investigating the acute and chronic effects of eccentric resistance training on measures of physical performance in youth athletes (i.e. a person 18 years of age or under who competes in sport) were include",
+        "abstract_zh": "背景 离心抗阻训练被认为是增强成年人肌肉力量和爆发力指标的有效刺激；然而，其在青少年运动员中的价值目前尚不清楚。目的 本系统综述旨在严格评估离心抗阻训练对18岁及以下青少年运动员身体表现指标（即肌肉力量、跳跃、冲刺和变向能力）的影响。方法 从电子搜索引擎中检索了1950年至2022年6月间发表的原始期刊文章。",
+        "keywords": []
+      },
+      {
+        "id": "46142dcb",
+        "title_en": "The Biomechanical Influence of Step Width on Typical Locomotor Activities: A Systematic Review",
+        "title_zh": "步幅宽度对典型运动活动生物力学影响的系统综述",
+        "authors": [
+          "Yuan Wang",
+          "Q. Mei",
+          "Hanhui Jiang",
+          "Karsten Hollander",
+          "Pieter Van den Berghe"
+        ],
+        "journal": "Sports Medicine - Open",
+        "year": 2024,
+        "date_added": "2026-06-01",
+        "category": "biomechanics",
+        "doi": "10.1186/s40798-024-00750-4",
+        "impact_factor": "9.8",
+        "citation_count": 22,
+        "is_open_access": true,
+        "pdf_url": "https://sportsmedicine-open.springeropen.com/counter/pdf/10.1186/s40798-024-00750-4",
+        "abstract_en": "Step width is a spatial variable in the frontal plane, defined as the mediolateral distance between the heel (forefoot during sprinting) of bilateral feet at initial contact. Variations in step width may impact the lower limb biomechanics. This systematic review aimed to synthesize the published findings to determine the influence of acute changes in step width on locomotion biomechanics and provide implications for injury prevention and enhanced sports performance. Literature was identified, selected, and appraised in accordance with the methods of a systematic review. Four electronic databases (Web of Science, MEDLINE via PubMed, Scopus, and ScienceDirect) were searched up until May 2023 with the development of inclusion criteria based on the PICO model. Study quality was assessed using the Downs and Black checklist and the measured parameters were summarized. Twenty-three articles and",
+        "abstract_zh": "步幅宽度是额面上的一个空间变量，定义为双脚初始接触时脚跟（冲刺时为前脚掌）之间的内外侧距离。步幅宽度的变化可能会影响下肢生物力学。本系统综述旨在综合已发表的研究结果，以确定步幅宽度急性变化对运动生物力学的影响，并为损伤预防和提升运动表现提供启示。文献根据系统综述的方法进行识别、选择和评估。检索了四个电子数据库。",
+        "keywords": []
+      },
+      {
+        "id": "5cdbb10e",
+        "title_en": "Mixed Training Programs Applied to Young Soccer Players: Effects on Speed-Power Abilities",
+        "title_zh": "应用于年轻足球运动员的混合训练方案：对速度-力量能力的影响",
+        "authors": [
+          "Tomás T. Freitas",
+          "L. Pereira",
+          "P. Alcaraz",
+          "Paulo H. S. M. Azevedo",
+          "Vinícius Zanetti"
+        ],
+        "journal": "International Journal of Sports Medicine",
+        "year": 2023,
+        "date_added": "2026-06-01",
+        "category": "performance",
+        "doi": "10.1055/a-2106-8164",
+        "impact_factor": "9.8",
+        "citation_count": 5,
+        "is_open_access": false,
+        "pdf_url": "",
+        "abstract_en": "Abstract We compared the effects of two 4-week strength-power-speed training protocols on physical performance of young soccer players. Twenty-three highly trained under-20 soccer players were randomly allocated to two mixed-training groups: 1) “traditional” (TRAD: n=11), comprising vertically oriented strength-power exercises and linear sprints; or 2) “multidirectional” (MULTI: n=12), combining vertically and horizontally oriented strength-power exercises, linear sprints, and change-of-direction (COD) drills. Squat jump (SJ) and countermovement jump, 2) linear sprint, COD speed, and 3) jump-squat (JS) and hip-thrust (HT) power tests were performed pre- and post-training. Differences were determined using a two-way ANOVA with repeated measures and “target scores” were used to detect real changes in performance. No group-time interactions were found for any of the variables ( p >0.05). Si",
+        "abstract_zh": "摘要 我们比较了两种为期4周的力量-爆发力-速度训练方案对年轻足球运动员身体表现的影响。二十三名训练有素的U20足球运动员被随机分配到两个混合训练组：1）“传统组”（TRAD：n=11），包括垂直方向的力量-爆发力练习和直线冲刺；或2）“多向组”（MULTI：n=12），结合垂直和水平方向的力量-爆发力练习、直线冲刺和变向（COD）训练。评估指标包括：1）蹲跳（SJ）和反向跳；2）直线冲刺、变向速度；3）跳跃-冲刺。",
+        "keywords": []
+      },
+      {
+        "id": "7adc3cbd",
+        "title_en": "Investigating the Impact of Preoperative Kinesiophobia and Pain on Postoperative Gait Biomechanics Following Anterior Cruciate Ligament Injury",
+        "title_zh": "术前运动恐惧症和疼痛对前交叉韧带损伤后步态生物力学影响的探究",
+        "authors": [
+          "C. Lisee",
+          "Atc Shelby Baez",
+          "Atc Elizabeth Bjornsen PhD",
+          "P. Thoma",
+          "T. Pt"
+        ],
+        "journal": "Orthopaedic Journal of Sports Medicine",
+        "year": 2025,
+        "date_added": "2026-06-01",
+        "category": "biomechanics",
+        "doi": "10.1177/23259671241301376",
+        "impact_factor": "9.8",
+        "citation_count": 2,
+        "is_open_access": true,
+        "pdf_url": "https://doi.org/10.1177/23259671241301376",
+        "abstract_en": "Background: Aberrant gait biomechanics—ie, lower knee abduction moment (KAM) impulse— are linked to the development of posttraumatic osteoarthritis after anterior cruciate ligament (ACL) injury and ACL reconstruction (ACLR). There is a clinical need to identify modifiable factors, such as kinesiophobia and pain, that may contribute to aberrant gait development after ACLR to advance multimodal rehabilitation strategies. Purpose/Hypothesis: This study aimed to determine associations between preoperative kinesiophobia and pain and gait biomechanics linked to posttraumatic osteoarthritis development at 2 and 4 months after ACLR. We hypothesized that worse preoperative kinesiophobia and pain would be associated with lower KAM impulses in the ACLR limb but not the uninjured limb at 2 and 4 months after ACLR. Study Design: Cohort study; Level of evidence, 2. Methods: Patients within 6 weeks of ",
+        "abstract_zh": "背景：异常步态生物力学——即较低的膝关节外展力矩（KAM）冲量——与前交叉韧带（ACL）损伤和ACL重建（ACLR）后创伤后骨关节炎的发生发展相关。临床上需要识别可修正的因素，如运动恐惧症和疼痛，这些因素可能导致ACLR后异常步态的发展，以推进多模式康复策略。目的/假设：本研究旨在确定术前运动恐惧症和疼痛与创伤后骨关节炎发展相关的步态生物力学之间的关联。",
+        "keywords": []
+      },
+      {
+        "id": "24b24637",
+        "title_en": "Light load jump squat and plyometric training enhance jumping, sprinting, change of direction, and balance performance of male soccer players (U-19): a randomized controlled trial.",
+        "title_zh": "轻负荷跳蹲和增强式训练提高男性U-19足球运动员的跳跃、冲刺、变向和平衡表现：一项随机对照试验",
+        "authors": [
+          "Zouhaier Chnini",
+          "Atef Salem",
+          "Khaled Trabelsi",
+          "A. Ammar",
+          "N. Souissi"
+        ],
+        "journal": "Journal of Sports Medicine and Physical Fitness",
+        "year": 2024,
+        "date_added": "2026-06-01",
+        "category": "performance",
+        "doi": "10.23736/S0022-4707.24.15368-6",
+        "impact_factor": "9.8",
+        "citation_count": 2,
+        "is_open_access": false,
+        "pdf_url": "",
+        "abstract_en": "BACKGROUND\nIn sports science, optimizing athletic performance is pursued through an emerging approach that combined light-loaded squat (LLS) training and plyometric jump training (PJT), targeting strength, power, and neuromuscular adaptations, particularly beneficial for the dynamic demands of youth soccer. The aim of this study was to examine the effect of a combined LLS training and PJT program on athletic performance and balance in youth soccer players.\n\n\nMETHODS\nThirty-two male players were randomly assigned to two groups: an experimental group (EG: N.=16; age: 18.56±0.51 years; body mass: 66.87±4.99 kg; height: 1.78±0.07 m) and a control group (CG: N.=16; age: 18.68±0.47 years; body mass: 67.93±4.58 kg; height: 1.77±0.07 m) from the same U19 team of a professional club voluntarily participated in the study. Squat jump (SJ), countermovement jump (CMJ), horizontal jump (HJ), drop jump",
+        "abstract_zh": "背景：在运动科学领域，通过结合轻负荷深蹲（LLS）训练和增强式跳跃训练（PJT）的新兴方法来优化运动员表现，以增强力量、爆发力、和神经肌肉适应性，这对于满足青少年足球的动态需求特别有益。本研究旨在考察结合LLS训练和PJT方案对青少年足球运动员运动表现和平衡能力的影响。\n方法：三十二名男性球员被随机分配到两组：实验组（EG：N.=16；年龄：18.56±0.51岁；体重：...）",
+        "keywords": []
+      },
+      {
+        "id": "3c28d81b",
+        "title_en": "Lower Extremity Mechanical Energetics During Walking 6 Months Following Anterior Cruciate Ligament Reconstruction",
+        "title_zh": "前交叉韧带重建术后6个月步行时下肢机械能学研究",
+        "authors": [
+          "Hyunwook Lee",
+          "C. Lisee",
+          "Christin Büttner",
+          "E. Bjornsen",
+          "Natália Favoreto"
+        ],
+        "journal": "Scandinavian Journal of Medicine & Science in Sports",
+        "year": 2025,
+        "date_added": "2026-06-01",
+        "category": "biomechanics",
+        "doi": "10.1111/sms.70105",
+        "impact_factor": "5.2",
+        "citation_count": 1,
+        "is_open_access": false,
+        "pdf_url": "",
+        "abstract_en": "Aberrant gait biomechanics following anterior cruciate ligament (ACL) injury and ACL reconstruction (ACLR) are critical factors contributing to the development of knee osteoarthritis (KOA). However, it remains unknown how ACLR impacts lower extremity joint energetics and each joint's contribution to total limb energetics during walking. To compare mechanical energetics at the ankle, knee, and hip joints between ACLR limbs, contralateral, and control limbs during walking. Forty‐four participants with primary unilateral ACLR (post‐ACLR: 6.0 ± 0.2 months) and 44 uninjured controls were studied. Ankle, knee, and hip joint work were calculated as the time integral of the negative (energy dissipation) or positive (energy generation) regions of the respective stance‐phase joint power curves. The joint‐specific contribution to total limb energy dissipation and generation was calculated. ANCOVA w",
+        "abstract_zh": "前交叉韧带（ACL）损伤和ACL重建（ACLR）后异常的步态生物力学是导致膝关节骨关节炎（KOA）发展的关键因素。然而，ACLR如何影响下肢关节的能量学以及每个关节在步行时对肢体总能量学的贡献仍不清楚。本研究旨在比较ACLR肢体、对侧肢体和对照肢体在步行时踝关节、膝关节和髋关节的机械能学。对44名原发性单侧ACLR参与者（ACLR术后：6.0±0.2个月）和44名未受伤的对照组进行了研究。",
+        "keywords": []
+      }
+    ]
   }
 }
