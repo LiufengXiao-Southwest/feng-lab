@@ -1,33 +1,33 @@
 {
-  "date": "2026-05-31",
-  "title_en": "Multiligament knee injury (MLKI): an expert consensus statement on nomenclature, diagnosis, treatment and rehabilitation",
-  "title_zh": "多韧带膝关节损伤 (MLKI)：命名、诊断、治疗和康复的专家共识声明",
-  "authors": "IR. Murray, N. Makaram, Andrew G. Geeslin, J. Chahla et al.",
-  "journal": "British Journal of Sports Medicine",
-  "year": 2024,
+  "date": "2026-06-05",
+  "title_en": "Biomechanical asymmetries differ between autograft types during unplanned change of direction after ACL reconstruction",
+  "title_zh": "ACL重建术后非计划变向时不同自体移植类型间的生物力学不对称性差异",
+  "authors": "Joshua Miles, P. McGuigan, E. King, Katherine A. J. Daniels",
+  "journal": "Scandinavian Journal of Medicine & Science in Sports",
+  "year": 2022,
   "volume_page": "",
-  "doi": "10.1136/bjsports-2024-108089",
-  "impact_factor": "18.4",
-  "is_open_access": false,
-  "pdf_url": "",
+  "doi": "10.1111/sms.14166",
+  "impact_factor": "5.2",
+  "is_open_access": true,
+  "pdf_url": "https://e-space.mmu.ac.uk/629584/1/MILES%2022%20Biomechanical%20asymmetries%20differ%20between%20autograft%20types%20in%20unplanned%20CoD%20after%20ACLR.pdf",
   "category": "biomechanics",
-  "citation_count": 33,
+  "citation_count": 10,
   "sections": [
     {
       "id": "why",
       "icon": "◎",
       "title_zh": "为什么值得读",
       "title_en": "Why It Matters",
-      "content_zh": "多韧带膝关节损伤（MLKI）具有灾难性后果，但目前其术语、诊断和治疗存在分歧，严重限制了临床护理和研究进展。本共识声明通过国际专家意见统一了MLKI的命名、诊断、治疗和康复策略，为临床实践和未来研究提供了急需的标准化框架。其高引用量（33次）反映了对这一复杂且关键损伤领域迫切的指导需求。",
-      "content_en": "Multiligament knee injuries (MLKIs) have potentially devastating consequences, but current disagreements in terminology, diagnosis, and treatment severely limit clinical care and research progress. This consensus statement unifies MLKI nomenclature, diagnosis, treatment, and rehabilitation strategies through international expert opinion, providing a much-needed standardized framework for clinical practice and future research. Its high citation count (33) reflects the urgent need for guidance in this complex and critical injury area."
+      "content_zh": "这项研究弥补了现有文献中缺乏对ACL重建术后不同自体移植类型在复杂、非计划性运动（如变向）中生物力学不对称性比较的空白。它从生物力学角度深化了我们对骨-髌腱-骨（BPTB）与腘绳肌腱（HT）自体移植之间在膝关节负荷和潜在再损伤风险方面的差异理解，对个性化康复和回归运动决策具有直接指导意义。其高引用量反映了其对ACL康复领域的重要性和实用价值。",
+      "content_en": "This study addresses a gap in the literature by comparing biomechanical asymmetries between different autograft types post-ACL reconstruction during complex, unplanned movements like change of direction (CoD). It deepens our biomechanical understanding of the differences between bone-patellar-tendon-bone (BPTB) and hamstring tendon (HT) autografts concerning knee loading and potential re-injury risk, offering direct guidance for personalized rehabilitation and return-to-sport decisions. Its notable citation count underscores its relevance and practical value in the field of ACL rehabilitation."
     },
     {
       "id": "design",
       "icon": "⊞",
       "title_zh": "研究设计速览",
       "title_en": "Study Design",
-      "content_zh": "**类型**: 国际专家共识过程，采用德尔菲（Delphi）方法学\n**样本**: 39名专家\n**研究对象**: 来自14个国家的多学科专家小组\n**主要结局**: 形成关于MLKI命名、诊断、治疗、康复策略的共识声明，并确定未来研究重点\n**分析方法**: 进行3轮在线调查；专家匿名评价5点李克特量表；共识定义为超过75%的受访者同意且少于10%的受访者不同意",
-      "content_en": "**Type**: International expert consensus process, utilizing validated Delphi methodology\n**Sample**: 39 panel members\n**Participants**: Multidisciplinary panel from 14 countries\n**Primary outcome**: Development of consensus statements on MLKI nomenclature, diagnosis, treatment, and rehabilitation strategies, and identification of future research priorities\n**Analysis**: Conducted 3 rounds of online surveys; experts anonymously rated statements on a 5-point Likert scale; consensus defined 'a priori' as >75% agreement and <10% disagreement"
+      "content_zh": "**类型**: 横断面比较研究\n**样本量**: 78名男性多方向场地运动运动员\n**研究对象**: 39名BPTB自体移植者 vs. 39名HT自体移植者，均在术后约9个月时进行评估\n**主要任务**: 最大努力下的90°非计划变向任务\n**主要结局**: 膝关节力学不对称性（如内收力矩、内旋力矩、屈曲角度）、结果地面反作用力不对称性及任务表现（完成时间）\n**分析方法**: 混合模型2x2方差分析（自体移植类型 x 肢体）进行离散点分析；统计参数图（SPM）进行波形比较",
+      "content_en": "**Type**: Cross-sectional comparative study\n**Sample**: 78 male multidirectional field sport athletes\n**Participants**: 39 BPTB autograft recipients vs. 39 HT autograft recipients, all assessed at approximately 9 months post-surgery\n**Primary Task**: Maximal effort unplanned 90° change-of-direction (CoD) task\n**Primary Outcomes**: Knee mechanics asymmetries (e.g., adduction moment, medial rotation moment, flexion angles), resultant ground reaction force asymmetry, and task performance (completion time)\n**Analysis**: Mixed-model 2x2 ANOVA (autograft type x limb) for discrete point analysis; Statistical Parametric Mapping (SPM) for waveform comparison"
     },
     {
       "id": "results",
@@ -36,40 +36,46 @@
       "title_en": "Key Numbers",
       "stats": [
         {
-          "label_zh": "达成共识的条目总数",
-          "label_en": "Total items reaching consensus",
-          "value": "50",
-          "note": "占总条目92.6%"
+          "label_zh": "膝关节伸展力矩不对称性",
+          "label_en": "Knee Extension Moment Asymmetry",
+          "value": "BPTB > HT",
+          "note": "p < 0.001"
         },
         {
-          "label_zh": "MLKI明确定义的共识水平",
-          "label_en": "Level of Agreement for MLKI clear definition",
-          "value": "97.4%",
-          "note": "突出命名标准化的重要性"
+          "label_zh": "结果地面反作用力不对称性",
+          "label_en": "Resultant GRF Asymmetry",
+          "value": "BPTB > HT",
+          "note": "p < 0.001"
         },
         {
-          "label_zh": "高能量MLKI背景下CT血管造影评估的共识水平",
-          "label_en": "LoA for CT angiography assessment in high-energy MLKI context",
-          "value": "89.7%",
-          "note": "尤其适用于双交叉韧带及后外侧角损伤"
+          "label_zh": "峰值膝关节外旋力矩不对称性",
+          "label_en": "Peak Knee External Rotation Moment Asymmetry",
+          "value": "BPTB > HT",
+          "note": "p = 0.04"
         },
         {
-          "label_zh": "应力位X线片或术中透视评估的共识水平",
-          "label_en": "LoA for stress radiography or intraoperative fluoroscopy assessment",
-          "value": "89.7%",
-          "note": "用于评估膝关节稳定性"
+          "label_zh": "膝关节内收角度不对称性",
+          "label_en": "Knee Adduction Angle Asymmetry",
+          "value": "BPTB > HT",
+          "note": "p = 0.05"
         },
         {
-          "label_zh": "年轻患者MLKI手术治疗的共识水平",
-          "label_en": "LoA for operative management of MLKI in young patients",
-          "value": "100%",
-          "note": "现有文献普遍支持"
+          "label_zh": "膝关节内旋角度不对称性",
+          "label_en": "Knee Medial Rotation Angle Asymmetry",
+          "value": "BPTB > HT",
+          "note": "p < 0.001"
         },
         {
-          "label_zh": "MLKI应尽可能单期手术的共识水平",
-          "label_en": "LoA for single-stage surgery for MLKI whenever possible",
-          "value": "92.3%",
-          "note": "优化治疗流程"
+          "label_zh": "膝关节屈曲角度不对称性",
+          "label_en": "Knee Flexion Angle Asymmetry",
+          "value": "BPTB > HT",
+          "note": "p < 0.001"
+        },
+        {
+          "label_zh": "任务完成时间",
+          "label_en": "Task Completion Time",
+          "value": "无差异",
+          "note": "两组间无显著差异"
         }
       ]
     },
@@ -79,26 +85,28 @@
       "title_zh": "方法学评价",
       "title_en": "Critical Appraisal",
       "pros_zh": [
-        "采用经过验证的德尔菲（Delphi）方法学，符合《英国运动医学杂志》指南，确保方法学严谨性。",
-        "汇集了来自14个国家的39位多学科专家，代表了广泛的国际视角和专业知识。",
-        "共识达成率高，为MLKI的命名、诊断、治疗和康复提供了强有力的指导。",
-        "明确指出了未来研究的优先方向，有助于推动该领域的科学发展。"
+        "针对ACL重建后高度相关且具有挑战性的非计划变向任务，具有高生态效度。",
+        "样本量相对较大（n=78），对于三维运动捕捉研究而言较为充分，增强了统计效力。",
+        "使用统计参数图（SPM）对整个运动周期进行波形比较，提供了比离散点分析更全面的洞察。",
+        "研究了与ACL损伤风险直接相关的膝关节生物力学变量（如力矩和角度）。"
       ],
       "cons_zh": [
-        "作为专家共识声明，其建议主要基于专家意见的综合，而非新的原始实证数据。",
-        "尽管共识率很高，但并非所有条目都达到100%的完全一致，仍存在少数未被充分采纳的异议观点。",
-        "共识的适用性可能受限于专家小组的构成，某些地区或特定情况下的实践差异可能未完全体现。"
+        "横断面研究设计，无法建立因果关系或追踪长期预后差异。",
+        "研究对象仅限于男性场地运动运动员，限制了结果对女性或其他运动人群的普遍性。",
+        "未纳入健康对照组，无法将患者的不对称性与正常人群进行比较。",
+        "未考虑其他潜在影响因素，如术前活动水平、康复依从性、手术技术差异等。"
       ],
       "pros_en": [
-        "Utilized validated Delphi methodology, in line with British Journal of Sports Medicine guidelines, ensuring methodological rigor.",
-        "Involved a multidisciplinary panel of 39 experts from 14 countries, representing broad international perspectives and expertise.",
-        "Achieved high levels of agreement, providing strong guidance for MLKI nomenclature, diagnosis, treatment, and rehabilitation.",
-        "Clearly identified future research priorities, facilitating scientific advancement in the field."
+        "Investigates a highly relevant and challenging unplanned change of direction task post-ACL reconstruction, providing high ecological validity.",
+        "Relatively large sample size (n=78) for a 3D motion capture study, enhancing statistical power.",
+        "Utilizes Statistical Parametric Mapping (SPM) for waveform comparison throughout the entire movement cycle, offering more comprehensive insights than discrete point analysis.",
+        "Examines knee biomechanical variables (e.g., moments and angles) directly linked to ACL injury risk."
       ],
       "cons_en": [
-        "As an expert consensus statement, its recommendations are primarily based on the synthesis of expert opinions rather than new original empirical data.",
-        "Despite high consensus rates, not all items reached 100% complete agreement, indicating some dissenting viewpoints which were recorded but not fully adopted.",
-        "The applicability of the consensus might be limited by the panel's composition, potentially not fully capturing practice variations in certain regions or specific contexts."
+        "Cross-sectional study design, preventing the establishment of causality or tracking of long-term outcomes.",
+        "Participants were limited to male field sport athletes, restricting the generalizability of findings to females or other athletic populations.",
+        "Lack of a healthy control group, precluding comparison of patient asymmetries to a baseline normal population.",
+        "Did not account for other potential confounding factors such as pre-injury activity level, rehabilitation compliance, or variations in surgical technique."
       ]
     },
     {
@@ -106,8 +114,8 @@
       "icon": "◆",
       "title_zh": "研究启示",
       "title_en": "Takeaway",
-      "content_zh": "1.  **标准化急需**: 该共识为多韧带膝关节损伤（MLKI）提供了统一的命名、诊断、治疗和康复框架，解决了长期存在的术语和管理分歧，对于规范临床实践和促进国际研究合作至关重要。\n\n2.  **诊断优化**: 建议对高能量MLKI及特定损伤模式（如双交叉韧带和后外侧角损伤）进行低阈值的CT血管造影评估，并强调应力位X线片或术中透视在评估膝关节稳定性方面的价值。\n\n3.  **手术策略**: 现有证据普遍支持对年轻MLKI患者进行手术治疗，且应尽可能实施单期手术，这有助于优化治疗流程和改善患者预后。\n\n4.  **生物力学评估启示**: 共识中强调的应力位X线片和术中透视评估膝关节稳定性，为运动生物力学研究指明了方向。未来的研究可以利用**惯性测量单元（IMU）**、**三维运动捕捉系统**或**足底压力传感器**等先进仪器，开发更客观、定量的膝关节稳定性评估方法，特别是在康复阶段监测韧带愈合和功能恢复情况，从而优化康复方案并验证手术效果。",
-      "content_en": "1.  **Standardization is Crucial**: This consensus provides a unified framework for the nomenclature, diagnosis, treatment, and rehabilitation of Multiligament Knee Injuries (MLKI), addressing long-standing discrepancies in terminology and management. This is vital for standardizing clinical practice and fostering international research collaboration.\n\n2.  **Optimized Diagnosis**: The statement recommends a low threshold for CT angiography assessment in high-energy MLKI and specific injury patterns (e.g., bicruciate and PLC injuries), and emphasizes the value of stress radiography or intraoperative fluoroscopy in evaluating knee joint stability.\n\n3.  **Surgical Strategy**: Existing literature generally favors operative management for young MLKI patients, with a preference for single-stage surgery whenever possible. This approach aims to optimize treatment pathways and improve patient outcomes.\n\n4.  **Biomechanics Assessment Implications**: The consensus's emphasis on stress radiography and intraoperative fluoroscopy for assessing knee stability provides clear direction for sports biomechanics research. Future studies can leverage advanced instrumentation like **Inertial Measurement Units (IMUs)**, **3D motion capture systems**, or **plantar pressure sensors** to develop more objective, quantitative methods for knee joint stability assessment. This is particularly relevant for monitoring ligament healing and functional recovery during rehabilitation, thereby optimizing rehabilitation protocols and validating surgical efficacy."
+      "content_zh": "**自体移植选择影响康复侧重**：BPTB自体移植的ACL重建患者在非计划变向时表现出比HT自体移植患者更显著的膝关节生物力学不对称性，尤其是在膝关节伸展力矩、地面反作用力以及内外旋和屈曲角度方面。这表明BPTB术后的康复应更侧重于解决这些特定的不对称性。\n\n**回归运动评估需更细致**：仅仅基于任务表现（如完成时间）来评估回归运动可能不足。尽管两组在完成时间上无差异，但BPTB组的生物力学差异可能预示着更高的再损伤风险或长期关节健康问题。因此，回归运动决策应结合生物力学不对称性数据进行更全面的评估。\n\n**个性化康复策略的重要性**：鉴于不同自体移植类型表现出不同的不对称模式，康复方案应进行个性化调整。对于BPTB患者，应优先进行特定训练以恢复患肢在变向运动中的膝关节负荷和运动控制对称性，可能需要更长时间或更强化的侧向训练。\n\n**生物力学监测工具在康复中的应用**：本研究通过三维运动捕捉系统精确量化了动态任务中的膝关节生物力学不对称性。未来，康复专业人员和研究人员可利用此类高精度生物力学监测工具，或结合惯性测量单元（IMUs）和肌电图（sEMG）等便携式设备，在临床或现场环境中进行更实时的肢体负荷和肌肉活动评估，以指导康复进展并优化训练效果。",
+      "content_en": "**Autograft Choice Impacts Rehabilitation Focus**: Patients with ACL reconstruction using BPTB autografts demonstrate greater knee biomechanical asymmetries than those with HT autografts during unplanned change of direction, particularly in knee extension moment, ground reaction force, and internal/external rotation and flexion angles. This suggests that post-BPTB rehabilitation should place a stronger emphasis on addressing these specific asymmetries.\n\n**Return-to-Sport Assessment Requires Nuance**: Evaluating return to sport solely based on task performance (e.g., completion time) may be insufficient. Despite no differences in completion time between groups, the biomechanical disparities in the BPTB group may indicate a higher risk of re-injury or long-term joint health issues. Therefore, return-to-sport decisions should integrate a more comprehensive assessment including biomechanical asymmetry data.\n\n**Importance of Personalized Rehabilitation Strategies**: Given that different autograft types exhibit distinct asymmetry patterns, rehabilitation programs should be individualized. For BPTB patients, specific training to restore symmetry in knee loading and motor control during CoD movements should be prioritized, potentially requiring longer or more intensive unilateral training.\n\n**Application of Biomechanical Monitoring Tools in Rehabilitation**: This study precisely quantified knee biomechanical asymmetries during dynamic tasks using a 3D motion capture system. In the future, rehabilitation professionals and researchers can leverage such high-precision biomechanical monitoring tools, or integrate portable devices like Inertial Measurement Units (IMUs) and surface electromyography (sEMG), for more real-time assessment of limb loading and muscle activity in clinical or field settings, guiding rehabilitation progression and optimizing training outcomes."
     }
   ]
 }
