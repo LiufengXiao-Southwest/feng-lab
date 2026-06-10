@@ -1,10 +1,58 @@
 {
-  "last_updated": "2026-06-09",
+  "last_updated": "2026-06-10",
   "papers": [
+    {
+      "id": "2575ea92",
+      "title_en": "Building for the Future: A Systematic Review of the Effects of Eccentric Resistance Training on Measures of Physical Performance in Youth Athletes",
+      "title_zh": "展望未来：离心抗阻训练对青少年运动员身体表现指标影响的系统综述",
+      "authors": [
+        "Thomas E. Bright",
+        "Matthew J. Handford",
+        "Peter D. Mundy",
+        "Jason P. Lake",
+        "N. Theis"
+      ],
+      "journal": "Sports Medicine",
+      "year": 2023,
+      "date_added": "2026-06-10",
+      "category": "performance",
+      "doi": "10.1007/s40279-023-01843-y",
+      "impact_factor": "9.8",
+      "citation_count": 40,
+      "is_open_access": true,
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40279-023-01843-y.pdf",
+      "abstract_en": "Background Eccentric resistance training is recognised as an effective stimulus for enhancing measures of muscular strength and power in adult populations; however, its value in youth athletes is currently not well understood. Objective The aim of this systematic review was to critically appraise the effects of eccentric resistance training on measures of physical performance (i.e. muscular strength, jump, sprint and change of direction) in youth athletes 18 years of age and under. Methods Original journal articles published between 1950 and June 2022 were retrieved from electronic search engines of PubMed, SPORTDiscus and Google Scholar’s advanced search option. Full journal articles investigating the acute and chronic effects of eccentric resistance training on measures of physical performance in youth athletes (i.e. a person 18 years of age or under who competes in sport) were include",
+      "abstract_zh": "背景 离心抗阻训练被认为是提高成年人肌肉力量和爆发力的有效刺激手段；然而，其在青少年运动员中的价值目前尚不明确。目的 本系统综述旨在批判性评估离心抗阻训练对18岁及以下青少年运动员身体表现指标（即肌肉力量、跳跃、冲刺和变向能力）的影响。方法 从电子搜索引擎中检索了1950年至2022年6月期间发表的原始期刊文章。",
+      "keywords": []
+    },
+    {
+      "id": "5cdbb10e",
+      "title_en": "Mixed Training Programs Applied to Young Soccer Players: Effects on Speed-Power Abilities",
+      "title_zh": "应用于青少年足球运动员的混合训练计划：对速度-力量能力的影响",
+      "authors": [
+        "Tomás T. Freitas",
+        "L. Pereira",
+        "P. Alcaraz",
+        "Paulo H. S. M. Azevedo",
+        "Vinícius Zanetti"
+      ],
+      "journal": "International Journal of Sports Medicine",
+      "year": 2023,
+      "date_added": "2026-06-10",
+      "category": "performance",
+      "doi": "10.1055/a-2106-8164",
+      "impact_factor": "9.8",
+      "citation_count": 5,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "Abstract We compared the effects of two 4-week strength-power-speed training protocols on physical performance of young soccer players. Twenty-three highly trained under-20 soccer players were randomly allocated to two mixed-training groups: 1) “traditional” (TRAD: n=11), comprising vertically oriented strength-power exercises and linear sprints; or 2) “multidirectional” (MULTI: n=12), combining vertically and horizontally oriented strength-power exercises, linear sprints, and change-of-direction (COD) drills. Squat jump (SJ) and countermovement jump, 2) linear sprint, COD speed, and 3) jump-squat (JS) and hip-thrust (HT) power tests were performed pre- and post-training. Differences were determined using a two-way ANOVA with repeated measures and “target scores” were used to detect real changes in performance. No group-time interactions were found for any of the variables ( p >0.05). Si",
+      "abstract_zh": "摘要 我们比较了两种为期4周的力量-爆发力-速度训练方案对青少年足球运动员身体表现的影响。23名高水平的U20足球运动员被随机分为两个混合训练组：1）“传统组”（TRAD: n=11），包括垂直方向的力量-爆发力练习和直线冲刺；或2）“多方向组”（MULTI: n=12），结合了垂直和水平方向的力量-爆发力练习、直线冲刺和变向（COD）训练。下蹲跳（SJ）和反向跳、2）直线冲刺、变向速度、和3）跳跃-",
+      "keywords": []
+    },
     {
       "id": "c1d250b4",
       "title_en": "Explosive is not a Term Defined in the International System of Units and Should not be Used to Describe Neuromuscular Performance",
-      "title_zh": "“爆发力”并非国际单位制中定义的术语，不应用于描述神经肌肉表现",
+      "title_zh": "“爆发力”并非国际单位制中定义的术语，不应被用于描述神经肌肉表现",
       "authors": [
         "B. Ide",
         "Amanda Silvatti",
@@ -14,7 +62,7 @@
       ],
       "journal": "International Journal of Strength and Conditioning",
       "year": 2023,
-      "date_added": "2026-06-09",
+      "date_added": "2026-06-10",
       "category": "performance",
       "doi": "10.47206/ijsc.v3i1.210",
       "impact_factor": "3.2",
@@ -22,7 +70,54 @@
       "is_open_access": true,
       "pdf_url": "https://journal.iusca.org/index.php/Journal/article/download/210/317",
       "abstract_en": "Despite not being recognized by the International System of Units, explosive is a term often applied in sports science and professional practice. While associated with force, strength, power, performance, exercise, movements, contraction, action, and training, readers may be misled to believe that there are further analyses beyond power output, peak force, contractile rate of force development, and impulse. This critical review discusses the misuse of the term explosive in sports science literature, proposes alternatives, and encourages correct definitions of terms, units, and nomenclature to describe exercise performance. The suggestions provided in this review can help to reduce the confusion and perpetuation of an erroneous understanding of mechanical work, energy, and power in sports science.",
-      "abstract_zh": "尽管国际单位制不予承认，“爆发力”一词仍常被应用于体育科学和专业实践中。虽然它与力、力量、功率、表现、运动、动作、收缩、行为和训练相关，但读者可能会被误导，认为存在超出功率输出、峰值力、收缩力发展速率和冲量的进一步分析。本批判性综述讨论了“爆发力”一词在体育科学文献中的误用，提出了替代方案，并鼓励对术语、单位和命名法进行正确定义，以",
+      "abstract_zh": "尽管“爆发力”一词未被国际单位制所认可，但它在运动科学和专业实践中却常被使用。虽然它与力、力量、爆发力、表现、运动、动作、收缩、行动和训练相关联，但读者可能会被误导，认为除了功率输出、峰值力、收缩力发展速率和冲量之外，还有更深入的分析。这篇批判性综述讨论了运动科学文献中“爆发力”一词的滥用，提出了替代方案，并鼓励对术语、单位和命名法进行正确定义，以便",
+      "keywords": []
+    },
+    {
+      "id": "24b24637",
+      "title_en": "Light load jump squat and plyometric training enhance jumping, sprinting, change of direction, and balance performance of male soccer players (U-19): a randomized controlled trial.",
+      "title_zh": "轻负荷跳蹲和增强式训练提升男子U-19足球运动员的跳跃、冲刺、变向和平衡表现：一项随机对照试验。",
+      "authors": [
+        "Zouhaier Chnini",
+        "Atef Salem",
+        "Khaled Trabelsi",
+        "A. Ammar",
+        "N. Souissi"
+      ],
+      "journal": "Journal of Sports Medicine and Physical Fitness",
+      "year": 2024,
+      "date_added": "2026-06-10",
+      "category": "performance",
+      "doi": "10.23736/S0022-4707.24.15368-6",
+      "impact_factor": "9.8",
+      "citation_count": 2,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "BACKGROUND\nIn sports science, optimizing athletic performance is pursued through an emerging approach that combined light-loaded squat (LLS) training and plyometric jump training (PJT), targeting strength, power, and neuromuscular adaptations, particularly beneficial for the dynamic demands of youth soccer. The aim of this study was to examine the effect of a combined LLS training and PJT program on athletic performance and balance in youth soccer players.\n\n\nMETHODS\nThirty-two male players were randomly assigned to two groups: an experimental group (EG: N.=16; age: 18.56±0.51 years; body mass: 66.87±4.99 kg; height: 1.78±0.07 m) and a control group (CG: N.=16; age: 18.68±0.47 years; body mass: 67.93±4.58 kg; height: 1.77±0.07 m) from the same U19 team of a professional club voluntarily participated in the study. Squat jump (SJ), countermovement jump (CMJ), horizontal jump (HJ), drop jump",
+      "abstract_zh": "背景 在运动科学中，通过一种结合轻负荷下蹲（LLS）训练和增强式跳跃（PJT）训练的新兴方法来优化运动表现，旨在提高力量、爆发力和神经肌肉适应性，这对青少年足球的动态需求特别有益。本研究旨在探讨结合LLS训练和PJT方案对青少年足球运动员运动表现和平衡能力的影响。方法 32名男性运动员被随机分为两组：实验组（EG: N.=16；年龄：18.56±0.51岁；体重：",
+      "keywords": []
+    },
+    {
+      "id": "66d987f2",
+      "title_en": "Effects of Training With Different Hang-Power-Clean Intensities on the Maximum Dynamic Strength, Vertical Jump, and Sprint Performance of Female Handball Players.",
+      "title_zh": "不同悬垂高翻强度训练对女子手球运动员最大动态力量、垂直跳和冲刺表现的影响。",
+      "authors": [
+        "C. Silva",
+        "Ricardo Berton",
+        "João Boccato",
+        "V. Tricoli"
+      ],
+      "journal": "International Journal of Sports Physiology and Performance",
+      "year": 2024,
+      "date_added": "2026-06-10",
+      "category": "performance",
+      "doi": "10.1123/ijspp.2023-0325",
+      "impact_factor": "3.8",
+      "citation_count": 0,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "PURPOSE\nTo compare the effects of 7 weeks of training with different hang-power-clean (HPC) intensities on the maximum dynamic strength, vertical jump, and sprint performance of female handball players.\n\n\nMETHODS\nProfessional handball athletes with at least 1 year of HPC experience volunteered to participate. The athletes were balanced by position and randomly assigned to a group with HPC at 90% (HPC90%) or 50% (HPC50%) of HPC 1-repetition maximum (1RM). The training volume was equalized between groups. Pretraining and posttraining assessments included 1RM HPC, jump height in the squat jump (SJ) and countermovement jump (CMJ), and sprint speeds at 5, 20, and 30 m.\n\n\nRESULTS\nFrom pretraining to posttraining, both groups significantly increased (P ≤ .05) 1RM HPC, although a small effect size was observed in favor of HPC90%. HPC90% and HPC50% did not induce significant changes (P > .05) in ",
+      "abstract_zh": "目的 比较为期7周的不同悬垂高翻（HPC）强度训练对女子手球运动员最大动态力量、垂直跳和冲刺表现的影响。方法 至少有一年HPC经验的专业手球运动员自愿参与。运动员按位置进行平衡，并随机分配到HPC强度为HPC 1次重复最大值（1RM）的90%（HPC90%）组或50%（HPC50%）组。各组间的训练量均等。训练前后评估包括1RM HPC、下蹲跳（S）中的跳跃高度。",
       "keywords": []
     }
   ]
