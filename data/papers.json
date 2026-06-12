@@ -1,4 +1,145 @@
 {
-  "last_updated": "2026-06-11",
-  "papers": []
+  "last_updated": "2026-06-12",
+  "papers": [
+    {
+      "id": "b7692d06",
+      "title_en": "Jumping vs. running: Effects of exercise modality on aerobic capacity and neuromuscular performance after a six-week high-intensity interval training",
+      "title_zh": "跳跃与跑步：六周高强度间歇训练后运动方式对有氧能力和神经肌肉表现的影响",
+      "authors": [
+        "María Venegas-Carro",
+        "Joshua T. Herring",
+        "Simon Riehle",
+        "A. Kramer"
+      ],
+      "journal": "PLoS ONE",
+      "year": 2023,
+      "date_added": "2026-06-12",
+      "category": "preprint",
+      "doi": "10.1371/journal.pone.0281737",
+      "impact_factor": "",
+      "citation_count": 13,
+      "is_open_access": true,
+      "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0281737&type=printable",
+      "abstract_en": "Purpose High-intensity interval training (HIIT) has proven to be effective in improving endurance capacity and muscle endurance. However, its potential to improve other aspects of physical performance such as strength and power has not been well explored, and most research studies used only running and cycling as exercise modalities. Here, we compared the effects of jumping versus running as exercise modalities during a 6-week HIIT. Methods 46 participants (24±3 years, 171±9 cm, 68±13 kg, 22 women) were randomly allocated to one of three groups: countermovement jump training, running training, or control. The two training groups underwent a 6-week HIIT with 3 training sessions per week. Both training protocols had identical training frequency, number of series and work/rest durations (on average 7 series of 25s, with a rest of 25s between series). Before and after the training period, ae",
+      "abstract_zh": "目的：高强度间歇训练（HIIT）已被证明能有效提高耐力能力和肌肉耐力。然而，其在提高力量和爆发力等其他体能表现方面的潜力尚未得到充分探索，并且大多数研究仅将跑步和自行车作为运动方式。本研究比较了在为期六周的HIIT期间，以跳跃与跑步作为运动方式的效果。方法：46名参与者（24±3岁，171±9厘米，68±13公斤，22名女性）被随机分配到三个组中的一个：反向跳跃训练组、跑步训练组、",
+      "keywords": []
+    },
+    {
+      "id": "8e6d2dc0",
+      "title_en": "Effects of repeated use of post-exercise infrared sauna on neuromuscular performance and muscle hypertrophy",
+      "title_zh": "运动后反复使用红外桑拿对神经肌肉表现和肌肉肥大的影响",
+      "authors": [
+        "E. Ahokas",
+        "Helen G. Hanstock",
+        "H. Kyröläinen",
+        "J. Ihalainen"
+      ],
+      "journal": "Frontiers in Sports and Active Living",
+      "year": 2025,
+      "date_added": "2026-06-12",
+      "category": "preprint",
+      "doi": "10.3389/fspor.2025.1462901",
+      "impact_factor": "",
+      "citation_count": 4,
+      "is_open_access": true,
+      "pdf_url": "https://doi.org/10.3389/fspor.2025.1462901",
+      "abstract_en": "Purpose The aim of this study was to investigate whether regular use of infrared sauna (IRS) after training can promote neuromuscular performance and positive changes in body composition during a 6-week training period. Methods Forty female team sport athletes were pair-matched into two groups: IRS (n = 20) and control (CON; n = 20). Physical performance tests, body composition and hypertrophy measurements (dual-energy x-ray absorptiometry and ultrasound of m. vastus lateralis) were performed PRE and POST a 6-week strength and power training period, involving 2–3 sessions per week. Performance tests included a 20 m sprint, squat jump (SJ), countermovement jumps with body weight (CMJ) as well as with 15, 25, and 50% additional load (CMJ15%, CMJ25%, and CMJ50%), and a maximal isometric leg press (MVC). Participants in the IRS-group used IRS (10 min, 50℃) after training three times per week",
+      "abstract_zh": "目的：本研究旨在探讨在为期六周的训练期间，训练后定期使用红外桑拿（IRS）是否能促进神经肌肉表现和身体成分的积极变化。方法：40名女子团队运动运动员被配对分成两组：红外桑拿组（n=20）和对照组（CON；n=20）。在为期六周、每周2-3次的肌力与爆发力训练前后，进行了体能表现测试、身体成分和肥大测量（双能X射线吸收法和股外侧肌超声检查）。表现",
+      "keywords": []
+    },
+    {
+      "id": "40f5217c",
+      "title_en": "The Road to Designing Integrated Neuromuscular Training Programs for Children and Adolescents: A Systematic Review and Meta-Analysis.",
+      "title_zh": "针对儿童和青少年设计整合性神经肌肉训练计划之路：一项系统综述与荟萃分析",
+      "authors": [
+        "Minghui Li",
+        "Matteo Crotti",
+        "R. Martins",
+        "Caoimhe Tiernan",
+        "Mark Lyons"
+      ],
+      "journal": "Journal of Strength and Conditioning Research",
+      "year": 2025,
+      "date_added": "2026-06-12",
+      "category": "preprint",
+      "doi": "10.1519/JSC.0000000000005186",
+      "impact_factor": "3.2",
+      "citation_count": 2,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "ABSTRACT\nLi, M, Crotti, M, Martins, R, Tiernan, C, Lyons, M, Lander, N, Barnett, LM, and Duncan, MJ. The road to designing integrated neuromuscular training programs for children and adolescents: A systematic review and meta-analysis. J Strength Cond Res 39(8): e1043-e1060, 2025-Integrative neuromuscular training (INT) combines motor competence and strength development to boost athletic performance, but its specific components and effects on children and adolescents are not well understood. Three predetermined principles (INT exercise categories, INT progression modalities, and INT program effectiveness) were used to guide this review. Electronic databases SPORTDiscus, MEDLINE (Ovid), APA PsycINFO, Cochrane Library, Web of Science, and Embase were searched. Search terms related to study design, population, and intervention were identified, and risk of bias was appraised using the Physiot",
+      "abstract_zh": "整合性神经肌肉训练（INT）结合了运动能力和力量发展以提高运动表现，但其具体组成部分及其对儿童和青少年的影响尚不明确。三个预设原则（INT运动类别、INT进展模式和INT计划效果",
+      "keywords": []
+    },
+    {
+      "id": "48779fe3",
+      "title_en": "Effects of Blood‐Flow Restricted Resistance Exercise Versus Neuromuscular Exercise on Self‐Perceived Knee Pain, Function, Quality of Life, and Objective Measures of Functional Performance and Pain Sensitization in Adults With Knee Osteoarthritis—A Randomized Controlled Trial",
+      "title_zh": "血流限制抗阻训练对比神经肌肉训练对膝骨关节炎成年人自我感知膝关节疼痛、功能、生活质量以及功能表现和疼痛敏感化客观测量指标的影响——一项随机对照试验",
+      "authors": [
+        "Brian Sørensen",
+        "S. Magnusson",
+        "P. Aagaard",
+        "Rene B Svensson",
+        "M. H. Hjortshoej"
+      ],
+      "journal": "Scandinavian Journal of Medicine & Science in Sports",
+      "year": 2025,
+      "date_added": "2026-06-12",
+      "category": "preprint",
+      "doi": "10.1111/sms.70154",
+      "impact_factor": "5.2",
+      "citation_count": 1,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "Standard rehabilitation for knee osteoarthritis (knee‐OA) combines patient education and neuromuscular exercises (NEMEX). Heavy‐load resistance training (HLRT) has shown positive effects on pain, functionality, and muscle mass, but can be painful with knee‐OA. Low‐load blood‐flow restricted resistance exercise (BFR‐RE) has shown comparable effects to HLRT without promoting exercise‐induced pain. Therefore, the present study examined the effect of BFR‐RE vs. NEMEX on self‐perceived knee pain, functional performance, and pain sensitization in knee‐OA individuals. Ninety‐six participants (age 56.7 ± 7.6; 49 females, 47 males) with symptomatic knee‐OA were randomized to 12 weeks biweekly BFR‐RE or NEMEX. BFR‐RE was performed at 60%–80% of total arterial occlusion pressure. Control participants completed a 12‐week NEMEX program. Both groups also attended patient education. Primary outcome: Ch",
+      "abstract_zh": "膝骨关节炎（膝OA）的标准康复治疗结合了患者教育和神经肌肉训练（NEMEX）。大负荷抗阻训练（HLRT）已显示出对疼痛、功能和肌肉质量的积极影响，但对膝OA患者可能引起疼痛。低负荷血流限制抗阻训练（BFR-RE）已显示出与HLRT相似的效果，且不引起运动相关疼痛。因此，本研究旨在探讨BFR-RE与NEMEX对膝OA患者自我感知膝关节疼痛、功能表现和疼痛敏感化的影响。96名参与者（平均年龄56。",
+      "keywords": []
+    },
+    {
+      "id": "08df3592",
+      "title_en": "Comparative Effects of Neuromuscular Training and Mobilization with Movement on Pain, Range of Motion, Balance, and Function in Footballer with Ankle Sprain",
+      "title_zh": "神经肌肉训练与运动中松动术对踝关节扭伤足球运动员疼痛、关节活动度、平衡和功能的比较效果",
+      "authors": [
+        "A. Memon",
+        "S. Chandran",
+        "Rab Nawaz",
+        "R. Talpur",
+        "Fizza Memon"
+      ],
+      "journal": "Malaysian journal of medicine and health sciences",
+      "year": 2025,
+      "date_added": "2026-06-12",
+      "category": "preprint",
+      "doi": "10.47836/mjmhs.21.5.7",
+      "impact_factor": "",
+      "citation_count": 1,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "Introduction: Ankle sprains are prevalent among footballers. To determine the effects of neuromuscular training versus mobilization with movement, movement during ankle sprain plays a key role in the performance of football players in terms of pain, range of motion, balance, function, and speed. Materials and methods: A randomized clinical trial included two interventional groups: group A (n=20) underwent neuromuscular training (NMT) consisting of 15–20 minutes of exercise. Mobilization with movement (MWM) was administered to Group B (n=20) and involved a maximum of three sets of eight repetitions in a single session. For a period of four weeks, both groups underwent interventions three times a week. At baseline and after the intervention, the subjects’ pain severity, range of motion, balance, function and speed were assessed. The data were analysed via SPSS version 25. Results: There wa",
+      "abstract_zh": "引言：踝关节扭伤在足球运动员中普遍存在。为确定神经肌肉训练与运动中松动术的效果，踝关节扭伤后的运动方式在足球运动员的疼痛、关节活动度、平衡、功能和速度表现中发挥着关键作用。材料与方法：一项随机临床试验纳入了两个干预组：A组（n=20）接受了15-20分钟的神经肌肉训练（NMT）。B组（n=20）接受了运动中松动术（MWM），包括最多三组八次重复",
+      "keywords": []
+    },
+    {
+      "id": "2054b07b",
+      "title_en": "Comparative Effects of Core Neuromuscular Training versus Conservative Physical Therapy to Reduce Pain and Improve Functional Performance in Patients with Patellofemoral Pain Syndrome",
+      "title_zh": "核心神经肌肉训练对比保守物理治疗在减轻髌股疼痛综合征患者疼痛和改善功能表现方面的比较效果",
+      "authors": [
+        "Amna Khalid",
+        "Nadia Javed",
+        "Jawad Ahmad"
+      ],
+      "journal": "THE THERAPIST (Journal of Therapies &amp; Rehabilitation Sciences)",
+      "year": 2024,
+      "date_added": "2026-06-12",
+      "category": "preprint",
+      "doi": "10.54393/tt.v5i01.190",
+      "impact_factor": "",
+      "citation_count": 1,
+      "is_open_access": true,
+      "pdf_url": "https://www.thetherapist.com.pk/index.php/tt/article/download/190/128",
+      "abstract_en": "Running, stair climbing, jumping and squatting represent a few of the activities that can cause patellofemoral pain syndrome. Patellofemoral pain syndrome (PFPS) is one of the most typical causes of anterior knee discomfort in teenagers and persons below Sixty. Objective: To contrast the results of conservative physical treatment plus core neuromuscular training and conservative physical therapy alone. Methods: It was a quasi-experimental study in which patients suffering from patellofemoral pain syndrome were selected on the basis of convenience sampling from Government hospitals of Faisalabad after meeting the inclusion and exclusion criteria. Twenty patients with patellofemoral pain syndrome were divided into Group A and Group B at random. Participants of Group A performed neuromuscular core training plus conservative physical therapy exercise program for 4 weeks while participants of",
+      "abstract_zh": "跑步、爬楼梯、跳跃和深蹲是可能导致髌股疼痛综合征的一些活动。髌股疼痛综合征（PFPS）是青少年和60岁以下人群膝前不适最常见的病因之一。目的：对比保守物理治疗加核心神经肌肉训练与单独保守物理治疗的效果。方法：这是一项准实验研究，通过便捷抽样从费萨拉巴德政府医院招募患有髌股疼痛综合征的患者。",
+      "keywords": []
+    }
+  ]
 }
