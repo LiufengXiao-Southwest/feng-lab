@@ -1,83 +1,40 @@
 {
-  "date": "2026-06-05",
-  "title_en": "Biomechanical asymmetries differ between autograft types during unplanned change of direction after ACL reconstruction",
-  "title_zh": "ACL重建术后非计划变向时不同自体移植类型间的生物力学不对称性差异",
-  "authors": "Joshua Miles, P. McGuigan, E. King, Katherine A. J. Daniels",
-  "journal": "Scandinavian Journal of Medicine & Science in Sports",
-  "year": 2022,
+  "date": "2026-06-13",
+  "title_en": "Explicit motor learning interventions are still relevant for ACL injury rehabilitation: do not put all your eggs in the implicit basket!",
+  "title_zh": "ACL损伤康复中显性运动学习干预依然重要：不要将所有鸡蛋都放在隐性学习这一个篮子里！",
+  "authors": "E. Kal, T. Ellmers, Jed A. Diekfuss, Marinus Winters et al.",
+  "journal": "British Journal of Sports Medicine",
+  "year": 2021,
   "volume_page": "",
-  "doi": "10.1111/sms.14166",
-  "impact_factor": "5.2",
+  "doi": "10.1136/bjsports-2020-103643",
+  "impact_factor": "18.4",
   "is_open_access": true,
-  "pdf_url": "https://e-space.mmu.ac.uk/629584/1/MILES%2022%20Biomechanical%20asymmetries%20differ%20between%20autograft%20types%20in%20unplanned%20CoD%20after%20ACLR.pdf",
+  "pdf_url": "https://bjsm.bmj.com/content/bjsports/early/2021/02/14/bjsports-2020-103643.full.pdf",
   "category": "biomechanics",
-  "citation_count": 10,
+  "citation_count": 9,
   "sections": [
     {
       "id": "why",
       "icon": "◎",
       "title_zh": "为什么值得读",
       "title_en": "Why It Matters",
-      "content_zh": "这项研究弥补了现有文献中缺乏对ACL重建术后不同自体移植类型在复杂、非计划性运动（如变向）中生物力学不对称性比较的空白。它从生物力学角度深化了我们对骨-髌腱-骨（BPTB）与腘绳肌腱（HT）自体移植之间在膝关节负荷和潜在再损伤风险方面的差异理解，对个性化康复和回归运动决策具有直接指导意义。其高引用量反映了其对ACL康复领域的重要性和实用价值。",
-      "content_en": "This study addresses a gap in the literature by comparing biomechanical asymmetries between different autograft types post-ACL reconstruction during complex, unplanned movements like change of direction (CoD). It deepens our biomechanical understanding of the differences between bone-patellar-tendon-bone (BPTB) and hamstring tendon (HT) autografts concerning knee loading and potential re-injury risk, offering direct guidance for personalized rehabilitation and return-to-sport decisions. Its notable citation count underscores its relevance and practical value in the field of ACL rehabilitation."
+      "content_zh": "本文指出ACL损伤发生率持续上升，强调优化康复方案以增强运动再学习、降低二次损伤风险的重要性。它挑战了当前运动康复领域过度偏重隐性学习的趋势，明确指出显性学习干预在ACL康复中仍不可或缺，填补了实践中对综合学习策略的思考空白。其较高的引用量（9次）表明了该观点在运动康复领域引发的关注和讨论价值。",
+      "content_en": "This paper highlights the rising incidence of ACL injuries and the importance of optimizing rehabilitation to enhance motor relearning and reduce secondary injury risk. It challenges the current trend of over-reliance on implicit learning by asserting the continued necessity of explicit learning interventions in ACL rehabilitation, addressing a gap in considering comprehensive learning strategies in practice. Its decent citation count (9) reflects its impact and the debate it has generated within the field of sports rehabilitation."
     },
     {
       "id": "design",
       "icon": "⊞",
       "title_zh": "研究设计速览",
       "title_en": "Study Design",
-      "content_zh": "**类型**: 横断面比较研究\n**样本量**: 78名男性多方向场地运动运动员\n**研究对象**: 39名BPTB自体移植者 vs. 39名HT自体移植者，均在术后约9个月时进行评估\n**主要任务**: 最大努力下的90°非计划变向任务\n**主要结局**: 膝关节力学不对称性（如内收力矩、内旋力矩、屈曲角度）、结果地面反作用力不对称性及任务表现（完成时间）\n**分析方法**: 混合模型2x2方差分析（自体移植类型 x 肢体）进行离散点分析；统计参数图（SPM）进行波形比较",
-      "content_en": "**Type**: Cross-sectional comparative study\n**Sample**: 78 male multidirectional field sport athletes\n**Participants**: 39 BPTB autograft recipients vs. 39 HT autograft recipients, all assessed at approximately 9 months post-surgery\n**Primary Task**: Maximal effort unplanned 90° change-of-direction (CoD) task\n**Primary Outcomes**: Knee mechanics asymmetries (e.g., adduction moment, medial rotation moment, flexion angles), resultant ground reaction force asymmetry, and task performance (completion time)\n**Analysis**: Mixed-model 2x2 ANOVA (autograft type x limb) for discrete point analysis; Statistical Parametric Mapping (SPM) for waveform comparison"
+      "content_zh": "**类型**: 评论/观点文章\n**研究目的**: 讨论显性运动学习干预在ACL损伤康复中的持续相关性，并反驳隐性干预是“万能药”的观点\n**研究对象**: ACL损伤后的运动学习康复策略（显性与隐性干预）\n**主要论点**: 显性干预仍重要，应结合个体特征和情境约束进行应用\n**证据来源**: 文献综述、理论论证及专家共识",
+      "content_en": "**Type**: Commentary/Perspective Article\n**Research Aim**: To discuss the continued relevance of explicit motor learning interventions in ACL injury rehabilitation and counter the view that implicit interventions are a “panacea”\n**Focus**: Motor learning rehabilitation strategies (explicit vs. implicit interventions) following ACL injury\n**Main Argument**: Explicit interventions remain important and should be applied considering individual characteristics and contextual constraints\n**Evidence Source**: Literature review, theoretical argumentation, and expert consensus"
     },
     {
       "id": "results",
       "icon": "◈",
       "title_zh": "核心数据",
       "title_en": "Key Numbers",
-      "stats": [
-        {
-          "label_zh": "膝关节伸展力矩不对称性",
-          "label_en": "Knee Extension Moment Asymmetry",
-          "value": "BPTB > HT",
-          "note": "p < 0.001"
-        },
-        {
-          "label_zh": "结果地面反作用力不对称性",
-          "label_en": "Resultant GRF Asymmetry",
-          "value": "BPTB > HT",
-          "note": "p < 0.001"
-        },
-        {
-          "label_zh": "峰值膝关节外旋力矩不对称性",
-          "label_en": "Peak Knee External Rotation Moment Asymmetry",
-          "value": "BPTB > HT",
-          "note": "p = 0.04"
-        },
-        {
-          "label_zh": "膝关节内收角度不对称性",
-          "label_en": "Knee Adduction Angle Asymmetry",
-          "value": "BPTB > HT",
-          "note": "p = 0.05"
-        },
-        {
-          "label_zh": "膝关节内旋角度不对称性",
-          "label_en": "Knee Medial Rotation Angle Asymmetry",
-          "value": "BPTB > HT",
-          "note": "p < 0.001"
-        },
-        {
-          "label_zh": "膝关节屈曲角度不对称性",
-          "label_en": "Knee Flexion Angle Asymmetry",
-          "value": "BPTB > HT",
-          "note": "p < 0.001"
-        },
-        {
-          "label_zh": "任务完成时间",
-          "label_en": "Task Completion Time",
-          "value": "无差异",
-          "note": "两组间无显著差异"
-        }
-      ]
+      "stats": []
     },
     {
       "id": "appraisal",
@@ -85,28 +42,24 @@
       "title_zh": "方法学评价",
       "title_en": "Critical Appraisal",
       "pros_zh": [
-        "针对ACL重建后高度相关且具有挑战性的非计划变向任务，具有高生态效度。",
-        "样本量相对较大（n=78），对于三维运动捕捉研究而言较为充分，增强了统计效力。",
-        "使用统计参数图（SPM）对整个运动周期进行波形比较，提供了比离散点分析更全面的洞察。",
-        "研究了与ACL损伤风险直接相关的膝关节生物力学变量（如力矩和角度）。"
+        "对当前运动康复领域过度推崇隐性学习的趋势提出了及时且重要的反思。",
+        "强调康复干预的个体化和情境化，引导临床实践更具针对性。",
+        "发表于高影响力期刊《英国运动医学杂志》(BJSM)，增加了其观点的学术分量和传播力。"
       ],
       "cons_zh": [
-        "横断面研究设计，无法建立因果关系或追踪长期预后差异。",
-        "研究对象仅限于男性场地运动运动员，限制了结果对女性或其他运动人群的普遍性。",
-        "未纳入健康对照组，无法将患者的不对称性与正常人群进行比较。",
-        "未考虑其他潜在影响因素，如术前活动水平、康复依从性、手术技术差异等。"
+        "作为一篇评论文章，它不提供新的实证数据或临床试验结果。",
+        "所提出的建议主要基于理论论证和现有文献，缺乏具体、标准化的干预方案。",
+        "对显性与隐性干预结合使用的具体操作细节和效果评估仍需进一步研究。"
       ],
       "pros_en": [
-        "Investigates a highly relevant and challenging unplanned change of direction task post-ACL reconstruction, providing high ecological validity.",
-        "Relatively large sample size (n=78) for a 3D motion capture study, enhancing statistical power.",
-        "Utilizes Statistical Parametric Mapping (SPM) for waveform comparison throughout the entire movement cycle, offering more comprehensive insights than discrete point analysis.",
-        "Examines knee biomechanical variables (e.g., moments and angles) directly linked to ACL injury risk."
+        "Offers a timely and crucial reflection on the current trend of over-emphasizing implicit learning in sports rehabilitation.",
+        "Highlights the importance of individualizing and contextualizing rehabilitation interventions, guiding more targeted clinical practice.",
+        "Published in a high-impact journal, British Journal of Sports Medicine (BJSM), which enhances its academic credibility and reach."
       ],
       "cons_en": [
-        "Cross-sectional study design, preventing the establishment of causality or tracking of long-term outcomes.",
-        "Participants were limited to male field sport athletes, restricting the generalizability of findings to females or other athletic populations.",
-        "Lack of a healthy control group, precluding comparison of patient asymmetries to a baseline normal population.",
-        "Did not account for other potential confounding factors such as pre-injury activity level, rehabilitation compliance, or variations in surgical technique."
+        "As a commentary, it does not present new empirical data or results from clinical trials.",
+        "The recommendations are primarily based on theoretical arguments and existing literature, lacking specific, standardized intervention protocols.",
+        "Further research is needed on the specific operational details and effectiveness evaluation of combining explicit and implicit interventions."
       ]
     },
     {
@@ -114,8 +67,8 @@
       "icon": "◆",
       "title_zh": "研究启示",
       "title_en": "Takeaway",
-      "content_zh": "**自体移植选择影响康复侧重**：BPTB自体移植的ACL重建患者在非计划变向时表现出比HT自体移植患者更显著的膝关节生物力学不对称性，尤其是在膝关节伸展力矩、地面反作用力以及内外旋和屈曲角度方面。这表明BPTB术后的康复应更侧重于解决这些特定的不对称性。\n\n**回归运动评估需更细致**：仅仅基于任务表现（如完成时间）来评估回归运动可能不足。尽管两组在完成时间上无差异，但BPTB组的生物力学差异可能预示着更高的再损伤风险或长期关节健康问题。因此，回归运动决策应结合生物力学不对称性数据进行更全面的评估。\n\n**个性化康复策略的重要性**：鉴于不同自体移植类型表现出不同的不对称模式，康复方案应进行个性化调整。对于BPTB患者，应优先进行特定训练以恢复患肢在变向运动中的膝关节负荷和运动控制对称性，可能需要更长时间或更强化的侧向训练。\n\n**生物力学监测工具在康复中的应用**：本研究通过三维运动捕捉系统精确量化了动态任务中的膝关节生物力学不对称性。未来，康复专业人员和研究人员可利用此类高精度生物力学监测工具，或结合惯性测量单元（IMUs）和肌电图（sEMG）等便携式设备，在临床或现场环境中进行更实时的肢体负荷和肌肉活动评估，以指导康复进展并优化训练效果。",
-      "content_en": "**Autograft Choice Impacts Rehabilitation Focus**: Patients with ACL reconstruction using BPTB autografts demonstrate greater knee biomechanical asymmetries than those with HT autografts during unplanned change of direction, particularly in knee extension moment, ground reaction force, and internal/external rotation and flexion angles. This suggests that post-BPTB rehabilitation should place a stronger emphasis on addressing these specific asymmetries.\n\n**Return-to-Sport Assessment Requires Nuance**: Evaluating return to sport solely based on task performance (e.g., completion time) may be insufficient. Despite no differences in completion time between groups, the biomechanical disparities in the BPTB group may indicate a higher risk of re-injury or long-term joint health issues. Therefore, return-to-sport decisions should integrate a more comprehensive assessment including biomechanical asymmetry data.\n\n**Importance of Personalized Rehabilitation Strategies**: Given that different autograft types exhibit distinct asymmetry patterns, rehabilitation programs should be individualized. For BPTB patients, specific training to restore symmetry in knee loading and motor control during CoD movements should be prioritized, potentially requiring longer or more intensive unilateral training.\n\n**Application of Biomechanical Monitoring Tools in Rehabilitation**: This study precisely quantified knee biomechanical asymmetries during dynamic tasks using a 3D motion capture system. In the future, rehabilitation professionals and researchers can leverage such high-precision biomechanical monitoring tools, or integrate portable devices like Inertial Measurement Units (IMUs) and surface electromyography (sEMG), for more real-time assessment of limb loading and muscle activity in clinical or field settings, guiding rehabilitation progression and optimizing training outcomes."
+      "content_zh": "**1. 平衡运动学习策略**：ACL康复不应仅依赖隐性学习。显性运动学习干预在特定情况下仍具有重要价值，应将两种策略结合使用，以实现最佳的运动再学习和损伤预防效果。\n\n**2. 个体化康复方案**：康复专业人员在选择运动学习策略时，需充分考虑患者的个体特征（如认知风格、学习经验）和康复情境（如任务复杂性、康复阶段），而非采用“一刀切”的方法。\n\n**3. 明确指令的积极作用**：显性、内源性聚焦的口头指令（例如，“深蹲时膝盖不要超过脚尖”）对于患者初步掌握复杂运动模式、建立意识控制和纠正不良生物力学姿态至关重要。\n\n**4. 生物力学技术辅助**：对于FENG实验室，此研究强调了利用生物力学测量仪器（如运动捕捉系统、肌电图、测力台）的重要性。这些工具能客观量化患者的运动表现和生物力学指标，为显性指令提供精确反馈，帮助患者理解和执行正确的运动模式，从而优化康复效果。",
+      "content_en": "**1. Balanced Motor Learning Strategies**: ACL rehabilitation should not solely rely on implicit learning. Explicit motor learning interventions still hold significant value in specific contexts, and a combination of both strategies should be employed for optimal motor relearning and injury prevention.\n\n**2. Individualized Rehabilitation Approaches**: Rehabilitation professionals must consider patients' individual characteristics (e.g., cognitive style, learning experience) and rehabilitation context (e.g., task complexity, stage of rehab) when selecting motor learning strategies, rather than adopting a \"one-size-fits-all\" approach.\n\n**3. Positive Role of Explicit Cues**: Explicit, internally-focused verbal cues (e.g., \"do not let your knees go over your toes during squats\") are crucial for patients to initially grasp complex movement patterns, establish conscious control, and correct undesirable biomechanical postures.\n\n**4. Assisted by Biomechanical Technology**: For the FENG Lab, this research underscores the importance of utilizing biomechanical measurement tools (e.g., motion capture systems, electromyography, force plates). These tools can objectively quantify patient movement performance and biomechanical parameters, providing precise feedback for explicit instructions, helping patients understand and execute correct movement patterns, thereby optimizing rehabilitation outcomes."
     }
   ]
 }
