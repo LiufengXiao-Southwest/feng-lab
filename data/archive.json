@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-13",
+  "last_updated": "2026-06-14",
   "dates": {
     "2026-04-09": [
       {
@@ -1849,6 +1849,101 @@
         "pdf_url": "https://www.mdpi.com/2072-6643/15/4/819/pdf?version=1676537109",
         "abstract_en": "It is estimated that three to five million sports injuries occur worldwide each year. The highest incidence is reported during competition periods with mainly affectation of the musculoskeletal tissue. For appropriate nutritional management and correct use of nutritional supplements, it is important to individualize based on clinical effects and know the adaptive response during the rehabilitation phase after a sports injury in athletes. Therefore, the aim of this PRISMA in Exercise, Rehabilitation, Sport Medicine and Sports Science PERSiST-based systematic integrative review was to perform an update on nutritional strategies during the rehabilitation phase of musculoskeletal injuries in elite athletes. After searching the following databases: PubMed/Medline, Scopus, PEDro, and Google Scholar, a total of 18 studies met the inclusion criteria (Price Index: 66.6%). The risk of bias assessm",
         "abstract_zh": "据估计，全球每年发生三到五百万例运动损伤。发病率最高的是在比赛期间，主要累及肌肉骨骼组织。为了进行适当的营养管理和正确使用营养补充剂，根据临床效果进行个体化并了解运动员运动损伤康复期的适应性反应至关重要。因此，本项基于运动、康复、运动医学和体育科学PRISMA PERSiST的系统整合综述旨在进行一项...",
+        "keywords": []
+      }
+    ],
+    "2026-06-14": [
+      {
+        "id": "87af9277",
+        "title_en": "Different Approaches to Ergogenic, Pre-, and Probiotic Supplementation in Sports with Different Metabolism Characteristics: A Mini Review",
+        "title_zh": "针对不同代谢特征运动项目的增能、益生元和益生菌补充剂的不同方法：小型综述",
+        "authors": [
+          "Jakub Wiącek",
+          "J. Karolkiewicz"
+        ],
+        "journal": "Nutrients",
+        "year": 2023,
+        "date_added": "2026-06-14",
+        "category": "supplements",
+        "doi": "10.3390/nu15061541",
+        "impact_factor": "4.8",
+        "citation_count": 9,
+        "is_open_access": true,
+        "pdf_url": "https://www.mdpi.com/2072-6643/15/6/1541/pdf?version=1679486321",
+        "abstract_en": "Sport disciplines with different metabolic characteristics require different dietary approaches. Bodybuilders or sprinters (“anaerobic” athletes) need a high-protein diet (HPD) in order to activate muscle protein synthesis after exercise-induced muscle damage and use nitric oxide enhancers (such as citrulline and nitrates) to increase vasodilatation, whereas endurance athletes, such as runners or cyclists (“aerobic” athletes), prefer a high-carbohydrate diet (HCHD), which aims to restore the intramuscular glycogen, and supplements containing buffering agents (such as sodium bicarbonate and beta-alanine). In both cases, nutrient absorption, neurotransmitter and immune cell production and muscle recovery depend on gut bacteria and their metabolites. However, there is still insufficient data on the impact of an HPD or HCHD in addition to supplements on “anaerobic” and “aerobic” athletes’ gu",
+        "abstract_zh": "具有不同代谢特征的运动项目需要不同的饮食方法。健美运动员或短跑运动员（“无氧”运动员）需要高蛋白饮食（HPD），以在运动诱导的肌肉损伤后激活肌肉蛋白质合成，并使用一氧化氮增强剂（如瓜氨酸和硝酸盐）来增加血管舒张；而耐力运动员，如跑步者或骑行者（“有氧”运动员），则偏好高碳水化合物饮食（HCHD），旨在恢复肌内糖原，并补充含有缓冲剂（如碳酸氢钠和β-丙氨酸）的补充剂。",
+        "keywords": []
+      },
+      {
+        "id": "55e3a9a3",
+        "title_en": "Nutritional Ergogenic Aids in Cycling: A Systematic Review",
+        "title_zh": "自行车运动中的营养性增能剂：一项系统综述",
+        "authors": [
+          "Alberto Valiño-Marques",
+          "A. Lamas",
+          "J. M. Miranda",
+          "Alberto Cepeda",
+          "P. Regal"
+        ],
+        "journal": "Nutrients",
+        "year": 2024,
+        "date_added": "2026-06-14",
+        "category": "supplements",
+        "doi": "10.3390/nu16111768",
+        "impact_factor": "4.8",
+        "citation_count": 7,
+        "is_open_access": true,
+        "pdf_url": "https://www.mdpi.com/2072-6643/16/11/1768/pdf?version=1717573495",
+        "abstract_en": "This systematic review aimed to evaluate the effectiveness of the independent or combined use of nutritional ergogenic aids belonging to Group A of the ABCD classification by the Australian Institute of Sport (AIS) in the context of cycling (caffeine, creatine, sodium bicarbonate, beta-alanine, nitrates, and glycerol). A comprehensive search was carried out using three databases: PubMed, Scopus, and Web of Science. All the databases were searched for Randomized Controlled Trials or crossover design studies assessing the effects of supplementation on cycling performance in comparison with placebos in healthy adults. The methodological quality of each study was evaluated using the Physiotherapy Evidence Database scale. Thirty-six articles involving 701 participants were included in this review, examining supplementation with caffeine (n = 5), creatine (n = 2), sodium bicarbonate (n = 6), b",
+        "abstract_zh": "本系统综述旨在评估澳大利亚体育学院（AIS）ABCD分类A组营养性增能剂（咖啡因、肌酸、碳酸氢钠、β-丙氨酸、硝酸盐和甘油）在自行车运动中独立或联合使用的有效性。使用PubMed、Scopus和Web of Science三个数据库进行了全面检索。所有数据库都检索了随机对照试验或交叉设计研究，评估补充剂对骑行表现的影响，并与安慰剂进行比较。",
+        "keywords": []
+      },
+      {
+        "id": "eaf87fab",
+        "title_en": "Ergonutrition Supplementation and Recovery in Water Polo: A Systematic Review",
+        "title_zh": "水球运动中的增能营养补充与恢复：一项系统综述",
+        "authors": [
+          "Álvaro Miguel-Ortega",
+          "Josu Barrenetxea-García",
+          "María-Azucena Rodríguez-Rodrigo",
+          "Enrique García-Ordóñez",
+          "J. Mielgo-Ayuso"
+        ],
+        "journal": "Nutrients",
+        "year": 2025,
+        "date_added": "2026-06-14",
+        "category": "supplements",
+        "doi": "10.3390/nu17081319",
+        "impact_factor": "4.8",
+        "citation_count": 3,
+        "is_open_access": false,
+        "pdf_url": "",
+        "abstract_en": "Background: Water polo (WP) is a high-intensity team sport that requires a combination of physical endurance, muscular strength, speed, and specific technical skills. Due to the demanding and prolonged nature of this sport, adequate and balanced nutrition plays a fundamental role in athletes’ performance, recovery, and overall health maintenance. Objectives: We aimed to compile all available information on the importance of ergonutrition and supplementation in the recovery of WP players. This will help in understanding this sport’s specific challenges and requirements, enabling players and coaches to design more effective recovery plans to optimize performance, achieve goals, and successfully cope with intense training and competition. Method: English-language publications were searched in databases such as Web of Science, Scopus, SciELO Citation Index, Medline (PubMed), KCI Korean Journ",
+        "abstract_zh": "背景：水球（WP）是一项高强度团队运动，需要体能耐力、肌肉力量、速度和特定技术技能的结合。由于这项运动要求高且持续时间长，充足和均衡的营养在运动员的表现、恢复和整体健康维持中起着至关重要的作用。目的：我们旨在整理所有关于增能营养和补充剂在水球运动员恢复中的重要性的现有信息。这将有助于理解这项运动的特定挑战和要求，使运动员和教练能够制定更有效的策略。",
+        "keywords": []
+      },
+      {
+        "id": "1dcd4df2",
+        "title_en": "UCI Sports Nutrition Project: Considerations and Applications for the Use of Sports Foods and Supplements to Improve Performance in Cycling.",
+        "title_zh": "UCI运动营养项目：提高自行车运动表现的运动食品和补充剂使用考量与应用",
+        "authors": [
+          "Jamie Whitfield",
+          "Brendan Egan",
+          "J. Del Coso",
+          "Wim Derave",
+          "Bryan Saunders"
+        ],
+        "journal": "International Journal of Sport Nutrition & Exercise Metabolism",
+        "year": 2025,
+        "date_added": "2026-06-14",
+        "category": "supplements",
+        "doi": "10.1123/ijsnem.2025-0111",
+        "impact_factor": "3.1",
+        "citation_count": 3,
+        "is_open_access": false,
+        "pdf_url": "",
+        "abstract_en": "The use of sports foods and supplements has become ubiquitous among cyclists of all disciplines in order to meet energy and nutrient targets and to improve performance and recovery outcomes. This review will provide an overview of the different types of products and the rationale for their use, while highlighting key considerations surrounding the safety and anti-doping risks that supplements pose among athletes. A summary of supplements with a strong evidence base (caffeine, creatine, sodium bicarbonate, beta-alanine, dietary nitrate, and glycerol) and emerging supplements popularized within cycling (exogenous ketones) is also provided, outlining accepted protocols for use, timing, and potential ergogenic effects or side effects.",
+        "abstract_zh": "运动食品和补充剂的使用在所有项目的自行车运动员中已变得普遍，旨在满足能量和营养目标，并改善表现和恢复结果。本综述将概述不同类型的产品及其使用原理，同时强调补充剂给运动员带来的安全性及反兴奋剂风险等关键考量。本文总结了具有强大证据基础的补充剂（咖啡因、肌酸、碳酸氢钠、β-丙氨酸、膳食硝酸盐和甘油）以及在运动界中流行的，但证据尚不充分的新兴补充剂。",
         "keywords": []
       }
     ]
