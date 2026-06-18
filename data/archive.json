@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-17",
+  "last_updated": "2026-06-18",
   "dates": {
     "2026-04-09": [
       {
@@ -2323,6 +2323,32 @@
         "pdf_url": "https://www.thetherapist.com.pk/index.php/tt/article/download/190/128",
         "abstract_en": "Running, stair climbing, jumping and squatting represent a few of the activities that can cause patellofemoral pain syndrome. Patellofemoral pain syndrome (PFPS) is one of the most typical causes of anterior knee discomfort in teenagers and persons below Sixty. Objective: To contrast the results of conservative physical treatment plus core neuromuscular training and conservative physical therapy alone. Methods: It was a quasi-experimental study in which patients suffering from patellofemoral pain syndrome were selected on the basis of convenience sampling from Government hospitals of Faisalabad after meeting the inclusion and exclusion criteria. Twenty patients with patellofemoral pain syndrome were divided into Group A and Group B at random. Participants of Group A performed neuromuscular core training plus conservative physical therapy exercise program for 4 weeks while participants of",
         "abstract_zh": "跑步、爬楼梯、跳跃和深蹲是导致髌股疼痛综合征的几种活动。髌股疼痛综合征（PFPS）是青少年和60岁以下人群膝前不适最常见的原因之一。目的：比较保守物理治疗加核心神经肌肉训练与单独保守物理治疗的效果。方法：这是一项准实验研究，通过便利抽样从费萨拉巴德的政府医院选出患有髌股疼痛综合征的患者。",
+        "keywords": []
+      }
+    ],
+    "2026-06-18": [
+      {
+        "id": "a93f2627",
+        "title_en": "Nutritional Strategies in the Rehabilitation of Musculoskeletal Injuries in Athletes: A Systematic Integrative Review",
+        "title_zh": "运动员肌肉骨骼损伤康复中的营养策略：一项系统整合性综述",
+        "authors": [
+          "John E Giraldo-Vallejo",
+          "Miguel Á. Cardona-Guzmán",
+          "Ericka J. Rodríguez-Alcivar",
+          "Jana Kočí",
+          "J. Petro"
+        ],
+        "journal": "Nutrients",
+        "year": 2023,
+        "date_added": "2026-06-18",
+        "category": "supplements",
+        "doi": "10.3390/nu15040819",
+        "impact_factor": "4.8",
+        "citation_count": 38,
+        "is_open_access": true,
+        "pdf_url": "https://www.mdpi.com/2072-6643/15/4/819/pdf?version=1676537109",
+        "abstract_en": "It is estimated that three to five million sports injuries occur worldwide each year. The highest incidence is reported during competition periods with mainly affectation of the musculoskeletal tissue. For appropriate nutritional management and correct use of nutritional supplements, it is important to individualize based on clinical effects and know the adaptive response during the rehabilitation phase after a sports injury in athletes. Therefore, the aim of this PRISMA in Exercise, Rehabilitation, Sport Medicine and Sports Science PERSiST-based systematic integrative review was to perform an update on nutritional strategies during the rehabilitation phase of musculoskeletal injuries in elite athletes. After searching the following databases: PubMed/Medline, Scopus, PEDro, and Google Scholar, a total of 18 studies met the inclusion criteria (Price Index: 66.6%). The risk of bias assessm",
+        "abstract_zh": "据估计，全球每年发生三到五百万例运动损伤。发病率最高的是在比赛期间，主要影响肌肉骨骼组织。为了适当的营养管理和正确使用营养补充剂，根据临床效果进行个体化，并了解运动员运动损伤康复阶段的适应性反应至关重要。因此，这项基于PRISMA in Exercise, Rehabilitation, Sport Medicine and Sports Science PERSiST的系统整合性综述旨在进行一项",
         "keywords": []
       }
     ]
