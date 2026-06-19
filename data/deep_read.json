@@ -1,40 +1,59 @@
 {
-  "date": "2026-06-13",
-  "title_en": "Explicit motor learning interventions are still relevant for ACL injury rehabilitation: do not put all your eggs in the implicit basket!",
-  "title_zh": "ACL损伤康复中显性运动学习干预依然重要：不要将所有鸡蛋都放在隐性学习这一个篮子里！",
-  "authors": "E. Kal, T. Ellmers, Jed A. Diekfuss, Marinus Winters et al.",
-  "journal": "British Journal of Sports Medicine",
+  "date": "2026-06-19",
+  "title_en": "Evaluation of the Intact Anterior Talofibular and Calcaneofibular Ligaments, Injuries, and Repairs With and Without Augmentation: A Biomechanical Robotic Study",
+  "title_zh": "完整距腓前韧带和跟腓韧带、损伤及加固与非加固修复的评估：一项生物力学机器人研究",
+  "authors": "Christopher G Larkins, A. Brady, Zachary S Aman, G. Dornan et al.",
+  "journal": "American Journal of Sports Medicine",
   "year": 2021,
   "volume_page": "",
-  "doi": "10.1136/bjsports-2020-103643",
-  "impact_factor": "18.4",
-  "is_open_access": true,
-  "pdf_url": "https://bjsm.bmj.com/content/bjsports/early/2021/02/14/bjsports-2020-103643.full.pdf",
+  "doi": "10.1177/03635465211018645",
+  "impact_factor": "5.5",
+  "is_open_access": false,
+  "pdf_url": "",
   "category": "biomechanics",
-  "citation_count": 9,
+  "citation_count": 21,
   "sections": [
     {
       "id": "why",
       "icon": "◎",
       "title_zh": "为什么值得读",
       "title_en": "Why It Matters",
-      "content_zh": "本文指出ACL损伤发生率持续上升，强调优化康复方案以增强运动再学习、降低二次损伤风险的重要性。它挑战了当前运动康复领域过度偏重隐性学习的趋势，明确指出显性学习干预在ACL康复中仍不可或缺，填补了实践中对综合学习策略的思考空白。其较高的引用量（9次）表明了该观点在运动康复领域引发的关注和讨论价值。",
-      "content_en": "This paper highlights the rising incidence of ACL injuries and the importance of optimizing rehabilitation to enhance motor relearning and reduce secondary injury risk. It challenges the current trend of over-reliance on implicit learning by asserting the continued necessity of explicit learning interventions in ACL rehabilitation, addressing a gap in considering comprehensive learning strategies in practice. Its decent citation count (9) reflects its impact and the debate it has generated within the field of sports rehabilitation."
+      "content_zh": "急性踝关节扭伤极为常见，距腓前韧带（ATFL）和跟腓韧带（CFL）是踝关节外侧最常损伤的结构。本研究首次使用六自由度机器人量化评估了ATFL和CFL损伤及其修复（包括缝线带加固）对踝关节稳定性的影响，填补了该领域生物力学研究的空白。它为优化严重急性或慢性不稳定踝关节扭伤的手术治疗方案提供了重要的客观生物力学证据，因此被广泛引用。",
+      "content_en": "Acute ankle sprains are common, with the ATFL and CFL being the most frequently injured lateral structures. This study is the first to robotically quantify the biomechanical effects of ATFL and CFL injuries and their repairs (including suture tape augmentation) on ankle stability, addressing a gap in this research area. It provides crucial objective biomechanical evidence for optimizing surgical treatment options for severe acute or chronic unstable ankle sprains, leading to its citations."
     },
     {
       "id": "design",
       "icon": "⊞",
       "title_zh": "研究设计速览",
       "title_en": "Study Design",
-      "content_zh": "**类型**: 评论/观点文章\n**研究目的**: 讨论显性运动学习干预在ACL损伤康复中的持续相关性，并反驳隐性干预是“万能药”的观点\n**研究对象**: ACL损伤后的运动学习康复策略（显性与隐性干预）\n**主要论点**: 显性干预仍重要，应结合个体特征和情境约束进行应用\n**证据来源**: 文献综述、理论论证及专家共识",
-      "content_en": "**Type**: Commentary/Perspective Article\n**Research Aim**: To discuss the continued relevance of explicit motor learning interventions in ACL injury rehabilitation and counter the view that implicit interventions are a “panacea”\n**Focus**: Motor learning rehabilitation strategies (explicit vs. implicit interventions) following ACL injury\n**Main Argument**: Explicit interventions remain important and should be applied considering individual characteristics and contextual constraints\n**Evidence Source**: Literature review, theoretical argumentation, and expert consensus"
+      "content_zh": "**类型**: 受控实验室研究\n**研究对象**: 10具非配对尸体踝关节\n**测试设备**: 六自由度（6-DOF）机器人\n**测试状态**: 依序测试：(1)完整；(2)ATFL切断；(3)CFL切断；(4)ATFL修复+CFL切断；(5)ATFL修复+CFL修复；(6)ATFL加固修复+CFL修复\n**主要评估**: 88 N 前抽屉试验、5 N·m 内翻距骨倾斜试验 (0°和30°跖屈位)；88 N Cotton试验 (0°跖屈位)\n**结局指标**: 踝关节前向平移、内翻距骨倾斜、胫骨-腓骨间分离\n**分析方法**: 统计比较不同测试状态下的踝关节松弛度变化",
+      "content_en": "**Type**: Controlled laboratory study\n**Subjects**: 10 nonpaired cadaveric ankles\n**Testing Equipment**: 6 degrees of freedom (6-DOF) robot\n**Testing States**: Sequentially tested: (1) intact; (2) ATFL cut; (3) CFL cut; (4) ATFL repair + CFL cut; (5) ATFL repair + CFL repair; (6) Augmented ATFL repair + CFL repair\n**Primary Assessments**: 88 N anterior drawer, 5 N·m varus talar tilt tests (at 0° and 30° plantarflexion); 88 N Cotton test (at 0° plantarflexion)\n**Outcome Measures**: Ankle anterior translation, varus talar tilt, tibiofibular separation\n**Analysis**: Statistical comparison of ankle laxity changes across different testing states"
     },
     {
       "id": "results",
       "icon": "◈",
       "title_zh": "核心数据",
       "title_en": "Key Numbers",
-      "stats": []
+      "stats": [
+        {
+          "label_zh": "前抽屉试验松弛度（30°跖屈位）",
+          "label_en": "Anterior Drawer Laxity (30° PF)",
+          "value": "未显著增加",
+          "note": "加固ATFL修复+CFL修复后，与完整状态相比 (P = .393)"
+        },
+        {
+          "label_zh": "距骨倾斜增加 (CFL切断)",
+          "label_en": "Talar Tilt Increase (CFL cut)",
+          "value": "显著增加",
+          "note": "CFL切断后，与ATFL切断状态相比，0°和30°跖屈位时 (P < .001)"
+        },
+        {
+          "label_zh": "加固ATFL修复后前抽屉活动度",
+          "label_en": "Anterior Drawer Motion after Augmented ATFL Repair",
+          "value": "0.5至1 mm",
+          "note": "缝线带加固ATFL修复可将术后活动度限制在此范围内"
+        }
+      ]
     },
     {
       "id": "appraisal",
@@ -42,24 +61,26 @@
       "title_zh": "方法学评价",
       "title_en": "Critical Appraisal",
       "pros_zh": [
-        "对当前运动康复领域过度推崇隐性学习的趋势提出了及时且重要的反思。",
-        "强调康复干预的个体化和情境化，引导临床实践更具针对性。",
-        "发表于高影响力期刊《英国运动医学杂志》(BJSM)，增加了其观点的学术分量和传播力。"
+        "首次使用六自由度机器人系统地评估踝关节韧带损伤和修复的生物力学，提供客观定量数据。",
+        "采用序列性损伤和修复模型，清晰地比较了不同损伤和修复状态的影响。",
+        "通过多种生物力学测试（前抽屉、距骨倾斜、Cotton试验）全面评估了踝关节的稳定性。"
       ],
       "cons_zh": [
-        "作为一篇评论文章，它不提供新的实证数据或临床试验结果。",
-        "所提出的建议主要基于理论论证和现有文献，缺乏具体、标准化的干预方案。",
-        "对显性与隐性干预结合使用的具体操作细节和效果评估仍需进一步研究。"
+        "尸体研究，无法模拟生物学愈合、炎症反应和肌肉动态稳定作用。",
+        "样本量较小（n=10），可能限制结果的普适性。",
+        "“零时间”测试结果，未考虑术后愈合、康复和负重对稳定性恢复的影响。",
+        "只评估了一种加固方式（缝线带），未比较其他加固材料或技术。"
       ],
       "pros_en": [
-        "Offers a timely and crucial reflection on the current trend of over-emphasizing implicit learning in sports rehabilitation.",
-        "Highlights the importance of individualizing and contextualizing rehabilitation interventions, guiding more targeted clinical practice.",
-        "Published in a high-impact journal, British Journal of Sports Medicine (BJSM), which enhances its academic credibility and reach."
+        "First study to systematically evaluate ankle ligament injuries and repairs biomechanically using a 6-DOF robotic system, providing objective quantitative data.",
+        "Employed a sequential injury and repair model, allowing clear comparison of different injury and repair states.",
+        "Comprehensive evaluation of ankle stability through multiple biomechanical tests (anterior drawer, talar tilt, Cotton test)."
       ],
       "cons_en": [
-        "As a commentary, it does not present new empirical data or results from clinical trials.",
-        "The recommendations are primarily based on theoretical arguments and existing literature, lacking specific, standardized intervention protocols.",
-        "Further research is needed on the specific operational details and effectiveness evaluation of combining explicit and implicit interventions."
+        "Cadaveric study, unable to simulate biological healing, inflammatory responses, and dynamic muscular stabilization.",
+        "Small sample size (n=10) may limit generalizability of results.",
+        "\"Time zero\" results do not account for post-operative healing, rehabilitation, and weight-bearing effects on stability restoration.",
+        "Only one type of augmentation (suture tape) was evaluated, without comparing other augmentation materials or techniques."
       ]
     },
     {
@@ -67,8 +88,8 @@
       "icon": "◆",
       "title_zh": "研究启示",
       "title_en": "Takeaway",
-      "content_zh": "**1. 平衡运动学习策略**：ACL康复不应仅依赖隐性学习。显性运动学习干预在特定情况下仍具有重要价值，应将两种策略结合使用，以实现最佳的运动再学习和损伤预防效果。\n\n**2. 个体化康复方案**：康复专业人员在选择运动学习策略时，需充分考虑患者的个体特征（如认知风格、学习经验）和康复情境（如任务复杂性、康复阶段），而非采用“一刀切”的方法。\n\n**3. 明确指令的积极作用**：显性、内源性聚焦的口头指令（例如，“深蹲时膝盖不要超过脚尖”）对于患者初步掌握复杂运动模式、建立意识控制和纠正不良生物力学姿态至关重要。\n\n**4. 生物力学技术辅助**：对于FENG实验室，此研究强调了利用生物力学测量仪器（如运动捕捉系统、肌电图、测力台）的重要性。这些工具能客观量化患者的运动表现和生物力学指标，为显性指令提供精确反馈，帮助患者理解和执行正确的运动模式，从而优化康复效果。",
-      "content_en": "**1. Balanced Motor Learning Strategies**: ACL rehabilitation should not solely rely on implicit learning. Explicit motor learning interventions still hold significant value in specific contexts, and a combination of both strategies should be employed for optimal motor relearning and injury prevention.\n\n**2. Individualized Rehabilitation Approaches**: Rehabilitation professionals must consider patients' individual characteristics (e.g., cognitive style, learning experience) and rehabilitation context (e.g., task complexity, stage of rehab) when selecting motor learning strategies, rather than adopting a \"one-size-fits-all\" approach.\n\n**3. Positive Role of Explicit Cues**: Explicit, internally-focused verbal cues (e.g., \"do not let your knees go over your toes during squats\") are crucial for patients to initially grasp complex movement patterns, establish conscious control, and correct undesirable biomechanical postures.\n\n**4. Assisted by Biomechanical Technology**: For the FENG Lab, this research underscores the importance of utilizing biomechanical measurement tools (e.g., motion capture systems, electromyography, force plates). These tools can objectively quantify patient movement performance and biomechanical parameters, providing precise feedback for explicit instructions, helping patients understand and execute correct movement patterns, thereby optimizing rehabilitation outcomes."
+      "content_zh": "1. **最佳修复策略**：对于踝关节前向平移不稳定，结合缝线带加固的距腓前韧带（ATFL）修复与非加固的跟腓韧带（CFL）修复在“零时间”表现出最佳稳定性。但即便如此，也未能完全恢复到完整踝关节的稳定性。\n\n2. **跟腓韧带的重要性**：研究明确证实了跟腓韧带（CFL）是距骨内翻倾斜不稳的主要稳定结构。在评估和治疗踝关节外侧不稳时，必须重视CFL的损伤。\n\n3. **早期康复与制动**：鉴于“零时间”修复仍存在一定松弛，研究提示术后制动期对促进愈合和限制早期过度活动至关重要，之后再开始受保护的康复。\n\n4. **未来研究启示与生物力学测量**：本研究使用的六自由度机器人提供了精确的力学数据。未来研究应考虑CFL的加固以更好地控制距骨倾斜，并可探索使用可穿戴式生物力学传感器（如IMU或运动捕捉系统）在临床环境中进行患者踝关节稳定性动态评估，指导个性化康复方案。",
+      "content_en": "1. **Optimal Repair Strategy**: For anterior translation instability, augmented ATFL repair with suture tape combined with non-augmented CFL repair showed the best \"time zero\" stability. However, even this approach did not fully restore intact ankle stability.\n\n2. **Importance of the CFL**: The study definitively confirmed the calcaneofibular ligament (CFL) as a primary stabilizer for varus talar tilt instability. Addressing CFL injury is crucial in the assessment and treatment of lateral ankle instability.\n\n3. **Early Rehabilitation & Immobilization**: Given that \"time zero\" repairs still exhibited some laxity, the study suggests that a period of post-operative immobilization is vital to facilitate healing and limit early excessive motion before initiating protected rehabilitation.\n\n4. **Future Research & Biomechanical Measurement**: The 6-DOF robot used in this study provides precise mechanical data. Future research should consider augmentation of the CFL to better control talar tilt and explore the use of wearable biomechanical sensors (e.g., IMUs or motion capture systems) for dynamic in-vivo assessment of ankle stability in clinical settings, guiding personalized rehabilitation protocols."
     }
   ]
 }
