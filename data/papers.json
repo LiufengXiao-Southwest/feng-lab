@@ -1,45 +1,4 @@
 {
-  "last_updated": "2026-06-19",
-  "papers": [
-    {
-      "id": "b892ef94",
-      "title_en": "The role of exercise physiology in the United Nations’ sustainable development goals",
-      "title_zh": "运动生理学在联合国可持续发展目标中的作用",
-      "authors": [
-        "P. Chilibeck"
-      ],
-      "journal": "European Journal of Applied Physiology",
-      "year": 2023,
-      "date_added": "2026-06-19",
-      "category": "supplements",
-      "doi": "10.1007/s00421-023-05180-w",
-      "impact_factor": "3.3",
-      "citation_count": 1,
-      "is_open_access": true,
-      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s00421-023-05180-w.pdf",
-      "abstract_en": "In 2015 the United Nations member states adopted the 2030 Agenda for Sustainable Development, which is a “blueprint for peace and prosperity for people and the planet, now and into the future” (https:// sdgs. un. org/ 2030a genda). This includes 17 sustainable development goals (https:// sdgs. un. org/ goals). Sustainability Development Goal 3 promotes “Good Health and Wellbeing” with the specific goal to “ensure healthy lives and promote well-being for all at all ages”. Sub-goal 3.4 is to reduce by one-third premature mortality from non-communicable diseases through prevention and treatment by 2030. Exercise physiologists have a role to play specifically for sub-goal 3.4.1, which is to reduce the mortality rate due to cardiovascular disease, cancer, diabetes, and chronic respiratory disease. The Sustainable Development Goal report of 2021 indicated that globally 74% of deaths were cause",
-      "abstract_zh": "2015年，联合国会员国通过了《2030年可持续发展议程》，该议程是“为今世后代人类和地球实现和平与繁荣的蓝图”（https://sdgs.un.org/2030agenda）。其中包含17项可持续发展目标（https://sdgs.un.org/goals）。可持续发展目标3旨在促进“良好健康与福祉”，其具体目标是“确保所有年龄段人群的健康生活并促进福祉”。分目标3.4是通过预防和治疗，将非传染性疾病导致的过早死亡率降低三分之一。",
-      "keywords": []
-    },
-    {
-      "id": "b61b6244",
-      "title_en": "SJMSS paper of the year 2022",
-      "title_zh": "SJMSS 2022年度最佳论文",
-      "authors": [
-        "S. Harridge"
-      ],
-      "journal": "Scandinavian Journal of Medicine & Science in Sports",
-      "year": 2023,
-      "date_added": "2026-06-19",
-      "category": "performance",
-      "doi": "10.1111/sms.14296",
-      "impact_factor": "5.2",
-      "citation_count": 0,
-      "is_open_access": false,
-      "pdf_url": "",
-      "abstract_en": "In 2021, the journal introduced a new “SJMSS Paper of the Year” award. This is decided by a panel comprising the Senior Section Editors of the journal and is awarded to a paper published in the calendar year 2022. The paper is selected on the basis of that which provides new and important insights in the field of sport and exercise science and medicine, coupled with a high level of scientific rigor. The recipient of the 2022 SJMSS Paper of the Year is Kujala et al.1 for their paper entitled: “Physical activity and health: Findings from Finnish monozygotic twin pairs discordant for physical activity.” This paper, which is a hybrid of a review and an original research paper, has investigated indices of health from monozygotic twin pairs extracted from two established Finnish twin cohorts. Seventeen twin pairs were selected as being uniquely discordant in regard to their levels of physical ",
-      "abstract_zh": "2021年，该期刊设立了新的“SJMSS年度最佳论文”奖。该奖项由期刊高级栏目编辑组成的小组评定，并授予在2022日历年发表的论文。论文的评选标准是其是否在运动与锻炼科学和医学领域提供了新的重要见解，并具有高度的科学严谨性。2022年SJMSS年度最佳论文的获得者是Kujala等人1，他们的论文题为：“体育活动与健康：芬兰单卵双生子体力活动差异的研究发现”。",
-      "keywords": []
-    }
-  ]
+  "last_updated": "2026-06-20",
+  "papers": []
 }
