@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-22",
+  "last_updated": "2026-06-23",
   "dates": {
     "2026-04-09": [
       {
@@ -2487,6 +2487,28 @@
         "pdf_url": "",
         "abstract_en": "The use of sports foods and supplements has become ubiquitous among cyclists of all disciplines in order to meet energy and nutrient targets and to improve performance and recovery outcomes. This review will provide an overview of the different types of products and the rationale for their use, while highlighting key considerations surrounding the safety and anti-doping risks that supplements pose among athletes. A summary of supplements with a strong evidence base (caffeine, creatine, sodium bicarbonate, beta-alanine, dietary nitrate, and glycerol) and emerging supplements popularized within cycling (exogenous ketones) is also provided, outlining accepted protocols for use, timing, and potential ergogenic effects or side effects.",
         "abstract_zh": "在所有项目的自行车运动员中，运动食品和补充剂的使用已变得无处不在，旨在满足能量和营养目标，并改善表现和恢复结果。本综述将概述不同类型产品及其使用原理，同时强调补充剂对运动员构成安全和反兴奋剂风险的关键考量。对具有强有力证据基础的补充剂（咖啡因、肌酸、碳酸氢钠、β-丙氨酸、膳食硝酸盐和甘油）以及在...中流行的新兴补充剂进行了总结。",
+        "keywords": []
+      }
+    ],
+    "2026-06-23": [
+      {
+        "id": "b892ef94",
+        "title_en": "The role of exercise physiology in the United Nations’ sustainable development goals",
+        "title_zh": "运动生理学在联合国可持续发展目标中的作用",
+        "authors": [
+          "P. Chilibeck"
+        ],
+        "journal": "European Journal of Applied Physiology",
+        "year": 2023,
+        "date_added": "2026-06-23",
+        "category": "supplements",
+        "doi": "10.1007/s00421-023-05180-w",
+        "impact_factor": "3.3",
+        "citation_count": 1,
+        "is_open_access": true,
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s00421-023-05180-w.pdf",
+        "abstract_en": "In 2015 the United Nations member states adopted the 2030 Agenda for Sustainable Development, which is a “blueprint for peace and prosperity for people and the planet, now and into the future” (https:// sdgs. un. org/ 2030a genda). This includes 17 sustainable development goals (https:// sdgs. un. org/ goals). Sustainability Development Goal 3 promotes “Good Health and Wellbeing” with the specific goal to “ensure healthy lives and promote well-being for all at all ages”. Sub-goal 3.4 is to reduce by one-third premature mortality from non-communicable diseases through prevention and treatment by 2030. Exercise physiologists have a role to play specifically for sub-goal 3.4.1, which is to reduce the mortality rate due to cardiovascular disease, cancer, diabetes, and chronic respiratory disease. The Sustainable Development Goal report of 2021 indicated that globally 74% of deaths were cause",
+        "abstract_zh": "2015年，联合国成员国通过了《2030年可持续发展议程》，该议程是“为今世后代和地球带来和平与繁荣的蓝图”(https:// sdgs. un. org/ 2030a genda)。其中包括17个可持续发展目标(https:// sdgs. un. org/ goals)。可持续发展目标3旨在促进“良好健康与福祉”，其具体目标是“确保健康的生活方式，促进各年龄段所有人的福祉”。具体目标3.4是通过预防和治疗，将非传染性疾病导致的过早死亡率降低三分之一。",
         "keywords": []
       }
     ]
