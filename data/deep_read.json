@@ -1,57 +1,86 @@
 {
-  "date": "2026-06-22",
-  "title_en": "Considerations with Open Kinetic Chain Knee Extension Exercise Following ACL Reconstruction",
-  "title_zh": "前交叉韧带重建术后开链膝关节伸展运动的考量",
-  "authors": "K. Wilk, C. Arrigo, Michael S Bagwell, Adam Finck",
-  "journal": "Journal of Orthopaedic & Sports Physical Therapy",
-  "year": 2021,
+  "date": "2026-06-26",
+  "title_en": "Bilateral Alterations in Isokinetic Strength and Knee Biomechanics During Side-Cutting 1 Year After Unilateral ACL Reconstruction",
+  "title_zh": "单侧ACL重建术后1年侧向变向时等速力量和膝关节生物力学的双侧改变",
+  "authors": "Huijuan Shi, S. Ren, Hongshi Huang, Hui Liu et al.",
+  "journal": "American Journal of Sports Medicine",
+  "year": 2022,
   "volume_page": "",
-  "doi": "10.26603/001c.18983",
-  "impact_factor": "6.8",
-  "is_open_access": true,
-  "pdf_url": "https://ijspt.scholasticahq.com/article/18983.pdf",
+  "doi": "10.1177/03635465221112940",
+  "impact_factor": "5.5",
+  "is_open_access": false,
+  "pdf_url": "",
   "category": "biomechanics",
-  "citation_count": 11,
+  "citation_count": 13,
   "sections": [
     {
       "id": "why",
       "icon": "◎",
       "title_zh": "为什么值得读",
       "title_en": "Why It Matters",
-      "content_zh": "这篇临床观点文章为前交叉韧带（ACL）重建术后开链膝关节伸展运动的安全性与有效性提供了平衡且关键的视角。它驳斥了先前一篇鼓励激进使用开链运动的文章，通过强调不当使用（如过大负荷、不当运动范围和时机）可能导致移植体损伤和髌股关节疼痛的风险，填补了临床实践中关于开链运动应用策略的争议空白。其11次引用表明该文章在促进ACL康复领域更安全、更明智的实践方面具有重要影响力。",
-      "content_en": "This clinical viewpoint offers a balanced and critical perspective on the safety and efficacy of open kinetic chain (OKC) knee extension exercises following ACL reconstruction. It counters a previous article advocating for aggressive OKC use by highlighting the risks of inappropriate application (e.g., excessive resistance, unsuitable ROM, and timing) that can lead to graft compromise and patellofemoral pain, thus filling a critical gap in the debate surrounding OKC exercise strategies in clinical practice. Its 11 citations underscore its significant influence in promoting safer, more informed practices in ACL rehabilitation."
+      "content_zh": "该研究通过详细比较ACL重建腿、对侧腿和健康对照组在侧向变向任务中的膝关节生物力学和等速肌力，揭示了ACL重建术后1年患者复杂且多平面的运动模式和力量缺陷。这些发现超越了简单地将重建腿与健康个体进行比较，强调了双侧不对称性的重要性，并为制定更精准、个性化的康复和再损伤预防方案提供了明确的临床依据。其细致入微的分析，尤其是在不同运动平面上的差异，为理解ACL损伤后的适应性变化提供了关键证据，因此被引用13次，对运动损伤康复领域具有显著贡献。",
+      "content_en": "This study offers a detailed comparison of knee biomechanics and isokinetic strength during side-cutting among the reconstructed leg, contralateral leg, and healthy controls 1 year post-ACL reconstruction. It reveals complex, multi-planar movement patterns and strength deficits, moving beyond simple comparisons of the reconstructed leg to healthy individuals, emphasizing the critical role of bilateral asymmetries. These findings provide clear clinical rationale for developing more precise, personalized rehabilitation and re-injury prevention programs. The nuanced analysis, particularly regarding differences across various movement planes, provides key evidence for understanding post-ACL injury adaptations, thus contributing significantly to the sports injury rehabilitation field and receiving 13 citations."
     },
     {
       "id": "design",
       "icon": "⊞",
       "title_zh": "研究设计速览",
       "title_en": "Study Design",
-      "content_zh": "<b>类型</b>: 临床观点文章\n<b>研究目的</b>: 讨论前交叉韧带重建术后开链膝关节伸展运动的潜在风险与安全策略\n<b>证据来源</b>: 基于对现有重要文献的批判性回顾和专家临床经验\n<b>核心论点</b>: 需谨慎使用开链膝关节伸展运动，尤其在负荷、时机和关节活动度方面，以确保移植体安全和髌股关节健康。",
-      "content_en": "<b>Type</b>: Clinical Viewpoint Article\n<b>Study Purpose</b>: To discuss potential risks and safe strategies for open kinetic chain knee extension exercises following ACL reconstruction\n<b>Evidence Source</b>: Based on a critical review of existing landmark literature and expert clinical experience\n<b>Core Argument</b>: Cautious use of OKC knee extension exercises is necessary, especially concerning load, timing, and range of motion, to ensure graft integrity and patellofemoral health."
+      "content_zh": "**类型**: 对照实验室研究\n**样本**: 16名ACL重建患者（术后11.8 ± 1.1个月），16名健康对照\n**研究对象**: 侧向变向时的膝关节生物力学（标志点坐标、地面反作用力）和腘绳肌/股四头肌等速力量\n**主要结局**: 膝关节屈曲角、膝关节伸展力矩、膝关节外旋角、膝关节外展角、膝关节外旋力矩、膝关节外展力矩、股四头肌力量、腘绳肌力量及其双侧不对称性\n**分析方法**: 混合设计双向方差分析",
+      "content_en": "**Type**: Controlled laboratory study\n**Sample**: 16 participants with ACLR (11.8 ± 1.1 months post-op), 16 healthy controls\n**Study Objects**: Knee biomechanics during side-cutting (landmark coordinates, ground-reaction forces) and isokinetic strength of hamstring and quadriceps\n**Primary outcome**: Knee flexion angle, knee extension moment, knee external rotation angle, knee abduction angle, knee external rotation moment, knee abduction moment, quadriceps strength, hamstring strength, and their bilateral asymmetries\n**Analysis**: Two-way analysis of variance with mixed design"
     },
     {
       "id": "results",
       "icon": "◈",
       "title_zh": "核心数据",
-      "title_en": "Key Numbers",
       "stats": [
         {
-          "label_zh": "股四头肌力量增幅",
-          "label_en": "Quadriceps Force Increase",
-          "value": "3-4倍",
-          "note": "在近末端膝关节伸展（40-0度）时产生，导致更高的ACL应变。"
+          "label_zh": "重建腿膝关节屈曲角",
+          "label_en": "Reconstructed leg knee flexion angle",
+          "value": "显著减小",
+          "note": "vs 对侧腿 (P = .004)"
         },
         {
-          "label_zh": "ACL应变峰值范围",
-          "label_en": "Peak ACL Strain Range",
-          "value": "40-0度膝关节屈曲",
-          "note": "Beynnon等研究报告的体内最高ACL应变，且随阻力增加而增大。"
+          "label_zh": "重建腿股四头肌力量",
+          "label_en": "Reconstructed leg quadriceps strength",
+          "value": "显著降低",
+          "note": "vs 对侧腿 (P = .003)"
         },
         {
-          "label_zh": "髌股关节反作用力增幅",
-          "label_en": "Patellofemoral Joint Reaction Force Increase",
-          "value": "显著更大",
-          "note": "在50-0度膝关节屈曲范围，相比闭链运动，髌股关节反作用力和压力显著更大。"
+          "label_zh": "重建腿膝关节伸展力矩",
+          "label_en": "Reconstructed leg knee extension moment",
+          "value": "显著降低",
+          "note": "vs 对侧腿 (P = .001) 及 健康对照腿 (P = .001)"
+        },
+        {
+          "label_zh": "重建腿膝关节外旋角",
+          "label_en": "Reconstructed leg knee external rotation angle",
+          "value": "显著降低",
+          "note": "vs 对侧腿 (P = .003) 及 健康对照腿 (P = .001)"
+        },
+        {
+          "label_zh": "ACLR组膝关节外展角",
+          "label_en": "ACLR group knee abduction angles",
+          "value": "显著增大",
+          "note": "vs 对照组 (P = .004)"
+        },
+        {
+          "label_zh": "ACLR组膝关节外旋力矩",
+          "label_en": "ACLR group knee external rotation moments",
+          "value": "显著减小",
+          "note": "vs 对照组 (P = .006)"
+        },
+        {
+          "label_zh": "ACLR组膝关节屈曲角不对称性",
+          "label_en": "ACLR group knee flexion angle asymmetry",
+          "value": "显著增大",
+          "note": "vs 对照组 (P = .015)"
+        },
+        {
+          "label_zh": "ACLR组股四头肌力量不对称性",
+          "label_en": "ACLR group quadriceps strength asymmetry",
+          "value": "显著增大",
+          "note": "vs 对照组 (P = .046)"
         }
       ]
     },
@@ -61,24 +90,32 @@
       "title_zh": "方法学评价",
       "title_en": "Critical Appraisal",
       "pros_zh": [
-        "提供了对ACL重建术后开链膝关节伸展运动的全面和审慎观点，对临床实践具有高度指导意义。",
-        "基于现有重要文献，强调了关键的生物力学和临床风险，有助于预防移植体损伤和并发症。",
-        "由该领域的知名专家撰写，其经验和声誉增加了观点的可信度。"
+        "研究设计严谨，采用对照实验室研究，对变量控制良好。",
+        "同时评估了生物力学和等速肌力，提供更全面的膝关节功能评估。",
+        "比较了重建腿、对侧腿和健康对照组，深入分析了双侧改变和不对称性。",
+        "侧向变向是ACL损伤的高风险动作，研究任务临床相关性强。",
+        "术后1年的标准化随访时间点，有助于结果的横向比较。"
       ],
       "cons_zh": [
-        "作为一篇临床观点文章，未提供原创性研究数据或系统综述，其结论主要依赖于作者对现有文献的解读。",
-        "文章的观点可能存在一定主观性，尽管有文献支持，但具体实施细节仍需临床医生根据患者情况个性化判断。",
-        "未详细提供一套具体的、分阶段的开链运动强度和范围的临床指导方案。"
+        "样本量相对较小（每组16人），可能限制结果的普适性。",
+        "横断面研究设计，无法揭示术后恢复过程中的时间动态变化。",
+        "未提供具体的康复方案、移植物类型或合并损伤信息，这些因素可能影响结果。",
+        "仅关注特定侧向变向任务，可能未能捕捉到所有功能性运动模式的改变。",
+        "缺乏术前数据，无法进行个体内部的前后对比。"
       ],
       "pros_en": [
-        "Offers a comprehensive and cautious viewpoint on OKC knee extension post-ACLR, highly instructive for clinical practice.",
-        "Highlights key biomechanical and clinical risks based on existing landmark literature, aiding in preventing graft compromise and complications.",
-        "Authored by well-known experts in the field, whose experience and reputation enhance the credibility of the viewpoint."
+        "Rigorous study design as a controlled laboratory study, ensuring good control over variables.",
+        "Evaluated both biomechanics and isokinetic strength, providing a comprehensive assessment of knee function.",
+        "Compared reconstructed leg, contralateral leg, and healthy controls, offering in-depth analysis of bilateral alterations and asymmetries.",
+        "Side-cutting is a high-risk maneuver for ACL injury, making the research task highly clinically relevant.",
+        "Standardized follow-up at 1 year post-op aids in the comparability of results."
       ],
       "cons_en": [
-        "As a clinical viewpoint, it does not provide original research data or a systematic review; its conclusions primarily rely on the authors' interpretation of existing literature.",
-        "The perspective may contain some subjectivity; despite literature support, specific implementation details still require individualized clinical judgment.",
-        "Does not provide a detailed, step-by-step clinical guideline for progressive OKC exercise intensity and range of motion."
+        "Relatively small sample size (16 participants per group), which may limit the generalizability of the findings.",
+        "Cross-sectional study design prevents understanding of temporal changes during the post-operative recovery process.",
+        "Lack of information regarding specific rehabilitation protocols, graft type, or concomitant injuries, which could influence outcomes.",
+        "Focused only on a specific side-cutting task, potentially not capturing all changes in functional movement patterns.",
+        "Absence of pre-injury data, precluding within-subject comparisons."
       ]
     },
     {
@@ -86,8 +123,8 @@
       "icon": "◆",
       "title_zh": "研究启示",
       "title_en": "Takeaway",
-      "content_zh": "1. **谨慎使用开链运动**: 前交叉韧带重建术后开链膝关节伸展运动虽有益，但必须谨慎应用，尤其要严格控制负荷、时机和关节活动度。应避免在康复早期或高负荷下进行全范围（特别是接近末端伸展）的开链膝伸展，以降低移植体应变和髌股关节疼痛风险。\n\n2. **理解生物力学风险区域**: 膝关节末端伸展（40-0度）时，股四头肌产生极大的力，导致ACL应变显著增加；而在50-0度膝关节屈曲范围，髌股关节反作用力和压力也显著升高。临床康复应特别注意规避或修改在这些高风险区域的强阻力开链运动。\n\n3. **利用生物力学监测优化康复**: 对于研究人员和临床医生，这篇论文强调了通过生物力学工具如**表面肌电图 (sEMG)** 监测股四头肌和腘绳肌协同收缩情况，**运动捕捉系统 (Motion Capture)** 评估关节角度和运动学，以及**力板 (Force Plate)** 或**定制传感器**测量膝关节反作用力，以实时评估和调整开链运动的安全性与效果。这些技术有助于制定个性化的康复方案，确保在安全阈值内进行训练。\n\n4. **强调协同收缩的重要性**: 开链膝关节伸展运动中腘绳肌活动度低，无法有效对抗股四头肌产生的胫骨前剪力，从而增加ACL应变。康复策略应考虑如何促进股四头肌和腘绳肌的协同收缩，例如通过调整运动模式或引入闭链运动，以更好地保护移植体。",
-      "content_en": "1. **Cautious Use of OKC Exercises**: While beneficial, open kinetic chain knee extension exercises following ACL reconstruction must be applied judiciously, with strict control over load, timing, and range of motion. Avoid full-range (especially near terminal extension) OKC knee extension in early rehabilitation or with high loads to minimize graft strain and patellofemoral pain risk.\n\n2. **Understand Biomechanical Risk Zones**: Terminal knee extension (40-0 degrees) significantly increases quadriceps forces, leading to substantial ACL strain. Patellofemoral joint reaction forces and stress are also significantly elevated in the 50-0 degrees knee flexion range. Clinical rehabilitation should specifically avoid or modify high-resistance OKC exercises in these high-risk zones.\n\n3. **Optimize Rehabilitation with Biomechanical Monitoring**: For researchers and clinicians, this paper underscores the importance of utilizing biomechanical tools such as **surface electromyography (sEMG)** to monitor quadriceps and hamstring co-contraction, **motion capture systems** to assess joint angles and kinematics, and **force plates** or **custom sensors** to measure knee joint reaction forces. These technologies can provide real-time assessment and adjustment of OKC exercise safety and effectiveness, aiding in the development of personalized rehabilitation protocols within safe thresholds.\n\n4. **Emphasize the Importance of Co-Contraction**: Low hamstring activity during OKC knee extension fails to effectively counteract the anterior tibial shear forces generated by the quadriceps, thereby increasing ACL strain. Rehabilitation strategies should consider how to promote quadriceps-hamstring co-contraction, for instance, by modifying exercise patterns or incorporating closed kinetic chain exercises, to better protect the graft."
+      "content_zh": "**康复重点应放在矢状面活动度和力量恢复。** 重建腿在侧向变向时膝关节屈曲角和股四头肌力量显著小于对侧腿，提示康复训练需优先解决这些矢状面上的缺陷。\n\n**损伤预防需针对额状面和横向面异常运动模式。** ACL重建组与健康对照组在膝关节外展角增大、外旋力矩减小方面存在差异，这表明预防再损伤的策略应超越矢状面，专注于改善这些平面上的运动控制。\n\n**重视双侧不对称性的综合评估与干预。** ACL重建患者在膝关节屈曲角、外旋角、伸展力矩、外展力矩以及股四头肌力量上均表现出更大的不对称性，强调了康复中需进行双侧评估并制定针对性的双侧训练计划。\n\n**生物力学仪器在精细化康复中的应用。** 运动捕捉系统结合测力台能够精确量化患者在侧向变向等高风险动作中的膝关节角度和力矩变化，为康复师提供客观数据以识别矢状面、额状面和横向面的细微异常，指导个性化的训练调整和复训决策。",
+      "content_en": "**Rehabilitation focus should be on sagittal plane range of motion and strength restoration.** The reconstructed leg showed significantly smaller knee flexion angles and quadriceps strength compared to the contralateral leg during side-cutting, suggesting these sagittal plane deficits require prioritized rehabilitation.\n\n**Injury prevention needs to target altered frontal and transverse plane movement patterns.** The ACLR group exhibited differences from healthy controls, including greater knee abduction angles and smaller external rotation moments. This indicates that re-injury prevention strategies should extend beyond the sagittal plane, focusing on improving movement control in these planes.\n\n**Emphasize comprehensive assessment and intervention for bilateral asymmetries.** ACLR patients demonstrated greater asymmetries in knee flexion angle, external rotation angle, extension moment, abduction moment, and quadriceps strength. This highlights the necessity for bilateral assessment and tailored bilateral training programs during rehabilitation.\n\n**Application of biomechanics instrumentation in refined rehabilitation.** Motion capture systems combined with force plates are essential for precisely quantifying knee joint angles and moment changes during high-risk maneuvers like side-cutting. This provides objective data for therapists to identify subtle sagittal, frontal, and transverse plane abnormalities, guiding personalized training adjustments and return-to-sport decisions."
     }
   ]
 }
