@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-29",
+  "last_updated": "2026-06-30",
   "dates": {
     "2026-04-09": [
       {
@@ -2929,6 +2929,32 @@
         "pdf_url": "",
         "abstract_en": "INTRODUCTION\nThe anaerobic threshold (AT) is an important physiological index used as a parameter for predicting performance and evaluating adaptations induced by training. The aim of this study was to carry out a systematic literature review to survey the randomized studies that compared the effects of high-intensity interval training (HIIT) with the effects of moderate intensity continuous training (MICT) on the anaerobic threshold of highly trained athletes in endurance sports.\n\n\nEVIDENCE ACQUISITION\nThe following databases were searched: MEDLINE, Embase, Cochrane Wiley, PubMed, SPORTDiscus, Web of Science, and ProQuest for randomized trials. The search terms covered the areas of HIIT and MICT. This study was registered in the International Prospective Register of Systematic under the number CRD42020155474.\n\n\nEVIDENCE SYNTHESIS\nThree studies were included for the qualitative and quant",
         "abstract_zh": "引言：无氧阈值（AT）是一个重要的生理指标，用作预测表现和评估训练诱导适应的参数。本研究旨在进行一项系统文献综述，调查比较高强度间歇训练（HIIT）与中等强度持续训练（MICT）对耐力运动高水平运动员无氧阈值影响的随机研究。\n证据获取：检索了以下数据库：MEDLINE、Embase、Cochrane Wiley、PubMed、SPORTDiscus。",
+        "keywords": []
+      }
+    ],
+    "2026-06-30": [
+      {
+        "id": "c1d250b4",
+        "title_en": "Explosive is not a Term Defined in the International System of Units and Should not be Used to Describe Neuromuscular Performance",
+        "title_zh": "爆发力并非国际单位制中定义的术语，不应被用于描述神经肌肉表现",
+        "authors": [
+          "B. Ide",
+          "Amanda Silvatti",
+          "Craig A. Staunton",
+          "M. Marocolo",
+          "D. Oranchuk"
+        ],
+        "journal": "International Journal of Strength and Conditioning",
+        "year": 2023,
+        "date_added": "2026-06-30",
+        "category": "performance",
+        "doi": "10.47206/ijsc.v3i1.210",
+        "impact_factor": "3.2",
+        "citation_count": 5,
+        "is_open_access": true,
+        "pdf_url": "https://journal.iusca.org/index.php/Journal/article/download/210/317",
+        "abstract_en": "Despite not being recognized by the International System of Units, explosive is a term often applied in sports science and professional practice. While associated with force, strength, power, performance, exercise, movements, contraction, action, and training, readers may be misled to believe that there are further analyses beyond power output, peak force, contractile rate of force development, and impulse. This critical review discusses the misuse of the term explosive in sports science literature, proposes alternatives, and encourages correct definitions of terms, units, and nomenclature to describe exercise performance. The suggestions provided in this review can help to reduce the confusion and perpetuation of an erroneous understanding of mechanical work, energy, and power in sports science.",
+        "abstract_zh": "尽管“爆发力”一词未获得国际单位制（SI）的认可，但它仍在体育科学和专业实践中被广泛使用。虽然该词与力、力量、功率、表现、运动、动作、收缩、行动和训练等概念相关联，但读者可能会被误导，以为除了功率输出、峰值力、收缩性发力速率和冲量之外，还存在更深层次的分析。本批判性综述讨论了体育科学文献中“爆发力”一词的滥用，提出了替代方案，并倡导对术语、单位和命名法进行准确定义，以...",
         "keywords": []
       }
     ]
