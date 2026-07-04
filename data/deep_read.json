@@ -1,86 +1,69 @@
 {
-  "date": "2026-06-26",
-  "title_en": "Bilateral Alterations in Isokinetic Strength and Knee Biomechanics During Side-Cutting 1 Year After Unilateral ACL Reconstruction",
-  "title_zh": "单侧ACL重建术后1年侧向变向时等速力量和膝关节生物力学的双侧改变",
-  "authors": "Huijuan Shi, S. Ren, Hongshi Huang, Hui Liu et al.",
-  "journal": "American Journal of Sports Medicine",
-  "year": 2022,
+  "date": "2026-07-04",
+  "title_en": "Sprint running mechanics are associated with hamstring strain injury: a 6-month prospective cohort study of 126 elite male footballers",
+  "title_zh": "冲刺跑力学与腘绳肌拉伤相关：一项对126名精英男足球运动员的6个月前瞻性队列研究",
+  "authors": "C. Bramah, Samantha Rhodes, A. Clarke-Cornwell, Thomas Dos’Santos",
+  "journal": "British Journal of Sports Medicine",
+  "year": 2025,
   "volume_page": "",
-  "doi": "10.1177/03635465221112940",
-  "impact_factor": "5.5",
+  "doi": "10.1136/bjsports-2024-108600",
+  "impact_factor": "18.4",
   "is_open_access": false,
   "pdf_url": "",
   "category": "biomechanics",
-  "citation_count": 13,
+  "citation_count": 10,
   "sections": [
     {
       "id": "why",
       "icon": "◎",
       "title_zh": "为什么值得读",
       "title_en": "Why It Matters",
-      "content_zh": "该研究通过详细比较ACL重建腿、对侧腿和健康对照组在侧向变向任务中的膝关节生物力学和等速肌力，揭示了ACL重建术后1年患者复杂且多平面的运动模式和力量缺陷。这些发现超越了简单地将重建腿与健康个体进行比较，强调了双侧不对称性的重要性，并为制定更精准、个性化的康复和再损伤预防方案提供了明确的临床依据。其细致入微的分析，尤其是在不同运动平面上的差异，为理解ACL损伤后的适应性变化提供了关键证据，因此被引用13次，对运动损伤康复领域具有显著贡献。",
-      "content_en": "This study offers a detailed comparison of knee biomechanics and isokinetic strength during side-cutting among the reconstructed leg, contralateral leg, and healthy controls 1 year post-ACL reconstruction. It reveals complex, multi-planar movement patterns and strength deficits, moving beyond simple comparisons of the reconstructed leg to healthy individuals, emphasizing the critical role of bilateral asymmetries. These findings provide clear clinical rationale for developing more precise, personalized rehabilitation and re-injury prevention programs. The nuanced analysis, particularly regarding differences across various movement planes, provides key evidence for understanding post-ACL injury adaptations, thus contributing significantly to the sports injury rehabilitation field and receiving 13 citations."
+      "content_zh": "这是首项在前瞻性队列研究中，确定精英男足球运动员的冲刺跑运动学特征与未来冲刺相关腘绳肌拉伤风险之间存在关联的研究，填补了该领域的重要空白。该发现为伤病风险评估、预防和康复策略提供了新的生物力学视角，有助于指导更精准的临床实践，因此获得了早期关注和引用。",
+      "content_en": "This is the first prospective cohort study to identify an association between sprint running kinematics and future sprint-related hamstring strain injury (HSI) risk in elite male footballers, filling a significant gap in the field. This finding offers a novel biomechanical perspective for injury risk assessment, prevention, and rehabilitation strategies, potentially guiding more precise clinical practices, hence its early citations and attention."
     },
     {
       "id": "design",
       "icon": "⊞",
       "title_zh": "研究设计速览",
       "title_en": "Study Design",
-      "content_zh": "**类型**: 对照实验室研究\n**样本**: 16名ACL重建患者（术后11.8 ± 1.1个月），16名健康对照\n**研究对象**: 侧向变向时的膝关节生物力学（标志点坐标、地面反作用力）和腘绳肌/股四头肌等速力量\n**主要结局**: 膝关节屈曲角、膝关节伸展力矩、膝关节外旋角、膝关节外展角、膝关节外旋力矩、膝关节外展力矩、股四头肌力量、腘绳肌力量及其双侧不对称性\n**分析方法**: 混合设计双向方差分析",
-      "content_en": "**Type**: Controlled laboratory study\n**Sample**: 16 participants with ACLR (11.8 ± 1.1 months post-op), 16 healthy controls\n**Study Objects**: Knee biomechanics during side-cutting (landmark coordinates, ground-reaction forces) and isokinetic strength of hamstring and quadriceps\n**Primary outcome**: Knee flexion angle, knee extension moment, knee external rotation angle, knee abduction angle, knee external rotation moment, knee abduction moment, quadriceps strength, hamstring strength, and their bilateral asymmetries\n**Analysis**: Two-way analysis of variance with mixed design"
+      "content_zh": "**类型**: 前瞻性队列研究\n**样本**: 126名职业男足球运动员\n**研究对象**: 来自英格兰足球联赛8个俱乐部的精英男足球运动员\n**随访期**: 6个月\n**主要评估**: 采用单一盲法评估员，通过240帧/秒的最大速度冲刺跑视频评估冲刺力学评估评分（S-MAS）\n**结局**: 新的经MRI确认的冲刺相关腘绳肌拉伤\n**分析方法**: 泊松回归模型计算发生率比率",
+      "content_en": "**Type**: Prospective cohort study\n**Sample**: 126 professional male football players\n**Participants**: Elite male football players from eight clubs in the English football league\n**Follow-up period**: 6 months\n**Main assessment**: Sprint Mechanics Assessment Score (S-MAS) assessed by a single, blinded assessor using 240 fps maximal velocity sprint running videos\n**Outcome**: New MRI-confirmed sprint-related hamstring strain injury (HSI)\n**Analysis method**: Poisson regression model to calculate incidence rate ratios"
     },
     {
       "id": "results",
       "icon": "◈",
       "title_zh": "核心数据",
+      "title_en": "Key Numbers",
       "stats": [
         {
-          "label_zh": "重建腿膝关节屈曲角",
-          "label_en": "Reconstructed leg knee flexion angle",
-          "value": "显著减小",
-          "note": "vs 对侧腿 (P = .004)"
+          "label_zh": "新的冲刺相关腘绳肌拉伤数",
+          "label_en": "New sprint-related HSIs",
+          "value": "14",
+          "note": "在17例新拉伤中（共126名球员）"
         },
         {
-          "label_zh": "重建腿股四头肌力量",
-          "label_en": "Reconstructed leg quadriceps strength",
-          "value": "显著降低",
-          "note": "vs 对侧腿 (P = .003)"
+          "label_zh": "S-MAS中位数差异（既往损伤 vs 未损伤）",
+          "label_en": "S-MAS MD (previous injury vs uninjured)",
+          "value": "1",
+          "note": "p=0.007, 95% CI: 0 to 3"
         },
         {
-          "label_zh": "重建腿膝关节伸展力矩",
-          "label_en": "Reconstructed leg knee extension moment",
-          "value": "显著降低",
-          "note": "vs 对侧腿 (P = .001) 及 健康对照腿 (P = .001)"
+          "label_zh": "S-MAS中位数差异（新损伤 vs 未损伤）",
+          "label_en": "S-MAS MD (new injury vs uninjured)",
+          "value": "2",
+          "note": "p=0.006, 95% CI: 1 to 3"
         },
         {
-          "label_zh": "重建腿膝关节外旋角",
-          "label_en": "Reconstructed leg knee external rotation angle",
-          "value": "显著降低",
-          "note": "vs 对侧腿 (P = .003) 及 健康对照腿 (P = .001)"
+          "label_zh": "S-MAS每增加1分的调整发生率比",
+          "label_en": "Adjusted IRR for each 1-point increase in S-MAS",
+          "value": "1.33",
+          "note": "95% CI: 1.01 to 1.76"
         },
         {
-          "label_zh": "ACLR组膝关节外展角",
-          "label_en": "ACLR group knee abduction angles",
-          "value": "显著增大",
-          "note": "vs 对照组 (P = .004)"
-        },
-        {
-          "label_zh": "ACLR组膝关节外旋力矩",
-          "label_en": "ACLR group knee external rotation moments",
-          "value": "显著减小",
-          "note": "vs 对照组 (P = .006)"
-        },
-        {
-          "label_zh": "ACLR组膝关节屈曲角不对称性",
-          "label_en": "ACLR group knee flexion angle asymmetry",
-          "value": "显著增大",
-          "note": "vs 对照组 (P = .015)"
-        },
-        {
-          "label_zh": "ACLR组股四头肌力量不对称性",
-          "label_en": "ACLR group quadriceps strength asymmetry",
-          "value": "显著增大",
-          "note": "vs 对照组 (P = .046)"
+          "label_zh": "S-MAS每增加1分导致新腘绳肌拉伤风险增加",
+          "label_en": "Increased risk of new HSI per 1-point S-MAS increase",
+          "value": "33%",
+          "note": "与发生率比率1.33相对应"
         }
       ]
     },
@@ -90,32 +73,30 @@
       "title_zh": "方法学评价",
       "title_en": "Critical Appraisal",
       "pros_zh": [
-        "研究设计严谨，采用对照实验室研究，对变量控制良好。",
-        "同时评估了生物力学和等速肌力，提供更全面的膝关节功能评估。",
-        "比较了重建腿、对侧腿和健康对照组，深入分析了双侧改变和不对称性。",
-        "侧向变向是ACL损伤的高风险动作，研究任务临床相关性强。",
-        "术后1年的标准化随访时间点，有助于结果的横向比较。"
+        "高水平的前瞻性队列研究设计，为因果关联提供了较强的证据。",
+        "研究对象为精英男足球运动员，结果对专业体育领域具有高度相关性。",
+        "对S-MAS评估员进行盲法处理，有效降低了评估偏倚。",
+        "损伤诊断采用客观的MRI确认，提高了损伤数据的准确性。",
+        "首次在前瞻性研究中建立了冲刺力学与未来腘绳肌拉伤的关联。"
       ],
       "cons_zh": [
-        "样本量相对较小（每组16人），可能限制结果的普适性。",
-        "横断面研究设计，无法揭示术后恢复过程中的时间动态变化。",
-        "未提供具体的康复方案、移植物类型或合并损伤信息，这些因素可能影响结果。",
-        "仅关注特定侧向变向任务，可能未能捕捉到所有功能性运动模式的改变。",
-        "缺乏术前数据，无法进行个体内部的前后对比。"
+        "S-MAS依赖于2D视频评估，可能限制了对全面3D运动学细节的捕获。",
+        "新的冲刺相关损伤事件数量相对较少（14例），可能影响统计效力。",
+        "6个月的随访期相对较短，可能无法捕捉长期的关联或变化。",
+        "S-MAS的具体评分细则未在摘要中详细阐述，难以全面评估其客观性和普适性。"
       ],
       "pros_en": [
-        "Rigorous study design as a controlled laboratory study, ensuring good control over variables.",
-        "Evaluated both biomechanics and isokinetic strength, providing a comprehensive assessment of knee function.",
-        "Compared reconstructed leg, contralateral leg, and healthy controls, offering in-depth analysis of bilateral alterations and asymmetries.",
-        "Side-cutting is a high-risk maneuver for ACL injury, making the research task highly clinically relevant.",
-        "Standardized follow-up at 1 year post-op aids in the comparability of results."
+        "High-level prospective cohort study design, providing strong evidence for causality.",
+        "Study population consists of elite male footballers, making the results highly relevant for professional sports.",
+        "Blinded assessor for S-MAS effectively reduces assessment bias.",
+        "Injury diagnosis confirmed by objective MRI, enhancing the accuracy of injury data.",
+        "First prospective study to establish an association between sprint mechanics and future HSI."
       ],
       "cons_en": [
-        "Relatively small sample size (16 participants per group), which may limit the generalizability of the findings.",
-        "Cross-sectional study design prevents understanding of temporal changes during the post-operative recovery process.",
-        "Lack of information regarding specific rehabilitation protocols, graft type, or concomitant injuries, which could influence outcomes.",
-        "Focused only on a specific side-cutting task, potentially not capturing all changes in functional movement patterns.",
-        "Absence of pre-injury data, precluding within-subject comparisons."
+        "S-MAS relies on 2D video assessment, which may limit the capture of comprehensive 3D kinematic details.",
+        "The relatively small number of new sprint-related injury events (14 cases) might affect statistical power.",
+        "The 6-month follow-up period is relatively short, potentially limiting the capture of long-term associations or changes.",
+        "Specific details of S-MAS scoring were not elaborated in the abstract, making it difficult to fully evaluate its objectivity and generalizability."
       ]
     },
     {
@@ -123,8 +104,8 @@
       "icon": "◆",
       "title_zh": "研究启示",
       "title_en": "Takeaway",
-      "content_zh": "**康复重点应放在矢状面活动度和力量恢复。** 重建腿在侧向变向时膝关节屈曲角和股四头肌力量显著小于对侧腿，提示康复训练需优先解决这些矢状面上的缺陷。\n\n**损伤预防需针对额状面和横向面异常运动模式。** ACL重建组与健康对照组在膝关节外展角增大、外旋力矩减小方面存在差异，这表明预防再损伤的策略应超越矢状面，专注于改善这些平面上的运动控制。\n\n**重视双侧不对称性的综合评估与干预。** ACL重建患者在膝关节屈曲角、外旋角、伸展力矩、外展力矩以及股四头肌力量上均表现出更大的不对称性，强调了康复中需进行双侧评估并制定针对性的双侧训练计划。\n\n**生物力学仪器在精细化康复中的应用。** 运动捕捉系统结合测力台能够精确量化患者在侧向变向等高风险动作中的膝关节角度和力矩变化，为康复师提供客观数据以识别矢状面、额状面和横向面的细微异常，指导个性化的训练调整和复训决策。",
-      "content_en": "**Rehabilitation focus should be on sagittal plane range of motion and strength restoration.** The reconstructed leg showed significantly smaller knee flexion angles and quadriceps strength compared to the contralateral leg during side-cutting, suggesting these sagittal plane deficits require prioritized rehabilitation.\n\n**Injury prevention needs to target altered frontal and transverse plane movement patterns.** The ACLR group exhibited differences from healthy controls, including greater knee abduction angles and smaller external rotation moments. This indicates that re-injury prevention strategies should extend beyond the sagittal plane, focusing on improving movement control in these planes.\n\n**Emphasize comprehensive assessment and intervention for bilateral asymmetries.** ACLR patients demonstrated greater asymmetries in knee flexion angle, external rotation angle, extension moment, abduction moment, and quadriceps strength. This highlights the necessity for bilateral assessment and tailored bilateral training programs during rehabilitation.\n\n**Application of biomechanics instrumentation in refined rehabilitation.** Motion capture systems combined with force plates are essential for precisely quantifying knee joint angles and moment changes during high-risk maneuvers like side-cutting. This provides objective data for therapists to identify subtle sagittal, frontal, and transverse plane abnormalities, guiding personalized training adjustments and return-to-sport decisions."
+      "content_zh": "**1. 风险评估与预警 (Risk Assessment & Early Warning)**: 冲刺跑生物力学（通过S-MAS评估）与精英足球运动员既往和未来的腘绳肌拉伤风险显著相关。S-MAS每增加1分，新拉伤风险增加33%，这提示S-MAS可作为潜在的伤病风险评估工具。\n\n**2. 康复与预防策略 (Rehabilitation & Prevention Strategies)**: 鉴于冲刺力学与腘绳肌拉伤的关联，在腘绳肌拉伤的康复和伤病预防计划中，应系统性地评估和优化运动员的冲刺跑技术，以降低未来损伤的风险。\n\n**3. 生物力学工具应用 (Biomechanical Instrumentation Application)**: 未来的研究和实践可以结合更先进的生物力学工具，如**高速动作捕捉系统**（用于更精确的三维运动学分析）、**肌电图（sEMG）**（评估肌肉激活模式）或**足底压力板**（分析地面反作用力），以获取更全面的冲刺力学数据，从而开发出更精细的评估和干预方案。\n\n**4. 持续监测与个性化干预 (Continuous Monitoring & Individualized Intervention)**: 精英运动员的冲刺力学应作为常规表现评估和伤病筛查的一部分，并根据评估结果及时进行个性化的技术指导和训练干预，以降低腘绳肌拉伤的发生率。",
+      "content_en": "**1. Risk Assessment & Early Warning**: Sprint running biomechanics (assessed via S-MAS) are significantly associated with both previous and future hamstring strain injuries in elite footballers. A one-point increase in S-MAS correlates with a 33% increased risk of new HSI, suggesting S-MAS as a potential injury risk assessment tool.\n\n**2. Rehabilitation & Prevention Strategies**: Given the association between sprint mechanics and HSI, systematic evaluation and optimization of sprint running technique should be considered within hamstring rehabilitation and injury prevention programs to mitigate future injury risk.\n\n**3. Biomechanical Instrumentation Application**: Future research and practice can integrate more advanced biomechanical tools such as **high-speed motion capture systems** (for more precise 3D kinematic analysis), **electromyography (sEMG)** (to assess muscle activation patterns), or **plantar pressure plates** (to analyze ground reaction forces), to gather comprehensive sprint mechanics data, leading to more refined assessment and intervention protocols.\n\n**4. Continuous Monitoring & Individualized Intervention**: Sprint mechanics in elite athletes should be part of routine performance assessment and injury screening, with timely individualized technical guidance and training interventions based on evaluation results to reduce HSI incidence."
     }
   ]
 }
