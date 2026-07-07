@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-06",
+  "last_updated": "2026-07-07",
   "dates": {
     "2026-04-09": [
       {
@@ -3268,6 +3268,104 @@
       }
     ],
     "2026-07-05": [],
-    "2026-07-06": []
+    "2026-07-06": [],
+    "2026-07-07": [
+      {
+        "id": "46142dcb",
+        "title_en": "The Biomechanical Influence of Step Width on Typical Locomotor Activities: A Systematic Review",
+        "title_zh": "步宽对典型步态活动生物力学的影响：一项系统综述",
+        "authors": [
+          "Yuan Wang",
+          "Q. Mei",
+          "Hanhui Jiang",
+          "Karsten Hollander",
+          "Pieter Van den Berghe"
+        ],
+        "journal": "Sports Medicine - Open",
+        "year": 2024,
+        "date_added": "2026-07-07",
+        "category": "biomechanics",
+        "doi": "10.1186/s40798-024-00750-4",
+        "impact_factor": "9.8",
+        "citation_count": 23,
+        "is_open_access": true,
+        "pdf_url": "https://sportsmedicine-open.springeropen.com/counter/pdf/10.1186/s40798-024-00750-4",
+        "abstract_en": "Step width is a spatial variable in the frontal plane, defined as the mediolateral distance between the heel (forefoot during sprinting) of bilateral feet at initial contact. Variations in step width may impact the lower limb biomechanics. This systematic review aimed to synthesize the published findings to determine the influence of acute changes in step width on locomotion biomechanics and provide implications for injury prevention and enhanced sports performance. Literature was identified, selected, and appraised in accordance with the methods of a systematic review. Four electronic databases (Web of Science, MEDLINE via PubMed, Scopus, and ScienceDirect) were searched up until May 2023 with the development of inclusion criteria based on the PICO model. Study quality was assessed using the Downs and Black checklist and the measured parameters were summarized. Twenty-three articles and",
+        "abstract_zh": "步宽是额状面上的一个空间变量，定义为双足初始接触时脚跟（冲刺时为前足）的内外侧距离。步宽的变化可能会影响下肢生物力学。本系统综述旨在综合已发表的研究结果，以确定步宽的急性变化对步态生物力学的影响，并为损伤预防和运动表现提升提供启示。文献的识别、选择和评估均按照系统综述的方法进行。四个电子数据库...",
+        "keywords": []
+      },
+      {
+        "id": "7adc3cbd",
+        "title_en": "Investigating the Impact of Preoperative Kinesiophobia and Pain on Postoperative Gait Biomechanics Following Anterior Cruciate Ligament Injury",
+        "title_zh": "探讨术前运动恐惧和疼痛对前交叉韧带损伤术后步态生物力学的影响",
+        "authors": [
+          "C. Lisee",
+          "Atc Shelby Baez",
+          "Atc Elizabeth Bjornsen PhD",
+          "P. Thoma",
+          "T. Pt"
+        ],
+        "journal": "Orthopaedic Journal of Sports Medicine",
+        "year": 2025,
+        "date_added": "2026-07-07",
+        "category": "biomechanics",
+        "doi": "10.1177/23259671241301376",
+        "impact_factor": "9.8",
+        "citation_count": 3,
+        "is_open_access": true,
+        "pdf_url": "https://doi.org/10.1177/23259671241301376",
+        "abstract_en": "Background: Aberrant gait biomechanics—ie, lower knee abduction moment (KAM) impulse— are linked to the development of posttraumatic osteoarthritis after anterior cruciate ligament (ACL) injury and ACL reconstruction (ACLR). There is a clinical need to identify modifiable factors, such as kinesiophobia and pain, that may contribute to aberrant gait development after ACLR to advance multimodal rehabilitation strategies. Purpose/Hypothesis: This study aimed to determine associations between preoperative kinesiophobia and pain and gait biomechanics linked to posttraumatic osteoarthritis development at 2 and 4 months after ACLR. We hypothesized that worse preoperative kinesiophobia and pain would be associated with lower KAM impulses in the ACLR limb but not the uninjured limb at 2 and 4 months after ACLR. Study Design: Cohort study; Level of evidence, 2. Methods: Patients within 6 weeks of ",
+        "abstract_zh": "背景：异常步态生物力学——即膝外展力矩（KAM）冲量降低——与前交叉韧带（ACL）损伤和ACL重建（ACLR）后创伤性骨关节炎的发生相关。临床上需要识别运动恐惧和疼痛等可调节因素，这些因素可能导致ACLR后异常步态的发展，以促进多模式康复策略。目的/假设：本研究旨在确定术前运动恐惧和疼痛与创伤后骨关节炎发生相关的步态生物力学之间的关联...",
+        "keywords": []
+      },
+      {
+        "id": "3c28d81b",
+        "title_en": "Lower Extremity Mechanical Energetics During Walking 6 Months Following Anterior Cruciate Ligament Reconstruction",
+        "title_zh": "前交叉韧带重建术后6个月步行时的下肢机械能学",
+        "authors": [
+          "Hyunwook Lee",
+          "C. Lisee",
+          "Christin Büttner",
+          "E. Bjornsen",
+          "Natália Favoreto"
+        ],
+        "journal": "Scandinavian Journal of Medicine & Science in Sports",
+        "year": 2025,
+        "date_added": "2026-07-07",
+        "category": "biomechanics",
+        "doi": "10.1111/sms.70105",
+        "impact_factor": "5.2",
+        "citation_count": 2,
+        "is_open_access": false,
+        "pdf_url": "",
+        "abstract_en": "Aberrant gait biomechanics following anterior cruciate ligament (ACL) injury and ACL reconstruction (ACLR) are critical factors contributing to the development of knee osteoarthritis (KOA). However, it remains unknown how ACLR impacts lower extremity joint energetics and each joint's contribution to total limb energetics during walking. To compare mechanical energetics at the ankle, knee, and hip joints between ACLR limbs, contralateral, and control limbs during walking. Forty‐four participants with primary unilateral ACLR (post‐ACLR: 6.0 ± 0.2 months) and 44 uninjured controls were studied. Ankle, knee, and hip joint work were calculated as the time integral of the negative (energy dissipation) or positive (energy generation) regions of the respective stance‐phase joint power curves. The joint‐specific contribution to total limb energy dissipation and generation was calculated. ANCOVA w",
+        "abstract_zh": "前交叉韧带（ACL）损伤和ACL重建（ACLR）后的异常步态生物力学是导致膝骨关节炎（KOA）发生的关键因素。然而，ACLR如何影响下肢关节能学以及步行时各关节对肢体总能学的贡献尚不清楚。本研究旨在比较ACLR肢体、对侧肢体和对照肢体在步行时踝关节、膝关节和髋关节的机械能学。对44名单侧初次ACLR患者（术后：6.0±0.2个月）和44名未受伤的对照者进行了研究。一项...",
+        "keywords": []
+      },
+      {
+        "id": "03f730e7",
+        "title_en": "Classifying Impact Loading Using Axial Peak Tibial Acceleration and Impact‐Related Biomechanical Differences During Treadmill Running",
+        "title_zh": "利用轴向胫骨峰值加速度和冲击相关生物力学差异对跑步机跑步时的冲击载荷进行分类",
+        "authors": [
+          "Eoin W Doyle",
+          "T. Doyle",
+          "J. Bonacci",
+          "J.A. Wills",
+          "Rhiannon A Campbell"
+        ],
+        "journal": "Scandinavian Journal of Medicine & Science in Sports",
+        "year": 2025,
+        "date_added": "2026-07-07",
+        "category": "biomechanics",
+        "doi": "10.1111/sms.70002",
+        "impact_factor": "5.2",
+        "citation_count": 0,
+        "is_open_access": true,
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/sms.70002",
+        "abstract_en": "Measuring lower extremity impact acceleration is a common strategy to identify runners with increased injury risk. However, existing axial peak tibial acceleration (PTA) thresholds for determining high‐impact runners typically rely on small samples or fixed running speeds. This study aimed to describe the distribution of axial PTA among runners at their preferred running speed, determine an appropriate adjustment for investigating impact magnitude at different speeds, and compare biomechanics between runners classified by impact magnitude. A total of 171 runners ran on an instrumented treadmill at their preferred running speed during 3D motion capture. Axial PTA was collected at the distal tibia. The relationship between axial PTA and running speed was investigated using linear regression. Runners were categorized into impact sub‐groups, with high‐ and low‐impact runners identified if th",
+        "abstract_zh": "测量下肢冲击加速度是识别损伤风险较高跑者的常用策略。然而，现有的用于确定高冲击跑者的轴向胫骨峰值加速度（PTA）阈值通常依赖于小样本或固定跑步速度。本研究旨在描述跑者在其偏好跑步速度下轴向PTA的分布，确定在不同速度下研究冲击幅度的适当调整方法，并比较按冲击幅度分类的跑者之间的生物力学差异。共有171名跑者在带仪器的跑步机上跑步...",
+        "keywords": []
+      }
+    ]
   }
 }

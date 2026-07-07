@@ -1,33 +1,33 @@
 {
-  "date": "2026-07-06",
-  "title_en": "Considerations with Open Kinetic Chain Knee Extension Exercise Following ACL Reconstruction",
-  "title_zh": "前交叉韧带重建术后开放链膝关节伸展运动的考量",
-  "authors": "K. Wilk, C. Arrigo, Michael S Bagwell, Adam Finck",
-  "journal": "Journal of Orthopaedic & Sports Physical Therapy",
+  "date": "2026-07-07",
+  "title_en": "Overuse Elbow Injuries in Youth Gymnasts",
+  "title_zh": "青年体操运动员肘部过度使用损伤",
+  "authors": "Nicholas A Bonazza, Eliana B. Saltzman, Jocelyn R. Wittstein, M. Richard et al.",
+  "journal": "American Journal of Sports Medicine",
   "year": 2021,
   "volume_page": "",
-  "doi": "10.26603/001c.18983",
-  "impact_factor": "6.8",
-  "is_open_access": true,
-  "pdf_url": "https://ijspt.scholasticahq.com/article/18983.pdf",
+  "doi": "10.1177/03635465211000776",
+  "impact_factor": "5.5",
+  "is_open_access": false,
+  "pdf_url": "",
   "category": "biomechanics",
-  "citation_count": 11,
+  "citation_count": 10,
   "sections": [
     {
       "id": "why",
       "icon": "◎",
       "title_zh": "为什么值得读",
       "title_en": "Why It Matters",
-      "content_zh": "本临床观点文章回应了关于ACL重建术后开放链（OKC）膝关节伸展运动的争议，旨在指导康复医师在确保移植物安全和髌股关节健康的前提下，有效强化股四头肌。其重要性在于平衡早期力量恢复与并发症风险，为实践提供关键性见解，从而获得11次引用。",
-      "content_en": "This clinical viewpoint article addresses the controversy surrounding open kinetic chain (OKC) knee extension exercises after ACL reconstruction, aiming to guide rehabilitation professionals in effectively strengthening the quadriceps while ensuring graft safety and patellofemoral joint health. Its significance lies in balancing early strength recovery with complication risks, offering critical insights for clinical practice, hence its 11 citations."
+      "content_zh": "本文全面综述了青年体操运动员特有的、现有文献中描述不足的肘部过度使用损伤，包括新发现的桡骨头应力性骨折。它综合了现有文献和临床经验，为诊断提供了关键见解，并提供了一个实用的、运动专项的康复计划。其10次引用量体现了它作为该特殊人群临床医生和研究人员基础参考的价值。",
+      "content_en": "This paper offers a comprehensive review of poorly described overuse elbow injuries unique to youth gymnasts, including a newly identified radial head stress fracture. It synthesizes existing literature and clinical expertise, providing crucial insights into diagnosis and offering a practical sport-specific rehabilitation program. Its 10 citations reflect its value as a foundational reference for clinicians and researchers addressing this specialized population."
     },
     {
       "id": "design",
       "icon": "⊞",
       "title_zh": "研究设计速览",
       "title_en": "Study Design",
-      "content_zh": "**类型**: 临床观点文章\n**目的**: 讨论ACL重建术后开放链膝关节伸展运动的担忧及其安全有效策略\n**论点**: 开放链膝关节伸展运动可安全且作为康复不可或缺的一部分，但不当使用（如大阻力、不适宜的运动范围和时间）可能对移植物完整性和髌股关节造成损害\n**引用证据**: 主要引用现有生物力学和临床研究（如关节应变、髌股关节力、膝关节松弛度研究）",
-      "content_en": "**Type**: Clinical Viewpoint Article\n**Purpose**: To discuss concerns and strategies for safe and effective open kinetic chain knee extension exercises following ACL reconstruction\n**Thesis**: OKC knee extension exercises can be used safely and are integral to rehabilitation, but inappropriate use (e.g., significant resistance, unsuitable ROM, inappropriate timing) can be deleterious to graft integrity and cause patellofemoral pain\n**Evidence Cited**: Primarily existing biomechanical and clinical research (e.g., ACL strain, patellofemoral forces, knee laxity studies)"
+      "content_zh": "**类型**: 叙述性综述。\n\n**研究对象**: 青年体操运动员。\n\n**数据来源**: PubMed数据库审查，结合临床经验与专家共识。\n\n**主要内容**: 全面综述青年体操运动员特有的肘部过度使用损伤、体操运动中的肘部生物力学、手术和非手术治疗结果，以及运动专项康复方案。",
+      "content_en": "**Type**: Narrative review.\n\n**Study Population**: Youth gymnasts.\n\n**Data Source**: PubMed database review, clinical experience, and expert consensus.\n\n**Key Focus**: Comprehensive review of unique overuse elbow injuries, biomechanics during gymnastics, treatment outcomes (operative/nonoperative), and a sport-specific rehabilitation program."
     },
     {
       "id": "results",
@@ -36,22 +36,28 @@
       "title_en": "Key Numbers",
       "stats": [
         {
-          "label_zh": "股四头肌力增加 (近终末伸展)",
-          "label_en": "Quadriceps Force Increase (Near Terminal Extension)",
-          "value": "3-4倍",
-          "note": "在40至0度膝关节屈曲范围，执行膝关节伸展时"
+          "label_zh": "青少年运动排名",
+          "label_en": "Youth Sport Ranking",
+          "value": "第6大常见运动",
+          "note": "儿童运动中排名"
         },
         {
-          "label_zh": "活体ACL应变最高范围",
-          "label_en": "Highest In Vivo ACL Strain Range",
-          "value": "40至0度",
-          "note": "负荷增加时ACL应变随之增加"
+          "label_zh": "参与训练时长",
+          "label_en": "Participation Hours",
+          "value": "最高",
+          "note": "所有青少年运动中"
         },
         {
-          "label_zh": "髌股关节反作用力和压缩力增加",
-          "label_en": "Patellofemoral Joint Reaction & Compressive Forces Increase",
-          "value": "50至0度",
-          "note": "在开放链膝关节伸展运动中显著高于闭链运动"
+          "label_zh": "主要损伤部位",
+          "label_en": "Primary Injury Location",
+          "value": "肘部外侧",
+          "note": "主要过度使用损伤部位"
+        },
+        {
+          "label_zh": "新描述的病理",
+          "label_en": "Newly Described Pathology",
+          "value": "桡骨头应力性骨折",
+          "note": "体操运动员特有"
         }
       ]
     },
@@ -61,28 +67,30 @@
       "title_zh": "方法学评价",
       "title_en": "Critical Appraisal",
       "pros_zh": [
-        "针对ACL重建术后康复的关键争议点，提供了及时且具体的指导",
-        "强调了康复中安全性和有效性的平衡，关注移植物完整性和髌股关节健康",
-        "基于多项经典的生物力学和临床研究，证据支持充分",
-        "为临床实践提供了关于开放链运动负荷、运动范围和时机选择的考量"
+        "对特定高风险人群（青年体操运动员）进行了全面综述。",
+        "突出并描述了一种新发现的病理：桡骨头应力性骨折。",
+        "结合了宝贵的临床经验和文献回顾以指导治疗。",
+        "提供了一项实用且运动专项的康复计划。",
+        "强调了心理、文化和生物力学因素的关键考量。"
       ],
       "cons_zh": [
-        "作为临床观点文章，未提供新的实验数据或研究结果",
-        "对现有文献的解读可能存在一定主观性，并非系统性综述",
-        "未提供具体、量化的康复方案或训练协议",
-        "无法提供统计学意义上的结论或效果评估"
+        "作为叙述性综述，易受选择偏倚影响，且缺乏系统性方法学。",
+        "未提供新的实证数据或定量分析，依赖于现有文献和专家意见。",
+        "缺乏所描述损伤的具体发病率或患病率数据，限制了流行病学洞察。",
+        "由于综述形式，每种损伤机制的生物力学分析深度可能有限。"
       ],
       "pros_en": [
-        "Provides timely and specific guidance on a critical controversial topic in ACL reconstruction rehabilitation",
-        "Emphasizes the balance between safety and effectiveness in rehabilitation, focusing on graft integrity and patellofemoral joint health",
-        "Well-supported by references to multiple classic biomechanical and clinical studies",
-        "Offers considerations for clinical practice regarding load, range of motion, and timing for OKC exercises"
+        "Provides a comprehensive review of a specialized and high-risk population (youth gymnasts).",
+        "Highlights and describes a newly recognized pathology: radial head stress fracture.",
+        "Integrates valuable clinical expertise with literature review to guide treatment.",
+        "Offers a practical, sport-specific rehabilitation program.",
+        "Emphasizes the crucial consideration of psychological, cultural, and biomechanical factors."
       ],
       "cons_en": [
-        "As a clinical viewpoint article, it does not present new experimental data or research findings",
-        "Interpretation of existing literature may be subjective and is not a systematic review",
-        "Does not provide specific, quantified rehabilitation protocols or training regimens",
-        "Cannot offer statistically significant conclusions or efficacy assessments"
+        "As a narrative review, it is susceptible to selection bias and lacks systematic methodology.",
+        "Does not present new empirical data or quantitative analysis, relying on existing literature and expert opinion.",
+        "Lacks specific incidence or prevalence data for the described injuries, limiting epidemiological insights.",
+        "The depth of biomechanical analysis for each injury mechanism might be limited due to the review format."
       ]
     },
     {
@@ -90,8 +98,8 @@
       "icon": "◆",
       "title_zh": "研究启示",
       "title_en": "Takeaway",
-      "content_zh": "1.  **ACL重建术后开放链康复原则**：开放链膝关节伸展（OKC）对恢复股四头肌力量至关重要，但必须谨慎。尤其在康复早期，应避免在膝关节伸展40至0度范围内进行大阻力练习，以防止对ACL移植物和髌股关节造成不当应力。\n2.  **关键生物力学风险区间**：膝关节近终末伸展（40-0度）时，股四头肌发力需求显著增加（3-4倍），同时导致ACL应变和髌股关节压力升高。此外，腘绳肌的共收缩不足也加剧了前剪切力。\n3.  **移植物特异性考量**：使用腘绳肌移植物或同种异体移植物的患者，由于其更容易发生蠕变或拉伸，在进行开放链膝关节伸展练习时，需要采取更为保守和渐进的策略。\n4.  **前沿生物力学监测指导**：未来的研究和临床实践可利用**表面肌电图 (sEMG)** 和**运动捕捉系统 (Motion Capture System)** 等先进生物力学工具，实时监测股四头肌和腘绳肌的协同激活模式、膝关节运动学和移植物负荷。这将有助于康复医师精确调整开放链练习的强度和范围，实现个性化、数据驱动的安全康复。",
-      "content_en": "1.  **Principles of OKC Rehabilitation Post-ACLR**: Open kinetic chain (OKC) knee extension is crucial for quadriceps strength restoration but must be performed cautiously. Especially in early rehabilitation, avoid high-resistance exercises within 40-0 degrees of knee extension to prevent undue stress on the ACL graft and patellofemoral joint.\n2.  **Critical Biomechanical Risk Zone**: Near terminal knee extension (40-0 degrees), quadriceps force demands increase significantly (3-4 times), leading to elevated ACL strain and patellofemoral joint stress. Furthermore, minimal hamstring co-contraction exacerbates anterior shear forces.\n3.  **Graft-Specific Considerations**: Patients with hamstring grafts or allografts are more susceptible to creep or graft stretch-out. Therefore, a more conservative and progressive strategy is required when implementing OKC knee extension exercises for these populations.\n4.  **Guidance for Advanced Biomechanical Monitoring**: Future research and clinical practice can leverage advanced biomechanical tools such as **surface electromyography (sEMG)** and **motion capture systems** to monitor quadriceps and hamstring co-activation patterns, knee kinematics, and graft loading in real-time. This will assist rehabilitation professionals in precisely adjusting OKC exercise intensity and range, enabling personalized, data-driven and safe rehabilitation."
+      "content_zh": "1.  **专项损伤识别**: 治疗青年体操运动员的临床医生必须了解常见的诊断之外独特的肘部过度使用损伤，特别是新描述的桡骨头应力性骨折，这需要特定的诊断方法。\n\n2.  **整体管理**: 对患有肘部损伤的青年体操运动员进行有效护理，需要全面理解该运动的心理、文化和高强度生物力学要求，以指导诊断和康复。\n\n3.  **运动专项康复**: 实施文中提供的运动专项康复方案对于优化康复和安全重返赛场至关重要，因为通用协议可能无法充分解决体操运动的独特压力。\n\n4.  **生物力学研究的必要性**: 本综述强调了对高级生物力学研究的迫切需求（例如，使用**动作捕捉系统**或**惯性测量单元（IMU）传感器**来量化手倒立和下马等特定体操动作期间的关节负荷和角速度），以精确识别损伤机制并制定有针对性的预防策略。",
+      "content_en": "1.  **Specialized Injury Recognition**: Clinicians treating youth gymnasts must be aware of unique elbow overuse injuries beyond common diagnoses, particularly the newly described radial head stress fracture, requiring specific diagnostic approaches.\n\n2.  **Holistic Management**: Effective care for youth gymnasts with elbow injuries necessitates a thorough understanding of the sport's psychological, cultural, and intense biomechanical demands, guiding both diagnosis and rehabilitation.\n\n3.  **Sport-Specific Rehabilitation**: Implementing the provided sport-specific rehabilitation program is crucial for optimizing recovery and safe return to sport, as general protocols may not adequately address the unique stresses of gymnastics.\n\n4.  **Biomechanics Research Imperative**: This review highlights the urgent need for advanced biomechanical studies (e.g., using **motion capture systems** or **IMU sensors** to quantify joint loads and angular velocities during specific gymnastics skills like handstands and dismounts) to precisely identify injurious mechanisms and develop targeted prevention strategies."
     }
   ]
 }
