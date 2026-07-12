@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-11",
+  "last_updated": "2026-07-12",
   "dates": {
     "2026-04-09": [
       {
@@ -3629,6 +3629,32 @@
         "pdf_url": "",
         "abstract_en": "Category: Sports; Midfoot/Forefoot Introduction/Purpose: Running-related injuries are common despite technological advances in running shoes. Recently, there has been a movement towards barefoot/minimalist running. Proponents of barefoot running state that this style of running provides beneficial modifications to the gait cycle and prevents running-related injuries. The purpose of this review is to analyze the biomechanical consequences of barefoot/minimalist running and determine if barefoot/minimal style running prevents running- related injuries. Methods: A literature search was done on PUBMED using the keywords: Barefoot running, minimalist running, injury prevention, injury rate, foot-strike pattern, vertical loading rate, biomechanics, and clinical outcomes. Studies were then grouped into biomechanical studies and clinical outcome studies. Biomechanical studies were included if th",
         "abstract_zh": "类别：运动；中足/前足。引言/目的：尽管跑鞋技术不断进步，跑步相关损伤仍然常见。近期，出现了一种转向赤足/极简跑的趋势。赤足跑的支持者认为，这种跑步方式能对步态周期产生有益的改变，并预防跑步相关损伤。本综述的目的是分析赤足/极简跑的生物力学后果，并确定赤足/极简风格跑步是否能预防跑步相关损伤。方法：在PubMed等数据库进行了文献检索...",
+        "keywords": []
+      }
+    ],
+    "2026-07-12": [
+      {
+        "id": "c1d250b4",
+        "title_en": "Explosive is not a Term Defined in the International System of Units and Should not be Used to Describe Neuromuscular Performance",
+        "title_zh": "“爆发性”并非国际单位制中定义的术语，不应被用于描述神经肌肉表现",
+        "authors": [
+          "B. Ide",
+          "Amanda Silvatti",
+          "Craig A. Staunton",
+          "M. Marocolo",
+          "D. Oranchuk"
+        ],
+        "journal": "International Journal of Strength and Conditioning",
+        "year": 2023,
+        "date_added": "2026-07-12",
+        "category": "performance",
+        "doi": "10.47206/ijsc.v3i1.210",
+        "impact_factor": "3.2",
+        "citation_count": 5,
+        "is_open_access": true,
+        "pdf_url": "https://journal.iusca.org/index.php/Journal/article/download/210/317",
+        "abstract_en": "Despite not being recognized by the International System of Units, explosive is a term often applied in sports science and professional practice. While associated with force, strength, power, performance, exercise, movements, contraction, action, and training, readers may be misled to believe that there are further analyses beyond power output, peak force, contractile rate of force development, and impulse. This critical review discusses the misuse of the term explosive in sports science literature, proposes alternatives, and encourages correct definitions of terms, units, and nomenclature to describe exercise performance. The suggestions provided in this review can help to reduce the confusion and perpetuation of an erroneous understanding of mechanical work, energy, and power in sports science.",
+        "abstract_zh": "尽管未被国际单位制承认，“爆发性”一词在运动科学和专业实践中常被应用。虽然它与力、力量、功率、表现、运动、动作、收缩、作用和训练相关联，读者仍可能会被误导，认为存在超出功率输出、峰值力、收缩力发展速率和冲量之外的进一步分析。本批判性综述讨论了运动科学文献中“爆发性”一词的滥用，提出了替代方案，并鼓励对术语、单位和命名法进行正确定义，以",
         "keywords": []
       }
     ]
