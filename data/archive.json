@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-16",
+  "last_updated": "2026-07-17",
   "dates": {
     "2026-04-09": [
       {
@@ -3706,6 +3706,28 @@
         "keywords": []
       }
     ],
-    "2026-07-16": []
+    "2026-07-16": [],
+    "2026-07-17": [
+      {
+        "id": "b61b6244",
+        "title_en": "SJMSS paper of the year 2022",
+        "title_zh": "SJMSS 2022 年度最佳论文",
+        "authors": [
+          "S. Harridge"
+        ],
+        "journal": "Scandinavian Journal of Medicine & Science in Sports",
+        "year": 2023,
+        "date_added": "2026-07-17",
+        "category": "performance",
+        "doi": "10.1111/sms.14296",
+        "impact_factor": "5.2",
+        "citation_count": 0,
+        "is_open_access": false,
+        "pdf_url": "",
+        "abstract_en": "In 2021, the journal introduced a new “SJMSS Paper of the Year” award. This is decided by a panel comprising the Senior Section Editors of the journal and is awarded to a paper published in the calendar year 2022. The paper is selected on the basis of that which provides new and important insights in the field of sport and exercise science and medicine, coupled with a high level of scientific rigor. The recipient of the 2022 SJMSS Paper of the Year is Kujala et al.1 for their paper entitled: “Physical activity and health: Findings from Finnish monozygotic twin pairs discordant for physical activity.” This paper, which is a hybrid of a review and an original research paper, has investigated indices of health from monozygotic twin pairs extracted from two established Finnish twin cohorts. Seventeen twin pairs were selected as being uniquely discordant in regard to their levels of physical ",
+        "abstract_zh": "该期刊于2021年设立了新的“SJMSS 年度最佳论文”奖。该奖项由期刊的高级栏目编辑组成的评审团评定，并授予在2022日历年发表的论文。论文的评选标准是其是否在运动与运动科学及医学领域提供了新颖且重要的见解，并具备高度的科学严谨性。2022年SJMSS年度最佳论文的获得者是Kujala等人1的论文，题为：“体力活动与健康：来自芬兰体力活动不一致的同卵双胞胎的研究发现”。",
+        "keywords": []
+      }
+    ]
   }
 }
