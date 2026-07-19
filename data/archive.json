@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-18",
+  "last_updated": "2026-07-19",
   "dates": {
     "2026-04-09": [
       {
@@ -3868,6 +3868,99 @@
         "pdf_url": "",
         "abstract_en": "Research Purpose Speed ability is an important determinant of a soccer player’s competitive performance in a game, and it also affects the athlete’s sports life and upper limit of competitive level. Power is the core of the soccer player physical ability construction and its influence on the speed of permeate, confrontation, technology, endurance and injury prevention and so on each linThe main objective was to investigate physiological adaptations induced by HIIRS on soccer-specific speed and power qualities of soccer players. Research Method Twenty-five elite soccer players underwent a 12-week jump rope training program (three 45-min sessions weekly). Participants were randomly assigned to an, EG (n = 13) performing high-intensity intermittent rope skipping (75%–85% HRmax with active intervals at 40%–70% HRmax) and a CG (n = 12) maintaining conventional training (75%–85% HRmax), both m",
         "abstract_zh": "研究目的 速度能力是足球运动员比赛竞技表现的重要决定因素，它还影响运动员的运动寿命和竞技水平上限。力量是足球运动员身体能力建设的核心，其影响渗透到速度、对抗、技术、耐力、伤病预防等各个方面。主要目标是调查高强度间歇跳绳训练（HIIRS）对足球运动员专项速度和力量素质的生理适应。研究方法 25名优秀足球运动员接受了为期12周的训练。",
+        "keywords": []
+      }
+    ],
+    "2026-07-19": [
+      {
+        "id": "9124180b",
+        "title_en": "What Is \"Zone 2 Training\"?: Experts' Viewpoint on Definition, Training Methods, and Expected Adaptations.",
+        "title_zh": "什么是“二区训练”？：专家对定义、训练方法和预期适应的观点。",
+        "authors": [
+          "Sebastian Sitko",
+          "Xabier Artetxe",
+          "M. Bonnevie-Svendsen",
+          "M. Á. Galán-Rioja",
+          "Gabriele Gallo"
+        ],
+        "journal": "International Journal of Sports Physiology and Performance",
+        "year": 2025,
+        "date_added": "2026-07-19",
+        "category": "performance",
+        "doi": "10.1123/ijspp.2024-0303",
+        "impact_factor": "3.8",
+        "citation_count": 13,
+        "is_open_access": true,
+        "pdf_url": "https://cris.maastrichtuniversity.nl/en/publications/2cebfbc2-ae4f-4cfb-8a93-d7b4f05c689a",
+        "abstract_en": "BACKGROUND\nThe role of high-volume low-intensity training for enhancing endurance performance has gained growing interest in recent years. Specifically, so-called \"zone 2 training\" is currently receiving much attention, and many propose that this is the target intensity at which a large proportion of total endurance training should be performed. However, despite the popularity of this concept, there is no clear consensus among coaches, athletes, and scientists regarding the definition of zone 2 training.\n\n\nPURPOSE\nThis commentary summarizes the perspectives, experience, and knowledge of an expert panel of 14 applied sport scientists and professional coaches with the aim of providing insight and a basis for definitional consensus on zone 2 training. Moreover, potential training strategies at this intensity are proposed, and the expected physiological adaptations when exercising at this in",
+        "abstract_zh": "背景 近年来，大容量低强度训练在提高耐力表现方面的作用受到了越来越多的关注。具体而言，所谓的“二区训练”目前备受关注，许多人认为这是大部分耐力训练应进行的理想强度。然而，尽管这一概念广受欢迎，教练、运动员和科学家之间对于二区训练的定义尚未达成明确共识。 目的 本评论总结了一位专家的观点、经验和知识。",
+        "keywords": []
+      },
+      {
+        "id": "f0c67732",
+        "title_en": "Writing High-Quality Case Studies in Sport Science.",
+        "title_zh": "运动科学中高质量案例研究的撰写。",
+        "authors": [
+          "Iñigo Mujika",
+          "Daichi Yamashita",
+          "G. S. Solli"
+        ],
+        "journal": "International Journal of Sports Physiology and Performance",
+        "year": 2025,
+        "date_added": "2026-07-19",
+        "category": "performance",
+        "doi": "10.1123/ijspp.2025-0025",
+        "impact_factor": "3.8",
+        "citation_count": 6,
+        "is_open_access": true,
+        "pdf_url": "https://journals.humankinetics.com/downloadpdf/view/journals/ijspp/aop/article-10.1123-ijspp.2025-0025/article-10.1123-ijspp.2025-0025.pdf",
+        "abstract_en": "PURPOSE\nSport-physiology and -performance research often relies on group designs that compare experimental and control groups and/or preintervention and postintervention results. This commentary highlights the key elements of a high-quality case study and provides clear guidelines for readers and authors of the International Journal of Sports Physiology and Performance. We propose 4 essential components. First, case studies should offer relevant and original insights by tackling novel issues and defining a clear purpose. Second, they must employ rigorous methodology, encompassing careful participant selection, comprehensive data collection from diverse sources (eg, interviews, surveys, physiological tests, training diaries, competition data), and deliberate data analysis that explicitly addresses factors influencing performance changes. Third, they should be well structured and engagingl",
+        "abstract_zh": "目的 运动生理学和运动表现研究通常依赖于比较实验组与对照组和/或干预前后结果的群组设计。本评论强调了高质量案例研究的关键要素，并为《国际运动生理学与表现杂志》的读者和作者提供了明确的指导。我们提出了4个基本要素。首先，案例研究应通过解决新颖问题和明确目的来提供相关且原创的见解。其次，它们必须采用严谨的方法学，包括仔细的参与者。",
+        "keywords": []
+      },
+      {
+        "id": "f383ee08",
+        "title_en": "The effects of 12 weeks of high-intensity interval rope skipping training on speed and power indexes in male soccer players",
+        "title_zh": "12周高强度间歇跳绳训练对男性足球运动员速度和力量指标的影响。",
+        "authors": [
+          "B. Wei",
+          "Wenhu Cheng",
+          "J. Qiu"
+        ],
+        "journal": "Frontiers in Bioengineering and Biotechnology",
+        "year": 2025,
+        "date_added": "2026-07-19",
+        "category": "performance",
+        "doi": "10.3389/fbioe.2025.1579535",
+        "impact_factor": "4.3",
+        "citation_count": 2,
+        "is_open_access": false,
+        "pdf_url": "",
+        "abstract_en": "Research Purpose Speed ability is an important determinant of a soccer player’s competitive performance in a game, and it also affects the athlete’s sports life and upper limit of competitive level. Power is the core of the soccer player physical ability construction and its influence on the speed of permeate, confrontation, technology, endurance and injury prevention and so on each linThe main objective was to investigate physiological adaptations induced by HIIRS on soccer-specific speed and power qualities of soccer players. Research Method Twenty-five elite soccer players underwent a 12-week jump rope training program (three 45-min sessions weekly). Participants were randomly assigned to an, EG (n = 13) performing high-intensity intermittent rope skipping (75%–85% HRmax with active intervals at 40%–70% HRmax) and a CG (n = 12) maintaining conventional training (75%–85% HRmax), both m",
+        "abstract_zh": "研究目的 速度能力是决定足球运动员比赛竞技表现的重要因素，它也影响运动员的运动生涯和竞技水平上限。力量是足球运动员体能构建的核心，它渗透并影响速度、对抗、技术、耐力、伤病预防等各个方面。主要目的是调查高强度间歇跳绳训练（HIIRS）对足球运动员特定速度和力量素质所引起的生理适应。研究方法 二十五名精英足球运动员进行了为期12周的。",
+        "keywords": []
+      },
+      {
+        "id": "29000ac3",
+        "title_en": "Effects of high-intensity interval and moderate-intensity continuous training on the anaerobic threshold of highly trained athletes in endurance sports: a systematic review with meta-analysis.",
+        "title_zh": "高强度间歇训练与中等强度持续训练对耐力运动中高水平运动员无氧阈的影响：一项系统评价和荟萃分析。",
+        "authors": [
+          "P. E. Pereira",
+          "G. Esteves",
+          "Nelson Carvas",
+          "P. Azevedo"
+        ],
+        "journal": "Journal of Sports Medicine and Physical Fitness",
+        "year": 2024,
+        "date_added": "2026-07-19",
+        "category": "performance",
+        "doi": "10.23736/S0022-4707.24.15855-0",
+        "impact_factor": "9.8",
+        "citation_count": 1,
+        "is_open_access": false,
+        "pdf_url": "",
+        "abstract_en": "INTRODUCTION\nThe anaerobic threshold (AT) is an important physiological index used as a parameter for predicting performance and evaluating adaptations induced by training. The aim of this study was to carry out a systematic literature review to survey the randomized studies that compared the effects of high-intensity interval training (HIIT) with the effects of moderate intensity continuous training (MICT) on the anaerobic threshold of highly trained athletes in endurance sports.\n\n\nEVIDENCE ACQUISITION\nThe following databases were searched: MEDLINE, Embase, Cochrane Wiley, PubMed, SPORTDiscus, Web of Science, and ProQuest for randomized trials. The search terms covered the areas of HIIT and MICT. This study was registered in the International Prospective Register of Systematic under the number CRD42020155474.\n\n\nEVIDENCE SYNTHESIS\nThree studies were included for the qualitative and quant",
+        "abstract_zh": "引言 无氧阈（AT）是一个重要的生理指标，用于预测表现和评估训练引起的适应。本研究旨在进行一项系统性文献回顾，调查比较高强度间歇训练（HIIT）与中等强度持续训练（MICT）对耐力运动中高水平运动员无氧阈影响的随机研究。证据获取 检索了以下数据库：MEDLINE、Embase、Cochrane Wiley、PubMed、SPORTDiscus。",
         "keywords": []
       }
     ]
