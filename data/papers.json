@@ -1,4 +1,77 @@
 {
-  "last_updated": "2026-07-20",
-  "papers": []
+  "last_updated": "2026-07-21",
+  "papers": [
+    {
+      "id": "2575ea92",
+      "title_en": "Building for the Future: A Systematic Review of the Effects of Eccentric Resistance Training on Measures of Physical Performance in Youth Athletes",
+      "title_zh": "面向未来：离心阻力训练对青少年运动员身体表现指标影响的系统综述",
+      "authors": [
+        "Thomas E. Bright",
+        "Matthew J. Handford",
+        "Peter D. Mundy",
+        "Jason P. Lake",
+        "N. Theis"
+      ],
+      "journal": "Sports Medicine",
+      "year": 2023,
+      "date_added": "2026-07-21",
+      "category": "performance",
+      "doi": "10.1007/s40279-023-01843-y",
+      "impact_factor": "9.8",
+      "citation_count": 45,
+      "is_open_access": true,
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40279-023-01843-y.pdf",
+      "abstract_en": "Background Eccentric resistance training is recognised as an effective stimulus for enhancing measures of muscular strength and power in adult populations; however, its value in youth athletes is currently not well understood. Objective The aim of this systematic review was to critically appraise the effects of eccentric resistance training on measures of physical performance (i.e. muscular strength, jump, sprint and change of direction) in youth athletes 18 years of age and under. Methods Original journal articles published between 1950 and June 2022 were retrieved from electronic search engines of PubMed, SPORTDiscus and Google Scholar’s advanced search option. Full journal articles investigating the acute and chronic effects of eccentric resistance training on measures of physical performance in youth athletes (i.e. a person 18 years of age or under who competes in sport) were include",
+      "abstract_zh": "背景 离心阻力训练被认为是提高成人肌肉力量和爆发力的有效刺激手段；然而，其在青少年运动员中的价值目前尚不明确。目的 本系统综述旨在严格评估离心阻力训练对18岁及以下青少年运动员身体表现指标（即肌肉力量、跳跃、冲刺和变向）的影响。方法 检索了1950年至2022年6月期间发表的原始期刊文章，来源包括电子检索工具",
+      "keywords": []
+    },
+    {
+      "id": "5cdbb10e",
+      "title_en": "Mixed Training Programs Applied to Young Soccer Players: Effects on Speed-Power Abilities",
+      "title_zh": "应用于青少年足球运动员的混合训练方案：对速度-力量能力的影响",
+      "authors": [
+        "Tomás T. Freitas",
+        "L. Pereira",
+        "P. Alcaraz",
+        "Paulo H. S. M. Azevedo",
+        "Vinícius Zanetti"
+      ],
+      "journal": "International Journal of Sports Medicine",
+      "year": 2023,
+      "date_added": "2026-07-21",
+      "category": "performance",
+      "doi": "10.1055/a-2106-8164",
+      "impact_factor": "9.8",
+      "citation_count": 6,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "Abstract We compared the effects of two 4-week strength-power-speed training protocols on physical performance of young soccer players. Twenty-three highly trained under-20 soccer players were randomly allocated to two mixed-training groups: 1) “traditional” (TRAD: n=11), comprising vertically oriented strength-power exercises and linear sprints; or 2) “multidirectional” (MULTI: n=12), combining vertically and horizontally oriented strength-power exercises, linear sprints, and change-of-direction (COD) drills. Squat jump (SJ) and countermovement jump, 2) linear sprint, COD speed, and 3) jump-squat (JS) and hip-thrust (HT) power tests were performed pre- and post-training. Differences were determined using a two-way ANOVA with repeated measures and “target scores” were used to detect real changes in performance. No group-time interactions were found for any of the variables ( p >0.05). Si",
+      "abstract_zh": "摘要 我们比较了两种为期4周的力量-爆发力-速度训练方案对青少年足球运动员身体表现的影响。二十三名训练有素的20岁以下足球运动员被随机分配到两个混合训练组：1) “传统组”（TRAD: n=11），包括垂直方向的力量-爆发力练习和直线冲刺；或 2) “多方向组”（MULTI: n=12），结合了垂直和水平方向的力量-爆发力练习、直线冲刺以及变向（COD）训练。测量指标包括深蹲跳 (SJ) 和反向运动跳、2) 直线冲刺、COD 速度，以及 3) 跳跃-",
+      "keywords": []
+    },
+    {
+      "id": "24b24637",
+      "title_en": "Light load jump squat and plyometric training enhance jumping, sprinting, change of direction, and balance performance of male soccer players (U-19): a randomized controlled trial.",
+      "title_zh": "轻负荷跳深蹲和增强式训练提高男性足球运动员（U-19）的跳跃、冲刺、变向和平衡表现：一项随机对照试验",
+      "authors": [
+        "Zouhaier Chnini",
+        "Atef Salem",
+        "Khaled Trabelsi",
+        "A. Ammar",
+        "N. Souissi"
+      ],
+      "journal": "Journal of Sports Medicine and Physical Fitness",
+      "year": 2024,
+      "date_added": "2026-07-21",
+      "category": "performance",
+      "doi": "10.23736/S0022-4707.24.15368-6",
+      "impact_factor": "9.8",
+      "citation_count": 2,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "BACKGROUND\nIn sports science, optimizing athletic performance is pursued through an emerging approach that combined light-loaded squat (LLS) training and plyometric jump training (PJT), targeting strength, power, and neuromuscular adaptations, particularly beneficial for the dynamic demands of youth soccer. The aim of this study was to examine the effect of a combined LLS training and PJT program on athletic performance and balance in youth soccer players.\n\n\nMETHODS\nThirty-two male players were randomly assigned to two groups: an experimental group (EG: N.=16; age: 18.56±0.51 years; body mass: 66.87±4.99 kg; height: 1.78±0.07 m) and a control group (CG: N.=16; age: 18.68±0.47 years; body mass: 67.93±4.58 kg; height: 1.77±0.07 m) from the same U19 team of a professional club voluntarily participated in the study. Squat jump (SJ), countermovement jump (CMJ), horizontal jump (HJ), drop jump",
+      "abstract_zh": "背景 在运动科学中，通过结合轻负荷深蹲（LLS）训练和增强式跳跃训练（PJT）的新兴方法来优化运动表现，旨在提高力量、爆发力和神经肌肉适应性，这对于满足青少年足球的动态需求特别有益。本研究旨在检验结合LLS训练和PJT方案对青少年足球运动员运动表现和平衡能力的影响。方法 三十二名男性球员被随机分配到两组：实验组（EG: N.=16；年龄：18.56±0.51岁；体重：",
+      "keywords": []
+    }
+  ]
 }
