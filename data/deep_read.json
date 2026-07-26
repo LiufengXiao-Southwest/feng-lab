@@ -1,33 +1,33 @@
 {
-  "date": "2026-07-16",
-  "title_en": "Biomechanical Changes During Running on a Lower Body Positive Pressure Treadmill in Competitive Runners",
-  "title_zh": "竞技跑者在下肢正压跑台跑步时的生物力学变化",
-  "authors": "D. Fohrmann, I. Winter, Alexander Simon, D. Dalos et al.",
+  "date": "2026-07-26",
+  "title_en": "Impact of Prior Hamstring Strain Injury on Muscle Morphology and Sprinting Biomechanics in Collegiate American Football Athletes",
+  "title_zh": "既往腘绳肌拉伤史对大学美式橄榄球运动员肌肉形态和冲刺生物力学的影响",
+  "authors": "S. Hulm, Yi-Chung Lin, N. Maniar, Ryan G Timmins et al.",
   "journal": "Scandinavian Journal of Medicine & Science in Sports",
-  "year": 2025,
+  "year": 2026,
   "volume_page": "",
-  "doi": "10.1111/sms.70063",
+  "doi": "10.1111/sms.70317",
   "impact_factor": "5.2",
-  "is_open_access": false,
-  "pdf_url": "",
+  "is_open_access": true,
+  "pdf_url": "https://doi.org/10.1111/sms.70317",
   "category": "biomechanics",
-  "citation_count": 3,
+  "citation_count": 0,
   "sections": [
     {
       "id": "why",
       "icon": "◎",
       "title_zh": "为什么值得读",
       "title_en": "Why It Matters",
-      "content_zh": "下肢正压跑台（LBPPTs）是新兴的康复和训练工具，但其在不同体重支撑水平下对跑步生物力学影响的详细量化，特别是针对性别差异的分析，尚不充分。本研究系统性地提供了精确数据，填补了该领域空白，为LBPPT在损伤康复和运动表现训练中的优化应用提供了关键的科学依据。该论文在2025年发表后迅速获得引用，表明其在该领域具有即时相关性和重要影响力。",
-      "content_en": "Lower body positive pressure treadmills (LBPPTs) are emerging tools for rehabilitation and training, but detailed quantification of their biomechanical effects across varying body weight support levels, especially regarding sex-specific responses, has been insufficient. This study systematically provides precise data, filling a critical gap and offering key scientific evidence for optimizing LBPPT application in injury rehabilitation and athletic performance training. The paper's rapid citation count since its 2025 publication highlights its immediate relevance and significant impact in the field."
+      "content_zh": "本研究揭示了即使冲刺运动学表现正常，既往腘绳肌拉伤(HSI)的运动员仍存在持久且细微的生物力学和形态学缺陷，对当前的康复范式提出了挑战。它强调了结合MRI信息的个体化肌肉骨骼模型在检测这些被通用模型忽视的细微缺陷方面的优越性，为再损伤预防提供了关键洞察。鉴于其2026年的发表日期，目前0引用反映的是其尚未正式发表的状态，但其科学价值和前瞻性不容忽视。",
+      "content_en": "This study reveals persistent yet subtle biomechanical and morphological deficits in athletes with a prior hamstring strain injury (HSI), even when sprint kinematics appear normal, challenging current rehabilitation paradigms. It highlights the superiority of MRI-informed, subject-specific musculoskeletal models in detecting these subtle deficits often overlooked by generic models, offering critical insights for reinjury prevention. The 0 citations reflect its 2026 publication date, indicating it's a forthcoming paper whose scientific value and forward-looking approach are significant."
     },
     {
       "id": "design",
       "icon": "⊞",
       "title_zh": "研究设计速览",
       "title_en": "Study Design",
-      "content_zh": "**类型**: 实验性、横断面研究\n**样本**: 26名竞技跑者\n**研究对象**: 年龄 33.6 ± 9.8 岁；15名女性，11名男性\n**干预/条件**: 在下肢正压跑台以 12 km/h 速度进行随机的 3 分钟跑步，共 9 个体重支撑水平 (0%–80%)\n**主要结局**: 步频、归一化触地时间、摆动时间、支撑时间、最大足底力、胫骨峰值加速度、跑步稳定性（足部、胫骨）\n**测量工具**: 压电鞋垫、惯性传感器（位于胫骨和足部）\n**分析方法**: 线性回归分析",
-      "content_en": "**Type**: Experimental, Cross-sectional study\n**Sample**: 26 competitive runners\n**Participants**: Age 33.6 ± 9.8 years; 15 female, 11 male\n**Intervention/Conditions**: Randomized 3-min running bouts at 12 km/h on an LBPPT across nine body weight support levels (0%–80%)\n**Primary Outcomes**: Step rate, normalized ground contact time, swing time, stance time, maximum plantar force, peak tibial acceleration, running stability (foot, tibia)\n**Measurement Tools**: Pressure insoles, inertial sensors (placed at the tibia and foot)\n**Analysis Method**: Linear regression analysis"
+      "content_zh": "**类型**: 横断面观察研究\n**样本**: 79名NCAA一级联赛男大学橄榄球运动员\n**研究对象**: 106个有既往腘绳肌损伤史的肢体 vs. 52个未受伤的对照肢体\n**主要测量**: 最大速度地面冲刺（惯性测量单元IMUs，100 Hz），3-T MRI（全腘绳肌容积测量）\n**模型应用**: 比例缩放通用OpenSim模型，MRI引导的个体化OpenSim模型\n**主要结局**: 股二头肌长头(BFlh)、股二头肌短头(BFsh)、半膜肌(SM)和半腱肌(ST)的标准化肌肉体积、MTU峰值应变、拉伸速度、力及负功\n**分析方法**: 线性混合模型 (α = 0.05)",
+      "content_en": "**Type**: Cross-sectional observational study\n**Sample**: 79 NCAA Division I male football players\n**Research Objects**: 106 previously injured limbs vs. 52 uninjured control limbs\n**Key Measurements**: Maximal-velocity over-ground sprints (inertial measurement units, IMUs, 100 Hz), 3-T MRI (whole-hamstring volumetry)\n**Models Used**: Scaled-generic OpenSim models, MRI-informed subject-specific OpenSim models\n**Primary Outcomes**: Normalized muscle volumes, peak MTU strain, lengthening velocity, force, and negative work for biceps femoris long head (BFlh), biceps femoris short head (BFsh), semimembranosus (SM), and semitendinosus (ST)\n**Analysis Method**: Linear mixed models (α = 0.05)"
     },
     {
       "id": "results",
@@ -36,58 +36,46 @@
       "title_en": "Key Numbers",
       "stats": [
         {
-          "label_zh": "步频随BWS增加的降低率",
-          "label_en": "Step Rate reduction per %BWS",
-          "value": "−0.24 steps•min−1",
-          "note": "p < 0.001"
+          "label_zh": "BFlh标准化肌肉体积",
+          "label_en": "BFlh Normalized Muscle Volume",
+          "value": "~5% smaller",
+          "note": "既往受伤肢体 vs. 未受伤肢体 (1.67 ± 0.36 vs. 1.76 ± 0.35 mL/kg/m, p = 0.009)"
         },
         {
-          "label_zh": "最大足底力随BWS增加的降低率",
-          "label_en": "Max Plantar Force reduction per %BWS",
-          "value": "−0.010 BW",
-          "note": "p < 0.001"
+          "label_zh": "BFsh标准化肌肉体积",
+          "label_en": "BFsh Normalized Muscle Volume",
+          "value": "~5% smaller",
+          "note": "既往受伤肢体 vs. 未受伤肢体 (0.92 ± 0.18 vs. 0.97 ± 0.19 mL/kg/m, p = 0.007)"
         },
         {
-          "label_zh": "胫骨峰值加速度随BWS增加的降低率",
-          "label_en": "Peak Tibial Acceleration reduction per %BWS",
-          "value": "−0.03 g",
-          "note": "p < 0.001"
+          "label_zh": "BFlh峰值MTU拉伸速度",
+          "label_en": "BFlh Peak MTU Lengthening Velocity",
+          "value": "快3%",
+          "note": "既往受伤肢体 (p ≤ 0.02)"
         },
         {
-          "label_zh": "摆动时间随BWS增加的增加率",
-          "label_en": "Swing Time increase per %BWS",
-          "value": "1.50 ms",
-          "note": "p < 0.001"
+          "label_zh": "SM峰值MTU拉伸速度",
+          "label_en": "SM Peak MTU Lengthening Velocity",
+          "value": "快5%",
+          "note": "既往受伤肢体 (p ≤ 0.02)"
         },
         {
-          "label_zh": "支撑时间随BWS增加的降低率",
-          "label_en": "Stance Time decrease per %BWS",
-          "value": "−0.41 ms",
-          "note": "p < 0.001"
+          "label_zh": "ST峰值MTU拉伸速度",
+          "label_en": "ST Peak MTU Lengthening Velocity",
+          "value": "快5%",
+          "note": "既往受伤肢体 (p ≤ 0.02)"
         },
         {
-          "label_zh": "跑步稳定性（足部）随BWS增加的微小变化",
-          "label_en": "Running Stability (foot) marginal change per %BWS",
-          "value": "−0.001",
-          "note": "p = 0.017"
+          "label_zh": "BFsh峰值力 (个体化模型)",
+          "label_en": "BFsh Peak Force (Subject-specific model)",
+          "value": "低0.04倍体重",
+          "note": "既往受伤肢体 (1.10 ± 0.21 vs. 1.14 ± 0.22 × body weight, p = 0.03)"
         },
         {
-          "label_zh": "跑步稳定性（胫骨）随BWS增加的微小变化",
-          "label_en": "Running Stability (tibia) marginal change per %BWS",
-          "value": "0.001",
-          "note": "p = 0.009"
-        },
-        {
-          "label_zh": "步频的性别差异",
-          "label_en": "Sex difference in Step Rate",
-          "value": "−6.79 steps•min−1",
-          "note": "p = 0.045"
-        },
-        {
-          "label_zh": "最大足底力的性别差异",
-          "label_en": "Sex difference in Max Plantar Force",
-          "value": "−0.128 BW",
-          "note": "p = 0.034"
+          "label_zh": "BFsh负功 (个体化模型)",
+          "label_en": "BFsh Negative Work (Subject-specific model)",
+          "value": "减少约12%",
+          "note": "既往受伤肢体 (−13.4 ± 6.8 vs. −15.3 ± 7.5 J, p = 0.01)"
         }
       ]
     },
@@ -97,32 +85,30 @@
       "title_zh": "方法学评价",
       "title_en": "Critical Appraisal",
       "pros_zh": [
-        "对广泛的体重支撑（BWS）水平和多项生物力学参数进行了全面调查。",
-        "纳入了竞技跑者，提高了研究结果在高水平运动和高级康复场景中的相关性。",
-        "BWS水平的随机化方案，最大限度地减少了潜在的顺序效应。",
-        "分析了性别特异性反应，这对于个性化训练和损伤预防至关重要。",
-        "利用了可穿戴、实用的传感器（压电鞋垫、惯性测量单元），具有潜在的实际应用价值。"
+        "研究对象为精英大学运动员，样本量大且特定。",
+        "创新性地结合了先进影像学（MRI）、可穿戴技术（IMUs）和生物力学建模（OpenSim）。",
+        "强调了个体化模型相比通用模型在检测细微缺陷方面的关键优势。",
+        "对个体腘绳肌头（BFlh、BFsh、SM、ST）进行了详细的、肌肉特异性分析，提供了高分辨率的洞察。",
+        "解决了运动中高再损伤风险区域，具有重要的实际康复指导意义。"
       ],
       "cons_zh": [
-        "急性、单次研究设计，限制了对长期适应或训练效果的深入了解。",
-        "跑步速度固定（12 km/h），可能限制了研究结果对不同跑步速度的普适性。",
-        "缺乏更全面的动力学数据（如关节力矩）或通过运动捕捉获得的详细3D运动学数据。",
-        "研究结果主要适用于竞技跑者；对于休闲跑者或受伤人群的普适性可能需要进一步研究。",
-        "跑步稳定性仅显示出微小变化，表明它可能不是急性BWS变化最敏感的结局指标，或需要更具体的定义。"
+        "横断面设计限制了关于缺陷时间进展或直接因果关系的结论。",
+        "对“既往HSI”的定义较为宽泛，缺乏损伤类型、严重程度、具体部位或距受伤时间等详细信息。",
+        "研究对象仅限于男性大学美式橄榄球运动员，可能限制了结果向其他运动、性别或年龄组的普适性。",
+        "尽管IMU在现场设置中实用且高保真，但光学运动捕捉通常被认为是全身运动学的金标准，尤其对于更精细的运动细节。"
       ],
       "pros_en": [
-        "Comprehensive investigation across a wide range of body weight support (BWS) levels and multiple biomechanical parameters.",
-        "Inclusion of competitive runners, enhancing the relevance of findings for high-performance and advanced rehabilitation contexts.",
-        "Randomized protocol for BWS levels, minimizing potential order effects.",
-        "Analysis of sex-specific responses, crucial for personalized training and injury prevention.",
-        "Utilization of wearable, practical sensors (pressure insoles, IMUs) with potential for real-world application."
+        "Large and specific cohort of elite collegiate athletes.",
+        "Sophisticated integration of advanced imaging (MRI) with wearable technology (IMUs) and biomechanical modeling (OpenSim).",
+        "Highlights the crucial advantage of subject-specific models over generic models for detecting subtle deficits.",
+        "Detailed, muscle-specific analysis (BFlh, BFsh, SM, ST) provides high-resolution insights.",
+        "Addresses a high-reinjury risk area in sports, offering significant practical implications for rehabilitation."
       ],
       "cons_en": [
-        "Acute, single-session study design, limiting insights into long-term adaptations or training effects.",
-        "Fixed running speed (12 km/h), potentially limiting the generalizability of findings to varying running paces.",
-        "Lack of more comprehensive kinetic data (e.g., joint moments) or detailed 3D kinematics from motion capture.",
-        "Generalizability primarily to competitive runners; findings may differ in recreational or injured populations.",
-        "Running stability showed only marginal changes, suggesting it might not be the most sensitive outcome for acute BWS changes or might require a more specific definition."
+        "Cross-sectional design limits conclusions about the temporal progression of deficits or direct causality.",
+        "The definition of 'prior HSI' is broad, lacking details on injury type, severity, location, or time since injury.",
+        "Exclusive focus on male collegiate American football athletes may limit generalizability to other sports, genders, or age groups.",
+        "While IMUs are practical and high-fidelity for field settings, optical motion capture is generally considered the gold standard for full-body kinematics, especially for finer movement details."
       ]
     },
     {
@@ -130,8 +116,8 @@
       "icon": "◆",
       "title_zh": "研究启示",
       "title_en": "Takeaway",
-      "content_zh": "1. **LBPPT有效降低负荷并改变步态**: 下肢正压跑台能有效降低跑步时的肌肉骨骼负荷（如最大足底力和胫骨峰值加速度），并显著改变步态参数（如步频、触地时间、摆动和支撑时间）。这为LBPPT在早期康复和减轻冲击的训练中的应用提供了坚实的生物力学依据。\n\n2. **个体化调整LBPPT方案**: 体重支撑水平的增加会导致可预测的步态变化。运动员、治疗师和教练应考虑这些特定的生物力学反应，以优化康复和训练策略，例如，通过调整BWS来维持特定的步态模式或最小化冲击。\n\n3. **性别差异与交互作用**: 研究观察到步频和最大足底力存在性别差异，但性别与体重支撑水平之间没有显著的交互作用。这意味着尽管男女跑者在某些参数上可能存在基础差异，但他们对体重支撑变化的生物力学适应模式是相似的。\n\n4. **穿戴式生物力学测量工具的应用**: 本研究有效利用了压电鞋垫和惯性传感器等穿戴式设备，精确捕捉了跑步时的关键生物力学参数。这突出了这些工具在实际应用中（如评估LBPPT等新型干预措施效果）提供实时、定量数据的能力，对于生物力学研究和临床实践具有重要价值。",
-      "content_en": "1. **LBPPT Effectively Reduces Load and Alters Gait**: Lower body positive pressure treadmills effectively reduce musculoskeletal loading (e.g., maximum plantar force, peak tibial acceleration) and significantly alter gait parameters (e.g., step rate, ground contact time, swing and stance times) during running. This provides a strong biomechanical rationale for LBPPT use in early rehabilitation and impact-reduction training.\n\n2. **Individualized LBPPT Protocol Adjustment**: Increased body weight support leads to predictable gait changes. Athletes, therapists, and coaches should consider these specific biomechanical responses to optimize rehabilitation and training strategies, for example, by adjusting BWS to maintain specific gait patterns or minimize impact.\n\n3. **Sex Differences but No Interaction Effects**: While sex differences were observed in step rate and maximum plantar force, there were no significant sex × BWS interaction effects. This implies that despite potential baseline differences between male and female runners in certain parameters, their biomechanical adaptation patterns to changes in body weight support are similar.\n\n4. **Application of Wearable Biomechanical Measurement Tools**: This study effectively utilized wearable devices like pressure insoles and inertial sensors to precisely capture key running biomechanical parameters. This highlights the capability of such tools to provide real-time, quantitative data in applied settings (e.g., evaluating novel interventions like LBPPT), holding significant value for biomechanics research and clinical practice."
+      "content_zh": "**正常运动学下的持续性缺陷：** 即使冲刺运动学表面上看起来正常，既往有腘绳肌拉伤史的运动员仍然可能存在持续的、细微的腘绳肌肌肉形态（股二头肌长头和短头萎缩）和肌肉-肌腱单元力学改变（股二头肌长头、半膜肌和半腱肌拉伸速度更快）。这提示我们，表面的恢复不等于完全的功能修复。\n\n**个体化模型的优越性：** 通用肌肉骨骼模型可能遗漏关键缺陷。MRI引导的个体化模型对于检测肌肉特异性参数的细微但显著变化至关重要，例如既往受伤肢体中股二头肌短头峰值力和负功的减少，这为损伤状态提供了更准确的评估。\n\n**整合评估以优化康复：** 本研究强烈支持将先进影像学（MRI）与可穿戴传感器数据（IMUs）相结合，以驱动个体化的生物力学模拟。这种综合方法为更精确的康复监测和指导个性化负荷策略提供了强大工具，从而最大限度地降低运动员再损伤的风险。\n\n**生物力学仪器应用启示：** 本研究采用的**惯性测量单元（IMUs）**结合MRI引导的个体化肌肉骨骼模型，展示了一种在实际训练环境中评估冲刺生物力学的高精度、实用方法。这种整合方法提升了生物力学专家和临床医生识别传统运动学分析可能遗漏的特定肌肉缺陷的能力。",
+      "content_en": "**Persistent Deficits Masked by Normal Kinematics:** Even when sprint kinematics appear normal, athletes with a prior HSI can harbor persistent, subtle deficits in hamstring muscle morphology (atrophy in BFlh and BFsh) and altered muscle-tendon unit mechanics (faster lengthening velocity in BFlh, SM, ST). This emphasizes that superficial recovery does not equate to full functional restoration.\n\n**Superiority of Subject-Specific Modeling:** Generic musculoskeletal models may overlook critical deficits. MRI-informed, subject-specific models are essential for detecting subtle but significant changes in muscle-specific parameters, such as reduced BFsh peak force and negative work in previously injured limbs, providing a more accurate assessment of injury status.\n\n**Integrated Assessment for Enhanced Rehabilitation:** The study strongly supports integrating advanced imaging (MRI) with wearable sensor data (IMUs) to drive subject-specific biomechanical simulations. This integrated approach offers a powerful tool for more precise rehabilitation monitoring and guiding individualized loading strategies to minimize reinjury risk in athletes.\n\n**Implications for Biomechanics Instrumentation:** The use of **inertial measurement units (IMUs)**, combined with MRI-informed subject-specific musculoskeletal models, demonstrates a high-fidelity, practical approach for assessing sprint biomechanics in field settings. This integrated methodology enhances the ability of biomechanists and clinicians to pinpoint specific muscle deficits that traditional kinematic analysis alone would miss."
     }
   ]
 }

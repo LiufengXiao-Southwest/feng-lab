@@ -1,4 +1,147 @@
 {
-  "last_updated": "2026-07-25",
-  "papers": []
+  "last_updated": "2026-07-26",
+  "papers": [
+    {
+      "id": "50060833",
+      "title_en": "Sensor-based technologies for motion analysis in sports injuries: a scoping review",
+      "title_zh": "运动损伤中基于传感器的运动分析技术：一项范围综述",
+      "authors": [
+        "Afrooz Arzehgar",
+        "S. Seyedhasani",
+        "F. Ahmadi",
+        "Fatemeh Bagheri Baravati",
+        "Alireza Sadeghi Hesar"
+      ],
+      "journal": "BMC Sports Science, Medicine and Rehabilitation",
+      "year": 2025,
+      "date_added": "2026-07-26",
+      "category": "preprint",
+      "doi": "10.1186/s13102-025-01063-z",
+      "impact_factor": "",
+      "citation_count": 23,
+      "is_open_access": true,
+      "pdf_url": "https://bmcsportsscimedrehabil.biomedcentral.com/counter/pdf/10.1186/s13102-025-01063-z",
+      "abstract_en": "Insightful motion analysis provides valuable information for athlete health, a crucial aspect of sports medicine. This systematic review presents an analytical overview of the use of various sensors in motion analysis for sports injury assessment. A comprehensive search of PubMed/MEDLINE, Scopus, and Web of Science was conducted in February 2024 using search terms related to “sport”, “athlete”, “sensor-based technology”, “motion analysis”, and “injury.” Studies were included based on PCC (Participants, Concept, Context) criteria. Key data, including sensor types, motion data processing methods, injury and sport types, and application areas, were extracted and analyzed. Forty-two studies met the inclusion criteria. Inertial measurement unit (IMU) sensors were the most commonly used for motion data collection. Sensor fusion techniques have gained traction, particularly for rehabilitation a",
+      "abstract_zh": "深入的运动分析为运动员健康提供宝贵信息，这是运动医学的关键方面。本系统综述分析概述了各种传感器在运动分析中用于运动损伤评估的应用。2024年2月，使用与“运动”、“运动员”、“基于传感器的技术”、“运动分析”和“损伤”相关的搜索词，对PubMed/MEDLINE、Scopus和Web of Science进行了全面检索。研究根据PCC（参与者、概念、背景）标准纳入。关键数据包括传感器类型、运动数据处理方法",
+      "keywords": []
+    },
+    {
+      "id": "bf5e9732",
+      "title_en": "Revolutionizing Sports: The Role of Wearable Technology and AI in Training and Performance Analysis",
+      "title_zh": "革新体育：可穿戴技术和人工智能在训练与表现分析中的作用",
+      "authors": [
+        "S. Dudek",
+        "Weronika Koziak",
+        "Michalina Makieła",
+        "Aleksandra Bętkowska",
+        "Agata Kornacka"
+      ],
+      "journal": "Quality in Sport",
+      "year": 2025,
+      "date_added": "2026-07-26",
+      "category": "preprint",
+      "doi": "10.12775/qs.2025.39.58456",
+      "impact_factor": "",
+      "citation_count": 18,
+      "is_open_access": true,
+      "pdf_url": "https://apcz.umk.pl/QS/article/download/58456/41756",
+      "abstract_en": "The integration of wearable technology and artificial intelligence (AI) has transformed modern sports science by enhancing athlete monitoring, performance optimization, and injury prevention. Wearable sensors, including fitness trackers, GPS-based devices, and biomechanical motion trackers, provide real-time physiological and biomechanical data, enabling personalized training programs and workload management. AI-driven analytics, utilizing machine learning, deep learning, and computer vision, enhance performance assessment, injury prediction, and rehabilitation strategies by processing vast datasets to detect fatigue patterns, optimize recovery schedules, and refine tactical decision-making. \nDespite these advancements, challenges persist regarding data accuracy, privacy, and accessibility. Variability in sensor precision and standardization issues hinder reliable cross-comparisons, nece",
+      "abstract_zh": "可穿戴技术与人工智能（AI）的结合，通过加强运动员监测、优化表现和预防损伤，改变了现代体育科学。可穿戴传感器，包括健身追踪器、基于GPS的设备和生物力学运动追踪器，提供实时的生理和生物力学数据，从而实现个性化训练计划和负荷管理。AI驱动的分析，利用机器学习、深度学习和计算机视觉，通过处理大量数据来增强表现评估、损伤预测和康复策略",
+      "keywords": []
+    },
+    {
+      "id": "d68dd54e",
+      "title_en": "Inertial Measurement Unit Sensor-to-Segment Calibration Comparison for Sport-Specific Motion Analysis",
+      "title_zh": "惯性测量单元传感器-节段校准在特定运动运动分析中的比较研究",
+      "authors": [
+        "Mitchell Ekdahl",
+        "Alex M. Loewen",
+        "A. Erdman",
+        "Sarp Sahin",
+        "Sophia M. Ulman"
+      ],
+      "journal": "Italian National Conference on Sensors",
+      "year": 2023,
+      "date_added": "2026-07-26",
+      "category": "preprint",
+      "doi": "10.3390/s23187987",
+      "impact_factor": "",
+      "citation_count": 18,
+      "is_open_access": true,
+      "pdf_url": "https://www.mdpi.com/1424-8220/23/18/7987/pdf?version=1695199627",
+      "abstract_en": "Wearable inertial measurement units (IMUs) can be utilized as an alternative to optical motion capture as a method of measuring joint angles. These sensors require functional calibration prior to data collection, known as sensor-to-segment calibration. This study aims to evaluate previously described sensor-to-segment calibration methods to measure joint angle range of motion (ROM) during highly dynamic sports-related movements. Seven calibration methods were selected to compare lower extremity ROM measured using IMUs to an optical motion capture system. The accuracy of ROM measurements for each calibration method varied across joints and sport-specific tasks, with absolute mean differences between IMU measurement and motion capture measurement ranging from <0.1° to 24.1°. Fewer significant differences were observed at the pelvis than at the hip, knee, or ankle across all tasks. For each",
+      "abstract_zh": "可穿戴惯性测量单元（IMU）可作为光学运动捕捉的替代方法来测量关节角度。这些传感器在数据采集前需要进行功能校准，即传感器-节段校准。本研究旨在评估先前描述的传感器-节段校准方法，以测量高动态体育相关运动中的关节活动度（ROM）。选择了七种校准方法，将使用IMU测量的下肢ROM与光学运动捕捉系统进行比较。每种ROM测量方法的准确性",
+      "keywords": []
+    },
+    {
+      "id": "1225bcb4",
+      "title_en": "Influence of Sampling Rate on Wearable IMU Orientation Estimation Accuracy for Human Movement Analysis",
+      "title_zh": "采样率对可穿戴IMU人体运动分析中姿态估计准确性的影响",
+      "authors": [
+        "Bingfei Fan",
+        "Luobin Zhang",
+        "Shibo Cai",
+        "Mingyu Du",
+        "Tao Liu"
+      ],
+      "journal": "Italian National Conference on Sensors",
+      "year": 2025,
+      "date_added": "2026-07-26",
+      "category": "preprint",
+      "doi": "10.3390/s25071976",
+      "impact_factor": "",
+      "citation_count": 14,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "Wearable inertial measurement units (IMUs) have been widely used in human movement analysis outside the laboratory. However, the IMU-based orientation estimation remains challenging, particularly in scenarios involving relatively fast movements. Increased sampling rate has the potential to improve accuracy, but it also increases power consumption and computational complexity. The relationship between sampling frequencies and accuracies remains unclear. We thus investigated the specific influence of IMU sampling frequency on orientation estimation across a spectrum of movement speeds and recommended sufficient sampling rates. Seventeen healthy subjects wore IMUs on their thigh, shank, and foot and performed walking (1.2 m/s) and running (2.2 m/s) trials on a treadmill, and a motion testbed with an IMU was used to mimic high-frequency cyclic human movements up to 3.0 Hz. Four widely used I",
+      "abstract_zh": "可穿戴惯性测量单元（IMU）已广泛应用于实验室外的人体运动分析。然而，基于IMU的姿态估计仍然具有挑战性，尤其是在涉及相对快速运动的场景中。提高采样率有可能提高准确性，但也会增加功耗和计算复杂性。采样频率与准确性之间的关系仍不明确。因此，我们调查了IMU采样频率对不同运动速度下姿态估计的具体影响，并推荐了",
+      "keywords": []
+    },
+    {
+      "id": "af2b75fa",
+      "title_en": "Multi-level data fusion enables collaborative dynamics analysis in team sports using wearable sensor networks",
+      "title_zh": "使用可穿戴传感器网络的多层数据融合实现团队运动中的协作动态分析",
+      "authors": [
+        "Z. Wang",
+        "Xiaoyu Xia",
+        "Qiaonan Chen"
+      ],
+      "journal": "Scientific Reports",
+      "year": 2025,
+      "date_added": "2026-07-26",
+      "category": "preprint",
+      "doi": "10.1038/s41598-025-12920-9",
+      "impact_factor": "",
+      "citation_count": 8,
+      "is_open_access": false,
+      "pdf_url": "",
+      "abstract_en": "This research proposes a novel multi-level data fusion method for analyzing collaborative dynamics in team sports using wearable sensor networks. We developed and validated this approach through controlled experiments with 40 semi-professional athletes across basketball and soccer scenarios. The multi-level fusion architecture integrates IMU, GPS, physiological, and positioning data through adaptive weight allocation and asynchronous alignment algorithms. Experimental validation demonstrated 8.6 dB improvement in signal quality and 42.3% enhancement in positional accuracy compared to single-source approaches. Cross-sport testing across basketball, soccer, volleyball, and handball showed consistent performance (84.2–91.4% accuracy) with real-time response times of 192-312ms. The developed collaborative dynamics indicator system revealed that temporal coordination parameters strongly corre",
+      "abstract_zh": "本研究提出了一种新颖的多层数据融合方法，用于使用可穿戴传感器网络分析团队运动中的协作动态。我们通过对40名半专业篮球和足球运动员进行的受控实验开发并验证了这种方法。该多层融合架构通过自适应权重分配和异步对齐算法，整合了IMU、GPS、生理和定位数据。实验验证表明，与单一传感器相比，信号质量提高了8.6 dB，定位精度提高了42.3%",
+      "keywords": []
+    },
+    {
+      "id": "8eff91ea",
+      "title_en": "Comparative Assessment of an IMU-Based Wearable Device and a Marker-Based Optoelectronic System in Trunk Motion Analysis: A Cross-Sectional Investigation",
+      "title_zh": "基于IMU的可穿戴设备与基于标记的光电系统在躯干运动分析中的比较评估：一项横断面研究",
+      "authors": [
+        "Fulvio Dal Farra",
+        "Serena Cerfoglio",
+        "M. Porta",
+        "M. Pau",
+        "M. Galli"
+      ],
+      "journal": "Applied Sciences",
+      "year": 2025,
+      "date_added": "2026-07-26",
+      "category": "preprint",
+      "doi": "10.3390/app15115931",
+      "impact_factor": "",
+      "citation_count": 6,
+      "is_open_access": true,
+      "pdf_url": "https://www.mdpi.com/2076-3417/15/11/5931/pdf?version=1748081417",
+      "abstract_en": "Wearable inertial measurement units (IMUs) are increasingly used in human motion analysis due to their ability to measure movement in real-world environments. However, with rapid technological advancement and a wide variety of models available, it is essential to evaluate their performance and suitability for analyzing specific body regions. This study aimed to assess the accuracy and precision of an IMU-based sensor in measuring trunk range of motion (ROM). Twenty-seven healthy adults (11 males, 16 females; mean age: 31.1 ± 11.0 years) participated. Each performed trunk movements—flexion, extension, lateral bending, and rotation—while angular data were recorded simultaneously using a single IMU and a marker-based optoelectronic motion capture (MoCap) system. Analyses included accuracy indices, Root Mean Square Error (RMSE), Pearson’s correlation coefficient (r), concordance correlation ",
+      "abstract_zh": "可穿戴惯性测量单元（IMU）因其在真实世界环境中测量运动的能力而越来越多地应用于人体运动分析。然而，随着技术的快速进步和各种型号的出现，评估其性能和适用于分析特定身体区域的适用性至关重要。本研究旨在评估基于IMU的传感器在测量躯干活动度（ROM）方面的准确性和精密度。27名健康成年人（11名男性，16名女性；平均年龄：31.1 ± 11.0岁）参与了研究。每位参与者都进行了躯干运动——屈曲、伸展",
+      "keywords": []
+    }
+  ]
 }
