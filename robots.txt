@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://feng-lab.vercel.app/sitemap.xml
