@@ -8,26 +8,42 @@
     "openalex": "api.openalex.org — names, ISSNs, h-index, OA status; refreshed every run"
   },
   "attribution": "SCImago, (n.d.). SJR — SCImago Journal & Country Rank [Portal]. Powered by Scopus.",
-  "count": 59,
+  "count": 55,
   "journals": [
     {
       "name": "Annals of Biomedical Engineering",
+      "aliases": [
+        "Annals of biomedical engineering (Online)",
+        "Annals of biomedical engineering (Print)"
+      ],
       "issn": [
         "0090-6964",
         "0191-5649",
         "1573-9686"
       ],
-      "aliases": [
-        "Annals of biomedical engineering (Online)",
-        "Annals of biomedical engineering (Print)"
-      ],
       "publisher": "Springer Science+Business Media",
+      "openalex_id": "S141152059",
       "openalex_2yr": 2.472,
       "h_index": 194,
       "works_count": 7935,
       "is_oa": false,
       "in_doaj": false,
-      "is_preprint_server": false
+      "is_preprint_server": false,
+      "topics": [
+        "Medicine / Surgery",
+        "Medicine / Cardiology and Cardiovascular Medicine",
+        "Engineering / Biomedical Engineering",
+        "Medicine / Pulmonary and Respiratory Medicine"
+      ],
+      "jcr_if": "5.2",
+      "jcr_if5": "4.1",
+      "jcr_quartile": "Q2",
+      "jci": "0.60",
+      "cas_tier": "医学3区",
+      "cas_tier_small": "工程：生物医学3区",
+      "esi": "分子生物与遗传学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
     },
     {
       "name": "Applied Sciences",
@@ -65,6 +81,13 @@
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
+      "topics": [
+        "Medicine / Orthopedics and Sports Medicine",
+        "Medicine / Complementary and alternative medicine",
+        "Engineering / Biomedical Engineering",
+        "Medicine / Surgery",
+        "Psychology / Developmental and Educational Psychology"
+      ],
       "sjr": 0.999,
       "sjr_quartile": "Q1",
       "sjr_categories": {
@@ -103,6 +126,12 @@
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
+      "topics": [
+        "Medicine / Orthopedics and Sports Medicine",
+        "Medicine / Cardiology and Cardiovascular Medicine",
+        "Medicine / Epidemiology",
+        "Medicine / Surgery"
+      ],
       "sjr": 4.847,
       "sjr_quartile": "Q1",
       "sjr_categories": {
@@ -145,6 +174,14 @@
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
+      "topics": [
+        "Medicine / Complementary and alternative medicine",
+        "Medicine / Orthopedics and Sports Medicine",
+        "Medicine / Rehabilitation",
+        "Engineering / Biomedical Engineering",
+        "Biochemistry, Genetics and Molecular Biology / Cell Biology",
+        "Medicine / Physiology"
+      ],
       "sjr": 0.985,
       "sjr_quartile": "Q1",
       "sjr_categories": {
@@ -181,6 +218,13 @@
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
+      "topics": [
+        "Medicine / Orthopedics and Sports Medicine",
+        "Medicine / Complementary and alternative medicine",
+        "Psychology / Developmental and Educational Psychology",
+        "Biochemistry, Genetics and Molecular Biology / Cell Biology",
+        "Medicine / Rehabilitation"
+      ],
       "sjr": 1.137,
       "sjr_quartile": "Q1",
       "sjr_categories": {
@@ -255,6 +299,13 @@
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
+      "topics": [
+        "Medicine / Orthopedics and Sports Medicine",
+        "Psychology / Developmental and Educational Psychology",
+        "Medicine / Complementary and alternative medicine",
+        "Social Sciences / Gender Studies",
+        "Medicine / Physiology"
+      ],
       "sjr": 0.825,
       "sjr_quartile": "Q2",
       "sjr_categories": {
@@ -292,6 +343,13 @@
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
+      "topics": [
+        "Health Professions / Physical Therapy, Sports Therapy and Rehabilitation",
+        "Medicine / Psychiatry and Mental health",
+        "Engineering / Biomedical Engineering",
+        "Medicine / Endocrinology, Diabetes and Metabolism",
+        "Medicine / Rehabilitation"
+      ],
       "sjr": 0.842,
       "sjr_quartile": "Q2",
       "sjr_categories": {
@@ -310,20 +368,6 @@
       "esi": "临床医学",
       "jcr_year": "2024",
       "if_provider": "easyscholar"
-    },
-    {
-      "name": "International Journal For Multidisciplinary Research",
-      "issn": [
-        "2582-2160"
-      ],
-      "aliases": [],
-      "publisher": "",
-      "openalex_2yr": 0.189,
-      "h_index": 23,
-      "works_count": 33318,
-      "is_oa": false,
-      "in_doaj": false,
-      "is_preprint_server": false
     },
     {
       "name": "International Journal of Biology and Life Sciences",
@@ -348,6 +392,13 @@
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
+      "topics": [
+        "Biochemistry, Genetics and Molecular Biology / Cell Biology",
+        "Medicine / Rehabilitation",
+        "Medicine / Orthopedics and Sports Medicine",
+        "Medicine / Complementary and alternative medicine",
+        "Medicine / Physiology"
+      ],
       "sjr": 1.007,
       "sjr_quartile": "Q1",
       "sjr_categories": {
@@ -385,6 +436,13 @@
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
+      "topics": [
+        "Medicine / Orthopedics and Sports Medicine",
+        "Medicine / Complementary and alternative medicine",
+        "Biochemistry, Genetics and Molecular Biology / Cell Biology",
+        "Medicine / Rehabilitation",
+        "Medicine / Cardiology and Cardiovascular Medicine"
+      ],
       "sjr": 0.773,
       "sjr_quartile": "Q2",
       "sjr_categories": {
@@ -420,6 +478,13 @@
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
+      "topics": [
+        "Medicine / Orthopedics and Sports Medicine",
+        "Medicine / Complementary and alternative medicine",
+        "Psychology / Developmental and Educational Psychology",
+        "Medicine / Rehabilitation",
+        "Biochemistry, Genetics and Molecular Biology / Genetics"
+      ],
       "sjr": 1.833,
       "sjr_quartile": "Q1",
       "sjr_categories": {
@@ -470,6 +535,10 @@
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
+      "topics": [
+        "Medicine / Surgery",
+        "Medicine / Epidemiology"
+      ],
       "sjr": 0.994,
       "sjr_quartile": "Q1",
       "sjr_categories": {
@@ -502,6 +571,13 @@
       "is_oa": true,
       "in_doaj": false,
       "is_preprint_server": false,
+      "topics": [
+        "Medicine / Orthopedics and Sports Medicine",
+        "Medicine / Surgery",
+        "Engineering / Biomedical Engineering",
+        "Medicine / Epidemiology",
+        "Health Professions / Physical Therapy, Sports Therapy and Rehabilitation"
+      ],
       "sjr": 1.166,
       "sjr_quartile": "Q1",
       "sjr_categories": {
@@ -538,6 +614,12 @@
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
+      "topics": [
+        "Engineering / Biomedical Engineering",
+        "Medicine / Surgery",
+        "Medicine / Orthopedics and Sports Medicine",
+        "Health Professions / Physical Therapy, Sports Therapy and Rehabilitation"
+      ],
       "sjr": 0.722,
       "sjr_quartile": "Q2",
       "sjr_categories": {
@@ -622,6 +704,12 @@
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
+      "topics": [
+        "Medicine / Orthopedics and Sports Medicine",
+        "Medicine / Pharmacology",
+        "Medicine / Surgery",
+        "Engineering / Biomedical Engineering"
+      ],
       "sjr": 1.794,
       "sjr_quartile": "Q1",
       "sjr_categories": {
@@ -655,6 +743,9 @@
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
+      "topics": [
+        "Medicine / Surgery"
+      ],
       "sjr": 0.696,
       "sjr_quartile": "Q2",
       "sjr_categories": {
@@ -686,6 +777,13 @@
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
+      "topics": [
+        "Medicine / Orthopedics and Sports Medicine",
+        "Psychology / Developmental and Educational Psychology",
+        "Medicine / Complementary and alternative medicine",
+        "Psychology / Social Psychology",
+        "Economics, Econometrics and Finance / Economics and Econometrics"
+      ],
       "sjr": 1.018,
       "sjr_quartile": "Q1",
       "sjr_categories": {
@@ -723,6 +821,13 @@
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
+      "topics": [
+        "Medicine / Physiology",
+        "Medicine / Public Health, Environmental and Occupational Health",
+        "Medicine / Orthopedics and Sports Medicine",
+        "Medicine / Complementary and alternative medicine",
+        "Medicine / Rehabilitation"
+      ],
       "sjr": 3.715,
       "sjr_quartile": "Q1",
       "sjr_categories": {
@@ -760,6 +865,11 @@
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
+      "topics": [
+        "Medicine / Surgery",
+        "Engineering / Biomedical Engineering",
+        "Medicine / Rheumatology"
+      ],
       "sjr": 1.998,
       "sjr_quartile": "Q1",
       "sjr_categories": {
@@ -809,6 +919,13 @@
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
+      "topics": [
+        "Medicine / Orthopedics and Sports Medicine",
+        "Medicine / Complementary and alternative medicine",
+        "Biochemistry, Genetics and Molecular Biology / Cell Biology",
+        "Medicine / Rehabilitation",
+        "Medicine / Physiology"
+      ],
       "sjr": 1.481,
       "sjr_quartile": "Q1",
       "sjr_categories": {
@@ -863,6 +980,12 @@
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
+      "topics": [
+        "Medicine / Surgery",
+        "Medicine / Orthopedics and Sports Medicine",
+        "Engineering / Biomedical Engineering",
+        "Medicine / Epidemiology"
+      ],
       "sjr": 1.148,
       "sjr_quartile": "Q1",
       "sjr_categories": {
@@ -894,35 +1017,32 @@
       "if_provider": "easyscholar"
     },
     {
-      "name": "Pacific International Journal",
-      "issn": [
-        "2616-4825",
-        "2663-8991"
-      ],
-      "aliases": [
-        "PIJ"
-      ],
-      "publisher": "",
-      "openalex_2yr": 0.711,
-      "h_index": 9,
-      "works_count": 690,
-      "is_oa": true,
-      "in_doaj": false,
-      "is_preprint_server": false
-    },
-    {
       "name": "Photonics",
+      "aliases": [],
       "issn": [
         "2304-6732"
       ],
-      "aliases": [],
       "publisher": "Multidisciplinary Digital Publishing Institute",
+      "openalex_id": "S2738274844",
       "openalex_2yr": 2.23,
       "h_index": 58,
       "works_count": 6984,
       "is_oa": true,
       "in_doaj": true,
-      "is_preprint_server": false
+      "is_preprint_server": false,
+      "topics": [
+        "Engineering / Electrical and Electronic Engineering",
+        "Physics and Astronomy / Atomic and Molecular Physics, and Optics"
+      ],
+      "jcr_if": "2.1",
+      "jcr_if5": "2.1",
+      "jcr_quartile": "Q3",
+      "jci": "0.52",
+      "cas_tier": "物理与天体物理3区",
+      "cas_tier_small": "光学3区",
+      "esi": "物理学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
     },
     {
       "name": "Proceedings of the ACM on Interactive Mobile Wearable and Ubiquitous Technologies",
@@ -969,6 +1089,13 @@
       "is_oa": true,
       "in_doaj": false,
       "is_preprint_server": false,
+      "topics": [
+        "Social Sciences / Life-span and Life-course Studies",
+        "Health Professions / General Health Professions",
+        "Medicine / Orthopedics and Sports Medicine",
+        "Health Professions / Physical Therapy, Sports Therapy and Rehabilitation",
+        "Psychology / Social Psychology"
+      ],
       "sjr": 0.337,
       "sjr_quartile": "Q3",
       "sjr_categories": {
@@ -1002,6 +1129,13 @@
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
+      "topics": [
+        "Medicine / Orthopedics and Sports Medicine",
+        "Medicine / Complementary and alternative medicine",
+        "Medicine / Physiology",
+        "Medicine / Rehabilitation",
+        "Medicine / Cardiology and Cardiovascular Medicine"
+      ],
       "sjr": 1.525,
       "sjr_quartile": "Q1",
       "sjr_categories": {
@@ -1050,21 +1184,6 @@
       "if_provider": "easyscholar"
     },
     {
-      "name": "Scientific and Social Research",
-      "issn": [
-        "2661-4332",
-        "2981-9946"
-      ],
-      "aliases": [],
-      "publisher": "",
-      "openalex_2yr": 0.172,
-      "h_index": 9,
-      "works_count": 1579,
-      "is_oa": false,
-      "in_doaj": false,
-      "is_preprint_server": false
-    },
-    {
       "name": "Sensor Review",
       "aliases": [],
       "issn": [],
@@ -1106,6 +1225,13 @@
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
+      "topics": [
+        "Medicine / Orthopedics and Sports Medicine",
+        "Medicine / Complementary and alternative medicine",
+        "Psychology / Developmental and Educational Psychology",
+        "Medicine / Rehabilitation",
+        "Biochemistry, Genetics and Molecular Biology / Cell Biology"
+      ],
       "sjr": 0.888,
       "sjr_quartile": "Q1",
       "sjr_categories": {
@@ -1139,6 +1265,13 @@
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
+      "topics": [
+        "Medicine / Orthopedics and Sports Medicine",
+        "Medicine / Complementary and alternative medicine",
+        "Biochemistry, Genetics and Molecular Biology / Cell Biology",
+        "Medicine / Rehabilitation",
+        "Engineering / Biomedical Engineering"
+      ],
       "sjr": 4.065,
       "sjr_quartile": "Q1",
       "sjr_categories": {
@@ -1176,6 +1309,13 @@
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
+      "topics": [
+        "Medicine / Orthopedics and Sports Medicine",
+        "Medicine / Complementary and alternative medicine",
+        "Medicine / Rehabilitation",
+        "Psychology / Developmental and Educational Psychology",
+        "Engineering / Biomedical Engineering"
+      ],
       "sjr": 2.015,
       "sjr_quartile": "Q1",
       "sjr_categories": {
@@ -1217,6 +1357,11 @@
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
+      "topics": [
+        "Medicine / Surgery",
+        "Medicine / Orthopedics and Sports Medicine",
+        "Engineering / Biomedical Engineering"
+      ],
       "sjr": 2.29,
       "sjr_quartile": "Q1",
       "sjr_categories": {
@@ -1252,6 +1397,13 @@
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
+      "topics": [
+        "Medicine / Orthopedics and Sports Medicine",
+        "Medicine / Complementary and alternative medicine",
+        "Medicine / Rehabilitation",
+        "Psychology / Developmental and Educational Psychology",
+        "Engineering / Biomedical Engineering"
+      ],
       "sjr": 0.45,
       "sjr_quartile": "Q3",
       "sjr_categories": {
@@ -1289,6 +1441,13 @@
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
+      "topics": [
+        "Medicine / Orthopedics and Sports Medicine",
+        "Medicine / Complementary and alternative medicine",
+        "Engineering / Biomedical Engineering",
+        "Medicine / Rehabilitation",
+        "Biochemistry, Genetics and Molecular Biology / Cell Biology"
+      ],
       "sjr": 1.217,
       "sjr_quartile": "Q1",
       "sjr_categories": {
@@ -1321,31 +1480,6 @@
       "esi": "临床医学",
       "jcr_year": "2024",
       "if_provider": "easyscholar"
-    },
-    {
-      "name": "arXiv (Cornell University)",
-      "issn": [
-        "2331-8422"
-      ],
-      "aliases": [
-        "ArXiv.org"
-      ],
-      "publisher": "Cornell University",
-      "openalex_2yr": 0.186,
-      "h_index": 693,
-      "works_count": 3265235,
-      "is_oa": true,
-      "in_doaj": false,
-      "is_preprint_server": true
     }
-  ],
-  "unresolved": [
-    "2023 3rd international conference smart generation computing communication networking smart gencon",
-    "2025 international conference computational innovations engineering sustainability iccies",
-    "advanced international journal research",
-    "current issues sport science ciss",
-    "ieee international conference robotics biomimetics",
-    "proceedings 2025 2nd international conference sports technology performance analysis",
-    "social science reports"
   ]
 }

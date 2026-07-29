@@ -26,6 +26,14 @@
 
 历史教训：旧代码用朴素子串匹配（`if key in venue`），`"sports medicine"` 这个 key 命中了 `International Journal of Sports Medicine`、`Orthopaedic Journal of Sports Medicine`、`Journal of Sports Medicine and Physical Fitness`，让它们全部以 IF 9.8 发布（真实值分别是 2.3 / 2.9 / 1.3），190 篇归档里有 39 篇带着这个错误数字。改动这块逻辑前先跑 `tests/test_journal_metrics.py`，那里的用例就是照着这个 bug 写的。
 
+## 期刊质量门槛
+
+`scripts/fetch_papers.py` 的 `_passes_gate`，满足任一条即通过：IF ≥ 3.0 / JCR 或 SJR 分区 Q1 / 中科院 1 区或 2 区 / 在 `jcr_seed.json` 的 `always_include` 名单里。
+
+最后还有一档兜底：只有引用率、没有任何排名数据的期刊。**这一档额外要求学科相关**（`journal_metrics.is_domain_relevant`），因为引用率不携带任何学科信息——`Photonics`（光子学，OpenAlex 2yr=2.2）就是靠这条兜底进过运动科学简报。
+
+学科判定按三个独立信号取或：中科院小类分区、Scopus 学科、OpenAlex topics。**没有 topics 数据时返回"相关"**——这里要拒的是能被明确归到其他学科的期刊，而不是数据缺失的期刊；质量门槛本身还在把关。综合性大刊（Scientific Reports、PLoS ONE）的 topics 被其体量主导（癌症、分子生物学），所以绝不能用主题白名单一刀切，否则会误杀它们。
+
 ## 每日流水线顺序
 
 `.github/workflows/daily-update.yml` 里的顺序有依赖，不要随意调换：

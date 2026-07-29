@@ -90,6 +90,24 @@ _PREFERRED_CATEGORIES = (
 )
 
 
+def topic_labels(src: dict, keep: int = 6) -> list[str]:
+    """Flatten a source's OpenAlex topics into "field / subfield" strings.
+
+    Used only to decide whether a journal with no JCR, CAS or SCImago entry is
+    plausibly in this site's subject area. A photonics journal cleared the
+    OpenAlex-only fallback purely on citation rate and reached a sports-science
+    digest; nothing in the numbers could have caught that.
+    """
+    out: list[str] = []
+    for t in (src.get("topics") or [])[:keep]:
+        field = ((t.get("field") or {}).get("display_name") or "").strip()
+        subfield = ((t.get("subfield") or {}).get("display_name") or "").strip()
+        label = f"{field} / {subfield}".strip(" /")
+        if label and label not in out:
+            out.append(label)
+    return out
+
+
 def _num(raw: str) -> float:
     """SCImago exports use a comma as the decimal separator."""
     try:
@@ -232,7 +250,7 @@ def fetch_openalex(issns: list[str]) -> dict[str, dict]:
             "per-page": 100,
             "select": ("id,display_name,alternate_titles,issn,issn_l,summary_stats,"
                        "works_count,type,host_organization_name,is_oa,is_in_doaj,"
-                       "is_preprint_repository"),
+                       "is_preprint_repository,topics"),
         })
         if not data:
             continue
@@ -282,6 +300,7 @@ def resolve_live(name: str, issns: list[str] | None = None) -> dict | None:
             "is_oa": bool(src.get("is_oa")),
             "in_doaj": bool(src.get("is_in_doaj")),
             "is_preprint_server": bool(src.get("is_preprint_repository")),
+            "topics": topic_labels(src),
         })
 
     es = fetch_easyscholar(entry["name"]) or (fetch_easyscholar(name) if name != entry["name"] else None)
@@ -405,6 +424,7 @@ def build(check_only: bool = False) -> int:
                 "is_oa": bool(src.get("is_oa")),
                 "in_doaj": bool(src.get("is_in_doaj")),
                 "is_preprint_server": bool(src.get("is_preprint_repository")),
+                "topics": topic_labels(src),
             })
 
         if sjr:

@@ -21,7 +21,9 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != 'utf-8':
     sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
 sys.path.insert(0, str(Path(__file__).parent))
-from journal_metrics import JournalIndex, display_impact, impact_value  # noqa: E402
+from journal_metrics import (  # noqa: E402
+    JournalIndex, display_impact, impact_value, is_domain_relevant,
+)
 
 TODAY = datetime.date.today().isoformat()
 DATA_FILE  = Path(__file__).parent.parent / "data" / "papers.json"
@@ -103,6 +105,12 @@ def _passes_gate(entry: dict) -> bool:
         return True
 
     if not entry.get("jcr_if"):
+        # This is the weakest tier: no impact factor, no quartile, no CAS tier —
+        # only a citation rate. A citation rate says nothing about subject, and
+        # Photonics (OpenAlex 2yr 2.2) cleared it into a sports-science digest.
+        # Journals reaching this branch must also be placeable in the field.
+        if not is_domain_relevant(entry):
+            return False
         for field, floor in (("cite_doc_2y", MIN_IF), ("openalex_2yr", MIN_OPENALEX_2YR)):
             try:
                 if float(entry.get(field) or 0) >= floor:

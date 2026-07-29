@@ -249,6 +249,61 @@ def display_impact(entry: dict | None) -> tuple[str, str]:
     return "", ""
 
 
+# OpenAlex field / subfield labels that plausibly carry sports-science work.
+# Deliberately generous: this only has to reject journals from an unrelated
+# discipline, not adjudicate borderline ones. The search queries already
+# constrain the topic; this is the last line against a photonics journal
+# clearing the citation-rate floor and landing in a sports digest.
+_RELEVANT_FIELDS = ("medicine", "health professions", "nursing")
+_RELEVANT_SUBFIELDS = (
+    "orthopedics and sports medicine",
+    "physical therapy, sports therapy and rehabilitation",
+    "rehabilitation",
+    "physiology",
+    "biomedical engineering",
+    "nutrition and dietetics",
+    "food science",
+    "public health",
+    "epidemiology",
+    "sports science",
+)
+
+
+def is_domain_relevant(entry: dict | None) -> bool:
+    """Is this journal plausibly in scope for a sports-science digest?
+
+    Checked against three independent signals, any one of which is enough:
+    the CAS sub-category, the Scopus categories, and OpenAlex's topics.
+
+    A journal with no topic data at all returns True. Absence of evidence is
+    not evidence of irrelevance, and the metric gate still applies — the point
+    is to reject journals we can positively place in another discipline.
+    """
+    if not entry:
+        return False
+
+    cas = f"{entry.get('cas_tier_small') or ''} {entry.get('cas_tier') or ''}"
+    if any(k in cas for k in ("运动", "骨科", "康复", "生理", "营养", "神经", "外科", "综合性期刊")):
+        return True
+
+    for category in (entry.get("sjr_categories") or {}):
+        low = category.lower()
+        if any(k in low for k in _RELEVANT_SUBFIELDS):
+            return True
+
+    topics = entry.get("topics")
+    if not topics:
+        return True  # nothing to judge on; leave it to the metric gate
+
+    for label in topics:
+        field, _, subfield = label.lower().partition(" / ")
+        if field.strip() in _RELEVANT_FIELDS:
+            return True
+        if any(k in subfield for k in _RELEVANT_SUBFIELDS):
+            return True
+    return False
+
+
 def display_tier(entry: dict | None) -> str:
     """Chinese-facing journal tier: CAS sub-category first, then JCR quartile.
 
