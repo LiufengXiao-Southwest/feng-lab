@@ -3,13 +3,22 @@ name: Daily Literature Update
 on:
   schedule:
     - cron: '0 1 * * *'   # 09:00 北京时间 (UTC+8 → 01:00 UTC)
+    - cron: '0 2 * * 1'   # 周一 10:00 北京时间 — 仅跑指标漂移校验
   workflow_dispatch:        # 允许手动触发
 
 permissions:
   contents: write
 
+concurrency:
+  # A manual run while the nightly one is in flight would race on the same
+  # commit; queue instead of failing the push.
+  group: daily-update
+  cancel-in-progress: false
+
 jobs:
   fetch-papers:
+    # The Monday cron is the drift check only; it must not run a second digest.
+    if: github.event.schedule != '0 2 * * 1'
     runs-on: ubuntu-latest
 
     steps:
@@ -24,22 +33,41 @@ jobs:
       - name: Install dependencies
         run: pip install requests google-generativeai
 
+      # Journal metrics first: fetch_papers.py reads data/journals.json to
+      # decide which papers clear the quality gate and what impact factor to
+      # publish, so a stale cache here silently degrades everything downstream.
+      - name: Refresh journal metrics
+        env:
+          EASYSCHOLAR_SECRET_KEY: ${{ secrets.EASYSCHOLAR_SECRET_KEY }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
+        run: python scripts/update_journal_metrics.py
+
       - name: Fetch latest papers
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
         run: python scripts/fetch_papers.py
+
+      - name: Resolve open-access full text
+        env:
+          CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
+        run: python scripts/enrich_fulltext.py
 
       - name: Generate daily deep read
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/fetch_deep_read.py
 
+      - name: Build search index and feeds
+        run: python scripts/build_site_data.py
+
       - name: Commit and push if changed
         run: |
           git config user.name  "FENG LAB Bot"
           git config user.email "fenglab-bot@users.noreply.github.com"
           git pull --rebase --autostash origin main
-          git add data/papers.json data/archive.json data/deep_read.json data/deep_read_history.json data/deep_read_history_full.json
+          git add data/ feed.xml feed.json sitemap.xml
           git diff --staged --quiet || (
             git commit -m "update: daily literature & deep read $(date +%Y-%m-%d)" &&
             git push
@@ -49,3 +77,23 @@ jobs:
         env:
           FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
         run: python scripts/notify_feishu.py
+
+  # Impact factors and CAS tiers change once a year, so this only checks for
+  # drift between the curated values and SCImago. Gated to its own Monday cron:
+  # running it alongside the daily digest would double easyScholar usage every
+  # day for a report nobody reads on the other six.
+  refresh-metrics:
+    if: github.event.schedule == '0 2 * * 1'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - name: Verify curated values still agree with SCImago
+        env:
+          EASYSCHOLAR_SECRET_KEY: ${{ secrets.EASYSCHOLAR_SECRET_KEY }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: python scripts/update_journal_metrics.py --check
+        continue-on-error: true

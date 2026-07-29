@@ -1,0 +1,114 @@
+{
+  "_readme": [
+    "Hand-curated Clarivate JCR impact factors — the ONLY numbers on this site that a human maintains.",
+    "",
+    "Why this file is small on purpose:",
+    "  JCR is proprietary, publishes once a year (June), and has no legal API. So an entry here is a",
+    "  claim that someone actually looked the number up. Journals absent from this list are NOT dropped",
+    "  and are NOT unranked — they get SJR, Scopus quartile and 2-year citations per document from the",
+    "  SCImago snapshots in data/scimago_*.csv, which is refreshed automatically and measured at 0.964",
+    "  rank correlation with JCR. An entry with a guessed number is strictly worse than no entry.",
+    "",
+    "  This replaced a 40-journal hardcoded dict in fetch_papers.py that matched venue names by loose",
+    "  substring. 'International Journal of Sports Medicine', 'Orthopaedic Journal of Sports Medicine'",
+    "  and 'J Sports Med Phys Fitness' all contain the string 'sports medicine', so all three were",
+    "  published as IF 9.8 — 39 of 190 archived papers carried that number. Their real 2-year citation",
+    "  rates are 4.8, 1.4 and 1.0.",
+    "",
+    "ANNUAL UPDATE, every June when JCR releases:",
+    "  1. Update jcr_if / jcr_quartile below and bump jcr_year.",
+    "  2. Re-download the SCImago snapshots (run from a workstation, NOT CI — scimagojr.com is behind",
+    "     Cloudflare and blocks CI egress IPs):",
+    "       curl -sSL -o data/scimago_3612.csv -H 'User-Agent: Mozilla/5.0' \\",
+    "         -H 'Referer: https://www.scimagojr.com/journalrank.php' \\",
+    "         'https://www.scimagojr.com/journalrank.php?category=3612&out=xls'",
+    "       (3612 = Physical Therapy/Sports Therapy & Rehabilitation, 2732 = Orthopedics & Sports Medicine)",
+    "  3. python scripts/update_journal_metrics.py --check   # cross-checks every value against SCImago",
+    "  4. python scripts/update_journal_metrics.py           # regenerate data/journals.json",
+    "",
+    "jcr_if values below are JCR 2024, verified 2026-07-27. Anything not verified was left out."
+  ],
+  "journals": [
+    {
+      "name": "British Journal of Sports Medicine",
+      "aliases": ["BJSM", "Br J Sports Med"],
+      "jcr_if": "16.2",
+      "jcr_quartile": "Q1",
+      "jcr_year": "2024"
+    },
+    {
+      "name": "Sports Medicine",
+      "aliases": ["Sports Med", "Sports Medicine (Auckland, N.Z.)"],
+      "jcr_if": "9.4",
+      "jcr_quartile": "Q1",
+      "jcr_year": "2024"
+    },
+    {
+      "name": "The American Journal of Sports Medicine",
+      "aliases": ["AJSM", "Am J Sports Med", "American Journal of Sports Medicine"],
+      "jcr_if": "4.5",
+      "jcr_quartile": "Q1",
+      "jcr_year": "2024"
+    },
+    {
+      "name": "Medicine & Science in Sports & Exercise",
+      "aliases": ["MSSE", "Med Sci Sports Exerc", "Medicine and Science in Sports and Exercise"],
+      "jcr_if": "3.9",
+      "jcr_quartile": "Q1",
+      "jcr_year": "2024"
+    },
+    {
+      "name": "The Journal of Strength and Conditioning Research",
+      "aliases": ["JSCR", "J Strength Cond Res", "Journal of Strength and Conditioning Research"],
+      "jcr_if": "3.0",
+      "jcr_quartile": "Q1",
+      "jcr_year": "2024"
+    },
+    {
+      "name": "European Journal of Applied Physiology",
+      "aliases": ["EJAP", "Eur J Appl Physiol"],
+      "jcr_if": "2.7",
+      "jcr_quartile": "Q2",
+      "jcr_year": "2024"
+    },
+    {
+      "name": "Journal of Sports Sciences",
+      "aliases": ["J Sports Sci"],
+      "jcr_if": "2.5",
+      "jcr_quartile": "Q2",
+      "jcr_year": "2024"
+    }
+  ],
+  "_always_include": [
+    "Journals this lab wants in the digest regardless of the metric thresholds.",
+    "Editorial preference, deliberately kept separate from the automatic gate so the two",
+    "are not confused. Gait & Posture is JCR Q2 at IF 2.7 but is a core biomechanics venue here."
+  ],
+  "always_include": [
+    "Gait & Posture",
+    "Journal of Biomechanics",
+    "Journal of Electromyography and Kinesiology",
+    "Sports Biomechanics",
+    "Journal of Applied Biomechanics"
+  ],
+  "_alias_only": [
+    "Listed so venue-string variants resolve to the right journal even without a curated IF.",
+    "These carry no jcr_if by design — SCImago supplies their metrics."
+  ],
+  "alias_only": [
+    { "name": "Journal of Sport and Health Science", "aliases": ["JSHS"] },
+    { "name": "Journal of Orthopaedic & Sports Physical Therapy", "aliases": ["JOSPT", "J Orthop Sports Phys Ther"] },
+    { "name": "Scandinavian Journal of Medicine & Science in Sports", "aliases": ["SJMSS", "Scand J Med Sci Sports"] },
+    { "name": "International Journal of Sports Physiology and Performance", "aliases": ["IJSPP"] },
+    { "name": "International Journal of Sport Nutrition and Exercise Metabolism", "aliases": ["IJSNEM"] },
+    { "name": "Knee Surgery, Sports Traumatology, Arthroscopy", "aliases": ["KSSTA"] },
+    { "name": "Journal of Athletic Training", "aliases": ["JAT"] },
+    { "name": "Journal of Biomechanics", "aliases": ["J Biomech"] },
+    { "name": "Gait & Posture", "aliases": ["Gait and Posture"] },
+    { "name": "Journal of NeuroEngineering and Rehabilitation", "aliases": ["JNER"] },
+    { "name": "European Journal of Sport Science", "aliases": ["EJSS"] },
+    { "name": "Sports Medicine - Open", "aliases": ["Sports Med Open"] },
+    { "name": "International Journal of Sports Medicine", "aliases": ["Int J Sports Med"] },
+    { "name": "Orthopaedic Journal of Sports Medicine", "aliases": ["OJSM"] }
+  ]
+}

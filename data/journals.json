@@ -1,0 +1,1247 @@
+{
+  "updated": "2026-07-29",
+  "jcr_year": "2024",
+  "sources": {
+    "easyscholar": "easyscholar.cc — JCR impact factor, JCR quartile, CAS tiers; refreshed every run",
+    "jcr_seed": "data/jcr_seed.json — curated fallback used only when easyScholar has no entry",
+    "scimago": "data/scimago_*.csv — SCImago/Scopus snapshot, refreshed annually by hand",
+    "openalex": "api.openalex.org — names, ISSNs, h-index, OA status; refreshed every run"
+  },
+  "attribution": "SCImago, (n.d.). SJR — SCImago Journal & Country Rank [Portal]. Powered by Scopus.",
+  "count": 53,
+  "journals": [
+    {
+      "name": "Applied Sciences",
+      "aliases": [],
+      "issn": [],
+      "jcr_if": "2.9",
+      "jcr_if5": "3.0",
+      "jcr_quartile": "Q2",
+      "jci": "0.51",
+      "cas_tier": "综合性期刊4区",
+      "cas_tier_small": "化学：综合4区/工程：综合4区/材料科学：综合4区/物理：应用4区",
+      "esi": "工程科学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Arthroscopy: The Journal of Arthroscopy And Related",
+      "aliases": [],
+      "issn": []
+    },
+    {
+      "name": "BMC Sports Science Medicine and Rehabilitation",
+      "aliases": [
+        "BioMed Central sports science, medicine and rehabilitation",
+        "Sports science, medicine & rehabilitation"
+      ],
+      "issn": [
+        "2052-1847"
+      ],
+      "publisher": "BioMed Central",
+      "openalex_id": "S4210191135",
+      "openalex_2yr": 2.898,
+      "h_index": 60,
+      "works_count": 2010,
+      "is_oa": true,
+      "in_doaj": true,
+      "is_preprint_server": false,
+      "sjr": 0.999,
+      "sjr_quartile": "Q1",
+      "sjr_categories": {
+        "Orthopedics and Sports Medicine": "Q1",
+        "Physical Therapy, Sports Therapy and Rehabilitation": "Q1",
+        "Rehabilitation": "Q1"
+      },
+      "cite_doc_2y": 3.62,
+      "jcr_if": "3.4",
+      "jcr_if5": "3.5",
+      "jcr_quartile": "Q1",
+      "jci": "1.33",
+      "cas_tier": "医学3区",
+      "cas_tier_small": "康复医学2区/运动科学3区",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "British Journal of Sports Medicine",
+      "aliases": [
+        "BJSM",
+        "BJSM online",
+        "BJSM,",
+        "Br J Sports Med"
+      ],
+      "issn": [
+        "0306-3674",
+        "1473-0480"
+      ],
+      "publisher": "BMJ",
+      "openalex_id": "S136578784",
+      "openalex_2yr": 5.879,
+      "h_index": 310,
+      "works_count": 12116,
+      "is_oa": false,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "sjr": 4.847,
+      "sjr_quartile": "Q1",
+      "sjr_categories": {
+        "": "Q1",
+        "Orthopedics and Sports Medicine": "Q1",
+        "Physical Therapy, Sports Therapy and Rehabilitation": "Q1",
+        "Sports Science": "Q1"
+      },
+      "cite_doc_2y": 9.11,
+      "jcr_if": "15.5",
+      "jcr_if5": "18.9",
+      "jcr_quartile": "Q1",
+      "jci": "3.72",
+      "cas_tier": "医学1区",
+      "cas_tier_small": "运动科学1区",
+      "cas_top": "医学TOP",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "European Journal of Applied Physiology",
+      "aliases": [
+        "Applied physiology (2000. Internet)",
+        "Applied physiology (2000. Print)",
+        "EJAP",
+        "Eur J Appl Physiol",
+        "Internationale Zeitschrift für Angewandte Physiologie Einschliesslich Arbeitsphysiologie"
+      ],
+      "issn": [
+        "1439-6319",
+        "0020-9376",
+        "1439-6327"
+      ],
+      "publisher": "Springer Science+Business Media",
+      "openalex_id": "S205145379",
+      "openalex_2yr": 2.547,
+      "h_index": 222,
+      "works_count": 12167,
+      "is_oa": false,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "sjr": 0.985,
+      "sjr_quartile": "Q1",
+      "sjr_categories": {
+        "": "Q2",
+        "Orthopedics and Sports Medicine": "Q1",
+        "Public Health, Environmental and Occupational Health": "Q1",
+        "Sports Science": "Q2"
+      },
+      "cite_doc_2y": 2.94,
+      "jcr_if": "2.9",
+      "jcr_if5": "3.5",
+      "jcr_quartile": "Q2",
+      "jci": "0.99",
+      "cas_tier": "医学3区",
+      "cas_tier_small": "生理学2区/运动科学3区",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "European Journal of Sport Science",
+      "aliases": [
+        "EJSS"
+      ],
+      "issn": [
+        "1746-1391",
+        "1536-7290"
+      ],
+      "publisher": "Taylor & Francis",
+      "openalex_id": "S18135458",
+      "openalex_2yr": 2.839,
+      "h_index": 109,
+      "works_count": 2960,
+      "is_oa": true,
+      "in_doaj": true,
+      "is_preprint_server": false,
+      "sjr": 1.137,
+      "sjr_quartile": "Q1",
+      "sjr_categories": {
+        "": "Q1",
+        "Orthopedics and Sports Medicine": "Q1",
+        "Physical Therapy, Sports Therapy and Rehabilitation": "Q1",
+        "Sports Science": "Q2"
+      },
+      "cite_doc_2y": 3.43,
+      "jcr_if": "3.0",
+      "jcr_if5": "3.7",
+      "jcr_quartile": "Q2",
+      "jci": "1.08",
+      "cas_tier": "医学3区",
+      "cas_tier_small": "运动科学3区",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Free Radical Biology & Medicine",
+      "aliases": [],
+      "issn": [],
+      "jcr_if": "8.0",
+      "jcr_if5": "8.8",
+      "jcr_quartile": "Q1",
+      "jci": "1.74",
+      "cas_tier": "生物学2区",
+      "cas_tier_small": "生化与分子生物学2区/内分泌学与代谢2区",
+      "cas_top": "生物学TOP",
+      "esi": "生物与生化",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Frontiers in Bioengineering and Biotechnology",
+      "aliases": [],
+      "issn": [],
+      "jcr_if": "5.8",
+      "jcr_if5": "6.2",
+      "jcr_quartile": "Q1",
+      "jci": "0.82",
+      "cas_tier": "生物学3区",
+      "cas_tier_small": "生物工程与应用微生物3区/工程：生物医学4区",
+      "esi": "多学科",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Frontiers in Education",
+      "aliases": [],
+      "issn": [],
+      "jcr_if": "2.6",
+      "jcr_if5": "2.9",
+      "jci": "0.91",
+      "cas_tier": "教育学4区",
+      "cas_tier_small": "教育学和教育研究4区",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Frontiers in Sports and Active Living",
+      "aliases": [],
+      "issn": [
+        "2624-9367"
+      ],
+      "publisher": "Frontiers Media",
+      "openalex_id": "S4210180255",
+      "openalex_2yr": 2.257,
+      "h_index": 55,
+      "works_count": 3839,
+      "is_oa": true,
+      "in_doaj": true,
+      "is_preprint_server": false,
+      "sjr": 0.825,
+      "sjr_quartile": "Q2",
+      "sjr_categories": {
+        "Anthropology": "Q1",
+        "Physical Therapy, Sports Therapy and Rehabilitation": "Q1",
+        "Orthopedics and Sports Medicine": "Q2",
+        "Physiology": "Q2",
+        "Public Health, Environmental and Occupational Health": "Q2",
+        "Tourism, Leisure and Hospitality Management": "Q2"
+      },
+      "cite_doc_2y": 2.77,
+      "jcr_if": "3.0",
+      "jcr_if5": "3.3",
+      "jci": "0.91",
+      "cas_tier": "医学3区",
+      "cas_tier_small": "运动科学3区",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Gait & Posture",
+      "aliases": [
+        "Gait and Posture",
+        "Gait and posture"
+      ],
+      "issn": [
+        "1879-2219",
+        "0966-6362"
+      ],
+      "publisher": "Elsevier BV",
+      "openalex_id": "S156006901",
+      "openalex_2yr": 1.406,
+      "h_index": 218,
+      "works_count": 14150,
+      "is_oa": false,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "sjr": 0.842,
+      "sjr_quartile": "Q2",
+      "sjr_categories": {
+        "Biophysics": "Q1",
+        "Rehabilitation": "Q1",
+        "Orthopedics and Sports Medicine": "Q2",
+        "Sports Science": "Q2"
+      },
+      "cite_doc_2y": 2.91,
+      "jcr_if": "2.7",
+      "jcr_if5": "3.2",
+      "jcr_quartile": "Q2",
+      "jci": "0.86",
+      "cas_tier": "医学3区",
+      "cas_tier_small": "神经科学3区/骨科3区/运动科学3区",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "International Journal of Biology and Life Sciences",
+      "aliases": [],
+      "issn": []
+    },
+    {
+      "name": "International Journal of Sport Nutrition and Exercise Metabolism",
+      "aliases": [
+        "IJSNEM",
+        "Sport nutrition and exercise metabolism"
+      ],
+      "issn": [
+        "1526-484X",
+        "1543-2742"
+      ],
+      "publisher": "Human Kinetics",
+      "openalex_id": "S54215592",
+      "openalex_2yr": 2.806,
+      "h_index": 112,
+      "works_count": 1587,
+      "is_oa": false,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "sjr": 1.007,
+      "sjr_quartile": "Q1",
+      "sjr_categories": {
+        "": "Q1",
+        "Nutrition and Dietetics": "Q1",
+        "Orthopedics and Sports Medicine": "Q1",
+        "Sports Science": "Q2"
+      },
+      "cite_doc_2y": 2.57,
+      "jcr_if": "2.5",
+      "jcr_if5": "2.9",
+      "jcr_quartile": "Q2",
+      "jci": "0.83",
+      "cas_tier": "医学3区",
+      "cas_tier_small": "营养学3区/运动科学4区",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "International Journal of Sports Medicine",
+      "aliases": [
+        "Int J Sports Med",
+        "International journal of sports medicine (Print)"
+      ],
+      "issn": [
+        "0172-4622",
+        "1439-3964"
+      ],
+      "publisher": "Thieme Medical Publishers (Germany)",
+      "openalex_id": "S26699211",
+      "openalex_2yr": 4.78,
+      "h_index": 178,
+      "works_count": 6526,
+      "is_oa": false,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "sjr": 0.773,
+      "sjr_quartile": "Q2",
+      "sjr_categories": {
+        "Physical Therapy, Sports Therapy and Rehabilitation": "Q1",
+        "Orthopedics and Sports Medicine": "Q2",
+        "Sports Science": "Q2"
+      },
+      "cite_doc_2y": 2.29,
+      "jcr_if": "2.3",
+      "jcr_if5": "3.0",
+      "jcr_quartile": "Q2",
+      "jci": "0.73",
+      "cas_tier": "医学4区",
+      "cas_tier_small": "运动科学4区",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "International Journal of Sports Physiology and Performance",
+      "aliases": [
+        "IJSPP"
+      ],
+      "issn": [
+        "1555-0265",
+        "1555-0273"
+      ],
+      "publisher": "Human Kinetics",
+      "openalex_id": "S2502187214",
+      "openalex_2yr": 2.794,
+      "h_index": 126,
+      "works_count": 3181,
+      "is_oa": false,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "sjr": 1.833,
+      "sjr_quartile": "Q1",
+      "sjr_categories": {
+        "Orthopedics and Sports Medicine": "Q1",
+        "Physical Therapy, Sports Therapy and Rehabilitation": "Q1",
+        "Sports Science": "Q1"
+      },
+      "cite_doc_2y": 3.13,
+      "jcr_if": "3.3",
+      "jcr_if5": "4.3",
+      "jcr_quartile": "Q1",
+      "jci": "1.58",
+      "cas_tier": "医学2区",
+      "cas_tier_small": "生理学2区/运动科学3区",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "International Journal of Strength and Conditioning",
+      "aliases": [],
+      "issn": []
+    },
+    {
+      "name": "International Seven Journal of Multidisciplinary",
+      "aliases": [],
+      "issn": []
+    },
+    {
+      "name": "Italian National Conference on Sensors",
+      "aliases": [],
+      "issn": []
+    },
+    {
+      "name": "JBJS Reviews",
+      "aliases": [
+        "JBJS Rev",
+        "Journal of bone and joint surgery reviews"
+      ],
+      "issn": [
+        "2329-9185"
+      ],
+      "publisher": "Lippincott Williams & Wilkins",
+      "openalex_id": "S2764567295",
+      "openalex_2yr": 3.04,
+      "h_index": 61,
+      "works_count": 1133,
+      "is_oa": false,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "sjr": 0.994,
+      "sjr_quartile": "Q1",
+      "sjr_categories": {
+        "Orthopedics and Sports Medicine": "Q1",
+        "Surgery": "Q1"
+      },
+      "cite_doc_2y": 3.13,
+      "jcr_if": "2.8",
+      "jcr_if5": "3.3",
+      "jci": "0.73",
+      "cas_tier": "医学4区",
+      "cas_tier_small": "外科4区",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Journal of Athletic Training",
+      "aliases": [
+        "JAT"
+      ],
+      "issn": [
+        "1062-6050",
+        "1938-162X"
+      ],
+      "publisher": "National Athletic Trainers' Association",
+      "openalex_id": "S143305869",
+      "openalex_2yr": 1.408,
+      "h_index": 134,
+      "works_count": 2615,
+      "is_oa": true,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "sjr": 1.166,
+      "sjr_quartile": "Q1",
+      "sjr_categories": {
+        "": "Q1",
+        "Orthopedics and Sports Medicine": "Q1",
+        "Physical Therapy, Sports Therapy and Rehabilitation": "Q1",
+        "Sports Science": "Q2"
+      },
+      "cite_doc_2y": 2.67,
+      "jcr_if": "2.6",
+      "jcr_if5": "3.4",
+      "jcr_quartile": "Q2",
+      "jci": "1.08",
+      "cas_tier": "医学3区",
+      "cas_tier_small": "运动科学3区",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Journal of Biomechanics",
+      "aliases": [
+        "J Biomech"
+      ],
+      "issn": [
+        "1873-2380",
+        "0021-9290"
+      ],
+      "publisher": "Elsevier BV",
+      "openalex_id": "S181675524",
+      "openalex_2yr": 2.576,
+      "h_index": 326,
+      "works_count": 24580,
+      "is_oa": false,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "sjr": 0.722,
+      "sjr_quartile": "Q2",
+      "sjr_categories": {
+        "Rehabilitation": "Q1",
+        "Biomedical Engineering": "Q2",
+        "Biophysics": "Q2",
+        "Orthopedics and Sports Medicine": "Q2",
+        "Sports Science": "Q3"
+      },
+      "cite_doc_2y": 2.9,
+      "jcr_if": "2.9",
+      "jcr_if5": "3.1",
+      "jcr_quartile": "Q2",
+      "jci": "0.62",
+      "cas_tier": "医学3区",
+      "cas_tier_small": "生物物理2区/工程：生物医学3区",
+      "esi": "分子生物与遗传学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Journal of Clinical Medicine",
+      "aliases": [],
+      "issn": [],
+      "jcr_if": "3.3",
+      "jcr_if5": "3.5",
+      "jcr_quartile": "Q1",
+      "jci": "0.86",
+      "cas_tier": "医学3区",
+      "cas_tier_small": "医学：内科3区",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Journal of Electromyography and Kinesiology",
+      "aliases": [],
+      "issn": [],
+      "jcr_if": "2.7",
+      "jcr_if5": "3.2",
+      "jcr_quartile": "Q1",
+      "jci": "0.93",
+      "cas_tier": "医学3区",
+      "cas_tier_small": "神经科学3区/生理学3区/康复医学3区/运动科学3区",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Journal of NeuroEngineering and Rehabilitation",
+      "aliases": [
+        "JNER"
+      ],
+      "issn": [],
+      "jcr_if": "6.0",
+      "jcr_if5": "6.9",
+      "jcr_quartile": "Q1",
+      "jci": "1.54",
+      "cas_tier": "医学1区",
+      "cas_tier_small": "康复医学1区/工程：生物医学2区/神经科学2区",
+      "cas_top": "医学TOP",
+      "esi": "神经科学与行为",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Journal of Orthopaedic and Sports Physical Therapy",
+      "aliases": [
+        "J Orthop Sports Phys Ther",
+        "JOSPT",
+        "Journal of Orthopaedic & Sports Physical Therapy"
+      ],
+      "issn": [
+        "1938-1344",
+        "0190-6011"
+      ],
+      "publisher": "American Physical Therapy Association",
+      "openalex_id": "S7609525",
+      "openalex_2yr": 4.401,
+      "h_index": 199,
+      "works_count": 4859,
+      "is_oa": false,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "sjr": 1.794,
+      "sjr_quartile": "Q1",
+      "sjr_categories": {
+        "": "Q1",
+        "Physical Therapy, Sports Therapy and Rehabilitation": "Q1",
+        "Sports Science": "Q1"
+      },
+      "cite_doc_2y": 4.69,
+      "jcr_if": "6.9",
+      "jcr_if5": "7.8",
+      "jcr_quartile": "Q1",
+      "jci": "2.16",
+      "cas_tier": "医学2区",
+      "cas_tier_small": "康复医学1区/运动科学1区/骨科2区",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Journal of Orthopaedics",
+      "aliases": [],
+      "issn": [
+        "0972-978X",
+        "2589-9082"
+      ],
+      "publisher": "Elsevier BV",
+      "openalex_id": "S2764834445",
+      "openalex_2yr": 1.873,
+      "h_index": 58,
+      "works_count": 3024,
+      "is_oa": false,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "sjr": 0.696,
+      "sjr_quartile": "Q2",
+      "sjr_categories": {
+        "Orthopedics and Sports Medicine": "Q2"
+      },
+      "cite_doc_2y": 2.39,
+      "jcr_if": "1.8",
+      "jcr_if5": "1.8",
+      "jci": "0.69",
+      "cas_tier": "医学4区",
+      "cas_tier_small": "骨科4区",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Journal of Sports Sciences",
+      "aliases": [
+        "J Sports Sci"
+      ],
+      "issn": [
+        "1466-447X",
+        "0264-0414"
+      ],
+      "publisher": "Taylor & Francis",
+      "openalex_id": "S95965737",
+      "openalex_2yr": 2.899,
+      "h_index": 214,
+      "works_count": 8390,
+      "is_oa": false,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "sjr": 1.018,
+      "sjr_quartile": "Q1",
+      "sjr_categories": {
+        "Orthopedics and Sports Medicine": "Q1",
+        "Physical Therapy, Sports Therapy and Rehabilitation": "Q1",
+        "Sports Science": "Q2"
+      },
+      "cite_doc_2y": 2.91,
+      "jcr_if": "3.1",
+      "jcr_if5": "3.9",
+      "jcr_quartile": "Q2",
+      "jci": "1.16",
+      "cas_tier": "医学3区",
+      "cas_tier_small": "运动科学3区",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Journal of sport and health science/Journal of Sport and Health Science",
+      "aliases": [
+        "JSHS",
+        "Journal of Sport and Health Science",
+        "运动与健康科学：英文版"
+      ],
+      "issn": [
+        "2213-2961",
+        "2095-2546"
+      ],
+      "publisher": "Elsevier BV",
+      "openalex_id": "S2485047394",
+      "openalex_2yr": 9.414,
+      "h_index": 105,
+      "works_count": 1226,
+      "is_oa": true,
+      "in_doaj": true,
+      "is_preprint_server": false,
+      "sjr": 3.715,
+      "sjr_quartile": "Q1",
+      "sjr_categories": {
+        "Orthopedics and Sports Medicine": "Q1",
+        "Physical Therapy, Sports Therapy and Rehabilitation": "Q1"
+      },
+      "cite_doc_2y": 9.59,
+      "jcr_if": "13.1",
+      "jcr_if5": "13.3",
+      "jcr_quartile": "Q1",
+      "jci": "3.60",
+      "cas_tier": "医学1区",
+      "cas_tier_small": "酒店、休闲、体育与旅游1区/运动科学1区",
+      "cas_top": "医学TOP",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Knee Surgery Sports Traumatology Arthroscopy",
+      "aliases": [
+        "KSSTA",
+        "Knee Surgery, Sports Traumatology, Arthroscopy",
+        "Knee surgery, sports traumatology, arthroscopy (Print)"
+      ],
+      "issn": [
+        "0942-2056",
+        "1433-7347"
+      ],
+      "publisher": "Springer Science+Business Media",
+      "openalex_id": "S51654951",
+      "openalex_2yr": 5.001,
+      "h_index": 193,
+      "works_count": 10271,
+      "is_oa": false,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "sjr": 1.998,
+      "sjr_quartile": "Q1",
+      "sjr_categories": {
+        "Orthopedics and Sports Medicine": "Q1",
+        "Sports Science": "Q1",
+        "Surgery": "Q1"
+      },
+      "cite_doc_2y": 5.89,
+      "jcr_if": "5.5",
+      "jcr_if5": "5.1",
+      "jcr_quartile": "Q1",
+      "jci": "1.94",
+      "cas_tier": "医学2区",
+      "cas_tier_small": "骨科2区/运动科学2区/外科2区",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Life",
+      "aliases": [],
+      "issn": []
+    },
+    {
+      "name": "Malaysian journal of medicine and health sciences",
+      "aliases": [],
+      "issn": []
+    },
+    {
+      "name": "Medicine & Science in Sports & Exercise",
+      "aliases": [
+        "MSSE",
+        "Med Sci Sports Exerc",
+        "Medicine & science in sports & exercise",
+        "Medicine and Science in Sports and Exercise",
+        "Medicine and science in sports and exercise"
+      ],
+      "issn": [
+        "1530-0315",
+        "0195-9131"
+      ],
+      "publisher": "Lippincott Williams & Wilkins",
+      "openalex_id": "S14544163",
+      "openalex_2yr": 0.462,
+      "h_index": 362,
+      "works_count": 96465,
+      "is_oa": false,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "sjr": 1.481,
+      "sjr_quartile": "Q1",
+      "sjr_categories": {
+        "Orthopedics and Sports Medicine": "Q1",
+        "Physical Therapy, Sports Therapy and Rehabilitation": "Q1",
+        "Sports Science": "Q1"
+      },
+      "cite_doc_2y": 3.74,
+      "jcr_if": "4.0",
+      "jcr_if5": "4.8",
+      "jcr_quartile": "Q1",
+      "jci": "1.64",
+      "cas_tier": "医学2区",
+      "cas_tier_small": "运动科学1区",
+      "cas_top": "医学TOP",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Molecular &amp; Cellular Biomechanics",
+      "aliases": [],
+      "issn": []
+    },
+    {
+      "name": "Nutrients",
+      "aliases": [],
+      "issn": [],
+      "jcr_if": "5.8",
+      "jcr_if5": "6.5",
+      "jcr_quartile": "Q1",
+      "jci": "0.95",
+      "cas_tier": "医学2区",
+      "cas_tier_small": "营养学2区",
+      "esi": "农业科学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Orthopaedic Journal of Sports Medicine",
+      "aliases": [
+        "OJSM"
+      ],
+      "issn": [
+        "2325-9671"
+      ],
+      "publisher": "SAGE Publishing",
+      "openalex_id": "S2755168269",
+      "openalex_2yr": 1.391,
+      "h_index": 89,
+      "works_count": 9595,
+      "is_oa": true,
+      "in_doaj": true,
+      "is_preprint_server": false,
+      "sjr": 1.148,
+      "sjr_quartile": "Q1",
+      "sjr_categories": {
+        "Orthopedics and Sports Medicine": "Q1"
+      },
+      "cite_doc_2y": 3.0,
+      "jcr_if": "2.9",
+      "jcr_if5": "3.5",
+      "jcr_quartile": "Q1",
+      "jci": "0.96",
+      "cas_tier": "医学3区",
+      "cas_tier_small": "骨科3区/运动科学3区",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "PLoS ONE",
+      "aliases": [],
+      "issn": [],
+      "jcr_if": "2.8",
+      "jcr_if5": "3.3",
+      "jcr_quartile": "Q2",
+      "jci": "0.80",
+      "cas_tier": "综合性期刊3区",
+      "cas_tier_small": "综合性期刊3区",
+      "esi": "多学科",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Proceedings of the ACM on Interactive Mobile Wearable and Ubiquitous Technologies",
+      "aliases": [],
+      "issn": [],
+      "cas_tier": "计算机科学3区",
+      "cas_tier_small": "工程：电子与电气3区/电信学3区/计算机：信息系统4区",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Quality in Sport",
+      "aliases": [],
+      "issn": []
+    },
+    {
+      "name": "Research in Veterinary Science",
+      "aliases": [],
+      "issn": [],
+      "jcr_if": "2.1",
+      "jcr_if5": "2.4",
+      "jcr_quartile": "Q2",
+      "jci": "0.96",
+      "cas_tier": "农林科学3区",
+      "cas_tier_small": "兽医学3区",
+      "esi": "植物与动物科学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Retos",
+      "aliases": [
+        "RETOS - Neuvas Tendencias en Educacion Fisica, Deporte y Recreacion"
+      ],
+      "issn": [
+        "1988-2041",
+        "1579-1726"
+      ],
+      "publisher": "FEADEF",
+      "openalex_id": "S2738013834",
+      "openalex_2yr": 1.059,
+      "h_index": 36,
+      "works_count": 6227,
+      "is_oa": true,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "sjr": 0.337,
+      "sjr_quartile": "Q3",
+      "sjr_categories": {
+        "Cultural Studies": "Q1",
+        "Gender Studies": "Q2",
+        "Pharmacy": "Q2",
+        "Education": "Q3",
+        "Orthopedics and Sports Medicine": "Q3",
+        "Physical Therapy, Sports Therapy and Rehabilitation": "Q3",
+        "Rehabilitation": "Q3"
+      },
+      "cite_doc_2y": 1.46
+    },
+    {
+      "name": "Scandinavian Journal of Medicine and Science in Sports",
+      "aliases": [
+        "SJMSS",
+        "Scand J Med Sci Sports",
+        "Scandinavian Journal of Medicine & Science in Sports",
+        "Scandinavian journal of medicine and science in sports"
+      ],
+      "issn": [
+        "1600-0838",
+        "0905-7188"
+      ],
+      "publisher": "Wiley",
+      "openalex_id": "S199863227",
+      "openalex_2yr": 3.683,
+      "h_index": 191,
+      "works_count": 5258,
+      "is_oa": false,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "sjr": 1.525,
+      "sjr_quartile": "Q1",
+      "sjr_categories": {
+        "Orthopedics and Sports Medicine": "Q1",
+        "Physical Therapy, Sports Therapy and Rehabilitation": "Q1",
+        "Sports Science": "Q1"
+      },
+      "cite_doc_2y": 4.03,
+      "jcr_if": "4.0",
+      "jcr_if5": "4.8",
+      "jcr_quartile": "Q1",
+      "jci": "1.41",
+      "cas_tier": "医学2区",
+      "cas_tier_small": "运动科学2区",
+      "cas_top": "医学TOP",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Scientific Data",
+      "aliases": [],
+      "issn": [],
+      "jcr_if": "7.2",
+      "jcr_if5": "9.3",
+      "jcr_quartile": "Q1",
+      "jci": "1.62",
+      "cas_tier": "综合性期刊2区",
+      "cas_tier_small": "综合性期刊2区",
+      "esi": "多学科",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Scientific Reports",
+      "aliases": [],
+      "issn": [],
+      "jcr_if": "4.9",
+      "jcr_if5": "4.8",
+      "jcr_quartile": "Q1",
+      "jci": "1.13",
+      "cas_tier": "综合性期刊3区",
+      "cas_tier_small": "综合性期刊3区",
+      "esi": "多学科",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Sensor Review",
+      "aliases": [],
+      "issn": [],
+      "jcr_if": "1.9",
+      "jcr_if5": "1.8",
+      "jcr_quartile": "Q3",
+      "jci": "0.39",
+      "cas_tier": "工程技术4区",
+      "cas_tier_small": "仪器仪表4区",
+      "esi": "化学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Sensors",
+      "aliases": [],
+      "issn": [],
+      "jcr_if": "4.0",
+      "jcr_if5": "4.1",
+      "jcr_quartile": "Q2",
+      "jci": "0.81",
+      "cas_tier": "综合性期刊3区",
+      "cas_tier_small": "分析化学3区/工程：电子与电气3区/仪器仪表3区",
+      "esi": "化学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Sports",
+      "aliases": [],
+      "issn": [
+        "2075-4663"
+      ],
+      "publisher": "Multidisciplinary Digital Publishing Institute",
+      "openalex_id": "S4210234981",
+      "openalex_2yr": 3.061,
+      "h_index": 69,
+      "works_count": 2570,
+      "is_oa": true,
+      "in_doaj": true,
+      "is_preprint_server": false,
+      "sjr": 0.888,
+      "sjr_quartile": "Q1",
+      "sjr_categories": {
+        "Orthopedics and Sports Medicine": "Q1",
+        "Physical Therapy, Sports Therapy and Rehabilitation": "Q1"
+      },
+      "cite_doc_2y": 3.56,
+      "jcr_if": "3.2",
+      "jcr_if5": "3.5",
+      "jci": "1.04",
+      "cas_tier": "医学3区",
+      "cas_tier_small": "运动科学3区",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Sports Medicine",
+      "aliases": [
+        "Sports Med",
+        "Sports Medicine (Auckland, N.Z.)"
+      ],
+      "issn": [
+        "0112-1642",
+        "1179-2035"
+      ],
+      "publisher": "Springer Science+Business Media",
+      "openalex_id": "S137994755",
+      "openalex_2yr": 7.977,
+      "h_index": 316,
+      "works_count": 4600,
+      "is_oa": false,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "sjr": 4.065,
+      "sjr_quartile": "Q1",
+      "sjr_categories": {
+        "": "Q1",
+        "Orthopedics and Sports Medicine": "Q1",
+        "Physical Therapy, Sports Therapy and Rehabilitation": "Q1",
+        "Sports Science": "Q1"
+      },
+      "cite_doc_2y": 11.01,
+      "jcr_if": "11.0",
+      "jcr_if5": "13.7",
+      "jcr_quartile": "Q1",
+      "jci": "2.27",
+      "cas_tier": "医学1区",
+      "cas_tier_small": "运动科学1区",
+      "cas_top": "医学TOP",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Sports Medicine - Open",
+      "aliases": [
+        "Sports Med Open"
+      ],
+      "issn": [
+        "2198-9761",
+        "2199-1170"
+      ],
+      "publisher": "Springer Nature",
+      "openalex_id": "S2736513330",
+      "openalex_2yr": 6.386,
+      "h_index": 80,
+      "works_count": 1067,
+      "is_oa": true,
+      "in_doaj": true,
+      "is_preprint_server": false,
+      "sjr": 2.015,
+      "sjr_quartile": "Q1",
+      "sjr_categories": {
+        "Orthopedics and Sports Medicine": "Q1",
+        "Physical Therapy, Sports Therapy and Rehabilitation": "Q1"
+      },
+      "cite_doc_2y": 6.23,
+      "jcr_if": "6.2",
+      "jcr_if5": "6.9",
+      "jcr_quartile": "Q1",
+      "jci": "1.59",
+      "cas_tier": "医学2区",
+      "cas_tier_small": "运动科学2区",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "THE THERAPIST (Journal of Therapies &amp; Rehabilitation Sciences)",
+      "aliases": [],
+      "issn": []
+    },
+    {
+      "name": "The American Journal of Sports Medicine",
+      "aliases": [
+        "AJSM",
+        "Am J Sports Med",
+        "American Journal of Sports Medicine"
+      ],
+      "issn": [
+        "0363-5465",
+        "1552-3365"
+      ],
+      "publisher": "SAGE Publishing",
+      "openalex_id": "S154904565",
+      "openalex_2yr": 4.978,
+      "h_index": 361,
+      "works_count": 12913,
+      "is_oa": false,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "sjr": 2.29,
+      "sjr_quartile": "Q1",
+      "sjr_categories": {
+        "": "Q1",
+        "Orthopedics and Sports Medicine": "Q1",
+        "Physical Therapy, Sports Therapy and Rehabilitation": "Q1",
+        "Sports Science": "Q1"
+      },
+      "cite_doc_2y": 5.44,
+      "jcr_if": "5.4",
+      "jcr_if5": "6.1",
+      "jcr_quartile": "Q1",
+      "jci": "2.00",
+      "cas_tier": "医学1区",
+      "cas_tier_small": "骨科1区/运动科学1区",
+      "cas_top": "医学TOP",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "The Journal of Sports Medicine and Physical Fitness",
+      "aliases": [],
+      "issn": [
+        "1827-1928",
+        "0022-4707"
+      ],
+      "publisher": "Edizioni Minerva Medica",
+      "openalex_id": "S22368165",
+      "openalex_2yr": 0.959,
+      "h_index": 50,
+      "works_count": 2207,
+      "is_oa": false,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "sjr": 0.45,
+      "sjr_quartile": "Q3",
+      "sjr_categories": {
+        "Physical Therapy, Sports Therapy and Rehabilitation": "Q2",
+        "Orthopedics and Sports Medicine": "Q3",
+        "Sports Science": "Q3"
+      },
+      "cite_doc_2y": 1.35,
+      "jcr_if": "1.3",
+      "jcr_if5": "1.4",
+      "jcr_quartile": "Q3",
+      "jci": "0.48",
+      "cas_tier": "医学4区",
+      "cas_tier_small": "运动科学4区",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "The Journal of Strength and Conditioning Research",
+      "aliases": [
+        "J Strength Cond Res",
+        "JSCR",
+        "Journal of Strength and Conditioning Research"
+      ],
+      "issn": [
+        "1064-8011",
+        "1533-4287"
+      ],
+      "publisher": "Lippincott Williams & Wilkins",
+      "openalex_id": "S150708336",
+      "openalex_2yr": 2.092,
+      "h_index": 216,
+      "works_count": 11582,
+      "is_oa": false,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "sjr": 1.217,
+      "sjr_quartile": "Q1",
+      "sjr_categories": {
+        "": "Q1",
+        "Orthopedics and Sports Medicine": "Q1",
+        "Physical Therapy, Sports Therapy and Rehabilitation": "Q1",
+        "Sports Science": "Q2"
+      },
+      "cite_doc_2y": 3.14,
+      "jcr_if": "3.0",
+      "jcr_if5": "3.5",
+      "jcr_quartile": "Q2",
+      "jci": "1.20",
+      "cas_tier": "医学2区",
+      "cas_tier_small": "运动科学3区",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Trials",
+      "aliases": [],
+      "issn": [],
+      "jcr_if": "2.1",
+      "jcr_if5": "2.3",
+      "jcr_quartile": "Q3",
+      "jci": "0.51",
+      "cas_tier": "医学4区",
+      "cas_tier_small": "医学：研究与实验4区",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    }
+  ]
+}

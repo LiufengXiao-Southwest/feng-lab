@@ -27,33 +27,46 @@ DEEP_READ_FILE      = ROOT / "data" / "deep_read.json"
 HISTORY_FILE        = ROOT / "data" / "deep_read_history.json"
 HISTORY_FULL_FILE   = ROOT / "data" / "deep_read_history_full.json"
 
-# Target journals: query_name is used both to search SS and to match venue field
+# Target journals: query_name is used both to search SS and to match venue field.
+# Impact factors are NOT stored here — they are resolved at runtime from
+# data/journals.json, so this file cannot drift out of sync with the main
+# fetcher the way the two hardcoded copies of the IF table used to.
 JOURNALS = [
     {
         "query_name": "American Journal of Sports Medicine",
         "short": "AJSM",
-        "if_": "5.5",
         "venue_keywords": ["american journal of sports medicine", "am j sports med"],
     },
     {
         "query_name": "British Journal of Sports Medicine",
         "short": "BJSM",
-        "if_": "18.4",
         "venue_keywords": ["british journal of sports medicine", "br j sports med", "bjsm"],
     },
     {
         "query_name": "Journal of Orthopaedic & Sports Physical Therapy",
         "short": "JOSPT",
-        "if_": "6.8",
         "venue_keywords": ["journal of orthopaedic", "jospt", "sports physical therapy"],
     },
     {
         "query_name": "Scandinavian Journal of Medicine & Science in Sports",
         "short": "SJMSS",
-        "if_": "5.2",
         "venue_keywords": ["scandinavian journal", "scand j med sci sports"],
     },
 ]
+
+sys.path.insert(0, str(Path(__file__).parent))
+from journal_metrics import JournalIndex, display_impact, display_tier  # noqa: E402
+
+JOURNAL_INDEX = JournalIndex.load()
+
+
+def journal_metrics(journal: dict) -> tuple[str, str, str]:
+    """Return (impact_factor, provenance, tier) for a target journal."""
+    entry = JOURNAL_INDEX.lookup(journal["query_name"])
+    if not entry:
+        return "", "", ""
+    value, source = display_impact(entry)
+    return value, source, display_tier(entry)
 
 SS_URL    = "https://api.semanticscholar.org/graph/v1/paper/search"
 SS_FIELDS = (
@@ -128,7 +141,7 @@ def generate_deep_read(paper: dict, journal: dict) -> dict:
 
 Paper details:
 Title: {title}
-Journal: {journal["query_name"]} ({journal["short"]}, IF {journal["if_"]})
+Journal: {journal["query_name"]} ({journal["short"]}, IF {journal_metrics(journal)[0] or "n/a"})
 Year: {year} | Citations: {citations}
 Authors: {authors_str}
 DOI: {doi}
@@ -274,6 +287,8 @@ def main():
     oa_pdf = selected_paper.get("openAccessPdf") or {}
     pdf_url = (oa_pdf.get("url", "") if isinstance(oa_pdf, dict) else "")
 
+    if_value, if_source, tier = journal_metrics(selected_journal)
+
     output = {
         "date":           TODAY,
         "title_en":       title,
@@ -283,7 +298,9 @@ def main():
         "year":           year,
         "volume_page":    "",
         "doi":            selected_doi,
-        "impact_factor":  selected_journal["if_"],
+        "impact_factor":  if_value,
+        "if_source":      if_source,
+        "journal_tier":   tier,
         "is_open_access": is_oa,
         "pdf_url":        pdf_url,
         "category":       "biomechanics",
@@ -322,6 +339,8 @@ def main():
             "year":           output["year"],
             "doi":            output["doi"],
             "impact_factor":  output["impact_factor"],
+            "if_source":      output["if_source"],
+            "journal_tier":   output["journal_tier"],
             "is_open_access": output["is_open_access"],
             "citation_count": output.get("citation_count", 0),
         }

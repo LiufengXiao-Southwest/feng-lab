@@ -3,11 +3,11 @@
   "title_en": "Impact of Prior Hamstring Strain Injury on Muscle Morphology and Sprinting Biomechanics in Collegiate American Football Athletes",
   "title_zh": "既往腘绳肌拉伤史对大学美式橄榄球运动员肌肉形态和冲刺生物力学的影响",
   "authors": "S. Hulm, Yi-Chung Lin, N. Maniar, Ryan G Timmins et al.",
-  "journal": "Scandinavian Journal of Medicine & Science in Sports",
+  "journal": "Scandinavian Journal of Medicine and Science in Sports",
   "year": 2026,
   "volume_page": "",
   "doi": "10.1111/sms.70317",
-  "impact_factor": "5.2",
+  "impact_factor": "4.0",
   "is_open_access": true,
   "pdf_url": "https://doi.org/10.1111/sms.70317",
   "category": "biomechanics",
@@ -119,5 +119,14 @@
       "content_zh": "**正常运动学下的持续性缺陷：** 即使冲刺运动学表面上看起来正常，既往有腘绳肌拉伤史的运动员仍然可能存在持续的、细微的腘绳肌肌肉形态（股二头肌长头和短头萎缩）和肌肉-肌腱单元力学改变（股二头肌长头、半膜肌和半腱肌拉伸速度更快）。这提示我们，表面的恢复不等于完全的功能修复。\n\n**个体化模型的优越性：** 通用肌肉骨骼模型可能遗漏关键缺陷。MRI引导的个体化模型对于检测肌肉特异性参数的细微但显著变化至关重要，例如既往受伤肢体中股二头肌短头峰值力和负功的减少，这为损伤状态提供了更准确的评估。\n\n**整合评估以优化康复：** 本研究强烈支持将先进影像学（MRI）与可穿戴传感器数据（IMUs）相结合，以驱动个体化的生物力学模拟。这种综合方法为更精确的康复监测和指导个性化负荷策略提供了强大工具，从而最大限度地降低运动员再损伤的风险。\n\n**生物力学仪器应用启示：** 本研究采用的**惯性测量单元（IMUs）**结合MRI引导的个体化肌肉骨骼模型，展示了一种在实际训练环境中评估冲刺生物力学的高精度、实用方法。这种整合方法提升了生物力学专家和临床医生识别传统运动学分析可能遗漏的特定肌肉缺陷的能力。",
       "content_en": "**Persistent Deficits Masked by Normal Kinematics:** Even when sprint kinematics appear normal, athletes with a prior HSI can harbor persistent, subtle deficits in hamstring muscle morphology (atrophy in BFlh and BFsh) and altered muscle-tendon unit mechanics (faster lengthening velocity in BFlh, SM, ST). This emphasizes that superficial recovery does not equate to full functional restoration.\n\n**Superiority of Subject-Specific Modeling:** Generic musculoskeletal models may overlook critical deficits. MRI-informed, subject-specific models are essential for detecting subtle but significant changes in muscle-specific parameters, such as reduced BFsh peak force and negative work in previously injured limbs, providing a more accurate assessment of injury status.\n\n**Integrated Assessment for Enhanced Rehabilitation:** The study strongly supports integrating advanced imaging (MRI) with wearable sensor data (IMUs) to drive subject-specific biomechanical simulations. This integrated approach offers a powerful tool for more precise rehabilitation monitoring and guiding individualized loading strategies to minimize reinjury risk in athletes.\n\n**Implications for Biomechanics Instrumentation:** The use of **inertial measurement units (IMUs)**, combined with MRI-informed subject-specific musculoskeletal models, demonstrates a high-fidelity, practical approach for assessing sprint biomechanics in field settings. This integrated methodology enhances the ability of biomechanists and clinicians to pinpoint specific muscle deficits that traditional kinematic analysis alone would miss."
     }
-  ]
+  ],
+  "if_source": "JCR 2024",
+  "journal_tier": "运动科学2区 TOP",
+  "journal_issn": "1600-0838",
+  "fulltext_url": "https://europepmc.org/article/PMC/PMC13248003",
+  "fulltext_type": "pmc_xml",
+  "pmcid": "PMC13248003",
+  "pmid": "42261806",
+  "fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13248003/fullTextXML",
+  "fulltext_label": "全文 (结构化)"
 }
