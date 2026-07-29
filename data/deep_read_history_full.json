@@ -5,24 +5,30 @@
       "title_en": "Impact of Prior Hamstring Strain Injury on Muscle Morphology and Sprinting Biomechanics in Collegiate American Football Athletes",
       "title_zh": "既往腘绳肌拉伤史对大学美式橄榄球运动员肌肉形态和冲刺生物力学的影响",
       "authors": "S. Hulm, Yi-Chung Lin, N. Maniar, Ryan G Timmins et al.",
-      "journal": "Scandinavian Journal of Medicine & Science in Sports",
+      "journal": "Scandinavian Journal of Medicine and Science in Sports",
       "year": 2026,
       "doi": "10.1111/sms.70317",
-      "impact_factor": "5.2",
+      "impact_factor": "4.0",
       "is_open_access": true,
-      "citation_count": 0
+      "citation_count": 0,
+      "if_source": "JCR 2024",
+      "journal_tier": "运动科学2区 TOP",
+      "journal_issn": "1600-0838"
     },
     {
       "date": "2026-07-16",
       "title_en": "Biomechanical Changes During Running on a Lower Body Positive Pressure Treadmill in Competitive Runners",
       "title_zh": "竞技跑者在下肢正压跑台跑步时的生物力学变化",
       "authors": "D. Fohrmann, I. Winter, Alexander Simon, D. Dalos et al.",
-      "journal": "Scandinavian Journal of Medicine & Science in Sports",
+      "journal": "Scandinavian Journal of Medicine and Science in Sports",
       "year": 2025,
       "doi": "10.1111/sms.70063",
-      "impact_factor": "5.2",
+      "impact_factor": "4.0",
       "is_open_access": false,
-      "citation_count": 3
+      "citation_count": 3,
+      "if_source": "JCR 2024",
+      "journal_tier": "运动科学2区 TOP",
+      "journal_issn": "1600-0838"
     },
     {
       "date": "2026-07-15",
@@ -32,33 +38,42 @@
       "journal": "British Journal of Sports Medicine",
       "year": 2022,
       "doi": "10.1136/bjsports-2022-106510",
-      "impact_factor": "18.4",
+      "impact_factor": "15.5",
       "is_open_access": true,
-      "citation_count": 4
+      "citation_count": 4,
+      "if_source": "JCR 2024",
+      "journal_tier": "运动科学1区 TOP",
+      "journal_issn": "0306-3674"
     },
     {
       "date": "2026-07-07",
       "title_en": "Overuse Elbow Injuries in Youth Gymnasts",
       "title_zh": "青年体操运动员肘部过度使用损伤",
       "authors": "Nicholas A Bonazza, Eliana B. Saltzman, Jocelyn R. Wittstein, M. Richard et al.",
-      "journal": "American Journal of Sports Medicine",
+      "journal": "The American Journal of Sports Medicine",
       "year": 2021,
       "doi": "10.1177/03635465211000776",
-      "impact_factor": "5.5",
+      "impact_factor": "5.4",
       "is_open_access": false,
-      "citation_count": 10
+      "citation_count": 10,
+      "if_source": "JCR 2024",
+      "journal_tier": "骨科1区/运动科学1区 TOP",
+      "journal_issn": "0363-5465"
     },
     {
       "date": "2026-07-06",
       "title_en": "Considerations with Open Kinetic Chain Knee Extension Exercise Following ACL Reconstruction",
       "title_zh": "前交叉韧带重建术后开放链膝关节伸展运动的考量",
       "authors": "K. Wilk, C. Arrigo, Michael S Bagwell, Adam Finck",
-      "journal": "Journal of Orthopaedic & Sports Physical Therapy",
+      "journal": "Journal of Orthopaedic and Sports Physical Therapy",
       "year": 2021,
       "doi": "10.26603/001c.18983",
-      "impact_factor": "6.8",
+      "impact_factor": "6.9",
       "is_open_access": true,
-      "citation_count": 11
+      "citation_count": 11,
+      "if_source": "JCR 2024",
+      "journal_tier": "康复医学1区/运动科学1区/骨科2区",
+      "journal_issn": "1938-1344"
     },
     {
       "date": "2026-07-04",
@@ -68,45 +83,57 @@
       "journal": "British Journal of Sports Medicine",
       "year": 2025,
       "doi": "10.1136/bjsports-2024-108600",
-      "impact_factor": "18.4",
+      "impact_factor": "15.5",
       "is_open_access": false,
-      "citation_count": 10
+      "citation_count": 10,
+      "if_source": "JCR 2024",
+      "journal_tier": "运动科学1区 TOP",
+      "journal_issn": "0306-3674"
     },
     {
       "date": "2026-06-26",
       "title_en": "Bilateral Alterations in Isokinetic Strength and Knee Biomechanics During Side-Cutting 1 Year After Unilateral ACL Reconstruction",
       "title_zh": "单侧ACL重建术后1年侧向变向时等速力量和膝关节生物力学的双侧改变",
       "authors": "Huijuan Shi, S. Ren, Hongshi Huang, Hui Liu et al.",
-      "journal": "American Journal of Sports Medicine",
+      "journal": "The American Journal of Sports Medicine",
       "year": 2022,
       "doi": "10.1177/03635465221112940",
-      "impact_factor": "5.5",
+      "impact_factor": "5.4",
       "is_open_access": false,
-      "citation_count": 13
+      "citation_count": 13,
+      "if_source": "JCR 2024",
+      "journal_tier": "骨科1区/运动科学1区 TOP",
+      "journal_issn": "0363-5465"
     },
     {
       "date": "2026-06-22",
       "title_en": "Considerations with Open Kinetic Chain Knee Extension Exercise Following ACL Reconstruction",
       "title_zh": "前交叉韧带重建术后开链膝关节伸展运动的考量",
       "authors": "K. Wilk, C. Arrigo, Michael S Bagwell, Adam Finck",
-      "journal": "Journal of Orthopaedic & Sports Physical Therapy",
+      "journal": "Journal of Orthopaedic and Sports Physical Therapy",
       "year": 2021,
       "doi": "10.26603/001c.18983",
-      "impact_factor": "6.8",
+      "impact_factor": "6.9",
       "is_open_access": true,
-      "citation_count": 11
+      "citation_count": 11,
+      "if_source": "JCR 2024",
+      "journal_tier": "康复医学1区/运动科学1区/骨科2区",
+      "journal_issn": "1938-1344"
     },
     {
       "date": "2026-06-19",
       "title_en": "Evaluation of the Intact Anterior Talofibular and Calcaneofibular Ligaments, Injuries, and Repairs With and Without Augmentation: A Biomechanical Robotic Study",
       "title_zh": "完整距腓前韧带和跟腓韧带、损伤及加固与非加固修复的评估：一项生物力学机器人研究",
       "authors": "Christopher G Larkins, A. Brady, Zachary S Aman, G. Dornan et al.",
-      "journal": "American Journal of Sports Medicine",
+      "journal": "The American Journal of Sports Medicine",
       "year": 2021,
       "doi": "10.1177/03635465211018645",
-      "impact_factor": "5.5",
+      "impact_factor": "5.4",
       "is_open_access": false,
-      "citation_count": 21
+      "citation_count": 21,
+      "if_source": "JCR 2024",
+      "journal_tier": "骨科1区/运动科学1区 TOP",
+      "journal_issn": "0363-5465"
     },
     {
       "date": "2026-06-13",
@@ -116,21 +143,27 @@
       "journal": "British Journal of Sports Medicine",
       "year": 2021,
       "doi": "10.1136/bjsports-2020-103643",
-      "impact_factor": "18.4",
+      "impact_factor": "15.5",
       "is_open_access": true,
-      "citation_count": 9
+      "citation_count": 9,
+      "if_source": "JCR 2024",
+      "journal_tier": "运动科学1区 TOP",
+      "journal_issn": "0306-3674"
     },
     {
       "date": "2026-06-05",
       "title_en": "Biomechanical asymmetries differ between autograft types during unplanned change of direction after ACL reconstruction",
       "title_zh": "ACL重建术后非计划变向时不同自体移植类型间的生物力学不对称性差异",
       "authors": "Joshua Miles, P. McGuigan, E. King, Katherine A. J. Daniels",
-      "journal": "Scandinavian Journal of Medicine & Science in Sports",
+      "journal": "Scandinavian Journal of Medicine and Science in Sports",
       "year": 2022,
       "doi": "10.1111/sms.14166",
-      "impact_factor": "5.2",
+      "impact_factor": "4.0",
       "is_open_access": true,
-      "citation_count": 10
+      "citation_count": 10,
+      "if_source": "JCR 2024",
+      "journal_tier": "运动科学2区 TOP",
+      "journal_issn": "1600-0838"
     },
     {
       "date": "2026-05-31",
@@ -140,33 +173,42 @@
       "journal": "British Journal of Sports Medicine",
       "year": 2024,
       "doi": "10.1136/bjsports-2024-108089",
-      "impact_factor": "18.4",
+      "impact_factor": "15.5",
       "is_open_access": false,
-      "citation_count": 33
+      "citation_count": 33,
+      "if_source": "JCR 2024",
+      "journal_tier": "运动科学1区 TOP",
+      "journal_issn": "0306-3674"
     },
     {
       "date": "2026-05-29",
       "title_en": "The Sprint Mechanics Assessment Score: A Qualitative Screening Tool for the In-field Assessment of Sprint Running Mechanics",
       "title_zh": "冲刺力学评估评分：一种用于现场评估冲刺跑力学模式的定性筛选工具",
       "authors": "C. Bramah, Jonas Tawiah-Dodoo, Samantha Rhodes, J. D. Elliott et al.",
-      "journal": "American Journal of Sports Medicine",
+      "journal": "The American Journal of Sports Medicine",
       "year": 2024,
       "doi": "10.1177/03635465241235525",
-      "impact_factor": "5.5",
+      "impact_factor": "5.4",
       "is_open_access": true,
-      "citation_count": 21
+      "citation_count": 21,
+      "if_source": "JCR 2024",
+      "journal_tier": "骨科1区/运动科学1区 TOP",
+      "journal_issn": "0363-5465"
     },
     {
       "date": "2026-05-27",
       "title_en": "Can Biomechanical Testing After Anterior Cruciate Ligament Reconstruction Identify Athletes at Risk for Subsequent ACL Injury to the Contralateral Uninjured Limb?",
       "title_zh": "前交叉韧带重建术后的生物力学测试能否识别对侧未受伤肢体后续ACL损伤风险的运动员？",
       "authors": "E. King, C. Richter, Katherine A. J. Daniels, A. Franklyn-Miller et al.",
-      "journal": "American Journal of Sports Medicine",
+      "journal": "The American Journal of Sports Medicine",
       "year": 2021,
       "doi": "10.1177/0363546520985283",
-      "impact_factor": "5.5",
+      "impact_factor": "5.4",
       "is_open_access": true,
-      "citation_count": 84
+      "citation_count": 84,
+      "if_source": "JCR 2024",
+      "journal_tier": "骨科1区/运动科学1区 TOP",
+      "journal_issn": "0363-5465"
     },
     {
       "date": "2026-04-11",
@@ -176,9 +218,12 @@
       "journal": "British Journal of Sports Medicine",
       "year": 2021,
       "doi": "10.1136/bjsports-2020-103403",
-      "impact_factor": "18.4",
+      "impact_factor": "15.5",
       "is_open_access": true,
-      "citation_count": 0
+      "citation_count": 0,
+      "if_source": "JCR 2024",
+      "journal_tier": "运动科学1区 TOP",
+      "journal_issn": "0306-3674"
     }
   ]
 }
