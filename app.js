@@ -220,11 +220,19 @@ function buildCard(p, isBookmarked = false) {
   const isOA    = p.is_open_access || false;
 
   const oaBadge = isOA ? `<span class="oa-badge">Open Access</span>` : '';
-  // `if_source` (e.g. "JCR 2023" / "SJR") is optional — surface it as a tooltip
-  // so the reader knows where the number comes from.
-  const ifTitle = p.if_source ? ` title="影响因子来源 / Source: ${esc(p.if_source)}"` : '';
+  // Only a JCR-sourced number is an impact factor. SCImago's citations-per-doc
+  // and OpenAlex's 2-year mean citedness are different measures on different
+  // denominators, so labelling either of them "IF" would misstate the figure to
+  // anyone scanning the cards — the tooltip alone is not enough.
+  const isRealIF = /JCR/i.test(p.if_source || '');
+  const ifLabel = isRealIF ? 'IF' : (p.if_source || '被引');
+  const ifTitle = p.if_source
+    ? ` title="${isRealIF ? '影响因子' : '注意：这不是影响因子'} / Source: ${esc(p.if_source)}"`
+    : '';
   const ifBadge = p.impact_factor
-    ? `<span class="if-badge"${ifTitle}>IF ${esc(p.impact_factor)}</span>` : '';
+    ? `<span class="if-badge${isRealIF ? '' : ' if-badge-proxy'}"${ifTitle}>`
+      + `${esc(ifLabel)} ${esc(p.impact_factor)}</span>`
+    : '';
   // `journal_tier` — 中科院 / JCR 分区, e.g. "运动科学2区 TOP"
   const tierBadge = p.journal_tier
     ? `<span class="tier-badge" title="期刊分区 / Journal tier">${esc(p.journal_tier)}</span>` : '';

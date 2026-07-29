@@ -1623,3 +1623,12 @@ kbd {
   .toast { left: 16px; right: 16px; transform: translateY(12px); white-space: normal; text-align: center; }
   .toast.toast-show { transform: translateY(0); }
 }
+
+/* A number that is not a JCR impact factor must not read like one. Muted and
+   outlined rather than filled, so the proxy metrics recede visually. */
+.if-badge-proxy {
+  background: transparent;
+  border: 1px dashed var(--text-muted);
+  color: var(--text-sub);
+  font-weight: 400;
+}
