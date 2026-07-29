@@ -54,7 +54,11 @@ jobs:
           CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
         run: python scripts/enrich_fulltext.py
 
+      # Supplementary to the digest, so it must not be able to discard it. A
+      # transient Gemini 500 here used to abort the job before the commit step,
+      # throwing away papers that had already been fetched and enriched.
       - name: Generate daily deep read
+        continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/fetch_deep_read.py

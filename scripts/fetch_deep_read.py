@@ -203,7 +203,22 @@ Be specific and accurate to this paper. Do NOT write generic placeholder text.
 
     genai.configure(api_key=os.environ["GEMINI_API_KEY"])
     model = genai.GenerativeModel("gemini-2.5-flash")
-    response = model.generate_content(prompt)
+
+    # Gemini returns transient 500s often enough that a single unretried call
+    # was failing the whole daily run.
+    response = None
+    delay = 5.0
+    for attempt in range(4):
+        try:
+            response = model.generate_content(prompt)
+            break
+        except Exception as e:                       # noqa: BLE001
+            if attempt == 3:
+                raise
+            print(f"    [!] Gemini error ({type(e).__name__}), "
+                  f"retrying in {delay:.0f}s: {str(e)[:80]}")
+            time.sleep(delay)
+            delay *= 2
 
     raw = response.text.strip()
     # Strip accidental code fences
