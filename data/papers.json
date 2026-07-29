@@ -34,7 +34,8 @@
       "pmcid": "PMC12947451",
       "pmid": "41620629",
       "fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12947451/fullTextXML",
-      "fulltext_label": "全文 (结构化)"
+      "fulltext_label": "全文 (结构化)",
+      "journal_tier": "康复医学2区/运动科学3区"
     },
     {
       "id": "06802b27",
@@ -69,7 +70,8 @@
       "pmcid": "PMC10915623",
       "pmid": "38455436",
       "fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10915623/fullTextXML",
-      "fulltext_label": "全文 (结构化)"
+      "fulltext_label": "全文 (结构化)",
+      "journal_tier": "运动科学3区"
     },
     {
       "id": "eaf87fab",
@@ -104,7 +106,8 @@
       "pmcid": "PMC12029977",
       "pmid": "40284184",
       "fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12029977/fullTextXML",
-      "fulltext_label": "全文 (结构化)"
+      "fulltext_label": "全文 (结构化)",
+      "journal_tier": "营养学2区"
     },
     {
       "id": "de27e048",
@@ -139,7 +142,8 @@
       "pmcid": "PMC12178026",
       "pmid": "40537858",
       "fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12178026/fullTextXML",
-      "fulltext_label": "全文 (结构化)"
+      "fulltext_label": "全文 (结构化)",
+      "journal_tier": ""
     },
     {
       "id": "6e54412f",
@@ -171,7 +175,8 @@
       "pmcid": "PMC12829145",
       "pmid": "41402914",
       "fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12829145/fullTextXML",
-      "fulltext_label": "全文 (结构化)"
+      "fulltext_label": "全文 (结构化)",
+      "journal_tier": "康复医学2区/运动科学3区"
     },
     {
       "id": "a8d61697",
@@ -206,7 +211,8 @@
       "pmcid": "PMC9862768",
       "pmid": "36668715",
       "fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9862768/fullTextXML",
-      "fulltext_label": "全文 (结构化)"
+      "fulltext_label": "全文 (结构化)",
+      "journal_tier": "运动科学3区"
     }
   ]
 }

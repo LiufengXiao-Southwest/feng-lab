@@ -22,7 +22,7 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != 'utf-8':
 
 sys.path.insert(0, str(Path(__file__).parent))
 from journal_metrics import (  # noqa: E402
-    JournalIndex, display_impact, impact_value, is_domain_relevant,
+    JournalIndex, display_impact, display_tier, impact_value, is_domain_relevant,
 )
 
 TODAY = datetime.date.today().isoformat()
@@ -136,9 +136,12 @@ def lookup_journal(venue: str, issns=()):
         # Skip venues already tried and skip further lookups once the budget is
         # spent — otherwise the same unresolvable venue is re-queried on every
         # candidate that carries it, and again tomorrow.
+        # Budget counts attempts, not successes: a failed lookup costs the same
+        # API calls as a successful one, and the first full-pool run spent 40
+        # lookups against a stated cap of 25 because only the hits were counted.
         if (key in _UNRESOLVED
                 or JOURNALS.is_unresolved(venue)
-                or len(_RESOLVED_LIVE) >= MAX_LIVE_LOOKUPS):
+                or len(_RESOLVED_LIVE) + len(_UNRESOLVED) >= MAX_LIVE_LOOKUPS):
             return None, "", "", False
         try:
             from update_journal_metrics import resolve_live
@@ -303,6 +306,7 @@ def fetch_ss(query: str, category: str, limit: int = 10) -> list:
             "doi":            doi,
             "impact_factor":  if_val,
             "if_source":      if_source,
+            "journal_tier":   display_tier(entry),
             "evidence":       _evidence_level(p),
             "citation_count": citations,
             "is_open_access": is_oa,

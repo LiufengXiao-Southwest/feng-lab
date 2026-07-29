@@ -4203,7 +4203,14 @@
         "tldr_zh": "",
         "abstract_en": "Gait analysis is fundamental for optimizing athletic performance and mitigating injury risks in sports medicine. While traditional laboratory assessments offer insights, the emergence of wearable sensor technology provides novel opportunities for objective, real-time gait evaluation in ecologically valid settings. This systematic review aims to (1) evaluate the clinical efficacy of wearable sensor–based gait analysis for injury prevention in athletes (2), examine its role in rehabilitation monitoring and clinical decision-making, and (3) identify methodological limitations and future research priorities required for standardized clinical integration. Adhering to PRISMA 2020 guidelines, a systematic search was conducted across MEDLINE, Web of Science, Scopus, and Embase from inception to May 31st, 2025. Studies investigating wearable sensor-based gait analysis in athletic populations for ",
         "abstract_zh": "步态分析对于优化运动表现和降低运动医学中的受伤风险至关重要。虽然传统的实验室评估提供了深入的见解，但可穿戴传感器技术的出现为在真实环境中进行客观、实时的步态评估提供了新的机会。本系统综述旨在 (1) 评估基于可穿戴传感器的步态分析在运动员伤病预防中的临床疗效，(2) 考察其在康复监测和临床决策中的作用，以及 (3) 识别方法学局限性和未来的研究方向。",
-        "keywords": []
+        "keywords": [],
+        "journal_tier": "康复医学2区/运动科学3区",
+        "fulltext_url": "https://europepmc.org/article/PMC/PMC12947451",
+        "fulltext_type": "pmc_xml",
+        "pmcid": "PMC12947451",
+        "pmid": "41620629",
+        "fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12947451/fullTextXML",
+        "fulltext_label": "全文 (结构化)"
       },
       {
         "id": "06802b27",
@@ -4232,7 +4239,14 @@
         "tldr_zh": "",
         "abstract_en": "This meta-analysis aimed to examine the effects of plyometric training on physical fitness attributes in handball players. A systematic literature search across PubMed, SCOPUS, SPORTDiscus, and Web of Science identified 20 studies with 563 players. Plyometric training showed significant medium-to-large effects on various attributes: countermovement jump with arms (ES = 1.84), countermovement jump (ES = 1.33), squat jump (ES = 1.17), and horizontal jump (ES = 0.83), ≤ 10-m linear sprint time (ES = -1.12), > 10-m linear sprint time (ES = -1.46), repeated sprint ability with change-of-direction time (ES = -1.53), agility (ES = -1.60), maximal strength (ES = 0.52), and force-velocity (muscle power) (ES = 1.13). No significant impact on balance was found. Subgroup analysis indicated more pronounced agility improvements in players ≤ 66.6 kg compared to > 66.6 kg (ES = -1.93 vs. -0.23, p = 0.01",
         "abstract_zh": "本荟萃分析旨在检验增强式训练对手球运动员身体素质指标的影响。通过对PubMed、SCOPUS、SPORTDiscus和Web of Science进行系统文献检索，共识别出20项研究，涉及563名运动员。增强式训练对多项指标显示出显著的中到大效应：摆臂反向跳（ES = 1.84）、反向跳（ES = 1.33）、半蹲跳（ES = 1.17）和水平跳（ES = 0.83）、≤ 10米直线冲刺时间（ES = -1.12）、> 10米直线冲刺时间（ES = -1.46）、变向重复冲刺能力...",
-        "keywords": []
+        "keywords": [],
+        "journal_tier": "运动科学3区",
+        "fulltext_url": "https://europepmc.org/article/PMC/PMC10915623",
+        "fulltext_type": "pmc_xml",
+        "pmcid": "PMC10915623",
+        "pmid": "38455436",
+        "fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10915623/fullTextXML",
+        "fulltext_label": "全文 (结构化)"
       },
       {
         "id": "eaf87fab",
@@ -4261,7 +4275,14 @@
         "tldr_zh": "",
         "abstract_en": "Background: Water polo (WP) is a high-intensity team sport that requires a combination of physical endurance, muscular strength, speed, and specific technical skills. Due to the demanding and prolonged nature of this sport, adequate and balanced nutrition plays a fundamental role in athletes’ performance, recovery, and overall health maintenance. Objectives: We aimed to compile all available information on the importance of ergonutrition and supplementation in the recovery of WP players. This will help in understanding this sport’s specific challenges and requirements, enabling players and coaches to design more effective recovery plans to optimize performance, achieve goals, and successfully cope with intense training and competition. Method: English-language publications were searched in databases such as Web of Science, Scopus, SciELO Citation Index, Medline (PubMed), KCI Korean Journ",
         "abstract_zh": "背景：水球（WP）是一项高强度团队运动，需要结合体能耐力、肌肉力量、速度和特定的技术技能。由于这项运动的严苛和持久性，充足均衡的营养在运动员的表现、恢复和整体健康维护中发挥着基础性作用。目的：我们旨在汇编所有关于运动营养和补充剂在水球运动员恢复中重要性的现有信息。这将有助于理解这项运动的特定挑战和要求，从而使运动员和教练员...",
-        "keywords": []
+        "keywords": [],
+        "journal_tier": "营养学2区",
+        "fulltext_url": "https://europepmc.org/article/PMC/PMC12029977",
+        "fulltext_type": "pmc_xml",
+        "pmcid": "PMC12029977",
+        "pmid": "40284184",
+        "fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12029977/fullTextXML",
+        "fulltext_label": "全文 (结构化)"
       },
       {
         "id": "de27e048",
@@ -4290,7 +4311,14 @@
         "tldr_zh": "",
         "abstract_en": "Ankle sprains, the most common sports injury, often progress to functional ankle instability (FAI), characterized by recurrent instability and neuromuscular deficits. This study utilizes three-dimensional (3D) gait analysis system to quantify lower limb biomechanical alterations in FAI during gait, aiming to identify objective markers for guiding targeted rehabilitation strategies. This case–control study enrolled 31 matched subject pairs (FAI subjects vs. healthy controls) through propensity score matching based on stringent inclusion/exclusion criteria. Demographic data were collected, and functional assessments including the Cumberland Ankle Instability Tool (CAIT), American Orthopedic Foot and Ankle Society (AOFAS) scale, and Visual Analog Scale (VAS) for pain were administered. 3D gait analysis was performed using an infrared motion capture system (BTS SMART-D 400) to quantify biome",
         "abstract_zh": "踝关节扭伤是最常见的运动损伤，常进展为功能性踝关节不稳（FAI），其特征是反复不稳和神经肌肉功能障碍。本研究利用三维（3D）步态分析系统量化FAI患者步态中的下肢生物力学改变，旨在识别指导针对性康复策略的客观指标。这项病例对照研究通过基于严格纳入/排除标准的倾向评分匹配，招募了31对匹配受试者（FAI组vs健康对照组）。收集了人口统计学数据，并...",
-        "keywords": []
+        "keywords": [],
+        "journal_tier": "",
+        "fulltext_url": "https://europepmc.org/article/PMC/PMC12178026",
+        "fulltext_type": "pmc_xml",
+        "pmcid": "PMC12178026",
+        "pmid": "40537858",
+        "fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12178026/fullTextXML",
+        "fulltext_label": "全文 (结构化)"
       },
       {
         "id": "6e54412f",
@@ -4316,7 +4344,14 @@
         "tldr_zh": "",
         "abstract_en": "Sports injuries remain a major concern for athletes and fitness enthusiasts, affecting performance and long-term well-being. Effective prediction and prevention strategies are critical for reducing injury incidence. This study investigates the predictive roles of movement restriction and body asymmetry in sports injury risk. Sports injuries remain a major concern for athletes and fitness enthusiasts, affecting performance and long-term well-being. Effective prediction and prevention strategies are critical for reducing injury incidence. This study investigates the predictive roles of movement restriction and body asymmetry in sports injury risk. Significant restrictions in knee and shoulder mobility were associated with increased injury risk. Notably, asymmetries in lower limb strength and flexibility were linked to higher rates of unilateral injuries. For example, a 10% increase in move",
         "abstract_zh": "运动损伤仍然是运动员和健身爱好者关注的主要问题，影响着他们的表现和长期健康。有效的预测和预防策略对于降低损伤发生率至关重要。本研究旨在探讨运动受限和身体不对称性在运动损伤风险中的预测作用。运动损伤仍然是运动员和健身爱好者关注的主要问题，影响着他们的表现和长期健康。有效的预测和预防策略对于降低损伤发生率至关重要。本研究旨在探讨运动受限的预测作用...",
-        "keywords": []
+        "keywords": [],
+        "journal_tier": "康复医学2区/运动科学3区",
+        "fulltext_url": "https://europepmc.org/article/PMC/PMC12829145",
+        "fulltext_type": "pmc_xml",
+        "pmcid": "PMC12829145",
+        "pmid": "41402914",
+        "fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12829145/fullTextXML",
+        "fulltext_label": "全文 (结构化)"
       },
       {
         "id": "a8d61697",
@@ -4345,7 +4380,14 @@
         "tldr_zh": "",
         "abstract_en": "Complex contrast training (CCT) is an exercise modality that utilizes both high-load resistance activity and low-load plyometric activity in a set-by-set fashion within a single exercise session. Such a combination of exercises targets multiple aspects of the force–velocity curve and may thus lead to improvement of various components of physical fitness. However, no previous study has attempted to compare the effects of load-equated two vs. three CCT sessions per week on measures of physical fitness. Forty-five male participants aged 21.4 ± 2.0 years were randomly assigned to either two weekly CCT sessions (CCT-2; n = 15), three weekly CCT sessions (CCT-3; n = 15), or an active control group (CG; n = 15). Selected measures of physical fitness were assessed pre- and post-six weeks of training. The tests included the assessment of 15 and 30 m linear sprint speeds, upper (medicine ball thro",
         "abstract_zh": "复杂对比训练（CCT）是一种训练模式，它在单次训练中以逐组交替的方式结合高负荷阻力活动和低负荷增强式活动。这种训练组合针对力量-速度曲线的多个方面，因此可能导致身体素质各个组成部分的改善。然而，以前没有研究尝试比较每周进行两次与三次负荷相等的CCT训练对身体素质指标的影响。45名21.4 ± 2.0岁的男性参与者被随机分配到每周两次的...",
-        "keywords": []
+        "keywords": [],
+        "journal_tier": "运动科学3区",
+        "fulltext_url": "https://europepmc.org/article/PMC/PMC9862768",
+        "fulltext_type": "pmc_xml",
+        "pmcid": "PMC9862768",
+        "pmid": "36668715",
+        "fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9862768/fullTextXML",
+        "fulltext_label": "全文 (结构化)"
       }
     ]
   }
