@@ -204,8 +204,16 @@ SS_FIELDS = (
 SS_API_KEY = os.environ.get("SEMANTIC_SCHOLAR_API_KEY", "")
 
 
-def ss_get(params: dict, tries: int = 5):
-    """GET the search endpoint with exponential backoff on 429/5xx."""
+# Measured 2026-07-29: with a key, 2 of 8 search calls spaced 3s apart still
+# returned 429 — well short of the documented 1 rps, so the endpoint is simply
+# flaky. Without a key it was 0 of 8. More attempts, with the delay capped so a
+# bad run cannot stretch the job indefinitely.
+SS_TRIES = 6
+SS_MAX_DELAY = 15.0
+
+
+def ss_get(params: dict, tries: int = SS_TRIES):
+    """GET the search endpoint with capped exponential backoff on 429/5xx."""
     headers = {"x-api-key": SS_API_KEY} if SS_API_KEY else {}
     delay = 2.0
     for attempt in range(tries):
@@ -217,7 +225,7 @@ def ss_get(params: dict, tries: int = 5):
                     return None
                 print(f"    ... HTTP {r.status_code}, retrying in {delay:.0f}s")
                 time.sleep(delay)
-                delay *= 2
+                delay = min(delay * 2, SS_MAX_DELAY)
                 continue
             r.raise_for_status()
             return r.json()
@@ -226,7 +234,7 @@ def ss_get(params: dict, tries: int = 5):
                 print(f"    [!] request failed: {e}")
                 return None
             time.sleep(delay)
-            delay *= 2
+            delay = min(delay * 2, SS_MAX_DELAY)
     return None
 
 # ── Fetch ─────────────────────────────────────────────────────────────────────
