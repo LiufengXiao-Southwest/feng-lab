@@ -18,10 +18,14 @@ last_updated: 2026-07-27
 
 PR #1 已合并进 main（10 个 commit）。手动触发的生产运行第一次失败——Gemini 500 让整个 job 中止，而 commit 步骤在它后面，导致已抓好的文献被丢弃。已修（deep read 改成 `continue-on-error` + Gemini 调用加退避重试），第二次运行全绿，自动提交了 2026-07-29 的简报。
 
-**生产运行暴露的两个问题，都还没解决：**
+**生产运行暴露的两个问题：**
 
-1. **Semantic Scholar 429 极其严重**：18 条查询里 15 条耗尽重试放弃，只有 3 条成功。当天只抓到 3 篇（目标 6 篇）。`SEMANTIC_SCHOLAR_API_KEY` 是必需项，不是可选项。
-2. **兜底门槛没有学科限定**：`MIN_OPENALEX_2YR = 2.0` 这条兜底让 `Photonics`（光子学期刊，openalex_2yr=2.2，无 JCR 数据）进了运动科学简报。候选池被 429 打薄之后这个问题被放大了。需要决定：收紧阈值 / 加学科白名单 / 要求必须有 JCR 或中科院分区才放行。
+1. **Semantic Scholar 429 极其严重（未解决）**：18 条查询里 15 条耗尽重试放弃，只有 3 条成功。`SEMANTIC_SCHOLAR_API_KEY` 是必需项，不是可选项。这是当前最影响产出质量的单点。
+2. **兜底门槛没有学科限定（已修）**：`Photonics`（光子学）靠引用率兜底进了运动科学简报。已加 `is_domain_relevant`，只作用在"只有引用率、无任何排名数据"那一档。**不能**对所有期刊用主题白名单——综合性大刊（Scientific Reports）的 topics 被其体量主导，会被误杀。
+
+**归档已按新门槛重筛**（用户决定全部清掉）：199 → 133 篇，删 66 篇。剩余 133 篇 **100% 有真实 JCR 2024 影响因子**。两个必须注意的细节：
+- 旧的 `preprint` 类目里**一篇真预印本都没有**，它纯粹是绕过质量门槛的旁门。里面的好期刊论文（SJMSS/JSCR/JBJS Reviews）已改判归类保留，不是删除。前端「预印本」标签现在是空的，已验证空状态正常显示。
+- `Arthroscopy` 差点被误删 4 篇：Semantic Scholar 存的刊名截断了（少了结尾 "Surgery"），导致查不到指标看起来像野鸡刊，实际是 IF 6.9 / 运动科学1区 / 医学TOP。已加别名。删除名单里其余无法解析的刊都逐个复核过，没有第二个误伤。
 
 ## 当前状态
 
@@ -40,6 +44,6 @@ GitHub Secrets 已配好 3 个（用本机 Git Credential Manager 的 token 走 
 ## 下次开场该做什么
 
 1. 先问用户 `SEMANTIC_SCHOLAR_API_KEY` 申请到没有——这是当前最影响产出质量的单点。
-2. 和用户确认兜底门槛怎么收（见上面第 2 条），然后改 `fetch_papers.py:_passes_gate`。
+2. 观察几天：新门槛下每日能否稳定抓够 6 篇。抓不够优先怀疑 429，不要急着放松门槛。
 3. 待办：PDF 阅读器仍内嵌 `docs.google.com/viewer`，国内不可达，需换成本地 pdf.js。
 4. 待办：`data/scimago_*.csv` 和 `data/jcr_seed.json` 每年 6 月 JCR 发布后需手工刷新一次，方法见 README。
