@@ -14,9 +14,18 @@ last_updated: 2026-07-27
 6. **前端**（子代理完成并浏览器验证）：去掉全部外部 CDN（Google Fonts / jsDelivr 在国内不可达）、MiniSearch + `Intl.Segmenter` 全站中文搜索、无障碍修复、键盘导航。
 7. 新增 RSS/JSON feed、sitemap；装了 3 个 skill（webapp-testing / frontend-design / paper-lookup）+ 1 个项目专属 skill；补齐 CLAUDE.md、ARCHITECTURE.md、README.md；测试从 2 个扩到 41 个。
 
+## 已上线
+
+PR #1 已合并进 main（10 个 commit）。手动触发的生产运行第一次失败——Gemini 500 让整个 job 中止，而 commit 步骤在它后面，导致已抓好的文献被丢弃。已修（deep read 改成 `continue-on-error` + Gemini 调用加退避重试），第二次运行全绿，自动提交了 2026-07-29 的简报。
+
+**生产运行暴露的两个问题，都还没解决：**
+
+1. **Semantic Scholar 429 极其严重**：18 条查询里 15 条耗尽重试放弃，只有 3 条成功。当天只抓到 3 篇（目标 6 篇）。`SEMANTIC_SCHOLAR_API_KEY` 是必需项，不是可选项。
+2. **兜底门槛没有学科限定**：`MIN_OPENALEX_2YR = 2.0` 这条兜底让 `Photonics`（光子学期刊，openalex_2yr=2.2，无 JCR 数据）进了运动科学简报。候选池被 429 打薄之后这个问题被放大了。需要决定：收紧阈值 / 加学科白名单 / 要求必须有 JCR 或中科院分区才放行。
+
 ## 当前状态
 
-**所有改动都还在本地，没有 commit，没有 push。** 41 个测试通过，浏览器实测零控制台报错、零外部请求。
+main 已包含全部改动，线上跑通。41 个测试通过，浏览器实测零控制台报错、零外部请求。
 
 GitHub Secrets 已配好 3 个（用本机 Git Credential Manager 的 token 走 REST API 写入）：
 `EASYSCHOLAR_SECRET_KEY` ✓、`CONTACT_EMAIL` ✓、`GEMINI_API_KEY` ✓（原有）。
@@ -30,7 +39,7 @@ GitHub Secrets 已配好 3 个（用本机 Git Credential Manager 的 token 走 
 
 ## 下次开场该做什么
 
-1. 问用户是否要 commit + push（36 个文件，建议分几个 commit）。
-2. push 后手动触发一次 workflow，验证 easyScholar 在 CI 里能正常取到 IF。
+1. 先问用户 `SEMANTIC_SCHOLAR_API_KEY` 申请到没有——这是当前最影响产出质量的单点。
+2. 和用户确认兜底门槛怎么收（见上面第 2 条），然后改 `fetch_papers.py:_passes_gate`。
 3. 待办：PDF 阅读器仍内嵌 `docs.google.com/viewer`，国内不可达，需换成本地 pdf.js。
 4. 待办：`data/scimago_*.csv` 和 `data/jcr_seed.json` 每年 6 月 JCR 发布后需手工刷新一次，方法见 README。
