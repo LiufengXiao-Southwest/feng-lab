@@ -62,6 +62,13 @@ def _always_include() -> set[str]:
 
 ALWAYS_INCLUDE = _always_include()
 _RESOLVED_LIVE = []   # journals discovered this run, persisted at the end
+_UNRESOLVED = set()   # venues that failed this run; do not retry within the run
+
+# A run screens up to ~270 candidates and most rejected venues are conference
+# proceedings or predatory titles that no source will ever resolve. Without a
+# ceiling, one bad day of results could spend a large slice of the easyScholar
+# daily quota on journals that will never be published.
+MAX_LIVE_LOOKUPS = 25
 
 
 def _passes_gate(entry: dict) -> bool:
@@ -116,6 +123,15 @@ def lookup_journal(venue: str, issns=()):
     entry = JOURNALS.lookup(venue, issns)
 
     if not entry and venue:
+        from journal_metrics import normalize_name
+        key = normalize_name(venue)
+        # Skip venues already tried and skip further lookups once the budget is
+        # spent — otherwise the same unresolvable venue is re-queried on every
+        # candidate that carries it, and again tomorrow.
+        if (key in _UNRESOLVED
+                or JOURNALS.is_unresolved(venue)
+                or len(_RESOLVED_LIVE) >= MAX_LIVE_LOOKUPS):
+            return None, "", "", False
         try:
             from update_journal_metrics import resolve_live
             entry = resolve_live(venue, list(issns))
@@ -126,6 +142,9 @@ def lookup_journal(venue: str, issns=()):
             JOURNALS.add(entry)
             _RESOLVED_LIVE.append(entry["name"])
             print(f"    + resolved new journal: {entry['name'][:50]}")
+        else:
+            _UNRESOLVED.add(key)
+            JOURNALS.mark_unresolved(venue)
 
     if not entry:
         return None, "", "", False
@@ -533,11 +552,15 @@ def main():
 
     # Persist journals discovered during this run so the next one starts warm
     # and the metrics cache grows with the site instead of being capped.
-    if _RESOLVED_LIVE:
+    if _RESOLVED_LIVE or _UNRESOLVED:
         JOURNALS.save()
-        print(f"\n  Cached {len(_RESOLVED_LIVE)} newly-resolved journals: "
-              f"{', '.join(_RESOLVED_LIVE[:5])}"
-              f"{' …' if len(_RESOLVED_LIVE) > 5 else ''}")
+        if _RESOLVED_LIVE:
+            print(f"\n  Cached {len(_RESOLVED_LIVE)} newly-resolved journals: "
+                  f"{', '.join(_RESOLVED_LIVE[:5])}"
+                  f"{' …' if len(_RESOLVED_LIVE) > 5 else ''}")
+        if _UNRESOLVED:
+            print(f"  Remembered {len(_UNRESOLVED)} unresolvable venues "
+                  f"so they are not re-queried tomorrow.")
 
     print(f"\n✓ Done. Today's papers: {len(selected_papers)}")
 

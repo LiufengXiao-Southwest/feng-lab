@@ -3,6 +3,7 @@ name: Daily Literature Update
 on:
   schedule:
     - cron: '0 1 * * *'   # 09:00 北京时间 (UTC+8 → 01:00 UTC)
+    - cron: '0 2 * * 1'   # 周一 10:00 北京时间 — 仅跑指标漂移校验
   workflow_dispatch:        # 允许手动触发
 
 permissions:
@@ -16,6 +17,8 @@ concurrency:
 
 jobs:
   fetch-papers:
+    # The Monday cron is the drift check only; it must not run a second digest.
+    if: github.event.schedule != '0 2 * * 1'
     runs-on: ubuntu-latest
 
     steps:
@@ -75,11 +78,12 @@ jobs:
           FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
         run: python scripts/notify_feishu.py
 
-  # Impact factors and CAS tiers change once a year, but journals get added to
-  # the site continuously. A weekly pass keeps newly-seen venues resolved
-  # without spending easyScholar quota on every daily run.
+  # Impact factors and CAS tiers change once a year, so this only checks for
+  # drift between the curated values and SCImago. Gated to its own Monday cron:
+  # running it alongside the daily digest would double easyScholar usage every
+  # day for a report nobody reads on the other six.
   refresh-metrics:
-    if: github.event_name == 'schedule'
+    if: github.event.schedule == '0 2 * * 1'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5

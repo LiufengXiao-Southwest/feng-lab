@@ -229,7 +229,7 @@ function buildCard(p, isBookmarked = false) {
   const tierBadge = p.journal_tier
     ? `<span class="tier-badge" title="期刊分区 / Journal tier">${esc(p.journal_tier)}</span>` : '';
   const citBadge = (p.citation_count && p.citation_count > 0)
-    ? `<span class="cit-badge">◈ ${p.citation_count}</span>` : '';
+    ? `<span class="cit-badge">◈ ${esc(p.citation_count)}</span>` : '';
 
   const ev = EVIDENCE_LABELS[p.evidence];
   const evBadge = ev
@@ -275,10 +275,10 @@ function buildCard(p, isBookmarked = false) {
 
   const safeId = (p.id || '').replace(/'/g, "\\'");
   const bookmarkLabel = isBookmarked ? '取消收藏' : '收藏';
-  const bookmarkBtn = `<button class="btn-bookmark${isBookmarked ? ' bookmarked' : ''}" data-id="${p.id || ''}" onclick="toggleBookmark('${safeId}')" title="${bookmarkLabel}" aria-label="${bookmarkLabel}" aria-pressed="${isBookmarked}">★</button>`;
-  const cardTopRight = `<div class="card-top-right">${bookmarkBtn}<span class="card-date">${formatDate(p.date_added)}</span></div>`;
+  const bookmarkBtn = `<button class="btn-bookmark${isBookmarked ? ' bookmarked' : ''}" data-id="${esc(p.id)}" onclick="toggleBookmark('${safeId}')" title="${bookmarkLabel}" aria-label="${bookmarkLabel}" aria-pressed="${isBookmarked}">★</button>`;
+  const cardTopRight = `<div class="card-top-right">${bookmarkBtn}<span class="card-date">${esc(formatDate(p.date_added))}</span></div>`;
 
-  const titleZh  = p.title_zh    ? `<div class="card-title-zh">${p.title_zh}</div>` : '';
+  const titleZh  = p.title_zh    ? `<div class="card-title-zh">${esc(p.title_zh)}</div>` : '';
 
   // Optional one-line takeaway, shown right under the titles.
   const tldrEn = p.tldr_en ? `<div class="card-tldr-en">${esc(p.tldr_en)}</div>` : '';
@@ -290,13 +290,13 @@ function buildCard(p, isBookmarked = false) {
     : '';
 
   const absLabel = p.abstract_zh ? '摘要 / Abstract' : 'Abstract';
-  const absZh    = p.abstract_zh ? `<div class="abstract-zh">${p.abstract_zh}</div>` : '';
+  const absZh    = p.abstract_zh ? `<div class="abstract-zh">${esc(p.abstract_zh)}</div>` : '';
   const absEn    = p.abstract_zh
-    ? `<div class="abstract-en abstract-en-secondary">${p.abstract_en || ''}</div>`
-    : `<div class="abstract-en">${p.abstract_en || ''}</div>`;
+    ? `<div class="abstract-en abstract-en-secondary">${esc(p.abstract_en)}</div>`
+    : `<div class="abstract-en">${esc(p.abstract_en)}</div>`;
 
   return `
-<article class="card" tabindex="-1" data-id="${p.id || ''}" aria-label="${esc(p.title_zh || p.title_en || '文献')}">
+<article class="card" tabindex="-1" data-id="${esc(p.id)}" aria-label="${esc(p.title_zh || p.title_en || '文献')}">
 
   <div class="card-top">
     <div class="card-tags">
@@ -310,7 +310,7 @@ function buildCard(p, isBookmarked = false) {
   </div>
 
   <div>
-    <div class="card-title-en">${p.title_en || ''}</div>
+    <div class="card-title-en">${esc(p.title_en)}</div>
     ${titleZh}
     ${tldr}
   </div>
@@ -318,8 +318,8 @@ function buildCard(p, isBookmarked = false) {
   <div class="card-authors">${authors}</div>
 
   <div class="card-journal">
-    <span class="journal-name">${p.journal || ''}</span>
-    <span class="journal-year">${p.year || ''}</span>
+    <span class="journal-name">${esc(p.journal)}</span>
+    <span class="journal-year">${esc(p.year)}</span>
     ${citBadge}
   </div>
 
@@ -536,16 +536,16 @@ async function loadDeepRead() {
 function renderDeepRead(dr) {
   const oaBadge = dr.is_open_access ? '<span class="oa-badge">Open Access</span>' : '';
   const ifBadge = dr.impact_factor
-    ? `<span class="dr-if">IF ${dr.impact_factor}</span>` : '';
+    ? `<span class="dr-if">IF ${esc(dr.impact_factor)}</span>` : '';
   const citBadge = (dr.citation_count && dr.citation_count > 0)
-    ? `<span class="cit-badge">◈ ${dr.citation_count}</span>` : '';
+    ? `<span class="cit-badge">◈ ${esc(dr.citation_count)}</span>` : '';
   const journalLine = [dr.journal, dr.year].filter(Boolean).join(' · ');
 
   document.getElementById('drPreviewCard').innerHTML = `
     <div class="dr-preview-meta">
       <div class="dr-preview-badges">${oaBadge}${ifBadge}${citBadge}</div>
-      <div class="dr-preview-title-en">${dr.title_en || ''}</div>
-      <div class="dr-preview-title-zh">${dr.title_zh || ''}</div>
+      <div class="dr-preview-title-en">${esc(dr.title_en)}</div>
+      <div class="dr-preview-title-zh">${esc(dr.title_zh)}</div>
       ${journalLine ? `<div style="margin-top:8px;font-size:0.72rem;color:var(--text-muted);font-style:italic;font-family:var(--font-serif)">${journalLine}</div>` : ''}
     </div>
     <a class="dr-preview-cta" href="deep-read.html">

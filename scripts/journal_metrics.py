@@ -101,6 +101,11 @@ class JournalIndex:
         self.source = payload.get("source", "")
         self.payload = payload
         self.journals: list[dict] = list(payload.get("journals", []))
+        # Venues no source could resolve. Remembered across runs so a
+        # conference proceeding or predatory title is not re-queried daily.
+        self.unresolved: set[str] = {
+            normalize_name(v) for v in payload.get("unresolved", []) if v
+        }
         self._by_issn: dict[str, dict] = {}
         self._by_name: dict[str, dict] = {}
         # Longest normalized name first, so "international journal of sports
@@ -183,11 +188,23 @@ class JournalIndex:
                 return entry
         return None
 
+    def mark_unresolved(self, venue: str) -> None:
+        key = normalize_name(venue)
+        if key:
+            self.unresolved.add(key)
+
+    def is_unresolved(self, venue: str) -> bool:
+        key = normalize_name(venue)
+        return bool(key) and key in self.unresolved
+
     def save(self, path: Path = DATA_FILE) -> None:
         """Persist the index, including anything added at runtime."""
         payload = dict(self.payload)
         payload["count"] = len(self.journals)
         payload["journals"] = sorted(self.journals, key=lambda j: j.get("name", ""))
+        # Capped: this is a cache, not a ledger, and a journal that gains an
+        # ISSN later should get another chance rather than being blocked forever.
+        payload["unresolved"] = sorted(self.unresolved)[:500]
         path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
