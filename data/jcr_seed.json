@@ -109,6 +109,15 @@
     { "name": "European Journal of Sport Science", "aliases": ["EJSS"] },
     { "name": "Sports Medicine - Open", "aliases": ["Sports Med Open"] },
     { "name": "International Journal of Sports Medicine", "aliases": ["Int J Sports Med"] },
-    { "name": "Orthopaedic Journal of Sports Medicine", "aliases": ["OJSM"] }
+    { "name": "Orthopaedic Journal of Sports Medicine", "aliases": ["OJSM"] },
+    {
+      "_note": "Semantic Scholar truncates this venue string, dropping the trailing 'Surgery', so neither easyScholar nor OpenAlex could resolve it. It is IF 6.9 / 运动科学1区 / 医学TOP — without these aliases four of its papers were about to be pruned as unranked.",
+      "name": "Arthroscopy",
+      "aliases": [
+        "Arthroscopy: The Journal of Arthroscopy and Related Surgery",
+        "Arthroscopy: The Journal of Arthroscopy And Related",
+        "Arthroscopy The Journal of Arthroscopy and Related Surgery"
+      ]
+    }
   ]
 }

@@ -2,39 +2,6 @@
   "last_updated": "2026-07-29",
   "papers": [
     {
-      "id": "35b19af0",
-      "title_en": "Optical Fiber Sensing Technology for Sports Monitoring: A Comprehensive Review",
-      "title_zh": "运动监测中的光纤传感技术：综述",
-      "authors": [
-        "Long Li",
-        "Yuqi Luo",
-        "Rui Wang",
-        "Dongdong Huo",
-        "Bing Song"
-      ],
-      "journal": "Photonics",
-      "journal_issn": "2304-6732",
-      "year": 2025,
-      "date_added": "2026-07-29",
-      "category": "biomechanics",
-      "doi": "10.3390/photonics12100963",
-      "impact_factor": "2.2",
-      "if_source": "OpenAlex 2年均被引",
-      "evidence": "review",
-      "citation_count": 6,
-      "is_open_access": true,
-      "pdf_url": "https://www.mdpi.com/2304-6732/12/10/963/pdf?version=1759064711",
-      "tldr_en": "The value of OFS technology is further analyzed in areas including sports biomechanics analysis, training load monitoring, injury prevention, and rehabilitation optimization, aiming to provide a theoretical foundation for sports medicine and training optimization.",
-      "tldr_zh": "",
-      "abstract_en": "The advancement of sports science has heightened demands for precise monitoring of athletes’ technical movements, physiological status, and performance. Optical fiber sensing (OFS) technology, with its unique advantages including high sensitivity, immunity to electromagnetic interference, capability for distributed sensing, and strong biocompatibility, demonstrates significant application potential in sports science. This review systematically examines the technical principles, innovative breakthroughs, and practical application cases of optical fiber sensors in various domains: monitoring key human physiological parameters such as respiration, heart rate, and body temperature; capturing motion and analyzing movement covering muscle activity, joint angles, and gait; integrating within smart sports equipment and protective gear; and monitoring sports apparatus and environments. The value ",
-      "abstract_zh": "体育科学的进步对运动员的技术动作、生理状态和表现的精确监测提出了更高的要求。光纤传感 (OFS) 技术凭借其高灵敏度、抗电磁干扰、分布式传感能力和强大的生物相容性等独特优势，在体育科学中展现出巨大的应用潜力。本综述系统地考察了光纤传感器在各个领域的技术原理、创新突破和实际应用案例：监测关键...",
-      "keywords": [],
-      "fulltext_url": "https://www.mdpi.com/2304-6732/12/10/963/pdf?version=1759064711",
-      "fulltext_type": "oa_pdf",
-      "oa_license": "cc-by",
-      "fulltext_label": "PDF 全文"
-    },
-    {
       "id": "2e57a3d5",
       "title_en": "Optical Marker-Based Motion Capture of the Human Spine: A Scoping Review of Study Design and Outcomes",
       "title_zh": "基于光学标记的人体脊柱运动捕捉：研究设计与结果的范围综述",
@@ -51,8 +18,8 @@
       "date_added": "2026-07-29",
       "category": "biomechanics",
       "doi": "10.1007/s10439-024-03567-0",
-      "impact_factor": "2.5",
-      "if_source": "OpenAlex 2年均被引",
+      "impact_factor": "5.2",
+      "if_source": "JCR 2024",
       "evidence": "review",
       "citation_count": 13,
       "is_open_access": true,
@@ -67,7 +34,8 @@
       "pmcid": "PMC11329589",
       "pmid": "39023832",
       "fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11329589/fullTextXML",
-      "fulltext_label": "全文 (结构化)"
+      "fulltext_label": "全文 (结构化)",
+      "journal_tier": "工程：生物医学3区"
     },
     {
       "id": "2f0bc8aa",
@@ -98,7 +66,8 @@
       "pmcid": "PMC12644761",
       "pmid": "41276514",
       "fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12644761/fullTextXML",
-      "fulltext_label": "全文 (结构化)"
+      "fulltext_label": "全文 (结构化)",
+      "journal_tier": "综合性期刊3区"
     }
   ]
 }

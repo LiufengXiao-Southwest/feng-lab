@@ -8,7 +8,7 @@
     "openalex": "api.openalex.org — names, ISSNs, h-index, OA status; refreshed every run"
   },
   "attribution": "SCImago, (n.d.). SJR — SCImago Journal & Country Rank [Portal]. Powered by Scopus.",
-  "count": 55,
+  "count": 56,
   "journals": [
     {
       "name": "Annals of Biomedical Engineering",
@@ -56,6 +56,25 @@
       "cas_tier": "综合性期刊4区",
       "cas_tier_small": "化学：综合4区/工程：综合4区/材料科学：综合4区/物理：应用4区",
       "esi": "工程科学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Arthroscopy",
+      "aliases": [
+        "Arthroscopy The Journal of Arthroscopy and Related Surgery",
+        "Arthroscopy: The Journal of Arthroscopy And Related",
+        "Arthroscopy: The Journal of Arthroscopy and Related Surgery"
+      ],
+      "issn": [],
+      "jcr_if": "6.9",
+      "jcr_if5": "5.9",
+      "jcr_quartile": "Q1",
+      "jci": "2.26",
+      "cas_tier": "医学2区",
+      "cas_tier_small": "运动科学1区/外科1区/骨科2区",
+      "cas_top": "医学TOP",
+      "esi": "临床医学",
       "jcr_year": "2024",
       "if_provider": "easyscholar"
     },
