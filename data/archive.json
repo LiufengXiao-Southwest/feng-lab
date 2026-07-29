@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-07-29",
   "dates": {
     "2026-04-09": [
       {
@@ -6132,6 +6132,91 @@
         "fulltext_url": "https://doi.org/10.1249/MSS.0000000000003733",
         "fulltext_type": "doi",
         "fulltext_label": "仅摘要"
+      }
+    ],
+    "2026-07-29": [
+      {
+        "id": "35b19af0",
+        "title_en": "Optical Fiber Sensing Technology for Sports Monitoring: A Comprehensive Review",
+        "title_zh": "运动监测中的光纤传感技术：综述",
+        "authors": [
+          "Long Li",
+          "Yuqi Luo",
+          "Rui Wang",
+          "Dongdong Huo",
+          "Bing Song"
+        ],
+        "journal": "Photonics",
+        "journal_issn": "2304-6732",
+        "year": 2025,
+        "date_added": "2026-07-29",
+        "category": "biomechanics",
+        "doi": "10.3390/photonics12100963",
+        "impact_factor": "2.2",
+        "if_source": "OpenAlex 2年均被引",
+        "evidence": "review",
+        "citation_count": 6,
+        "is_open_access": true,
+        "pdf_url": "https://www.mdpi.com/2304-6732/12/10/963/pdf?version=1759064711",
+        "tldr_en": "The value of OFS technology is further analyzed in areas including sports biomechanics analysis, training load monitoring, injury prevention, and rehabilitation optimization, aiming to provide a theoretical foundation for sports medicine and training optimization.",
+        "tldr_zh": "",
+        "abstract_en": "The advancement of sports science has heightened demands for precise monitoring of athletes’ technical movements, physiological status, and performance. Optical fiber sensing (OFS) technology, with its unique advantages including high sensitivity, immunity to electromagnetic interference, capability for distributed sensing, and strong biocompatibility, demonstrates significant application potential in sports science. This review systematically examines the technical principles, innovative breakthroughs, and practical application cases of optical fiber sensors in various domains: monitoring key human physiological parameters such as respiration, heart rate, and body temperature; capturing motion and analyzing movement covering muscle activity, joint angles, and gait; integrating within smart sports equipment and protective gear; and monitoring sports apparatus and environments. The value ",
+        "abstract_zh": "体育科学的进步对运动员的技术动作、生理状态和表现的精确监测提出了更高的要求。光纤传感 (OFS) 技术凭借其高灵敏度、抗电磁干扰、分布式传感能力和强大的生物相容性等独特优势，在体育科学中展现出巨大的应用潜力。本综述系统地考察了光纤传感器在各个领域的技术原理、创新突破和实际应用案例：监测关键...",
+        "keywords": []
+      },
+      {
+        "id": "2e57a3d5",
+        "title_en": "Optical Marker-Based Motion Capture of the Human Spine: A Scoping Review of Study Design and Outcomes",
+        "title_zh": "基于光学标记的人体脊柱运动捕捉：研究设计与结果的范围综述",
+        "authors": [
+          "Claudia F. Romero-Flores",
+          "R. Bustamante-Bello",
+          "Marcos Moya Bencomo",
+          "E. Martinez-Ríos",
+          "Luis Montesinos"
+        ],
+        "journal": "Annals of Biomedical Engineering",
+        "journal_issn": "0090-6964",
+        "year": 2024,
+        "date_added": "2026-07-29",
+        "category": "biomechanics",
+        "doi": "10.1007/s10439-024-03567-0",
+        "impact_factor": "2.5",
+        "if_source": "OpenAlex 2年均被引",
+        "evidence": "review",
+        "citation_count": 13,
+        "is_open_access": true,
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10439-024-03567-0.pdf",
+        "tldr_en": "A review of the methods used to assess spine biomechanics using motion capture systems showed that Plug-in-Gait is the most used marker set and the lumbar spine is the segment that generates the most interest because of its high mobility and function as a weight supporter.",
+        "tldr_zh": "",
+        "abstract_en": "Biomechanical analysis of the human spine is crucial to understanding injury patterns. Motion capture technology has gained attention due to its non-invasive nature. Nevertheless, traditional motion capture studies consider the spine a single rigid segment, although its alignment changes during movement. Moreover, guidelines that indicate where markers should be placed for a specific exercise do not exist. This study aims to review the methods used to assess spine biomechanics using motion capture systems to determine the marker sets used, the protocols used, the resulting parameters, the analysed activities, and the characteristics of the studied populations. PRISMA guidelines were used to perform a Scoping Review using SCOPUS and Web of Science databases. Fifty-six journal and conference articles from 1997 to 2023 were considered for the analysis. This review showed that Plug-in-Gait i",
+        "abstract_zh": "人体脊柱的生物力学分析对于理解损伤模式至关重要。运动捕捉技术因其非侵入性而受到关注。然而，传统的运动捕捉研究将脊柱视为单个刚性节段，尽管其对齐方式在运动过程中会发生变化。此外，目前尚缺乏指示特定运动中标记物放置位置的指南。本研究旨在回顾使用运动捕捉系统评估脊柱生物力学的方法，以确定所使用的标记集、协议、以及由此产生的参数和分析...",
+        "keywords": []
+      },
+      {
+        "id": "2f0bc8aa",
+        "title_en": "AI-driven medical image analysis for sports injury diagnosis and prevention",
+        "title_zh": "AI驱动的医学图像分析用于运动损伤诊断与预防",
+        "authors": [
+          "M. Yin"
+        ],
+        "journal": "Scientific Reports",
+        "journal_issn": "",
+        "year": 2025,
+        "date_added": "2026-07-29",
+        "category": "biomechanics",
+        "doi": "10.1038/s41598-025-20580-y",
+        "impact_factor": "4.9",
+        "if_source": "JCR 2024",
+        "evidence": "",
+        "citation_count": 3,
+        "is_open_access": true,
+        "pdf_url": "https://www.nature.com/articles/s41598-025-20580-y_reference.pdf",
+        "tldr_en": "An AI-driven framework integrating deep learning, biomechanical modeling, and adaptive decision-making for injury prediction and rehabilitation optimization is proposed, paving the way for more accurate, interpretable, and responsive injury management systems.",
+        "tldr_zh": "",
+        "abstract_en": "Sports-related injuries present significant challenges in diagnosis, prevention, and rehabilitation, often requiring precise assessments across multiple imaging modalities. Traditional diagnostic approaches rely on manual interpretation, which is time-consuming and prone to variability. To address these limitations, we propose an AI-driven framework integrating deep learning, biomechanical modeling, and adaptive decision-making for injury prediction and rehabilitation optimization. The Biomechanically-Informed Neural Network (BINN) fuses kinematic, physiological, and performance data using attention mechanisms, enhancing both interpretability and predictive accuracy. BINN processes motion capture data through convolutional and recurrent layers, extracting meaningful biomechanical patterns to assess movement efficiency and injury risk. The Adaptive Sports Medicine Strategy (ASMS) dynamica",
+        "abstract_zh": "运动相关损伤在诊断、预防和康复方面提出了重大挑战，通常需要通过多种成像模式进行精确评估。传统的诊断方法依赖于人工判读，这既耗时又容易产生变异性。为解决这些局限性，我们提出了一种AI驱动的框架，该框架集成了深度学习、生物力学建模和自适应决策，用于损伤预测和康复优化。生物力学启发式神经网络 (BINN) 融合了运动学、生理学和表现数据，通过注意力机制...",
+        "keywords": []
       }
     ]
   }

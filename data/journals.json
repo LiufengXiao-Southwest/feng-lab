@@ -8,8 +8,27 @@
     "openalex": "api.openalex.org — names, ISSNs, h-index, OA status; refreshed every run"
   },
   "attribution": "SCImago, (n.d.). SJR — SCImago Journal & Country Rank [Portal]. Powered by Scopus.",
-  "count": 53,
+  "count": 59,
   "journals": [
+    {
+      "name": "Annals of Biomedical Engineering",
+      "issn": [
+        "0090-6964",
+        "0191-5649",
+        "1573-9686"
+      ],
+      "aliases": [
+        "Annals of biomedical engineering (Online)",
+        "Annals of biomedical engineering (Print)"
+      ],
+      "publisher": "Springer Science+Business Media",
+      "openalex_2yr": 2.472,
+      "h_index": 194,
+      "works_count": 7935,
+      "is_oa": false,
+      "in_doaj": false,
+      "is_preprint_server": false
+    },
     {
       "name": "Applied Sciences",
       "aliases": [],
@@ -291,6 +310,20 @@
       "esi": "临床医学",
       "jcr_year": "2024",
       "if_provider": "easyscholar"
+    },
+    {
+      "name": "International Journal For Multidisciplinary Research",
+      "issn": [
+        "2582-2160"
+      ],
+      "aliases": [],
+      "publisher": "",
+      "openalex_2yr": 0.189,
+      "h_index": 23,
+      "works_count": 33318,
+      "is_oa": false,
+      "in_doaj": false,
+      "is_preprint_server": false
     },
     {
       "name": "International Journal of Biology and Life Sciences",
@@ -861,6 +894,37 @@
       "if_provider": "easyscholar"
     },
     {
+      "name": "Pacific International Journal",
+      "issn": [
+        "2616-4825",
+        "2663-8991"
+      ],
+      "aliases": [
+        "PIJ"
+      ],
+      "publisher": "",
+      "openalex_2yr": 0.711,
+      "h_index": 9,
+      "works_count": 690,
+      "is_oa": true,
+      "in_doaj": false,
+      "is_preprint_server": false
+    },
+    {
+      "name": "Photonics",
+      "issn": [
+        "2304-6732"
+      ],
+      "aliases": [],
+      "publisher": "Multidisciplinary Digital Publishing Institute",
+      "openalex_2yr": 2.23,
+      "h_index": 58,
+      "works_count": 6984,
+      "is_oa": true,
+      "in_doaj": true,
+      "is_preprint_server": false
+    },
+    {
       "name": "Proceedings of the ACM on Interactive Mobile Wearable and Ubiquitous Technologies",
       "aliases": [],
       "issn": [],
@@ -984,6 +1048,21 @@
       "esi": "多学科",
       "jcr_year": "2024",
       "if_provider": "easyscholar"
+    },
+    {
+      "name": "Scientific and Social Research",
+      "issn": [
+        "2661-4332",
+        "2981-9946"
+      ],
+      "aliases": [],
+      "publisher": "",
+      "openalex_2yr": 0.172,
+      "h_index": 9,
+      "works_count": 1579,
+      "is_oa": false,
+      "in_doaj": false,
+      "is_preprint_server": false
     },
     {
       "name": "Sensor Review",
@@ -1242,6 +1321,31 @@
       "esi": "临床医学",
       "jcr_year": "2024",
       "if_provider": "easyscholar"
+    },
+    {
+      "name": "arXiv (Cornell University)",
+      "issn": [
+        "2331-8422"
+      ],
+      "aliases": [
+        "ArXiv.org"
+      ],
+      "publisher": "Cornell University",
+      "openalex_2yr": 0.186,
+      "h_index": 693,
+      "works_count": 3265235,
+      "is_oa": true,
+      "in_doaj": false,
+      "is_preprint_server": true
     }
+  ],
+  "unresolved": [
+    "2023 3rd international conference smart generation computing communication networking smart gencon",
+    "2025 international conference computational innovations engineering sustainability iccies",
+    "advanced international journal research",
+    "current issues sport science ciss",
+    "ieee international conference robotics biomimetics",
+    "proceedings 2025 2nd international conference sports technology performance analysis",
+    "social science reports"
   ]
 }
