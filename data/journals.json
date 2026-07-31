@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30",
+  "updated": "2026-07-31",
   "jcr_year": "2024",
   "sources": {
     "easyscholar": "easyscholar.cc — JCR impact factor, JCR quartile, CAS tiers; refreshed every run",
@@ -8,7 +8,7 @@
     "openalex": "api.openalex.org — names, ISSNs, h-index, OA status; refreshed every run"
   },
   "attribution": "SCImago, (n.d.). SJR — SCImago Journal & Country Rank [Portal]. Powered by Scopus.",
-  "count": 51,
+  "count": 52,
   "journals": [
     {
       "name": "Annals of Biomedical Engineering",
@@ -176,31 +176,6 @@
       "if_provider": "easyscholar"
     },
     {
-      "name": "ECS Meeting Abstracts",
-      "issn": [
-        "1091-8213",
-        "2151-2035",
-        "2151-2043",
-        "2152-8365"
-      ],
-      "aliases": [
-        "ECS meeting"
-      ],
-      "publisher": "Institute of Physics",
-      "openalex_2yr": 0.085,
-      "h_index": 41,
-      "works_count": 106955,
-      "is_oa": false,
-      "in_doaj": false,
-      "is_preprint_server": false,
-      "topics": [
-        "Engineering / Electrical and Electronic Engineering",
-        "Energy / Renewable Energy, Sustainability and the Environment",
-        "Engineering / Automotive Engineering",
-        "Materials Science / Polymers and Plastics"
-      ]
-    },
-    {
       "name": "European Journal of Applied Physiology",
       "aliases": [
         "Applied physiology (2000. Internet)",
@@ -294,14 +269,15 @@
     },
     {
       "name": "European journal of medical research",
+      "aliases": [
+        "European journal of medical research (Print)"
+      ],
       "issn": [
         "0949-2321",
         "2047-783X"
       ],
-      "aliases": [
-        "European journal of medical research (Print)"
-      ],
       "publisher": "BioMed Central",
+      "openalex_id": "S64516541",
       "openalex_2yr": 3.235,
       "h_index": 76,
       "works_count": 5354,
@@ -313,7 +289,49 @@
         "Medicine / Epidemiology",
         "Medicine / Oncology",
         "Medicine / Endocrinology, Diabetes and Metabolism"
-      ]
+      ],
+      "jcr_if": "4.8",
+      "jcr_if5": "4.4",
+      "jcr_quartile": "Q2",
+      "jci": "0.81",
+      "cas_tier": "医学3区",
+      "cas_tier_small": "医学：研究与实验4区",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
+    },
+    {
+      "name": "Exercise Science",
+      "issn": [
+        "1226-1726",
+        "2384-0544"
+      ],
+      "aliases": [
+        "Exerecise science",
+        "Official Journal of the Korea Exercise Science Academy"
+      ],
+      "publisher": "",
+      "openalex_2yr": 0.414,
+      "h_index": 11,
+      "works_count": 941,
+      "is_oa": true,
+      "in_doaj": true,
+      "is_preprint_server": false,
+      "topics": [
+        "Medicine / Rehabilitation",
+        "Medicine / Orthopedics and Sports Medicine",
+        "Medicine / Physiology",
+        "Medicine / Complementary and alternative medicine",
+        "Health Professions / General Health Professions"
+      ],
+      "sjr": 0.169,
+      "sjr_quartile": "Q4",
+      "sjr_categories": {
+        "Physical Therapy, Sports Therapy and Rehabilitation": "Q4",
+        "": "Q4",
+        "Public Health, Environmental and Occupational Health": "Q4"
+      },
+      "cite_doc_2y": 0.31
     },
     {
       "name": "Free Radical Biology & Medicine",
@@ -487,6 +505,30 @@
       ]
     },
     {
+      "name": "International Journal of Advanced Robotic Systems",
+      "issn": [
+        "1729-8806",
+        "1729-8814"
+      ],
+      "aliases": [
+        "ARS online",
+        "ARS"
+      ],
+      "publisher": "SAGE Publishing",
+      "openalex_2yr": 1.299,
+      "h_index": 86,
+      "works_count": 3138,
+      "is_oa": true,
+      "in_doaj": true,
+      "is_preprint_server": false,
+      "topics": [
+        "Computer Science / Computer Vision and Pattern Recognition",
+        "Engineering / Aerospace Engineering",
+        "Engineering / Control and Systems Engineering",
+        "Engineering / Biomedical Engineering"
+      ]
+    },
+    {
       "name": "International Journal of Anatomy Radiology and Surgery",
       "issn": [
         "2277-8543",
@@ -635,28 +677,6 @@
       "esi": "临床医学",
       "jcr_year": "2024",
       "if_provider": "easyscholar"
-    },
-    {
-      "name": "International Journal of Strength and Conditioning",
-      "issn": [
-        "2634-2235"
-      ],
-      "aliases": [
-        "IJSC"
-      ],
-      "publisher": "",
-      "openalex_2yr": 1.223,
-      "h_index": 12,
-      "works_count": 245,
-      "is_oa": true,
-      "in_doaj": true,
-      "is_preprint_server": false,
-      "topics": [
-        "Medicine / Orthopedics and Sports Medicine",
-        "Engineering / Biomedical Engineering",
-        "Psychology / Developmental and Educational Psychology",
-        "Medicine / Complementary and alternative medicine"
-      ]
     },
     {
       "name": "JBJS Reviews",
@@ -825,33 +845,6 @@
       "esi": "临床医学",
       "jcr_year": "2024",
       "if_provider": "easyscholar"
-    },
-    {
-      "name": "Journal of Dance Medicine & Science",
-      "issn": [
-        "1089-313X",
-        "2374-8060"
-      ],
-      "aliases": [
-        "Journal of dance medicine and science",
-        "Dance medicine & science",
-        "Dance medicine and science"
-      ],
-      "publisher": "SAGE Publishing",
-      "openalex_2yr": 1.027,
-      "h_index": 48,
-      "works_count": 970,
-      "is_oa": false,
-      "in_doaj": false,
-      "is_preprint_server": false,
-      "topics": [
-        "Psychology / Experimental and Cognitive Psychology",
-        "Medicine / Orthopedics and Sports Medicine",
-        "Medicine / Pulmonary and Respiratory Medicine",
-        "Medicine / Rehabilitation",
-        "Psychology / Developmental and Educational Psychology",
-        "Engineering / Biomedical Engineering"
-      ]
     },
     {
       "name": "Journal of Electromyography and Kinesiology",
@@ -1254,6 +1247,29 @@
       ]
     },
     {
+      "name": "Russian Journal of Cardiology",
+      "issn": [
+        "1560-4071",
+        "2618-7620"
+      ],
+      "aliases": [
+        "Russian journal of cardiology",
+        "Российский кардиологический журнал"
+      ],
+      "publisher": "Russian Society of Cardiology",
+      "openalex_2yr": 1.677,
+      "h_index": 49,
+      "works_count": 3153,
+      "is_oa": true,
+      "in_doaj": true,
+      "is_preprint_server": false,
+      "topics": [
+        "Medicine / Epidemiology",
+        "Medicine / Radiology, Nuclear Medicine and Imaging",
+        "Medicine / Cardiology and Cardiovascular Medicine"
+      ]
+    },
+    {
       "name": "Scandinavian Journal of Medicine and Science in Sports",
       "aliases": [
         "SJMSS",
@@ -1618,16 +1634,38 @@
         "Physics and Astronomy / Astronomy and Astrophysics",
         "Computer Science / Artificial Intelligence"
       ]
+    },
+    {
+      "name": "ТHE SOURCES OF PEDAGOGICAL SKILLS",
+      "issn": [
+        "2075-146X",
+        "2616-6623"
+      ],
+      "aliases": [
+        "The Sources of pedagogical skills"
+      ],
+      "publisher": "",
+      "openalex_2yr": 0.155,
+      "h_index": 4,
+      "works_count": 802,
+      "is_oa": true,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "topics": [
+        "Computer Science / Information Systems",
+        "Social Sciences / Education"
+      ]
     }
   ],
   "unresolved": [
     "2023 3rd international conference smart generation computing communication networking smart gencon",
+    "2025 4th international conference distributed computing electrical circuits electronics icdcece",
     "2025 international conference computational innovations engineering sustainability iccies",
     "advanced international journal research",
     "current issues sport science ciss",
     "ieee international conference robotics biomimetics",
+    "international conference bioinformatics computational biology",
     "mayo clinic proceedings digital health",
-    "molecular cellular biomechanics",
     "proceedings 2025 2nd international conference sports technology performance analysis",
     "social science reports"
   ]
