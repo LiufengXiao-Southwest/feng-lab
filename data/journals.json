@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02",
+  "updated": "2026-08-03",
   "jcr_year": "2024",
   "sources": {
     "easyscholar": "easyscholar.cc — JCR impact factor, JCR quartile, CAS tiers; refreshed every run",
@@ -8,7 +8,7 @@
     "openalex": "api.openalex.org — names, ISSNs, h-index, OA status; refreshed every run"
   },
   "attribution": "SCImago, (n.d.). SJR — SCImago Journal & Country Rank [Portal]. Powered by Scopus.",
-  "count": 52,
+  "count": 53,
   "journals": [
     {
       "name": "Annals of Biomedical Engineering",
@@ -484,6 +484,11 @@
       "if_provider": "easyscholar"
     },
     {
+      "name": "Inf.",
+      "aliases": [],
+      "issn": []
+    },
+    {
       "name": "International Journal For Multidisciplinary Research",
       "issn": [
         "2582-2160"
@@ -716,14 +721,15 @@
     },
     {
       "name": "Journal of Applied Biomechanics",
+      "aliases": [
+        "JAB"
+      ],
       "issn": [
         "1065-8483",
         "1543-2688"
       ],
-      "aliases": [
-        "JAB"
-      ],
       "publisher": "International Society of Biomechanics",
+      "openalex_id": "S19745436",
       "openalex_2yr": 1.189,
       "h_index": 93,
       "works_count": 1818,
@@ -744,7 +750,16 @@
         "Orthopedics and Sports Medicine": "Q3",
         "Sports Science": "Q3"
       },
-      "cite_doc_2y": 1.57
+      "cite_doc_2y": 1.57,
+      "jcr_if": "1.6",
+      "jcr_if5": "1.7",
+      "jcr_quartile": "Q3",
+      "jci": "0.46",
+      "cas_tier": "医学4区",
+      "cas_tier_small": "工程：生物医学4区/运动科学4区",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
     },
     {
       "name": "Journal of Athletic Training",
@@ -1666,6 +1681,7 @@
     "ieee international conference robotics biomimetics",
     "international conference bioinformatics computational biology",
     "mayo clinic proceedings digital health",
+    "molecular cellular biomechanics",
     "proceedings 2025 2nd international conference sports technology performance analysis",
     "social science reports"
   ]
