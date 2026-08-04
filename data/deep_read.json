@@ -1,33 +1,35 @@
 {
-  "date": "2026-07-26",
-  "title_en": "Impact of Prior Hamstring Strain Injury on Muscle Morphology and Sprinting Biomechanics in Collegiate American Football Athletes",
-  "title_zh": "既往腘绳肌拉伤史对大学美式橄榄球运动员肌肉形态和冲刺生物力学的影响",
-  "authors": "S. Hulm, Yi-Chung Lin, N. Maniar, Ryan G Timmins et al.",
-  "journal": "Scandinavian Journal of Medicine and Science in Sports",
-  "year": 2026,
+  "date": "2026-08-04",
+  "title_en": "Considerations with Open Kinetic Chain Knee Extension Exercise Following ACL Reconstruction",
+  "title_zh": "前交叉韧带重建术后开链膝关节伸展运动的注意事项",
+  "authors": "K. Wilk, C. Arrigo, Michael S Bagwell, Adam Finck",
+  "journal": "Journal of Orthopaedic & Sports Physical Therapy",
+  "year": 2021,
   "volume_page": "",
-  "doi": "10.1111/sms.70317",
-  "impact_factor": "4.0",
+  "doi": "10.26603/001c.18983",
+  "impact_factor": "6.9",
+  "if_source": "JCR 2024",
+  "journal_tier": "康复医学1区/运动科学1区/骨科2区",
   "is_open_access": true,
-  "pdf_url": "https://doi.org/10.1111/sms.70317",
+  "pdf_url": "https://ijspt.scholasticahq.com/article/18983.pdf",
   "category": "biomechanics",
-  "citation_count": 0,
+  "citation_count": 11,
   "sections": [
     {
       "id": "why",
       "icon": "◎",
       "title_zh": "为什么值得读",
       "title_en": "Why It Matters",
-      "content_zh": "本研究揭示了即使冲刺运动学表现正常，既往腘绳肌拉伤(HSI)的运动员仍存在持久且细微的生物力学和形态学缺陷，对当前的康复范式提出了挑战。它强调了结合MRI信息的个体化肌肉骨骼模型在检测这些被通用模型忽视的细微缺陷方面的优越性，为再损伤预防提供了关键洞察。鉴于其2026年的发表日期，目前0引用反映的是其尚未正式发表的状态，但其科学价值和前瞻性不容忽视。",
-      "content_en": "This study reveals persistent yet subtle biomechanical and morphological deficits in athletes with a prior hamstring strain injury (HSI), even when sprint kinematics appear normal, challenging current rehabilitation paradigms. It highlights the superiority of MRI-informed, subject-specific musculoskeletal models in detecting these subtle deficits often overlooked by generic models, offering critical insights for reinjury prevention. The 0 citations reflect its 2026 publication date, indicating it's a forthcoming paper whose scientific value and forward-looking approach are significant."
+      "content_zh": "本文作为对先前JOSPT临床观点文章的回应，针对前交叉韧带重建术（ACLR）后开链膝关节伸展（OKC）运动的安全性与适用性提出了重要关注。它通过详细阐述不当使用OKC可能导致移植物过度拉伸、髌股关节疼痛等风险，为临床实践中安全、有效地强化股四头肌提供了基于生物力学证据的指导，填补了简单提倡OKC运动而忽视潜在风险的空白，因此在膝关节康复领域受到广泛关注（11次引用）。",
+      "content_en": "This paper serves as a crucial counterpoint to a previous JOSPT clinical viewpoint, addressing significant concerns regarding the safety and appropriateness of Open Kinetic Chain (OKC) knee extension exercises following ACL reconstruction (ACLR). It fills a gap by providing biomechanically-backed guidance for safe and effective quadriceps strengthening, detailing potential risks such as graft stretch-out and patellofemoral pain with inappropriate OKC use, which has garnered substantial attention in knee rehabilitation (11 citations)."
     },
     {
       "id": "design",
       "icon": "⊞",
       "title_zh": "研究设计速览",
       "title_en": "Study Design",
-      "content_zh": "**类型**: 横断面观察研究\n**样本**: 79名NCAA一级联赛男大学橄榄球运动员\n**研究对象**: 106个有既往腘绳肌损伤史的肢体 vs. 52个未受伤的对照肢体\n**主要测量**: 最大速度地面冲刺（惯性测量单元IMUs，100 Hz），3-T MRI（全腘绳肌容积测量）\n**模型应用**: 比例缩放通用OpenSim模型，MRI引导的个体化OpenSim模型\n**主要结局**: 股二头肌长头(BFlh)、股二头肌短头(BFsh)、半膜肌(SM)和半腱肌(ST)的标准化肌肉体积、MTU峰值应变、拉伸速度、力及负功\n**分析方法**: 线性混合模型 (α = 0.05)",
-      "content_en": "**Type**: Cross-sectional observational study\n**Sample**: 79 NCAA Division I male football players\n**Research Objects**: 106 previously injured limbs vs. 52 uninjured control limbs\n**Key Measurements**: Maximal-velocity over-ground sprints (inertial measurement units, IMUs, 100 Hz), 3-T MRI (whole-hamstring volumetry)\n**Models Used**: Scaled-generic OpenSim models, MRI-informed subject-specific OpenSim models\n**Primary Outcomes**: Normalized muscle volumes, peak MTU strain, lengthening velocity, force, and negative work for biceps femoris long head (BFlh), biceps femoris short head (BFsh), semimembranosus (SM), and semitendinosus (ST)\n**Analysis Method**: Linear mixed models (α = 0.05)"
+      "content_zh": "<b>类型</b>：临床观点文章\n<b>目的</b>：讨论ACLR后OKC膝关节伸展运动的潜在风险与安全策略\n<b>研究对象</b>：前交叉韧带重建术后患者\n<b>主要关注点</b>：OKC运动中ACL移植物应变、髌股关节力、股四头肌力及腘绳肌共收缩\n<b>分析方法</b>：文献回顾与基于临床经验的专家意见",
+      "content_en": "<b>Type</b>: Clinical Viewpoint Article\n<b>Purpose</b>: To discuss potential concerns and strategies for safe OKC knee extension exercises post-ACLR\n<b>Research Subjects</b>: Patients post-ACL reconstruction\n<b>Primary Focus</b>: ACL graft strain, patellofemoral joint forces, quadriceps force, and hamstring co-contraction during OKC exercises\n<b>Analysis Method</b>: Literature review and expert opinion based on clinical experience"
     },
     {
       "id": "results",
@@ -36,46 +38,28 @@
       "title_en": "Key Numbers",
       "stats": [
         {
-          "label_zh": "BFlh标准化肌肉体积",
-          "label_en": "BFlh Normalized Muscle Volume",
-          "value": "~5% smaller",
-          "note": "既往受伤肢体 vs. 未受伤肢体 (1.67 ± 0.36 vs. 1.76 ± 0.35 mL/kg/m, p = 0.009)"
+          "label_zh": "ACL活体应变峰值",
+          "label_en": "Peak In Vivo ACL Strain",
+          "value": "N/A",
+          "note": "40至0度膝关节屈曲范围最高，阻力增加时应变随之增加（Beynnon et al.）"
         },
         {
-          "label_zh": "BFsh标准化肌肉体积",
-          "label_en": "BFsh Normalized Muscle Volume",
-          "value": "~5% smaller",
-          "note": "既往受伤肢体 vs. 未受伤肢体 (0.92 ± 0.18 vs. 0.97 ± 0.19 mL/kg/m, p = 0.007)"
+          "label_zh": "股四头肌力（OKC末端伸展）",
+          "label_en": "Quadriceps Force (OKC Terminal Extension)",
+          "value": "3-4 倍",
+          "note": "接近完全伸展（40至0度）时，比其他范围大3-4倍；增加阻力时显著增加（Grood et al.）"
         },
         {
-          "label_zh": "BFlh峰值MTU拉伸速度",
-          "label_en": "BFlh Peak MTU Lengthening Velocity",
-          "value": "快3%",
-          "note": "既往受伤肢体 (p ≤ 0.02)"
+          "label_zh": "髌股关节反作用力",
+          "label_en": "Patellofemoral Joint Reaction Force",
+          "value": "显著增高",
+          "note": "在50至0度膝关节屈曲范围内，显著高于闭链运动（Steinkamp et al., Escamilla et al.）"
         },
         {
-          "label_zh": "SM峰值MTU拉伸速度",
-          "label_en": "SM Peak MTU Lengthening Velocity",
-          "value": "快5%",
-          "note": "既往受伤肢体 (p ≤ 0.02)"
-        },
-        {
-          "label_zh": "ST峰值MTU拉伸速度",
-          "label_en": "ST Peak MTU Lengthening Velocity",
-          "value": "快5%",
-          "note": "既往受伤肢体 (p ≤ 0.02)"
-        },
-        {
-          "label_zh": "BFsh峰值力 (个体化模型)",
-          "label_en": "BFsh Peak Force (Subject-specific model)",
-          "value": "低0.04倍体重",
-          "note": "既往受伤肢体 (1.10 ± 0.21 vs. 1.14 ± 0.22 × body weight, p = 0.03)"
-        },
-        {
-          "label_zh": "BFsh负功 (个体化模型)",
-          "label_en": "BFsh Negative Work (Subject-specific model)",
-          "value": "减少约12%",
-          "note": "既往受伤肢体 (−13.4 ± 6.8 vs. −15.3 ± 7.5 J, p = 0.01)"
+          "label_zh": "膝关节松弛度",
+          "label_en": "Knee Laxity",
+          "value": "增加",
+          "note": "随着OKC伸展运动负荷的增加，患者膝关节松弛度增加（Beynnon et al.）"
         }
       ]
     },
@@ -85,30 +69,28 @@
       "title_zh": "方法学评价",
       "title_en": "Critical Appraisal",
       "pros_zh": [
-        "研究对象为精英大学运动员，样本量大且特定。",
-        "创新性地结合了先进影像学（MRI）、可穿戴技术（IMUs）和生物力学建模（OpenSim）。",
-        "强调了个体化模型相比通用模型在检测细微缺陷方面的关键优势。",
-        "对个体腘绳肌头（BFlh、BFsh、SM、ST）进行了详细的、肌肉特异性分析，提供了高分辨率的洞察。",
-        "解决了运动中高再损伤风险区域，具有重要的实际康复指导意义。"
+        "针对ACLR康复中的关键争议问题提供了深入分析和专家意见。",
+        "结合了多项经典生物力学研究数据，增强了其论证的科学性。",
+        "强调了OKC膝关节伸展运动的潜在风险及其背后的生物力学机制。",
+        "为临床医生提供了具体的安全使用策略和注意事项，具有高度的临床指导价值。"
       ],
       "cons_zh": [
-        "横断面设计限制了关于缺陷时间进展或直接因果关系的结论。",
-        "对“既往HSI”的定义较为宽泛，缺乏损伤类型、严重程度、具体部位或距受伤时间等详细信息。",
-        "研究对象仅限于男性大学美式橄榄球运动员，可能限制了结果向其他运动、性别或年龄组的普适性。",
-        "尽管IMU在现场设置中实用且高保真，但光学运动捕捉通常被认为是全身运动学的金标准，尤其对于更精细的运动细节。"
+        "作为一篇临床观点文章，不包含原始实验数据，结论基于现有文献的解读和作者的临床经验。",
+        "引用的研究多为较早期的生物力学研究，可能需要结合更新的技术和研究进展进行补充。",
+        "虽然提出了注意事项，但缺乏具体剂量（负荷、次数、频率）的推荐指南，可能需要结合其他指南进行细化。",
+        "可能未能充分涵盖所有可能受益于早期激进OKC训练的亚组患者的特殊情况。"
       ],
       "pros_en": [
-        "Large and specific cohort of elite collegiate athletes.",
-        "Sophisticated integration of advanced imaging (MRI) with wearable technology (IMUs) and biomechanical modeling (OpenSim).",
-        "Highlights the crucial advantage of subject-specific models over generic models for detecting subtle deficits.",
-        "Detailed, muscle-specific analysis (BFlh, BFsh, SM, ST) provides high-resolution insights.",
-        "Addresses a high-reinjury risk area in sports, offering significant practical implications for rehabilitation."
+        "Provides in-depth analysis and expert opinion on a critical controversial issue in ACLR rehabilitation.",
+        "Integrates data from multiple classic biomechanical studies, enhancing the scientific basis of its arguments.",
+        "Highlights the potential risks of OKC knee extension exercises and their underlying biomechanical mechanisms.",
+        "Offers specific safe usage strategies and considerations for clinicians, demonstrating high clinical guidance value."
       ],
       "cons_en": [
-        "Cross-sectional design limits conclusions about the temporal progression of deficits or direct causality.",
-        "The definition of 'prior HSI' is broad, lacking details on injury type, severity, location, or time since injury.",
-        "Exclusive focus on male collegiate American football athletes may limit generalizability to other sports, genders, or age groups.",
-        "While IMUs are practical and high-fidelity for field settings, optical motion capture is generally considered the gold standard for full-body kinematics, especially for finer movement details."
+        "As a clinical viewpoint article, it does not contain original experimental data; conclusions are based on interpretation of existing literature and authors' clinical experience.",
+        "Many cited studies are earlier biomechanical research, which might benefit from integration with newer technologies and research advancements.",
+        "While precautions are suggested, specific dosage recommendations (load, reps, frequency) are lacking, requiring further refinement with other guidelines.",
+        "May not fully cover specific circumstances of all patient subgroups who might benefit from early aggressive OKC training."
       ]
     },
     {
@@ -116,17 +98,8 @@
       "icon": "◆",
       "title_zh": "研究启示",
       "title_en": "Takeaway",
-      "content_zh": "**正常运动学下的持续性缺陷：** 即使冲刺运动学表面上看起来正常，既往有腘绳肌拉伤史的运动员仍然可能存在持续的、细微的腘绳肌肌肉形态（股二头肌长头和短头萎缩）和肌肉-肌腱单元力学改变（股二头肌长头、半膜肌和半腱肌拉伸速度更快）。这提示我们，表面的恢复不等于完全的功能修复。\n\n**个体化模型的优越性：** 通用肌肉骨骼模型可能遗漏关键缺陷。MRI引导的个体化模型对于检测肌肉特异性参数的细微但显著变化至关重要，例如既往受伤肢体中股二头肌短头峰值力和负功的减少，这为损伤状态提供了更准确的评估。\n\n**整合评估以优化康复：** 本研究强烈支持将先进影像学（MRI）与可穿戴传感器数据（IMUs）相结合，以驱动个体化的生物力学模拟。这种综合方法为更精确的康复监测和指导个性化负荷策略提供了强大工具，从而最大限度地降低运动员再损伤的风险。\n\n**生物力学仪器应用启示：** 本研究采用的**惯性测量单元（IMUs）**结合MRI引导的个体化肌肉骨骼模型，展示了一种在实际训练环境中评估冲刺生物力学的高精度、实用方法。这种整合方法提升了生物力学专家和临床医生识别传统运动学分析可能遗漏的特定肌肉缺陷的能力。",
-      "content_en": "**Persistent Deficits Masked by Normal Kinematics:** Even when sprint kinematics appear normal, athletes with a prior HSI can harbor persistent, subtle deficits in hamstring muscle morphology (atrophy in BFlh and BFsh) and altered muscle-tendon unit mechanics (faster lengthening velocity in BFlh, SM, ST). This emphasizes that superficial recovery does not equate to full functional restoration.\n\n**Superiority of Subject-Specific Modeling:** Generic musculoskeletal models may overlook critical deficits. MRI-informed, subject-specific models are essential for detecting subtle but significant changes in muscle-specific parameters, such as reduced BFsh peak force and negative work in previously injured limbs, providing a more accurate assessment of injury status.\n\n**Integrated Assessment for Enhanced Rehabilitation:** The study strongly supports integrating advanced imaging (MRI) with wearable sensor data (IMUs) to drive subject-specific biomechanical simulations. This integrated approach offers a powerful tool for more precise rehabilitation monitoring and guiding individualized loading strategies to minimize reinjury risk in athletes.\n\n**Implications for Biomechanics Instrumentation:** The use of **inertial measurement units (IMUs)**, combined with MRI-informed subject-specific musculoskeletal models, demonstrates a high-fidelity, practical approach for assessing sprint biomechanics in field settings. This integrated methodology enhances the ability of biomechanists and clinicians to pinpoint specific muscle deficits that traditional kinematic analysis alone would miss."
+      "content_zh": "<b>谨慎评估与个体化康复</b>：ACLR术后，开链膝关节伸展运动虽是股四头肌强化的重要手段，但必须严格个体化，尤其要关注康复阶段、移植物类型以及患者的反应。在40至0度的末端伸展范围和高阻力条件下应格外谨慎，以避免移植物过度应变和髌股关节损伤。\n\n<b>生物力学风险监测</b>：研究强调了在特定膝关节角度（如40-0度）下ACL移植物应变和髌股关节压力的显著升高。康复师和研究者应认识到这些生物力学风险，并在制定康复方案时予以规避，例如限制高风险范围的训练强度或完全避免。\n\n<b>腘绳肌共激活的重要性</b>：缺乏腘绳肌共激活是OKC运动导致ACL前剪切力增加的关键因素之一。未来的研究和康复干预应探索如何有效促进股四头肌和腘绳肌的共激活，以在保持股四头肌力量训练效果的同时，更好地保护ACL移植物。\n\n<b>结合生物力学工具进行实时监测与优化</b>：针对生物力学研究实验室（FENG LAB），该文提示我们可利用**肌电图（sEMG）**实时监测股四头肌和腘绳肌的激活模式与共激活指数，**运动捕捉系统**精确分析膝关节角度与运动学，甚至结合**特制测力台或等速测力计**评估不同角度下膝关节扭矩与力学负载。这些工具能帮助我们更精细地优化OKC训练参数，确保在安全阈值内进行力量训练，并为康复方案的科学调整提供客观依据。",
+      "content_en": "<b>Cautious Assessment and Individualized Rehabilitation</b>: While open kinetic chain knee extension exercises are crucial for quadriceps strengthening post-ACLR, their application must be strictly individualized, considering the rehabilitation phase, graft type, and patient response. Extreme caution is warranted in the terminal extension range of 40 to 0 degrees and with high resistance to prevent graft overstrain and patellofemoral injury.\n\n<b>Biomechanical Risk Monitoring</b>: The study highlights significantly elevated ACL graft strain and patellofemoral joint pressure at specific knee angles (e.g., 40-0 degrees). Rehabilitation specialists and researchers must be aware of these biomechanical risks and mitigate them in rehabilitation protocols, for instance, by limiting training intensity in high-risk ranges or avoiding them altogether.\n\n<b>Importance of Hamstring Co-contraction</b>: The lack of hamstring co-contraction is a key factor contributing to increased anterior shear forces on the ACL during OKC exercises. Future research and rehabilitation interventions should explore how to effectively promote co-contraction of the quadriceps and hamstrings to better protect the ACL graft while maintaining the benefits of quadriceps strength training.\n\n<b>Real-time Monitoring and Optimization with Biomechanical Tools</b>: For biomechanics research labs (FENG LAB), this paper suggests utilizing **surface electromyography (sEMG)** for real-time monitoring of quadriceps and hamstring activation patterns and co-contraction indices, **motion capture systems** for precise analysis of knee angles and kinematics, and potentially **specialized force platforms or isokinetic dynamometers** to assess knee torque and mechanical loads at different angles. These tools can help in fine-tuning OKC training parameters to ensure strength training occurs within safe thresholds, providing objective data for scientific adjustment of rehabilitation protocols."
     }
-  ],
-  "if_source": "JCR 2024",
-  "journal_tier": "运动科学2区 TOP",
-  "journal_issn": "1600-0838",
-  "fulltext_url": "https://europepmc.org/article/PMC/PMC13248003",
-  "fulltext_type": "pmc_xml",
-  "pmcid": "PMC13248003",
-  "pmid": "42261806",
-  "fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13248003/fullTextXML",
-  "fulltext_label": "全文 (结构化)"
+  ]
 }
