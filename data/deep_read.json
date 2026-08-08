@@ -1,42 +1,79 @@
 {
-  "date": "2026-08-05",
-  "title_en": "May the (horizontal) force be with you: the role of ankle function and horizontal force production on hamstring injury risk and rehabilitation",
-  "title_zh": "愿水平力与你同在：踝关节功能与水平力产生在腘绳肌损伤风险及康复中的作用",
-  "authors": "N. van Dyk, Javier Pecci",
-  "journal": "British Journal of Sports Medicine",
-  "year": 2025,
+  "date": "2026-08-08",
+  "title_en": "Countermovement Jump Force‐Time Mechanics Differentiate ACL Injury Status in Elite Alpine Ski Racers",
+  "title_zh": "对向跳力-时间力学特征区分精英高山滑雪运动员前交叉韧带损伤状况",
+  "authors": "Nathaniel Morris, R. Torres, M. Heard, Pat Baker et al.",
+  "journal": "Scandinavian Journal of Medicine & Science in Sports",
+  "year": 2026,
   "volume_page": "",
-  "doi": "10.1136/bjsports-2024-109485",
-  "impact_factor": "15.5",
+  "doi": "10.1111/sms.70270",
+  "impact_factor": "4.0",
   "if_source": "JCR 2024",
-  "journal_tier": "运动科学1区 TOP",
+  "journal_tier": "运动科学2区 TOP",
   "is_open_access": false,
   "pdf_url": "",
   "category": "biomechanics",
-  "citation_count": 3,
+  "citation_count": 0,
   "sections": [
     {
       "id": "why",
       "icon": "◎",
       "title_zh": "为什么值得读",
       "title_en": "Why It Matters",
-      "content_zh": "本文提出了一种创新的腘绳肌损伤机制，将研究视角从传统的腘绳肌本身扩展至远端踝关节功能与水平力产生对近端腘绳肌应变的影响。这一概念性转变有望填补现有预防和康复策略的空白，对于解决腘绳肌损伤的顽固性问题具有重要意义。作为2025年BJSM的刊物，其早期引用表明了该研究挑战现有范式、探索新预防和康复路径的重要性已获得认可。",
-      "content_en": "This paper presents a significant conceptual shift by proposing a novel mechanism for persistent hamstring injuries, moving beyond the traditional hamstring-centric view. It highlights the critical, yet often overlooked, role of distal ankle function and horizontal force production in influencing proximal hamstring strain. As a 2025 BJSM publication, its early citations reflect the recognized importance of challenging existing paradigms and exploring new avenues in injury prevention and rehabilitation."
+      "content_zh": "前交叉韧带重建术后（ACLR）的神经肌肉功能评估中，对向跳（CMJ）的力-时间数据解读复杂，难以有效整合和指导返赛决策。本研究通过机器学习（ML）方法，识别区分健康与ACLR运动员CMJ模式的关键特征，为数据合成、解释和决策提供了新框架。由于该论文为2026年发表，故目前引用次数为零，但其对生物力学评估和康复决策的潜在影响巨大。",
+      "content_en": "Biomechanical assessments like countermovement jump (CMJ) force-time data are complex to synthesize and interpret for return-to-sport decisions after ACL reconstruction (ACLR). This study applies machine learning (ML) to identify key patterns distinguishing healthy controls from ACLR athletes, offering a novel framework for data synthesis, interpretation, and decision-making. As this paper is scheduled for publication in 2026, it currently has zero citations, yet holds significant potential impact on biomechanical assessment and rehabilitation."
     },
     {
       "id": "design",
       "icon": "⊞",
       "title_zh": "研究设计速览",
       "title_en": "Study Design",
-      "content_zh": "**类型**: 概念性综述 / 假说性论文。\n**目的**: 提出踝关节功能与水平力产生可能影响腘绳肌损伤风险的机制。\n**研究方法**: 综合现有关于腘绳肌损伤风险因素、冲刺跑生物力学、运动链功能以及远端结构对近端生物力学影响的文献。\n**核心主张**: 踝关节功能缺陷或受限可能导致代偿性生物力学改变，从而增加腘绳肌的应变。",
-      "content_en": "**Type**: Conceptual Review / Hypothesis Paper.\n**Objective**: To propose a possible mechanism linking ankle function and horizontal force production to hamstring injury risk.\n**Approach**: Synthesis of existing literature on hamstring injury risk factors, sprint mechanics, kinetic chain function, and distal influences on proximal biomechanics.\n**Key Proposition**: Deficiencies or restrictions in ankle function may lead to compensatory mechanics, increasing hamstring strain."
+      "content_zh": "**类型**: 机器学习分类研究\n**样本**: 24名ACLR高山滑雪运动员，42名健康对照高山滑雪运动员\n**研究对象**: 对向跳（CMJ）力-时间指标\n**主要结局**: 机器学习模型区分ACLR与健康对照组的分类性能及重要特征\n**分析方法**: 随机森林、支持向量机、逻辑回归、朴素贝叶斯、K近邻等机器学习算法；采用23个CMJ力-时间特征进行5折交叉验证，并使用独立测试数据集进行评估；共分析836次CMJ测试会话。",
+      "content_en": "**Type**: Machine learning classification study\n**Sample**: 24 ACLR alpine ski racers, 42 healthy control alpine ski racers\n**Research Object**: Countermovement jump (CMJ) force-time metrics\n**Primary outcome**: Classification performance of ML models in differentiating ACLR and control groups, and identification of important features\n**Analysis**: Machine learning algorithms (random forest, support vector machine, logistic regression, naïve Bayes, k-nearest neighbors); trained using 23 CMJ force-time features with 5-fold cross-validation and evaluated using an independent test dataset; analyzed 836 CMJ testing sessions."
     },
     {
       "id": "results",
       "icon": "◈",
       "title_zh": "核心数据",
       "title_en": "Key Numbers",
-      "stats": []
+      "stats": [
+        {
+          "label_zh": "平衡准确率",
+          "label_en": "Balanced Accuracies",
+          "value": "0.59–0.88",
+          "note": "机器学习模型的平衡准确率范围"
+        },
+        {
+          "label_zh": "受试者工作特征曲线下面积",
+          "label_en": "Area Under ROC Curve (AUC)",
+          "value": "0.63–0.95",
+          "note": "机器学习模型的AUC范围"
+        },
+        {
+          "label_zh": "ACLR组人数",
+          "label_en": "ACLR Participants",
+          "value": "n=24",
+          "note": "前交叉韧带重建组运动员人数"
+        },
+        {
+          "label_zh": "对照组人数",
+          "label_en": "Control Participants",
+          "value": "n=42",
+          "note": "健康对照组运动员人数"
+        },
+        {
+          "label_zh": "总测试会话次数",
+          "label_en": "Total Testing Sessions",
+          "value": "n=836",
+          "note": "运动员监控计划中CMJ测试的总次数"
+        },
+        {
+          "label_zh": "CMJ力-时间特征数",
+          "label_en": "CMJ Force-Time Features",
+          "value": "23",
+          "note": "用于机器学习模型训练的特征数量"
+        }
+      ]
     },
     {
       "id": "appraisal",
@@ -44,28 +81,30 @@
       "title_zh": "方法学评价",
       "title_en": "Critical Appraisal",
       "pros_zh": [
-        "提出了一种新颖的腘绳肌损伤运动链视角，将重点从孤立肌肉转向相互连接的系统。",
-        "强调了远端结构（踝关节）在近端损伤生物力学中常被忽视的作用。",
-        "挑战了现有、可能不足的以腘绳肌为中心的预防和康复策略。",
-        "为未来腘绳肌损伤机制的实证研究提供了坚实的理论框架。"
+        "解决了ACLR术后CMJ数据复杂性在返赛决策中的实际难题。",
+        "采用了多种机器学习算法，并结合5折交叉验证和独立测试集，方法学严谨。",
+        "分析了大量纵向CMJ测试数据（836次），增强了模型的稳健性。",
+        "明确指出推进阶段（propulsion phase）的特征在区分伤病状态中最为重要，为康复提供了具体方向。",
+        "研究对象为精英运动员，结果对高水平运动康复有直接指导意义。"
       ],
       "cons_zh": [
-        "概念性论文；本文献未直接提供实证数据以支持所提出的机制。",
-        "摘要中未详细说明踝关节功能具体的“缺陷或受限”以及由此产生的“代偿性生物力学”。",
-        "将所提出的理论联系转化为可衡量、可操作的干预措施需要大量的进一步研究。",
-        "摘要未详细阐述测试这种复杂多关节相互作用的具体方法学。"
+        "摘要中未提供参与者的详细人口统计学信息（如年龄、性别、ACLR术后时间），这可能影响CMJ力学。",
+        "研究结果主要停留在模型分类性能，缺乏临床前瞻性验证，以确认其对返赛决策的实际指导有效性。",
+        "“推断神经肌肉功能恢复”的结论基于CMJ模式的相似性，而非直接的生理测量，需进一步验证。",
+        "结果可能特异性地适用于精英高山滑雪运动员，普适性有待进一步研究。"
       ],
       "pros_en": [
-        "Proposes a novel, kinetic chain perspective for hamstring injury, shifting focus from isolated muscle to interconnected system.",
-        "Highlights the often-overlooked role of distal structures (ankle) in proximal injury mechanics.",
-        "Challenges existing, potentially insufficient, hamstring-centric prevention and rehabilitation strategies.",
-        "Provides a strong theoretical framework for future empirical research into hamstring injury mechanisms."
+        "Addresses a critical practical challenge regarding CMJ data complexity in return-to-sport decisions post-ACLR.",
+        "Utilizes robust machine learning methodologies, including multiple algorithms, 5-fold cross-validation, and an independent test set.",
+        "Analyzed a substantial volume of longitudinal CMJ testing sessions (n=836), enhancing model robustness.",
+        "Clearly identifies propulsion phase features as most important for differentiating injury status, providing specific rehabilitation targets.",
+        "Focuses on elite athletes, offering direct relevance for high-performance sports rehabilitation."
       ],
       "cons_en": [
-        "Conceptual paper; does not present empirical data to directly support the proposed mechanism within this publication.",
-        "The specific \"deficiencies or restrictions\" in ankle function and the resulting \"compensatory mechanics\" are not detailed in the abstract.",
-        "Translating the proposed theoretical link into practical, measurable interventions requires extensive further research.",
-        "The abstract doesn't elaborate on the specific methodologies to test this complex, multi-joint interaction."
+        "Abstract does not provide detailed participant demographics (e.g., age, sex, time post-ACLR), which could influence CMJ mechanics.",
+        "The study primarily focuses on model classification performance, lacking prospective clinical validation to confirm its practical efficacy for return-to-sport decisions.",
+        "The inference of \"neuromuscular function recovery\" is based on CMJ pattern similarity, not direct physiological measures, requiring further validation.",
+        "Results may be specific to elite alpine ski racers, with generalizability needing further investigation."
       ]
     },
     {
@@ -73,12 +112,8 @@
       "icon": "◆",
       "title_zh": "研究启示",
       "title_en": "Takeaway",
-      "content_zh": "1. **运动链视角**: 腘绳肌损伤的预防和康复应采纳整体运动链视角，超越孤立的腘绳肌关注，考虑远端关节（如踝关节）的影响。\n\n2. **踝关节功能作为风险因素**: 踝关节功能的缺陷，可能改变力的传递和运动效率，可能是腘绳肌应变的一个重要且可改变的风险因素。\n\n3. **重新评估水平力产生**: 在高速运动中重新评估运动员如何产生水平力，并特别关注踝关节力学对此的贡献，对于减少损伤至关重要。\n\n4. **整合生物力学评估**: 未来的研究和临床实践应整合先进的生物力学工具（例如，**运动捕捉系统**、**测力台**、**惯性测量单元（IMU）**、**表面肌电图（sEMG）**、**足底压力测量系统**），以全面评估踝关节运动学/动力学及其在动态任务中对近端腘绳肌负荷的影响。",
-      "content_en": "1. **Kinetic Chain Perspective**: Hamstring injury prevention and rehabilitation should adopt a holistic kinetic chain approach, moving beyond isolated hamstring focus to consider the influence of distal joints like the ankle.\n\n2. **Ankle Function as a Risk Factor**: Deficiencies in ankle function, potentially altering force transmission and movement efficiency, may be a significant and modifiable risk factor for hamstring strain.\n\n3. **Horizontal Force Reassessment**: Re-evaluating how athletes produce horizontal forces during high-speed movements, with particular attention to the contribution of ankle mechanics, is crucial for injury mitigation.\n\n4. **Integrated Biomechanics Assessment**: Future research and clinical practice should integrate advanced biomechanics tools (e.g., **motion capture**, **force plates**, **IMUs**, **sEMG**, **plantar pressure systems**) to comprehensively assess ankle kinematics/kinetics and their impact on proximal hamstring loading during dynamic tasks."
+      "content_zh": "**机器学习辅助ACLR康复评估**：机器学习模型能够有效分类前交叉韧带重建术后（ACLR）运动员与健康对照组的对向跳（CMJ）力-时间力学特征，为评估神经肌肉功能恢复和辅助返赛决策提供了客观工具。\n\n**推进阶段为关键指标**：研究发现，对向跳（CMJ）的推进阶段（propulsion phase）对应的力-时间特征在区分伤病状态方面最为重要，这提示康复训练应重点关注此阶段的生物力学表现。\n\n**康复进展的量化指示**：当ACLR运动员的CMJ力学特征变得与健康对照组无法区分时，可能预示着神经肌肉功能的恢复。这提供了一种量化的康复进展监测方法。\n\n**生物力学设备的应用**：本研究高度依赖于力板等生物力学设备采集的力-时间数据。未来，结合惯性测量单元（IMU）或足底压力系统等便携式设备，可以实现CMJ评估在更广泛场景中的应用。",
+      "content_en": "**ML for ACLR Rehabilitation Assessment**: Machine learning models can effectively classify countermovement jump (CMJ) force-time mechanics between athletes post-ACLR and healthy controls, offering an objective tool for assessing neuromuscular recovery and aiding return-to-sport decisions.\n\n**Propulsion Phase as a Key Indicator**: The study highlights that force-time features during the CMJ propulsion phase are most crucial for differentiating injury status, suggesting specific biomechanical targets for rehabilitation interventions.\n\n**Quantifying Rehabilitation Progression**: When the CMJ mechanics of ACLR athletes become indistinguishable from healthy controls, it may infer recovery of neuromuscular function, providing a quantitative indicator of rehabilitation progress.\n\n**Biomechanics Instrumentation Application**: This study relies heavily on force-time data collected by biomechanical instrumentation like force plates. Future research could extend this approach using portable devices such as Inertial Measurement Units (IMUs) or plantar pressure systems for broader CMJ assessment in various settings."
     }
-  ],
-  "pmid": "40707172",
-  "fulltext_url": "https://doi.org/10.1136/bjsports-2024-109485",
-  "fulltext_type": "doi",
-  "fulltext_label": "仅摘要"
+  ]
 }
