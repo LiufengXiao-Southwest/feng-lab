@@ -115,5 +115,11 @@
       "content_zh": "**机器学习辅助ACLR康复评估**：机器学习模型能够有效分类前交叉韧带重建术后（ACLR）运动员与健康对照组的对向跳（CMJ）力-时间力学特征，为评估神经肌肉功能恢复和辅助返赛决策提供了客观工具。\n\n**推进阶段为关键指标**：研究发现，对向跳（CMJ）的推进阶段（propulsion phase）对应的力-时间特征在区分伤病状态方面最为重要，这提示康复训练应重点关注此阶段的生物力学表现。\n\n**康复进展的量化指示**：当ACLR运动员的CMJ力学特征变得与健康对照组无法区分时，可能预示着神经肌肉功能的恢复。这提供了一种量化的康复进展监测方法。\n\n**生物力学设备的应用**：本研究高度依赖于力板等生物力学设备采集的力-时间数据。未来，结合惯性测量单元（IMU）或足底压力系统等便携式设备，可以实现CMJ评估在更广泛场景中的应用。",
       "content_en": "**ML for ACLR Rehabilitation Assessment**: Machine learning models can effectively classify countermovement jump (CMJ) force-time mechanics between athletes post-ACLR and healthy controls, offering an objective tool for assessing neuromuscular recovery and aiding return-to-sport decisions.\n\n**Propulsion Phase as a Key Indicator**: The study highlights that force-time features during the CMJ propulsion phase are most crucial for differentiating injury status, suggesting specific biomechanical targets for rehabilitation interventions.\n\n**Quantifying Rehabilitation Progression**: When the CMJ mechanics of ACLR athletes become indistinguishable from healthy controls, it may infer recovery of neuromuscular function, providing a quantitative indicator of rehabilitation progress.\n\n**Biomechanics Instrumentation Application**: This study relies heavily on force-time data collected by biomechanical instrumentation like force plates. Future research could extend this approach using portable devices such as Inertial Measurement Units (IMUs) or plantar pressure systems for broader CMJ assessment in various settings."
     }
-  ]
+  ],
+  "fulltext_url": "https://europepmc.org/article/PMC/PMC13019276",
+  "fulltext_type": "pmc_xml",
+  "pmcid": "PMC13019276",
+  "pmid": "41883260",
+  "fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13019276/fullTextXML",
+  "fulltext_label": "全文 (结构化)"
 }
