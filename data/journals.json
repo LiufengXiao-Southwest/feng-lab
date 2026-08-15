@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14",
+  "updated": "2026-08-15",
   "jcr_year": "2024",
   "sources": {
     "easyscholar": "easyscholar.cc — JCR impact factor, JCR quartile, CAS tiers; refreshed every run",
@@ -8,31 +8,8 @@
     "openalex": "api.openalex.org — names, ISSNs, h-index, OA status; refreshed every run"
   },
   "attribution": "SCImago, (n.d.). SJR — SCImago Journal & Country Rank [Portal]. Powered by Scopus.",
-  "count": 55,
+  "count": 54,
   "journals": [
-    {
-      "name": "ACTIVE Journal of Physical Education Sport Health and Recreation",
-      "issn": [
-        "2252-6773",
-        "2460-724X"
-      ],
-      "aliases": [
-        "Journal of physical education, sport, health and recreation"
-      ],
-      "publisher": "State University of Semarang",
-      "openalex_2yr": 0.137,
-      "h_index": 11,
-      "works_count": 690,
-      "is_oa": true,
-      "in_doaj": true,
-      "is_preprint_server": false,
-      "topics": [
-        "Health Professions / Physical Therapy, Sports Therapy and Rehabilitation",
-        "Computer Science / Information Systems",
-        "Social Sciences / Education",
-        "Psychology / Developmental and Educational Psychology"
-      ]
-    },
     {
       "name": "Annals of Biomedical Engineering",
       "aliases": [
@@ -46,9 +23,9 @@
       ],
       "publisher": "Springer Science+Business Media",
       "openalex_id": "S141152059",
-      "openalex_2yr": 2.495,
+      "openalex_2yr": 2.492,
       "h_index": 194,
-      "works_count": 7924,
+      "works_count": 7928,
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
@@ -78,9 +55,9 @@
         "Applied Sciences (Web)"
       ],
       "publisher": "Multidisciplinary Digital Publishing Institute",
-      "openalex_2yr": 3.719,
+      "openalex_2yr": 3.728,
       "h_index": 224,
-      "works_count": 91449,
+      "works_count": 91482,
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
@@ -121,9 +98,9 @@
       ],
       "publisher": "BioMed Central",
       "openalex_id": "S4210191135",
-      "openalex_2yr": 2.901,
+      "openalex_2yr": 2.895,
       "h_index": 61,
-      "works_count": 2065,
+      "works_count": 2070,
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
@@ -166,9 +143,9 @@
       ],
       "publisher": "BMJ",
       "openalex_id": "S136578784",
-      "openalex_2yr": 6.053,
+      "openalex_2yr": 6.068,
       "h_index": 311,
-      "works_count": 12069,
+      "works_count": 12070,
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
@@ -199,31 +176,6 @@
       "if_provider": "easyscholar"
     },
     {
-      "name": "ECS Meeting Abstracts",
-      "issn": [
-        "1091-8213",
-        "2151-2035",
-        "2151-2043",
-        "2152-8365"
-      ],
-      "aliases": [
-        "ECS meeting"
-      ],
-      "publisher": "Institute of Physics",
-      "openalex_2yr": 0.088,
-      "h_index": 41,
-      "works_count": 106955,
-      "is_oa": false,
-      "in_doaj": false,
-      "is_preprint_server": false,
-      "topics": [
-        "Engineering / Electrical and Electronic Engineering",
-        "Energy / Renewable Energy, Sustainability and the Environment",
-        "Engineering / Automotive Engineering",
-        "Materials Science / Polymers and Plastics"
-      ]
-    },
-    {
       "name": "European Journal of Applied Physiology",
       "aliases": [
         "Applied physiology (2000. Internet)",
@@ -239,9 +191,9 @@
       ],
       "publisher": "Springer Science+Business Media",
       "openalex_id": "S205145379",
-      "openalex_2yr": 2.575,
+      "openalex_2yr": 2.566,
       "h_index": 222,
-      "works_count": 12144,
+      "works_count": 12149,
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
@@ -283,9 +235,9 @@
       ],
       "publisher": "Taylor & Francis",
       "openalex_id": "S18135458",
-      "openalex_2yr": 2.904,
+      "openalex_2yr": 2.909,
       "h_index": 109,
-      "works_count": 2951,
+      "works_count": 2953,
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
@@ -326,9 +278,9 @@
       ],
       "publisher": "BioMed Central",
       "openalex_id": "S64516541",
-      "openalex_2yr": 3.304,
+      "openalex_2yr": 3.308,
       "h_index": 78,
-      "works_count": 5389,
+      "works_count": 5396,
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
@@ -348,6 +300,39 @@
       "esi": "临床医学",
       "jcr_year": "2024",
       "if_provider": "easyscholar"
+    },
+    {
+      "name": "Exercise Science",
+      "issn": [
+        "1226-1726",
+        "2384-0544"
+      ],
+      "aliases": [
+        "Exerecise science",
+        "Official Journal of the Korea Exercise Science Academy"
+      ],
+      "publisher": "",
+      "openalex_2yr": 0.451,
+      "h_index": 11,
+      "works_count": 941,
+      "is_oa": true,
+      "in_doaj": true,
+      "is_preprint_server": false,
+      "topics": [
+        "Medicine / Rehabilitation",
+        "Medicine / Orthopedics and Sports Medicine",
+        "Medicine / Physiology",
+        "Medicine / Complementary and alternative medicine",
+        "Health Professions / General Health Professions"
+      ],
+      "sjr": 0.169,
+      "sjr_quartile": "Q4",
+      "sjr_categories": {
+        "Physical Therapy, Sports Therapy and Rehabilitation": "Q4",
+        "": "Q4",
+        "Public Health, Environmental and Occupational Health": "Q4"
+      },
+      "cite_doc_2y": 0.31
     },
     {
       "name": "Free Radical Biology & Medicine",
@@ -380,14 +365,15 @@
     },
     {
       "name": "Frontiers in Nutrition",
+      "aliases": [],
       "issn": [
         "2296-861X"
       ],
-      "aliases": [],
       "publisher": "Frontiers Media",
-      "openalex_2yr": 4.13,
+      "openalex_id": "S2596909297",
+      "openalex_2yr": 4.133,
       "h_index": 144,
-      "works_count": 14453,
+      "works_count": 14475,
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
@@ -395,7 +381,16 @@
         "Medicine / Public Health, Environmental and Occupational Health",
         "Medicine / Physiology",
         "Biochemistry, Genetics and Molecular Biology / Molecular Biology"
-      ]
+      ],
+      "jcr_if": "5.5",
+      "jcr_if5": "6.1",
+      "jcr_quartile": "Q1",
+      "jci": "0.95",
+      "cas_tier": "农林科学2区",
+      "cas_tier_small": "营养学3区",
+      "esi": "临床医学",
+      "jcr_year": "2024",
+      "if_provider": "easyscholar"
     },
     {
       "name": "Frontiers in Sports and Active Living",
@@ -407,7 +402,7 @@
       "openalex_id": "S4210180255",
       "openalex_2yr": 2.335,
       "h_index": 55,
-      "works_count": 3883,
+      "works_count": 3887,
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
@@ -449,7 +444,7 @@
       ],
       "publisher": "Elsevier BV",
       "openalex_id": "S156006901",
-      "openalex_2yr": 1.456,
+      "openalex_2yr": 1.462,
       "h_index": 218,
       "works_count": 14114,
       "is_oa": false,
@@ -494,7 +489,7 @@
       ],
       "publisher": "Institute of Electrical and Electronics Engineers",
       "openalex_id": "S2495854775",
-      "openalex_2yr": 5.37,
+      "openalex_2yr": 5.385,
       "h_index": 165,
       "works_count": 6659,
       "is_oa": false,
@@ -545,6 +540,30 @@
       ]
     },
     {
+      "name": "International Journal of Advanced Robotic Systems",
+      "issn": [
+        "1729-8806",
+        "1729-8814"
+      ],
+      "aliases": [
+        "ARS online",
+        "ARS"
+      ],
+      "publisher": "SAGE Publishing",
+      "openalex_2yr": 1.419,
+      "h_index": 86,
+      "works_count": 3141,
+      "is_oa": true,
+      "in_doaj": true,
+      "is_preprint_server": false,
+      "topics": [
+        "Computer Science / Computer Vision and Pattern Recognition",
+        "Engineering / Aerospace Engineering",
+        "Engineering / Control and Systems Engineering",
+        "Engineering / Biomedical Engineering"
+      ]
+    },
+    {
       "name": "International Journal of Anatomy Radiology and Surgery",
       "issn": [
         "2277-8543",
@@ -566,31 +585,6 @@
       ]
     },
     {
-      "name": "International Journal of Innovative Technologies in Social Science",
-      "issn": [
-        "2544-9338",
-        "2544-9435"
-      ],
-      "aliases": [
-        "IJITSS"
-      ],
-      "publisher": "",
-      "openalex_2yr": 0.052,
-      "h_index": 8,
-      "works_count": 2657,
-      "is_oa": true,
-      "in_doaj": false,
-      "is_preprint_server": false,
-      "topics": [
-        "Social Sciences / Sociology and Political Science",
-        "Social Sciences / Transportation",
-        "Engineering / Aerospace Engineering",
-        "Biochemistry, Genetics and Molecular Biology / Molecular Biology",
-        "Medicine / Health Informatics",
-        "Psychology / Experimental and Cognitive Psychology"
-      ]
-    },
-    {
       "name": "International Journal of Sport Nutrition and Exercise Metabolism",
       "aliases": [
         "IJSNEM",
@@ -602,9 +596,9 @@
       ],
       "publisher": "Human Kinetics",
       "openalex_id": "S54215592",
-      "openalex_2yr": 2.885,
+      "openalex_2yr": 2.868,
       "h_index": 112,
-      "works_count": 1573,
+      "works_count": 1575,
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
@@ -646,7 +640,7 @@
       ],
       "publisher": "Thieme Medical Publishers (Germany)",
       "openalex_id": "S26699211",
-      "openalex_2yr": 4.728,
+      "openalex_2yr": 4.737,
       "h_index": 179,
       "works_count": 6495,
       "is_oa": false,
@@ -688,9 +682,9 @@
       ],
       "publisher": "Human Kinetics",
       "openalex_id": "S2502187214",
-      "openalex_2yr": 2.833,
+      "openalex_2yr": 2.835,
       "h_index": 126,
-      "works_count": 3171,
+      "works_count": 3172,
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
@@ -720,28 +714,6 @@
       "if_provider": "easyscholar"
     },
     {
-      "name": "International Journal of Strength and Conditioning",
-      "issn": [
-        "2634-2235"
-      ],
-      "aliases": [
-        "IJSC"
-      ],
-      "publisher": "",
-      "openalex_2yr": 1.291,
-      "h_index": 12,
-      "works_count": 247,
-      "is_oa": true,
-      "in_doaj": true,
-      "is_preprint_server": false,
-      "topics": [
-        "Medicine / Orthopedics and Sports Medicine",
-        "Engineering / Biomedical Engineering",
-        "Psychology / Developmental and Educational Psychology",
-        "Medicine / Complementary and alternative medicine"
-      ]
-    },
-    {
       "name": "JBJS Reviews",
       "aliases": [
         "JBJS Rev",
@@ -752,7 +724,7 @@
       ],
       "publisher": "Lippincott Williams & Wilkins",
       "openalex_id": "S2764567295",
-      "openalex_2yr": 3.127,
+      "openalex_2yr": 3.131,
       "h_index": 61,
       "works_count": 1128,
       "is_oa": false,
@@ -873,9 +845,9 @@
       ],
       "publisher": "Elsevier BV",
       "openalex_id": "S181675524",
-      "openalex_2yr": 2.652,
+      "openalex_2yr": 2.656,
       "h_index": 326,
-      "works_count": 24506,
+      "works_count": 24508,
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
@@ -918,33 +890,6 @@
       "esi": "临床医学",
       "jcr_year": "2024",
       "if_provider": "easyscholar"
-    },
-    {
-      "name": "Journal of Dance Medicine & Science",
-      "issn": [
-        "1089-313X",
-        "2374-8060"
-      ],
-      "aliases": [
-        "Journal of dance medicine and science",
-        "Dance medicine & science",
-        "Dance medicine and science"
-      ],
-      "publisher": "SAGE Publishing",
-      "openalex_2yr": 1.053,
-      "h_index": 48,
-      "works_count": 973,
-      "is_oa": false,
-      "in_doaj": false,
-      "is_preprint_server": false,
-      "topics": [
-        "Psychology / Experimental and Cognitive Psychology",
-        "Medicine / Orthopedics and Sports Medicine",
-        "Medicine / Pulmonary and Respiratory Medicine",
-        "Medicine / Rehabilitation",
-        "Psychology / Developmental and Educational Psychology",
-        "Engineering / Biomedical Engineering"
-      ]
     },
     {
       "name": "Journal of Electromyography and Kinesiology",
@@ -990,7 +935,7 @@
       ],
       "publisher": "American Physical Therapy Association",
       "openalex_id": "S7609525",
-      "openalex_2yr": 4.509,
+      "openalex_2yr": 4.514,
       "h_index": 199,
       "works_count": 4861,
       "is_oa": false,
@@ -1031,9 +976,9 @@
       ],
       "publisher": "Taylor & Francis",
       "openalex_id": "S95965737",
-      "openalex_2yr": 2.975,
+      "openalex_2yr": 2.979,
       "h_index": 215,
-      "works_count": 8371,
+      "works_count": 8372,
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
@@ -1075,7 +1020,7 @@
       ],
       "publisher": "Elsevier BV",
       "openalex_id": "S2485047394",
-      "openalex_2yr": 9.8,
+      "openalex_2yr": 9.857,
       "h_index": 106,
       "works_count": 1228,
       "is_oa": true,
@@ -1119,7 +1064,7 @@
       ],
       "publisher": "Springer Science+Business Media",
       "openalex_id": "S51654951",
-      "openalex_2yr": 5.108,
+      "openalex_2yr": 5.117,
       "h_index": 194,
       "works_count": 10299,
       "is_oa": false,
@@ -1147,29 +1092,6 @@
       "esi": "临床医学",
       "jcr_year": "2024",
       "if_provider": "easyscholar"
-    },
-    {
-      "name": "Medicine",
-      "issn": [
-        "0025-7974",
-        "1536-5964"
-      ],
-      "aliases": [],
-      "publisher": "Wolters Kluwer",
-      "openalex_2yr": 1.907,
-      "h_index": 286,
-      "works_count": 51281,
-      "is_oa": true,
-      "in_doaj": true,
-      "is_preprint_server": false,
-      "topics": [
-        "Medicine / Epidemiology",
-        "Medicine / Complementary and alternative medicine",
-        "Medicine / Pathology and Forensic Medicine",
-        "Medicine / Pulmonary and Respiratory Medicine",
-        "Medicine / Oncology",
-        "Medicine / Surgery"
-      ]
     },
     {
       "name": "Medicine & Science in Sports & Exercise",
@@ -1242,9 +1164,9 @@
       ],
       "publisher": "SAGE Publishing",
       "openalex_id": "S2755168269",
-      "openalex_2yr": 1.447,
+      "openalex_2yr": 1.448,
       "h_index": 89,
-      "works_count": 9597,
+      "works_count": 9599,
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
@@ -1269,6 +1191,31 @@
       "esi": "临床医学",
       "jcr_year": "2024",
       "if_provider": "easyscholar"
+    },
+    {
+      "name": "Pacific International Journal",
+      "issn": [
+        "2616-4825",
+        "2663-8991"
+      ],
+      "aliases": [
+        "PIJ"
+      ],
+      "publisher": "",
+      "openalex_2yr": 0.734,
+      "h_index": 9,
+      "works_count": 690,
+      "is_oa": true,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "topics": [
+        "Environmental Science / Health, Toxicology and Mutagenesis",
+        "Computer Science / Artificial Intelligence",
+        "Medicine / Complementary and alternative medicine",
+        "Social Sciences / Education",
+        "Social Sciences / Political Science and International Relations",
+        "Economics, Econometrics and Finance / Economics and Econometrics"
+      ]
     },
     {
       "name": "Pediatria i Medycyna Rodzinna",
@@ -1302,32 +1249,22 @@
       ]
     },
     {
-      "name": "Physiotherapy Quarterly",
+      "name": "Photonics",
       "issn": [
-        "2544-4395"
+        "2304-6732"
       ],
       "aliases": [],
-      "publisher": "Termedia Publishing House",
-      "openalex_2yr": 0.493,
-      "h_index": 14,
-      "works_count": 417,
+      "publisher": "Multidisciplinary Digital Publishing Institute",
+      "openalex_2yr": 2.337,
+      "h_index": 59,
+      "works_count": 7037,
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
       "topics": [
-        "Medicine / Pharmacology",
-        "Medicine / Psychiatry and Mental health",
-        "Biochemistry, Genetics and Molecular Biology / Cell Biology",
-        "Medicine / Orthopedics and Sports Medicine",
-        "Medicine / Rehabilitation",
-        "Engineering / Biomedical Engineering"
-      ],
-      "sjr": 0.255,
-      "sjr_quartile": "Q3",
-      "sjr_categories": {
-        "Physical Therapy, Sports Therapy and Rehabilitation": "Q3"
-      },
-      "cite_doc_2y": 0.76
+        "Engineering / Electrical and Electronic Engineering",
+        "Physics and Astronomy / Atomic and Molecular Physics, and Optics"
+      ]
     },
     {
       "name": "Proceedings of the ACM on Interactive Mobile Wearable and Ubiquitous Technologies",
@@ -1340,7 +1277,7 @@
         "IMWUT"
       ],
       "publisher": "Association for Computing Machinery",
-      "openalex_2yr": 6.197,
+      "openalex_2yr": 6.211,
       "h_index": 92,
       "works_count": 1872,
       "is_oa": false,
@@ -1352,6 +1289,29 @@
         "Neuroscience / Cognitive Neuroscience",
         "Computer Science / Human-Computer Interaction",
         "Computer Science / Signal Processing"
+      ]
+    },
+    {
+      "name": "Russian Journal of Cardiology",
+      "issn": [
+        "1560-4071",
+        "2618-7620"
+      ],
+      "aliases": [
+        "Russian journal of cardiology",
+        "Российский кардиологический журнал"
+      ],
+      "publisher": "Russian Society of Cardiology",
+      "openalex_2yr": 1.753,
+      "h_index": 49,
+      "works_count": 3153,
+      "is_oa": true,
+      "in_doaj": true,
+      "is_preprint_server": false,
+      "topics": [
+        "Medicine / Epidemiology",
+        "Medicine / Radiology, Nuclear Medicine and Imaging",
+        "Medicine / Cardiology and Cardiovascular Medicine"
       ]
     },
     {
@@ -1368,7 +1328,7 @@
       ],
       "publisher": "Wiley",
       "openalex_id": "S199863227",
-      "openalex_2yr": 3.821,
+      "openalex_2yr": 3.837,
       "h_index": 191,
       "works_count": 5264,
       "is_oa": false,
@@ -1429,6 +1389,29 @@
       "if_provider": "easyscholar"
     },
     {
+      "name": "Scientific and Social Research",
+      "issn": [
+        "2661-4332",
+        "2981-9946"
+      ],
+      "aliases": [],
+      "publisher": "",
+      "openalex_2yr": 0.178,
+      "h_index": 9,
+      "works_count": 1579,
+      "is_oa": false,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "topics": [
+        "Environmental Science / Health, Toxicology and Mutagenesis",
+        "Social Sciences / Sociology and Political Science",
+        "Medicine / Complementary and alternative medicine",
+        "Social Sciences / Education",
+        "Computer Science / Computer Graphics and Computer-Aided Design",
+        "Business, Management and Accounting / Business and International Management"
+      ]
+    },
+    {
       "name": "Sensor Review",
       "issn": [
         "0260-2288",
@@ -1436,7 +1419,7 @@
       ],
       "aliases": [],
       "publisher": "Emerald Publishing Limited",
-      "openalex_2yr": 1.619,
+      "openalex_2yr": 1.622,
       "h_index": 71,
       "works_count": 3668,
       "is_oa": false,
@@ -1472,9 +1455,9 @@
       ],
       "publisher": "Multidisciplinary Digital Publishing Institute",
       "openalex_id": "S4210234981",
-      "openalex_2yr": 3.139,
+      "openalex_2yr": 3.144,
       "h_index": 69,
-      "works_count": 2602,
+      "works_count": 2603,
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
@@ -1512,9 +1495,9 @@
       ],
       "publisher": "Springer Science+Business Media",
       "openalex_id": "S137994755",
-      "openalex_2yr": 8.146,
+      "openalex_2yr": 8.133,
       "h_index": 317,
-      "works_count": 4620,
+      "works_count": 4622,
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
@@ -1556,7 +1539,7 @@
       ],
       "publisher": "Springer Nature",
       "openalex_id": "S2736513330",
-      "openalex_2yr": 6.604,
+      "openalex_2yr": 6.624,
       "h_index": 80,
       "works_count": 1072,
       "is_oa": true,
@@ -1599,9 +1582,9 @@
       ],
       "publisher": "SAGE Publishing",
       "openalex_id": "S154904565",
-      "openalex_2yr": 5.101,
+      "openalex_2yr": 5.112,
       "h_index": 362,
-      "works_count": 12848,
+      "works_count": 12849,
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
@@ -1643,7 +1626,7 @@
       ],
       "publisher": "Lippincott Williams & Wilkins",
       "openalex_id": "S150708336",
-      "openalex_2yr": 2.167,
+      "openalex_2yr": 2.172,
       "h_index": 217,
       "works_count": 11599,
       "is_oa": false,
@@ -1676,27 +1659,6 @@
       "if_provider": "easyscholar"
     },
     {
-      "name": "The Open Biochemistry Journal",
-      "issn": [
-        "1874-091X"
-      ],
-      "aliases": [
-        "TOBJ"
-      ],
-      "publisher": "Bentham Science Publishers",
-      "openalex_2yr": 0.842,
-      "h_index": 28,
-      "works_count": 188,
-      "is_oa": true,
-      "in_doaj": false,
-      "is_preprint_server": false,
-      "topics": [
-        "Biochemistry, Genetics and Molecular Biology / Molecular Biology",
-        "Medicine / Physiology",
-        "Biochemistry, Genetics and Molecular Biology / Cell Biology"
-      ]
-    },
-    {
       "name": "arXiv (Cornell University)",
       "issn": [
         "2331-8422"
@@ -1707,7 +1669,7 @@
       "publisher": "Cornell University",
       "openalex_2yr": 0.175,
       "h_index": 668,
-      "works_count": 3169877,
+      "works_count": 3170597,
       "is_oa": true,
       "in_doaj": false,
       "is_preprint_server": true,
@@ -1717,16 +1679,40 @@
         "Physics and Astronomy / Astronomy and Astrophysics",
         "Computer Science / Artificial Intelligence"
       ]
+    },
+    {
+      "name": "ТHE SOURCES OF PEDAGOGICAL SKILLS",
+      "issn": [
+        "2075-146X",
+        "2616-6623"
+      ],
+      "aliases": [
+        "The Sources of pedagogical skills"
+      ],
+      "publisher": "",
+      "openalex_2yr": 0.155,
+      "h_index": 4,
+      "works_count": 802,
+      "is_oa": true,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "topics": [
+        "Computer Science / Information Systems",
+        "Social Sciences / Education"
+      ]
     }
   ],
   "unresolved": [
+    "2023 3rd international conference smart generation computing communication networking smart gencon",
+    "2025 4th international conference distributed computing electrical circuits electronics icdcece",
+    "2025 international conference computational innovations engineering sustainability iccies",
+    "advanced international journal research",
     "current issues sport science ciss",
-    "international journal multidimensional research perspectives",
-    "journal rol sport sciences",
+    "ieee international conference robotics biomimetics",
+    "international conference bioinformatics computational biology",
     "mayo clinic proceedings digital health",
-    "physical education theory methodology",
-    "retos",
-    "riyadhoh jurnal pendidikan olahraga",
-    "strength conditioning journal"
+    "molecular cellular biomechanics",
+    "proceedings 2025 2nd international conference sports technology performance analysis",
+    "social science reports"
   ]
 }
