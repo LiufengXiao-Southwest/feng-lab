@@ -1,35 +1,35 @@
 {
-  "date": "2026-08-08",
-  "title_en": "Countermovement Jump Force‐Time Mechanics Differentiate ACL Injury Status in Elite Alpine Ski Racers",
-  "title_zh": "对向跳力-时间力学特征区分精英高山滑雪运动员前交叉韧带损伤状况",
-  "authors": "Nathaniel Morris, R. Torres, M. Heard, Pat Baker et al.",
-  "journal": "Scandinavian Journal of Medicine & Science in Sports",
-  "year": 2026,
+  "date": "2026-08-16",
+  "title_en": "Sociocultural constructs and sensorimotor control: a scoping review examining implications for anterior cruciate injury",
+  "title_zh": "社会文化建构与感觉运动控制：一项探讨前交叉韧带损伤影响的范围综述",
+  "authors": "K. Wilford, M. J. Mena-Iturriaga, Macarena Paz Wainer-Baracatt, M. Vugrin et al.",
+  "journal": "British Journal of Sports Medicine",
+  "year": 2025,
   "volume_page": "",
-  "doi": "10.1111/sms.70270",
-  "impact_factor": "4.0",
+  "doi": "10.1136/bjsports-2024-108617",
+  "impact_factor": "15.5",
   "if_source": "JCR 2024",
-  "journal_tier": "运动科学2区 TOP",
-  "is_open_access": false,
-  "pdf_url": "",
+  "journal_tier": "运动科学1区 TOP",
+  "is_open_access": true,
+  "pdf_url": "https://research.rug.nl/files/1500612223/941.full.pdf",
   "category": "biomechanics",
-  "citation_count": 0,
+  "citation_count": 3,
   "sections": [
     {
       "id": "why",
       "icon": "◎",
       "title_zh": "为什么值得读",
       "title_en": "Why It Matters",
-      "content_zh": "前交叉韧带重建术后（ACLR）的神经肌肉功能评估中，对向跳（CMJ）的力-时间数据解读复杂，难以有效整合和指导返赛决策。本研究通过机器学习（ML）方法，识别区分健康与ACLR运动员CMJ模式的关键特征，为数据合成、解释和决策提供了新框架。由于该论文为2026年发表，故目前引用次数为零，但其对生物力学评估和康复决策的潜在影响巨大。",
-      "content_en": "Biomechanical assessments like countermovement jump (CMJ) force-time data are complex to synthesize and interpret for return-to-sport decisions after ACL reconstruction (ACLR). This study applies machine learning (ML) to identify key patterns distinguishing healthy controls from ACLR athletes, offering a novel framework for data synthesis, interpretation, and decision-making. As this paper is scheduled for publication in 2026, it currently has zero citations, yet holds significant potential impact on biomechanical assessment and rehabilitation."
+      "content_zh": "这项在顶尖期刊（BJSM, IF 15.5）上发表的范围综述，首次系统性地探究了社会文化建构（如刻板印象威胁、性别、种族）对感觉运动控制及其与前交叉韧带（ACL）损伤风险的潜在关联。它填补了传统生物力学研究中对这些微妙但关键因素关注不足的空白，为ACL损伤预防提供了全新的视角，因此在发布初期已获得关注。",
+      "content_en": "This scoping review, published in a leading journal (BJSM, IF 15.5), systematically explores for the first time the influence of sociocultural constructs (e.g., stereotype threat, gender, race) on sensorimotor control and its potential relationship with anterior cruciate ligament (ACL) injury risk. It addresses a significant gap in traditional biomechanical research by highlighting these subtle yet critical factors, offering a novel perspective for ACL injury prevention and garnering early attention."
     },
     {
       "id": "design",
       "icon": "⊞",
       "title_zh": "研究设计速览",
       "title_en": "Study Design",
-      "content_zh": "**类型**: 机器学习分类研究\n**样本**: 24名ACLR高山滑雪运动员，42名健康对照高山滑雪运动员\n**研究对象**: 对向跳（CMJ）力-时间指标\n**主要结局**: 机器学习模型区分ACLR与健康对照组的分类性能及重要特征\n**分析方法**: 随机森林、支持向量机、逻辑回归、朴素贝叶斯、K近邻等机器学习算法；采用23个CMJ力-时间特征进行5折交叉验证，并使用独立测试数据集进行评估；共分析836次CMJ测试会话。",
-      "content_en": "**Type**: Machine learning classification study\n**Sample**: 24 ACLR alpine ski racers, 42 healthy control alpine ski racers\n**Research Object**: Countermovement jump (CMJ) force-time metrics\n**Primary outcome**: Classification performance of ML models in differentiating ACLR and control groups, and identification of important features\n**Analysis**: Machine learning algorithms (random forest, support vector machine, logistic regression, naïve Bayes, k-nearest neighbors); trained using 23 CMJ force-time features with 5-fold cross-validation and evaluated using an independent test dataset; analyzed 836 CMJ testing sessions."
+      "content_zh": "**类型**: 范围综述\n**数据来源**: PubMed, Embase, Scopus, CINAHL Complete, Academic Search Complete, Pre-Prints Database, Rehabilitation Reference Center；补充灰色文献\n**检索时间**: 数据库建立至2023年9月\n**筛选与数据提取**: 两名盲法评审员独立进行筛选、研究选择和数据提取\n**纳入标准**: 英文、西班牙文和德文的原创文献，报告社会文化建构与运动任务表现之间的关系\n**主要研究目的**: 考察社会文化建构与感觉运动控制之间的联系，尤其是在前交叉韧带损伤风险方面",
+      "content_en": "**Type**: Scoping review\n**Data sources**: PubMed, Embase, Scopus, CINAHL Complete, Academic Search Complete, Pre-Prints Database, Rehabilitation Reference Center; identified relevant grey literature\n**Search period**: Inception to September 2023\n**Screening and Data Extraction**: Two blinded reviewers independently performed screening, study selection, and data extraction\n**Inclusion criteria**: Original references in English, Spanish, and German reporting on sociocultural constructs and motor task performance\n**Primary Objective**: To examine the connection between sociocultural constructs and sensorimotor control, particularly as it relates to anterior cruciate ligament injury risk"
     },
     {
       "id": "results",
@@ -38,40 +38,22 @@
       "title_en": "Key Numbers",
       "stats": [
         {
-          "label_zh": "平衡准确率",
-          "label_en": "Balanced Accuracies",
-          "value": "0.59–0.88",
-          "note": "机器学习模型的平衡准确率范围"
+          "label_zh": "纳入文章数量",
+          "label_en": "Number of Included Articles",
+          "value": "68",
+          "note": "从68篇纳入文章中提取数据"
         },
         {
-          "label_zh": "受试者工作特征曲线下面积",
-          "label_en": "Area Under ROC Curve (AUC)",
-          "value": "0.63–0.95",
-          "note": "机器学习模型的AUC范围"
+          "label_zh": "主要审查的社会文化建构",
+          "label_en": "Key Sociocultural Constructs Examined",
+          "value": "刻板印象威胁, 性别, 种族",
+          "note": "审查频率高于其他社会文化建构"
         },
         {
-          "label_zh": "ACLR组人数",
-          "label_en": "ACLR Participants",
-          "value": "n=24",
-          "note": "前交叉韧带重建组运动员人数"
-        },
-        {
-          "label_zh": "对照组人数",
-          "label_en": "Control Participants",
-          "value": "n=42",
-          "note": "健康对照组运动员人数"
-        },
-        {
-          "label_zh": "总测试会话次数",
-          "label_en": "Total Testing Sessions",
-          "value": "n=836",
-          "note": "运动员监控计划中CMJ测试的总次数"
-        },
-        {
-          "label_zh": "CMJ力-时间特征数",
-          "label_en": "CMJ Force-Time Features",
-          "value": "23",
-          "note": "用于机器学习模型训练的特征数量"
+          "label_zh": "感觉运动控制评估领域",
+          "label_en": "Sensorimotor Control Assessment Areas",
+          "value": "上肢和下肢任务, 体力活动 (PA)",
+          "note": "评估方法多样，常侧重任务完成或完成速度"
         }
       ]
     },
@@ -81,30 +63,26 @@
       "title_zh": "方法学评价",
       "title_en": "Critical Appraisal",
       "pros_zh": [
-        "解决了ACLR术后CMJ数据复杂性在返赛决策中的实际难题。",
-        "采用了多种机器学习算法，并结合5折交叉验证和独立测试集，方法学严谨。",
-        "分析了大量纵向CMJ测试数据（836次），增强了模型的稳健性。",
-        "明确指出推进阶段（propulsion phase）的特征在区分伤病状态中最为重要，为康复提供了具体方向。",
-        "研究对象为精英运动员，结果对高水平运动康复有直接指导意义。"
+        "系统且全面的文献检索，涵盖多个大型数据库及灰色文献，确保了证据的广泛性。",
+        "严格的筛选流程，由两名盲法评审员独立完成，有效降低了选择偏倚。",
+        "纳入多语言（英、西、德）文献，扩大了研究范围和文化背景，提升了普适性。",
+        "首次关注社会文化因素与感觉运动控制在ACL损伤中的关联，填补了研究空白，提供了新颖的研究方向。"
       ],
       "cons_zh": [
-        "摘要中未提供参与者的详细人口统计学信息（如年龄、性别、ACLR术后时间），这可能影响CMJ力学。",
-        "研究结果主要停留在模型分类性能，缺乏临床前瞻性验证，以确认其对返赛决策的实际指导有效性。",
-        "“推断神经肌肉功能恢复”的结论基于CMJ模式的相似性，而非直接的生理测量，需进一步验证。",
-        "结果可能特异性地适用于精英高山滑雪运动员，普适性有待进一步研究。"
+        "作为范围综述，并未对纳入研究的方法学质量进行系统评价或定量合成，限制了证据等级。",
+        "综述指出社会文化建构影响感觉运动控制的“确切机制仍不清楚”，反映了该领域研究深度的不足。",
+        "纳入研究中感觉运动控制的“任务评估方法各异”，可能导致结果异质性，难以进行直接比较和深入整合。"
       ],
       "pros_en": [
-        "Addresses a critical practical challenge regarding CMJ data complexity in return-to-sport decisions post-ACLR.",
-        "Utilizes robust machine learning methodologies, including multiple algorithms, 5-fold cross-validation, and an independent test set.",
-        "Analyzed a substantial volume of longitudinal CMJ testing sessions (n=836), enhancing model robustness.",
-        "Clearly identifies propulsion phase features as most important for differentiating injury status, providing specific rehabilitation targets.",
-        "Focuses on elite athletes, offering direct relevance for high-performance sports rehabilitation."
+        "Systematic and comprehensive literature search, covering multiple major databases and grey literature, ensuring broad evidence coverage.",
+        "Rigorous screening process, independently conducted by two blinded reviewers, effectively reducing selection bias.",
+        "Inclusion of multilingual literature (English, Spanish, German), broadening the scope and cultural context, enhancing generalizability.",
+        "Pioneers the examination of sociocultural factors and sensorimotor control in ACL injury, filling a significant research gap and offering a novel research direction."
       ],
       "cons_en": [
-        "Abstract does not provide detailed participant demographics (e.g., age, sex, time post-ACLR), which could influence CMJ mechanics.",
-        "The study primarily focuses on model classification performance, lacking prospective clinical validation to confirm its practical efficacy for return-to-sport decisions.",
-        "The inference of \"neuromuscular function recovery\" is based on CMJ pattern similarity, not direct physiological measures, requiring further validation.",
-        "Results may be specific to elite alpine ski racers, with generalizability needing further investigation."
+        "As a scoping review, it does not systematically appraise the methodological quality of included studies or perform quantitative synthesis, limiting the level of evidence.",
+        "The review highlights that the \"exact mechanism remains unclear,\" indicating a current lack of in-depth mechanistic research in the field.",
+        "\"Task assessment methods varied\" across included studies for sensorimotor control, which may lead to heterogeneity in results and hinder direct comparison and in-depth integration."
       ]
     },
     {
@@ -112,14 +90,8 @@
       "icon": "◆",
       "title_zh": "研究启示",
       "title_en": "Takeaway",
-      "content_zh": "**机器学习辅助ACLR康复评估**：机器学习模型能够有效分类前交叉韧带重建术后（ACLR）运动员与健康对照组的对向跳（CMJ）力-时间力学特征，为评估神经肌肉功能恢复和辅助返赛决策提供了客观工具。\n\n**推进阶段为关键指标**：研究发现，对向跳（CMJ）的推进阶段（propulsion phase）对应的力-时间特征在区分伤病状态方面最为重要，这提示康复训练应重点关注此阶段的生物力学表现。\n\n**康复进展的量化指示**：当ACLR运动员的CMJ力学特征变得与健康对照组无法区分时，可能预示着神经肌肉功能的恢复。这提供了一种量化的康复进展监测方法。\n\n**生物力学设备的应用**：本研究高度依赖于力板等生物力学设备采集的力-时间数据。未来，结合惯性测量单元（IMU）或足底压力系统等便携式设备，可以实现CMJ评估在更广泛场景中的应用。",
-      "content_en": "**ML for ACLR Rehabilitation Assessment**: Machine learning models can effectively classify countermovement jump (CMJ) force-time mechanics between athletes post-ACLR and healthy controls, offering an objective tool for assessing neuromuscular recovery and aiding return-to-sport decisions.\n\n**Propulsion Phase as a Key Indicator**: The study highlights that force-time features during the CMJ propulsion phase are most crucial for differentiating injury status, suggesting specific biomechanical targets for rehabilitation interventions.\n\n**Quantifying Rehabilitation Progression**: When the CMJ mechanics of ACLR athletes become indistinguishable from healthy controls, it may infer recovery of neuromuscular function, providing a quantitative indicator of rehabilitation progress.\n\n**Biomechanics Instrumentation Application**: This study relies heavily on force-time data collected by biomechanical instrumentation like force plates. Future research could extend this approach using portable devices such as Inertial Measurement Units (IMUs) or plantar pressure systems for broader CMJ assessment in various settings."
+      "content_zh": "**1. 社会文化因素在ACL损伤中的新角色**: 本研究强有力地表明，社会文化建构（如刻板印象威胁、性别、种族）是影响感觉运动控制的重要因素，进而可能间接影响ACL损伤风险。这要求研究者和临床医生将视野拓展到纯生物力学之外，考虑更广阔的社会心理维度。\n\n**2. 机制探索是未来研究关键**: 尽管社会文化影响已被证实，但其如何精确地通过神经生理学和生物力学途径改变运动控制，最终导致ACL损伤的机制尚不明确。未来的研究应聚焦于阐明这些复杂的因果链条，例如探索刻板印象威胁如何改变注意分配或运动表现策略。\n\n**3. 整合风险筛查与个性化干预**: 建议将社会文化建构清单分数纳入现有的ACL损伤筛查计划，以创建更具“性别化”和文化敏感性的风险评估方法。这将有助于识别高风险个体，并制定考虑其社会心理背景的个性化预防策略。\n\n**4. 高级生物力学工具在机制研究中的应用**: 为深入探究社会文化建构影响感觉运动控制的机制，**三维动作捕捉系统 (3D motion capture)**、**表面肌电图 (sEMG)**、**惯性测量单元 (IMUs)** 和 **测力台/足底压力板 (force plates/plantar pressure sensors)** 等先进生物力学测量工具将发挥关键作用。它们能客观量化运动学、动力学和肌肉激活模式的微小变化，从而为理解社会文化因素如何转化为具体的运动风险提供实证数据。",
+      "content_en": "**1. Novel Role of Sociocultural Factors in ACL Injury**: This study strongly indicates that sociocultural constructs (e.g., stereotype threat, gender, race) are significant factors influencing sensorimotor control, which may indirectly affect ACL injury risk. This necessitates researchers and clinicians to broaden their perspective beyond purely biomechanical aspects to include wider psychosocial dimensions.\n\n**2. Mechanistic Exploration is Key for Future Research**: While the sociocultural influence is evident, the precise neurophysiological and biomechanical mechanisms through which these constructs alter motor control, ultimately leading to ACL injury, remain unclear. Future research should focus on elucidating these complex causal chains, for instance, by exploring how stereotype threat might alter attentional allocation or motor performance strategies.\n\n**3. Integrate Risk Screening with Personalized Interventions**: The review suggests incorporating sociocultural construct inventory scores into existing ACL injury screening programs to create a more \"gendered\" and culturally sensitive approach to risk mitigation. This would help identify high-risk individuals and develop personalized prevention strategies that consider their psychosocial background.\n\n**4. Application of Advanced Biomechanical Tools in Mechanistic Research**: To delve deeper into the mechanisms by which sociocultural constructs influence sensorimotor control, advanced biomechanical measurement tools such as **3D motion capture systems**, **surface electromyography (sEMG)**, **inertial measurement units (IMUs)**, and **force plates/plantar pressure sensors** will play a crucial role. These tools can objectively quantify subtle changes in kinematics, kinetics, and muscle activation patterns, thereby providing empirical data to understand how sociocultural factors translate into specific motor risks."
     }
-  ],
-  "fulltext_url": "https://europepmc.org/article/PMC/PMC13019276",
-  "fulltext_type": "pmc_xml",
-  "pmcid": "PMC13019276",
-  "pmid": "41883260",
-  "fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13019276/fullTextXML",
-  "fulltext_label": "全文 (结构化)"
+  ]
 }
