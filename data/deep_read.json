@@ -1,35 +1,35 @@
 {
-  "date": "2026-08-16",
-  "title_en": "Sociocultural constructs and sensorimotor control: a scoping review examining implications for anterior cruciate injury",
-  "title_zh": "社会文化建构与感觉运动控制：一项探讨前交叉韧带损伤影响的范围综述",
-  "authors": "K. Wilford, M. J. Mena-Iturriaga, Macarena Paz Wainer-Baracatt, M. Vugrin et al.",
-  "journal": "British Journal of Sports Medicine",
-  "year": 2025,
+  "date": "2026-08-17",
+  "title_en": "Considerations with Open Kinetic Chain Knee Extension Exercise Following ACL Reconstruction",
+  "title_zh": "ACL重建术后开放动力链膝关节伸展运动的考量",
+  "authors": "K. Wilk, C. Arrigo, Michael S Bagwell, Adam Finck",
+  "journal": "Journal of Orthopaedic & Sports Physical Therapy",
+  "year": 2021,
   "volume_page": "",
-  "doi": "10.1136/bjsports-2024-108617",
-  "impact_factor": "15.5",
+  "doi": "10.26603/001c.18983",
+  "impact_factor": "6.9",
   "if_source": "JCR 2024",
-  "journal_tier": "运动科学1区 TOP",
+  "journal_tier": "康复医学1区/运动科学1区/骨科2区",
   "is_open_access": true,
-  "pdf_url": "https://research.rug.nl/files/1500612223/941.full.pdf",
+  "pdf_url": "https://ijspt.scholasticahq.com/article/18983.pdf",
   "category": "biomechanics",
-  "citation_count": 3,
+  "citation_count": 11,
   "sections": [
     {
       "id": "why",
       "icon": "◎",
       "title_zh": "为什么值得读",
       "title_en": "Why It Matters",
-      "content_zh": "这项在顶尖期刊（BJSM, IF 15.5）上发表的范围综述，首次系统性地探究了社会文化建构（如刻板印象威胁、性别、种族）对感觉运动控制及其与前交叉韧带（ACL）损伤风险的潜在关联。它填补了传统生物力学研究中对这些微妙但关键因素关注不足的空白，为ACL损伤预防提供了全新的视角，因此在发布初期已获得关注。",
-      "content_en": "This scoping review, published in a leading journal (BJSM, IF 15.5), systematically explores for the first time the influence of sociocultural constructs (e.g., stereotype threat, gender, race) on sensorimotor control and its potential relationship with anterior cruciate ligament (ACL) injury risk. It addresses a significant gap in traditional biomechanical research by highlighting these subtle yet critical factors, offering a novel perspective for ACL injury prevention and garnering early attention."
+      "content_zh": "该临床观点文章回应了先前一篇倡导在ACL重建术后早期使用开放动力链（OKC）膝关节伸展运动的论文，深入探讨了其安全性和适宜性。它着重指出不当使用OKC运动（如高阻力、不适宜的运动范围和时机）可能对ACL移植物完整性和髌股关节健康造成的潜在危害，为临床康复实践提供了重要的证据支持与指导。本文因其在ACL康复策略争议中的关键介入和对患者安全的强调而获得关注。",
+      "content_en": "This clinical viewpoint article responds to a prior paper advocating for earlier use of open kinetic chain (OKC) knee extension exercises post-ACLR, delving into their safety and appropriateness. It highlights critical concerns regarding potential harm to ACL graft integrity and patellofemoral joint health from inappropriate OKC exercise use (e.g., high resistance, unsuitable ROM and timing), offering crucial evidence-based guidance for clinical rehabilitation. The paper gained traction for its pivotal intervention in the ACL rehabilitation strategy debate and its emphasis on patient safety."
     },
     {
       "id": "design",
       "icon": "⊞",
       "title_zh": "研究设计速览",
       "title_en": "Study Design",
-      "content_zh": "**类型**: 范围综述\n**数据来源**: PubMed, Embase, Scopus, CINAHL Complete, Academic Search Complete, Pre-Prints Database, Rehabilitation Reference Center；补充灰色文献\n**检索时间**: 数据库建立至2023年9月\n**筛选与数据提取**: 两名盲法评审员独立进行筛选、研究选择和数据提取\n**纳入标准**: 英文、西班牙文和德文的原创文献，报告社会文化建构与运动任务表现之间的关系\n**主要研究目的**: 考察社会文化建构与感觉运动控制之间的联系，尤其是在前交叉韧带损伤风险方面",
-      "content_en": "**Type**: Scoping review\n**Data sources**: PubMed, Embase, Scopus, CINAHL Complete, Academic Search Complete, Pre-Prints Database, Rehabilitation Reference Center; identified relevant grey literature\n**Search period**: Inception to September 2023\n**Screening and Data Extraction**: Two blinded reviewers independently performed screening, study selection, and data extraction\n**Inclusion criteria**: Original references in English, Spanish, and German reporting on sociocultural constructs and motor task performance\n**Primary Objective**: To examine the connection between sociocultural constructs and sensorimotor control, particularly as it relates to anterior cruciate ligament injury risk"
+      "content_zh": "**类型**: 临床观点文章/评论\n**目的**: 讨论ACL重建术后开放动力链膝关节伸展运动的潜在风险与安全策略\n**方法**: 综合现有生物力学与临床研究文献及专家经验\n**研究对象**: ACL重建术后康复患者（通过引用的研究间接指向）\n**主要关注点**: ACL移植物应变、髌股关节负荷、股四头肌力量恢复、康复时机与运动范围\n**核心议题**: 不当的开放动力链膝关节伸展运动（如在40-0度屈曲范围施加过大阻力）对移植物完整性和髌股关节的负面影响",
+      "content_en": "**Type**: Clinical Viewpoint Article/Commentary\n**Purpose**: To discuss potential risks and safe strategies for open kinetic chain knee extension exercise following ACL reconstruction\n**Methodology**: Synthesizes existing biomechanical and clinical research literature and expert experience\n**Subjects**: Patients undergoing post-ACLR rehabilitation (implicitly, through cited studies)\n**Primary Focus**: ACL graft strain, patellofemoral joint load, quadriceps strength restoration, rehabilitation timing, and range of motion\n**Key Issues**: Negative impact of inappropriate open kinetic chain knee extension (e.g., high resistance in 40-0 degrees flexion range) on graft integrity and patellofemoral joint"
     },
     {
       "id": "results",
@@ -38,22 +38,22 @@
       "title_en": "Key Numbers",
       "stats": [
         {
-          "label_zh": "纳入文章数量",
-          "label_en": "Number of Included Articles",
-          "value": "68",
-          "note": "从68篇纳入文章中提取数据"
+          "label_zh": "近完全伸展时股四头肌力量",
+          "label_en": "Quadriceps force near terminal extension",
+          "value": "3-4倍",
+          "note": "膝关节伸展末期（40至0度屈曲范围），股四头肌产生伸展膝关节的力量是其他范围的3-4倍"
         },
         {
-          "label_zh": "主要审查的社会文化建构",
-          "label_en": "Key Sociocultural Constructs Examined",
-          "value": "刻板印象威胁, 性别, 种族",
-          "note": "审查频率高于其他社会文化建构"
+          "label_zh": "ACL移植物最大应变范围",
+          "label_en": "Highest ACL graft strain range",
+          "value": "40至0度",
+          "note": "体内ACL应变值在膝关节屈曲40至0度范围最高，且随阻力增加而增加"
         },
         {
-          "label_zh": "感觉运动控制评估领域",
-          "label_en": "Sensorimotor Control Assessment Areas",
-          "value": "上肢和下肢任务, 体力活动 (PA)",
-          "note": "评估方法多样，常侧重任务完成或完成速度"
+          "label_zh": "髌股关节反作用力集中范围",
+          "label_en": "Patellofemoral joint force concentration",
+          "value": "50至0度",
+          "note": "开放动力链膝关节伸展运动中，髌股关节反作用力和压应力在50至0度屈曲范围显著高于闭合动力链运动"
         }
       ]
     },
@@ -63,26 +63,24 @@
       "title_zh": "方法学评价",
       "title_en": "Critical Appraisal",
       "pros_zh": [
-        "系统且全面的文献检索，涵盖多个大型数据库及灰色文献，确保了证据的广泛性。",
-        "严格的筛选流程，由两名盲法评审员独立完成，有效降低了选择偏倚。",
-        "纳入多语言（英、西、德）文献，扩大了研究范围和文化背景，提升了普适性。",
-        "首次关注社会文化因素与感觉运动控制在ACL损伤中的关联，填补了研究空白，提供了新颖的研究方向。"
+        "针对ACL重建术后康复中备受争议的开放动力链训练提供了明确的临床指导。",
+        "整合了多项关键的生物力学和临床研究证据，强调了运动范围、阻力和时机的重要性。",
+        "由经验丰富的专家撰写，文章关注患者安全和移植物长期完整性，具有高度的临床实用价值。"
       ],
       "cons_zh": [
-        "作为范围综述，并未对纳入研究的方法学质量进行系统评价或定量合成，限制了证据等级。",
-        "综述指出社会文化建构影响感觉运动控制的“确切机制仍不清楚”，反映了该领域研究深度的不足。",
-        "纳入研究中感觉运动控制的“任务评估方法各异”，可能导致结果异质性，难以进行直接比较和深入整合。"
+        "作为一篇临床观点文章，它没有提供新的实验数据或临床试验结果。",
+        "侧重于风险和担忧，可能未能充分阐述支持早期或更积极使用开放动力链训练的论据。",
+        "文章内容基于现有文献的解读，可能存在一定的选择性偏倚。"
       ],
       "pros_en": [
-        "Systematic and comprehensive literature search, covering multiple major databases and grey literature, ensuring broad evidence coverage.",
-        "Rigorous screening process, independently conducted by two blinded reviewers, effectively reducing selection bias.",
-        "Inclusion of multilingual literature (English, Spanish, German), broadening the scope and cultural context, enhancing generalizability.",
-        "Pioneers the examination of sociocultural factors and sensorimotor control in ACL injury, filling a significant research gap and offering a novel research direction."
+        "Provides clear clinical guidance on the highly debated topic of open kinetic chain exercises in post-ACLR rehabilitation.",
+        "Integrates evidence from several key biomechanical and clinical studies, emphasizing the importance of range of motion, resistance, and timing.",
+        "Authored by experienced experts, the article prioritizes patient safety and long-term graft integrity, offering high clinical utility."
       ],
       "cons_en": [
-        "As a scoping review, it does not systematically appraise the methodological quality of included studies or perform quantitative synthesis, limiting the level of evidence.",
-        "The review highlights that the \"exact mechanism remains unclear,\" indicating a current lack of in-depth mechanistic research in the field.",
-        "\"Task assessment methods varied\" across included studies for sensorimotor control, which may lead to heterogeneity in results and hinder direct comparison and in-depth integration."
+        "As a clinical viewpoint article, it does not present new experimental data or clinical trial results.",
+        "Focuses predominantly on concerns and risks, potentially not fully addressing arguments supporting earlier or more aggressive use of open kinetic chain exercises.",
+        "The content relies on the interpretation of existing literature, which may be subject to selection bias."
       ]
     },
     {
@@ -90,8 +88,8 @@
       "icon": "◆",
       "title_zh": "研究启示",
       "title_en": "Takeaway",
-      "content_zh": "**1. 社会文化因素在ACL损伤中的新角色**: 本研究强有力地表明，社会文化建构（如刻板印象威胁、性别、种族）是影响感觉运动控制的重要因素，进而可能间接影响ACL损伤风险。这要求研究者和临床医生将视野拓展到纯生物力学之外，考虑更广阔的社会心理维度。\n\n**2. 机制探索是未来研究关键**: 尽管社会文化影响已被证实，但其如何精确地通过神经生理学和生物力学途径改变运动控制，最终导致ACL损伤的机制尚不明确。未来的研究应聚焦于阐明这些复杂的因果链条，例如探索刻板印象威胁如何改变注意分配或运动表现策略。\n\n**3. 整合风险筛查与个性化干预**: 建议将社会文化建构清单分数纳入现有的ACL损伤筛查计划，以创建更具“性别化”和文化敏感性的风险评估方法。这将有助于识别高风险个体，并制定考虑其社会心理背景的个性化预防策略。\n\n**4. 高级生物力学工具在机制研究中的应用**: 为深入探究社会文化建构影响感觉运动控制的机制，**三维动作捕捉系统 (3D motion capture)**、**表面肌电图 (sEMG)**、**惯性测量单元 (IMUs)** 和 **测力台/足底压力板 (force plates/plantar pressure sensors)** 等先进生物力学测量工具将发挥关键作用。它们能客观量化运动学、动力学和肌肉激活模式的微小变化，从而为理解社会文化因素如何转化为具体的运动风险提供实证数据。",
-      "content_en": "**1. Novel Role of Sociocultural Factors in ACL Injury**: This study strongly indicates that sociocultural constructs (e.g., stereotype threat, gender, race) are significant factors influencing sensorimotor control, which may indirectly affect ACL injury risk. This necessitates researchers and clinicians to broaden their perspective beyond purely biomechanical aspects to include wider psychosocial dimensions.\n\n**2. Mechanistic Exploration is Key for Future Research**: While the sociocultural influence is evident, the precise neurophysiological and biomechanical mechanisms through which these constructs alter motor control, ultimately leading to ACL injury, remain unclear. Future research should focus on elucidating these complex causal chains, for instance, by exploring how stereotype threat might alter attentional allocation or motor performance strategies.\n\n**3. Integrate Risk Screening with Personalized Interventions**: The review suggests incorporating sociocultural construct inventory scores into existing ACL injury screening programs to create a more \"gendered\" and culturally sensitive approach to risk mitigation. This would help identify high-risk individuals and develop personalized prevention strategies that consider their psychosocial background.\n\n**4. Application of Advanced Biomechanical Tools in Mechanistic Research**: To delve deeper into the mechanisms by which sociocultural constructs influence sensorimotor control, advanced biomechanical measurement tools such as **3D motion capture systems**, **surface electromyography (sEMG)**, **inertial measurement units (IMUs)**, and **force plates/plantar pressure sensors** will play a crucial role. These tools can objectively quantify subtle changes in kinematics, kinetics, and muscle activation patterns, thereby providing empirical data to understand how sociocultural factors translate into specific motor risks."
+      "content_zh": "**OKC应用需谨慎**：开放动力链（OKC）膝关节伸展运动在ACL重建术后康复中是必需且有益的，但必须严格控制其阻力、运动范围和时机，以避免对移植物和髌股关节造成损害，特别是避免在不适宜的早期阶段施加高强度负荷。\n\n**规避高风险运动范围**：在膝关节伸展末期（尤其是在40-0度屈曲范围），股四头肌产生的外力显著增加，导致ACL移植物应变和髌股关节应力达到峰值。因此，在此范围应谨慎施加阻力，或初期避免高负荷。\n\n**关注肌肉协同收缩缺失**：在等张开放动力链膝关节伸展运动中，腘绳肌的协同收缩活动极小，无法有效对抗股四头肌产生的向前剪切力。这种协同收缩的缺失增加了ACL移植物的负荷和应变，提示康复策略应考虑如何促进腘绳肌的保护性激活。\n\n**生物力学监测的潜在价值**：研究强调了ACL应变、髌股关节反作用力及肌肉协同收缩的重要性。未来研究和临床实践可利用**表面肌电图（sEMG）**实时监测股四头肌和腘绳肌的激活模式，评估协同收缩水平，或结合**运动捕捉系统**分析膝关节生物力学负荷，以指导更安全、个性化的OKC康复方案，确保在不同运动阶段的移植物安全和关节健康。",
+      "content_en": "**Cautious OKC Application**: Open kinetic chain (OKC) knee extension exercises are essential and beneficial in post-ACLR rehabilitation, but their resistance, range of motion, and timing must be strictly controlled to prevent harm to the graft and patellofemoral joint, especially avoiding high-intensity loads in inappropriate early stages.\n\n**Avoid High-Risk ROM**: Near terminal knee extension (particularly in the 40-0 degrees of flexion range), quadriceps forces significantly increase, leading to peak ACL graft strain and patellofemoral joint stress. Therefore, resistance should be applied cautiously or high loads avoided in this range during initial rehabilitation phases.\n\n**Address Lack of Co-contraction**: During isotonic open kinetic chain knee extension, hamstring muscle activity and thus co-contraction are minimal. This lack of co-contraction fails to effectively counteract anterior shear forces produced by the quadriceps, increasing ACL graft load and strain. Rehabilitation strategies should consider how to promote protective hamstring activation.\n\n**Potential of Biomechanical Monitoring**: The study underscores the importance of ACL strain, patellofemoral reaction forces, and muscle co-contraction. Future research and clinical practice could utilize **surface electromyography (sEMG)** to monitor quadriceps and hamstring activation patterns in real-time, assessing co-contraction levels, or integrate **motion capture systems** to analyze knee joint biomechanical loads. This approach would guide safer, personalized OKC rehabilitation protocols, ensuring graft safety and joint health across different exercise phases."
     }
   ]
 }
