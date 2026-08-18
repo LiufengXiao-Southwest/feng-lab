@@ -91,5 +91,11 @@
       "content_zh": "**OKC应用需谨慎**：开放动力链（OKC）膝关节伸展运动在ACL重建术后康复中是必需且有益的，但必须严格控制其阻力、运动范围和时机，以避免对移植物和髌股关节造成损害，特别是避免在不适宜的早期阶段施加高强度负荷。\n\n**规避高风险运动范围**：在膝关节伸展末期（尤其是在40-0度屈曲范围），股四头肌产生的外力显著增加，导致ACL移植物应变和髌股关节应力达到峰值。因此，在此范围应谨慎施加阻力，或初期避免高负荷。\n\n**关注肌肉协同收缩缺失**：在等张开放动力链膝关节伸展运动中，腘绳肌的协同收缩活动极小，无法有效对抗股四头肌产生的向前剪切力。这种协同收缩的缺失增加了ACL移植物的负荷和应变，提示康复策略应考虑如何促进腘绳肌的保护性激活。\n\n**生物力学监测的潜在价值**：研究强调了ACL应变、髌股关节反作用力及肌肉协同收缩的重要性。未来研究和临床实践可利用**表面肌电图（sEMG）**实时监测股四头肌和腘绳肌的激活模式，评估协同收缩水平，或结合**运动捕捉系统**分析膝关节生物力学负荷，以指导更安全、个性化的OKC康复方案，确保在不同运动阶段的移植物安全和关节健康。",
       "content_en": "**Cautious OKC Application**: Open kinetic chain (OKC) knee extension exercises are essential and beneficial in post-ACLR rehabilitation, but their resistance, range of motion, and timing must be strictly controlled to prevent harm to the graft and patellofemoral joint, especially avoiding high-intensity loads in inappropriate early stages.\n\n**Avoid High-Risk ROM**: Near terminal knee extension (particularly in the 40-0 degrees of flexion range), quadriceps forces significantly increase, leading to peak ACL graft strain and patellofemoral joint stress. Therefore, resistance should be applied cautiously or high loads avoided in this range during initial rehabilitation phases.\n\n**Address Lack of Co-contraction**: During isotonic open kinetic chain knee extension, hamstring muscle activity and thus co-contraction are minimal. This lack of co-contraction fails to effectively counteract anterior shear forces produced by the quadriceps, increasing ACL graft load and strain. Rehabilitation strategies should consider how to promote protective hamstring activation.\n\n**Potential of Biomechanical Monitoring**: The study underscores the importance of ACL strain, patellofemoral reaction forces, and muscle co-contraction. Future research and clinical practice could utilize **surface electromyography (sEMG)** to monitor quadriceps and hamstring activation patterns in real-time, assessing co-contraction levels, or integrate **motion capture systems** to analyze knee joint biomechanical loads. This approach would guide safer, personalized OKC rehabilitation protocols, ensuring graft safety and joint health across different exercise phases."
     }
-  ]
+  ],
+  "fulltext_url": "https://europepmc.org/article/PMC/PMC8341750",
+  "fulltext_type": "pmc_xml",
+  "pmcid": "PMC8341750",
+  "pmid": "34395052",
+  "fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8341750/fullTextXML",
+  "fulltext_label": "全文 (结构化)"
 }
