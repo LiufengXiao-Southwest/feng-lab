@@ -1,35 +1,35 @@
 {
-  "date": "2026-08-17",
-  "title_en": "Considerations with Open Kinetic Chain Knee Extension Exercise Following ACL Reconstruction",
-  "title_zh": "ACL重建术后开放动力链膝关节伸展运动的考量",
-  "authors": "K. Wilk, C. Arrigo, Michael S Bagwell, Adam Finck",
-  "journal": "Journal of Orthopaedic & Sports Physical Therapy",
-  "year": 2021,
+  "date": "2026-08-21",
+  "title_en": "Multiligament knee injury (MLKI): an expert consensus statement on nomenclature, diagnosis, treatment and rehabilitation",
+  "title_zh": "膝关节多韧带损伤 (MLKI)：关于命名、诊断、治疗与康复的专家共识声明",
+  "authors": "IR. Murray, N. Makaram, Andrew G. Geeslin, J. Chahla et al.",
+  "journal": "British Journal of Sports Medicine",
+  "year": 2024,
   "volume_page": "",
-  "doi": "10.26603/001c.18983",
-  "impact_factor": "6.9",
+  "doi": "10.1136/bjsports-2024-108089",
+  "impact_factor": "15.5",
   "if_source": "JCR 2024",
-  "journal_tier": "康复医学1区/运动科学1区/骨科2区",
-  "is_open_access": true,
-  "pdf_url": "https://ijspt.scholasticahq.com/article/18983.pdf",
+  "journal_tier": "运动科学1区 TOP",
+  "is_open_access": false,
+  "pdf_url": "",
   "category": "biomechanics",
-  "citation_count": 11,
+  "citation_count": 36,
   "sections": [
     {
       "id": "why",
       "icon": "◎",
       "title_zh": "为什么值得读",
       "title_en": "Why It Matters",
-      "content_zh": "该临床观点文章回应了先前一篇倡导在ACL重建术后早期使用开放动力链（OKC）膝关节伸展运动的论文，深入探讨了其安全性和适宜性。它着重指出不当使用OKC运动（如高阻力、不适宜的运动范围和时机）可能对ACL移植物完整性和髌股关节健康造成的潜在危害，为临床康复实践提供了重要的证据支持与指导。本文因其在ACL康复策略争议中的关键介入和对患者安全的强调而获得关注。",
-      "content_en": "This clinical viewpoint article responds to a prior paper advocating for earlier use of open kinetic chain (OKC) knee extension exercises post-ACLR, delving into their safety and appropriateness. It highlights critical concerns regarding potential harm to ACL graft integrity and patellofemoral joint health from inappropriate OKC exercise use (e.g., high resistance, unsuitable ROM and timing), offering crucial evidence-based guidance for clinical rehabilitation. The paper gained traction for its pivotal intervention in the ACL rehabilitation strategy debate and its emphasis on patient safety."
+      "content_zh": "膝关节多韧带损伤 (MLKI) 是一种复杂且后果严重的病症，目前在术语、诊断和治疗上的分歧严重限制了临床实践和研究进展。本研究通过国际专家共识，首次系统地统一了MLKI的命名、诊断、治疗及康复策略，并明确了未来的研究方向，为临床医生和研究人员提供了急需的标准化指导，故发表即获得了较高的引用量（36次）。",
+      "content_en": "Multiligament knee injury (MLKI) is a complex condition with potentially devastating consequences, where current disagreements in terminology, diagnosis, and treatment severely limit clinical practice and research. This study, through an international expert consensus, systematically unified the nomenclature, diagnosis, treatment, and rehabilitation strategies for MLKI, and identified future research priorities. This provides much-needed standardized guidance for clinicians and researchers, leading to its rapid citation (36 times) since publication."
     },
     {
       "id": "design",
       "icon": "⊞",
       "title_zh": "研究设计速览",
       "title_en": "Study Design",
-      "content_zh": "**类型**: 临床观点文章/评论\n**目的**: 讨论ACL重建术后开放动力链膝关节伸展运动的潜在风险与安全策略\n**方法**: 综合现有生物力学与临床研究文献及专家经验\n**研究对象**: ACL重建术后康复患者（通过引用的研究间接指向）\n**主要关注点**: ACL移植物应变、髌股关节负荷、股四头肌力量恢复、康复时机与运动范围\n**核心议题**: 不当的开放动力链膝关节伸展运动（如在40-0度屈曲范围施加过大阻力）对移植物完整性和髌股关节的负面影响",
-      "content_en": "**Type**: Clinical Viewpoint Article/Commentary\n**Purpose**: To discuss potential risks and safe strategies for open kinetic chain knee extension exercise following ACL reconstruction\n**Methodology**: Synthesizes existing biomechanical and clinical research literature and expert experience\n**Subjects**: Patients undergoing post-ACLR rehabilitation (implicitly, through cited studies)\n**Primary Focus**: ACL graft strain, patellofemoral joint load, quadriceps strength restoration, rehabilitation timing, and range of motion\n**Key Issues**: Negative impact of inappropriate open kinetic chain knee extension (e.g., high resistance in 40-0 degrees flexion range) on graft integrity and patellofemoral joint"
+      "content_zh": " **类型**: 国际专家共识声明（基于Delphi方法）\n **研究对象**: 来自14个国家的多学科专家组，共39名成员\n **方法**: 通过三轮匿名在线调查问卷，采用5点李克特量表评估一致性\n **共识定义**: 最终轮中，若某项声明获>75%受访者同意且<10%受访者不同意，则认为达成共识\n **主要结局**: 关于MLKI命名、诊断、治疗、康复和未来研究优先事项的共识声明",
+      "content_en": " **Type**: International Expert Consensus Statement (Delphi Methodology)\n **Participants**: Multidisciplinary panel of 39 members from 14 countries\n **Methodology**: Conducted 3 rounds of anonymous online surveys using a 5-point Likert scale for agreement\n **Consensus Definition**: In the final round, consensus was defined if >75% of respondents agreed and <10% disagreed with a statement\n **Primary Outcome**: Consensus statements on MLKI nomenclature, diagnosis, treatment, rehabilitation, and future research priorities"
     },
     {
       "id": "results",
@@ -38,22 +38,40 @@
       "title_en": "Key Numbers",
       "stats": [
         {
-          "label_zh": "近完全伸展时股四头肌力量",
-          "label_en": "Quadriceps force near terminal extension",
-          "value": "3-4倍",
-          "note": "膝关节伸展末期（40至0度屈曲范围），股四头肌产生伸展膝关节的力量是其他范围的3-4倍"
+          "label_zh": "达成共识的条目数",
+          "label_en": "Items reaching consensus",
+          "value": "50",
+          "note": "占总条目数的92.6%"
         },
         {
-          "label_zh": "ACL移植物最大应变范围",
-          "label_en": "Highest ACL graft strain range",
-          "value": "40至0度",
-          "note": "体内ACL应变值在膝关节屈曲40至0度范围最高，且随阻力增加而增加"
+          "label_zh": "MLKI明确定义共识度",
+          "label_en": "LoA for MLKI definition",
+          "value": "97.4%",
+          "note": ""
         },
         {
-          "label_zh": "髌股关节反作用力集中范围",
-          "label_en": "Patellofemoral joint force concentration",
-          "value": "50至0度",
-          "note": "开放动力链膝关节伸展运动中，髌股关节反作用力和压应力在50至0度屈曲范围显著高于闭合动力链运动"
+          "label_zh": "高能量MLKI评估CT血管造影共识度",
+          "label_en": "LoA for CT angiography in high-energy MLKI",
+          "value": "89.7%",
+          "note": "特定损伤模式，如双交叉韧带和后外侧角损伤"
+        },
+        {
+          "label_zh": "应力X线片或术中透视价值共识度",
+          "label_en": "LoA for stress radiography/intraoperative fluoroscopy",
+          "value": "89.7%",
+          "note": ""
+        },
+        {
+          "label_zh": "年轻患者手术治疗共识度",
+          "label_en": "LoA for operative management in young patients",
+          "value": "100%",
+          "note": ""
+        },
+        {
+          "label_zh": "应尽可能单期手术共识度",
+          "label_en": "LoA for single-stage surgery whenever possible",
+          "value": "92.3%",
+          "note": ""
         }
       ]
     },
@@ -63,24 +81,32 @@
       "title_zh": "方法学评价",
       "title_en": "Critical Appraisal",
       "pros_zh": [
-        "针对ACL重建术后康复中备受争议的开放动力链训练提供了明确的临床指导。",
-        "整合了多项关键的生物力学和临床研究证据，强调了运动范围、阻力和时机的重要性。",
-        "由经验丰富的专家撰写，文章关注患者安全和移植物长期完整性，具有高度的临床实用价值。"
+        "采用经过验证的Delphi方法，符合BJSM指南，确保了结果的严谨性和权威性。",
+        "由来自14个国家39名专家组成的多学科国际小组，确保了共识的广泛代表性和减少偏倚。",
+        "解决了临床实践中一个长期存在的关键问题，对MLKI的临床诊疗和未来研究具有重要指导意义。",
+        "明确界定了达成共识的标准（>75%同意，<10%不同意），提高了结果的透明度和可靠性。",
+        "不仅提供了当前的最佳实践，还识别了未来的研究优先事项，对领域发展具有前瞻性。"
       ],
       "cons_zh": [
-        "作为一篇临床观点文章，它没有提供新的实验数据或临床试验结果。",
-        "侧重于风险和担忧，可能未能充分阐述支持早期或更积极使用开放动力链训练的论据。",
-        "文章内容基于现有文献的解读，可能存在一定的选择性偏倚。"
+        "Delphi方法本质上依赖专家意见，而非高级别的临床随机对照试验数据，可能存在主观性。",
+        "尽管记录并讨论了不同意见，但共识机制仍可能导致少数有价值的观点被多数意见所掩盖。",
+        "共识结果反映的是当前专家组的集体知识和经验，随着新证据的出现，其内容可能需要更新。",
+        "研究中未直接包含患者数据或前瞻性临床结果，无法评估共识的直接临床疗效。",
+        "抽象信息有限，无法评估具体陈述的全面性和潜在遗漏，例如康复细节。"
       ],
       "pros_en": [
-        "Provides clear clinical guidance on the highly debated topic of open kinetic chain exercises in post-ACLR rehabilitation.",
-        "Integrates evidence from several key biomechanical and clinical studies, emphasizing the importance of range of motion, resistance, and timing.",
-        "Authored by experienced experts, the article prioritizes patient safety and long-term graft integrity, offering high clinical utility."
+        "Utilized validated Delphi methodology, aligned with BJSM guidelines, ensuring rigor and authority of the results.",
+        "A multidisciplinary international panel of 39 experts from 14 countries ensured broad representation and minimized bias.",
+        "Addresses a critical and long-standing issue in clinical practice, providing significant guidance for MLKI management and future research.",
+        "Clearly defined consensus criteria (>75% agreement, <10% disagreement) enhance transparency and reliability of the outcomes.",
+        "Not only provides current best practices but also identifies future research priorities, demonstrating a forward-looking perspective for the field."
       ],
       "cons_en": [
-        "As a clinical viewpoint article, it does not present new experimental data or clinical trial results.",
-        "Focuses predominantly on concerns and risks, potentially not fully addressing arguments supporting earlier or more aggressive use of open kinetic chain exercises.",
-        "The content relies on the interpretation of existing literature, which may be subject to selection bias."
+        "The Delphi method inherently relies on expert opinion rather than high-level randomized controlled trial data, which may introduce subjectivity.",
+        "Although dissenting viewpoints were recorded and discussed, the consensus mechanism might still allow some valuable minority opinions to be overshadowed.",
+        "The consensus reflects the collective knowledge and experience of the current expert panel, and its content may require updates as new evidence emerges.",
+        "The study did not directly include patient data or prospective clinical outcomes, thus unable to assess the direct clinical efficacy of the consensus.",
+        "Limited abstract information prevents evaluation of the comprehensiveness and potential omissions of specific statements, such as rehabilitation details."
       ]
     },
     {
@@ -88,14 +114,8 @@
       "icon": "◆",
       "title_zh": "研究启示",
       "title_en": "Takeaway",
-      "content_zh": "**OKC应用需谨慎**：开放动力链（OKC）膝关节伸展运动在ACL重建术后康复中是必需且有益的，但必须严格控制其阻力、运动范围和时机，以避免对移植物和髌股关节造成损害，特别是避免在不适宜的早期阶段施加高强度负荷。\n\n**规避高风险运动范围**：在膝关节伸展末期（尤其是在40-0度屈曲范围），股四头肌产生的外力显著增加，导致ACL移植物应变和髌股关节应力达到峰值。因此，在此范围应谨慎施加阻力，或初期避免高负荷。\n\n**关注肌肉协同收缩缺失**：在等张开放动力链膝关节伸展运动中，腘绳肌的协同收缩活动极小，无法有效对抗股四头肌产生的向前剪切力。这种协同收缩的缺失增加了ACL移植物的负荷和应变，提示康复策略应考虑如何促进腘绳肌的保护性激活。\n\n**生物力学监测的潜在价值**：研究强调了ACL应变、髌股关节反作用力及肌肉协同收缩的重要性。未来研究和临床实践可利用**表面肌电图（sEMG）**实时监测股四头肌和腘绳肌的激活模式，评估协同收缩水平，或结合**运动捕捉系统**分析膝关节生物力学负荷，以指导更安全、个性化的OKC康复方案，确保在不同运动阶段的移植物安全和关节健康。",
-      "content_en": "**Cautious OKC Application**: Open kinetic chain (OKC) knee extension exercises are essential and beneficial in post-ACLR rehabilitation, but their resistance, range of motion, and timing must be strictly controlled to prevent harm to the graft and patellofemoral joint, especially avoiding high-intensity loads in inappropriate early stages.\n\n**Avoid High-Risk ROM**: Near terminal knee extension (particularly in the 40-0 degrees of flexion range), quadriceps forces significantly increase, leading to peak ACL graft strain and patellofemoral joint stress. Therefore, resistance should be applied cautiously or high loads avoided in this range during initial rehabilitation phases.\n\n**Address Lack of Co-contraction**: During isotonic open kinetic chain knee extension, hamstring muscle activity and thus co-contraction are minimal. This lack of co-contraction fails to effectively counteract anterior shear forces produced by the quadriceps, increasing ACL graft load and strain. Rehabilitation strategies should consider how to promote protective hamstring activation.\n\n**Potential of Biomechanical Monitoring**: The study underscores the importance of ACL strain, patellofemoral reaction forces, and muscle co-contraction. Future research and clinical practice could utilize **surface electromyography (sEMG)** to monitor quadriceps and hamstring activation patterns in real-time, assessing co-contraction levels, or integrate **motion capture systems** to analyze knee joint biomechanical loads. This approach would guide safer, personalized OKC rehabilitation protocols, ensuring graft safety and joint health across different exercise phases."
+      "content_zh": "1. **标准化术语与分类至关重要**：本共识明确了MLKI的定义，并呼吁更新MLKI分类系统，应包含损伤机制、非韧带结构损伤程度和脱位情况。这为临床沟通和研究奠定了基础。\n\n2. **诊断策略强调早期和全面性**：在高能量MLKI或特定损伤模式（如双交叉韧带和后外侧角损伤）中，应降低CT血管造影的评估阈值。同时，应力X线片和术中透视在评估韧带损伤程度和稳定性方面具有重要价值。\n\n3. **手术管理是优选，并强调单期手术**：共识普遍认为MLKI应采取手术治疗，特别是对于年轻患者。此外，应尽可能进行单期手术，以优化患者预后。\n\n4. **生物力学与康复研究前景广阔**：新的MLKI分类体系为生物力学研究提供了更精细的框架，可利用**运动捕捉**系统深入分析不同损伤机制下的膝关节运动学和动力学。康复方面，可结合**肌电图 (sEMG)** 评估术后肌肉功能恢复，利用**足底压力测量**系统分析步态变化，或通过**惯性测量单元 (IMUs)** 客观量化关节稳定性，为制定个性化和基于证据的康复方案提供数据支持。",
+      "content_en": "1. **Standardized Terminology and Classification are Crucial**: This consensus provides a clear definition for MLKI and calls for an updated classification system that incorporates injury mechanism, extent of non-ligamentous structures injured, and presence or absence of dislocation. This lays the groundwork for improved clinical communication and research.\n\n2. **Diagnostic Strategies Emphasize Early and Comprehensive Assessment**: A low threshold for CT angiography assessment is recommended in high-energy MLKI or specific injury patterns (e.g., bicruciate and PLC injuries). Additionally, stress radiography and intraoperative fluoroscopy are deemed valuable for assessing the extent and stability of ligamentous injuries.\n\n3. **Surgical Management is Preferred, with an Emphasis on Single-Stage Surgery**: There is general agreement that operative management is favored for MLKI, particularly in young patients. Furthermore, single-stage surgery should be performed whenever possible to optimize patient outcomes.\n\n4. **Broad Prospects for Biomechanics and Rehabilitation Research**: The new MLKI classification system provides a more refined framework for biomechanical research, allowing for in-depth analysis of knee joint kinematics and kinetics under different injury mechanisms using **motion capture** systems. In rehabilitation, **electromyography (sEMG)** can be used to assess postoperative muscle function recovery, **plantar pressure measurement** systems can analyze gait changes, or **inertial measurement units (IMUs)** can objectively quantify joint stability, providing data support for developing personalized and evidence-based rehabilitation protocols."
     }
-  ],
-  "fulltext_url": "https://europepmc.org/article/PMC/PMC8341750",
-  "fulltext_type": "pmc_xml",
-  "pmcid": "PMC8341750",
-  "pmid": "34395052",
-  "fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8341750/fullTextXML",
-  "fulltext_label": "全文 (结构化)"
+  ]
 }
