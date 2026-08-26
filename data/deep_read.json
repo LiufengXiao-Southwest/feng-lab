@@ -1,35 +1,35 @@
 {
-  "date": "2026-08-24",
-  "title_en": "Biomechanical Comparison of Proximal Hamstring Reconstruction Using Distal Hamstring Graft Versus Fascia Lata Graft for Treatment of Chronic Hamstring Injury",
-  "title_zh": "近端腘绳肌重建的生物力学比较：远端腘绳肌移植物与阔筋膜移植物治疗慢性腘绳肌损伤",
-  "authors": "Haruki Nishimura, Kohei Yamaura, Vera M. Stetzelberger, Alexander R. Garcia et al.",
-  "journal": "American Journal of Sports Medicine",
-  "year": 2023,
+  "date": "2026-08-26",
+  "title_en": "Multiligament knee injury (MLKI): an expert consensus statement on nomenclature, diagnosis, treatment and rehabilitation",
+  "title_zh": "多韧带膝关节损伤 (MLKI)：命名、诊断、治疗和康复的专家共识声明",
+  "authors": "IR. Murray, N. Makaram, Andrew G. Geeslin, J. Chahla et al.",
+  "journal": "British Journal of Sports Medicine",
+  "year": 2024,
   "volume_page": "",
-  "doi": "10.1177/03635465231206464",
-  "impact_factor": "5.4",
+  "doi": "10.1136/bjsports-2024-108089",
+  "impact_factor": "15.5",
   "if_source": "JCR 2024",
-  "journal_tier": "骨科1区/运动科学1区 TOP",
+  "journal_tier": "运动科学1区 TOP",
   "is_open_access": false,
   "pdf_url": "",
   "category": "biomechanics",
-  "citation_count": 7,
+  "citation_count": 36,
   "sections": [
     {
       "id": "why",
       "icon": "◎",
       "title_zh": "为什么值得读",
       "title_en": "Why It Matters",
-      "content_zh": "慢性近端腘绳肌损伤，特别是回缩超过5厘米时，常需自体移植物手术重建，然而缺乏对最常用远端腘绳肌移植物和阔筋膜移植物的直接生物力学比较证据。本研究填补了这一空白，通过“时间零点”的尸体研究，为临床选择更合适的移植物提供了关键的生物力学数据，有望优化手术决策并改善患者预后，因此在短期内获得了7次引用。",
-      "content_en": "Chronic proximal hamstring injuries with >5 cm retraction often require surgical reconstruction using autografts, but there is a paucity of direct biomechanical evidence comparing the two most popular options: distal hamstring grafts and fascia lata grafts. This study fills a critical gap by providing key \"time-zero\" cadaveric biomechanical data for graft selection, aiming to optimize surgical decision-making and improve patient outcomes, thus gaining 7 citations shortly after publication."
+      "content_zh": "本专家共识声明解决了多韧带膝关节损伤 (MLKI) 在术语、诊断和治疗方面长期存在的争议，这些争议曾严重阻碍临床护理和科学研究。通过提供明确的定义和标准化的管理策略，它为MLKI的实践提供了急需的统一框架，对于提高患者预后和推动未来高质量研究至关重要。该论文获得36次引用，彰显了其在统一MLKI领域认知方面的重要影响。",
+      "content_en": "This expert consensus statement addresses longstanding disagreements in the terminology, diagnosis, and treatment of multiligament knee injuries (MLKI) that previously hampered clinical care and research. By providing clear definitions and standardized management strategies, it offers a crucial unifying framework for MLKI practice, essential for improving patient outcomes and fostering high-quality future research. Its 36 citations highlight its significant impact in standardizing understanding within the MLKI field."
     },
     {
       "id": "design",
       "icon": "⊞",
       "title_zh": "研究设计速览",
       "title_en": "Study Design",
-      "content_zh": "**类型:** 对照实验室研究\n**研究目的:** (1) 比较使用远端腘绳肌移植物和阔筋膜移植物进行近端腘绳肌重建后的破坏载荷和破坏时伸长量；(2) 比较这两种重建方式与自然状态的刚度。\n**研究对象:** 7对人类尸体半骨盆 (平均年龄60.4 ± 5.0岁；6男1女)，无既往损伤或异常。\n**研究方法:** 每个标本首先进行动态拉伸测试以确定自然状态刚度，随后每对标本随机分配进行远端腘绳肌移植物或阔筋膜移植物重建，并再次进行拉伸至破坏测试。\n**主要结局:** 破坏载荷、破坏时伸长量、破坏模式、刚度。",
-      "content_en": "**Type:** Controlled laboratory study\n**Purpose:** (1) To compare failure load and elongation at failure between proximal hamstring tendon reconstruction with distal hamstring and fascia lata grafts; (2) To compare the stiffness between these reconstructions and the native state.\n**Subjects:** Seven pairs of human cadaveric hemipelvises (mean age, 60.4 ± 5.0 years; 6 male, 1 female) with no evidence of previous injury or abnormality.\n**Methods:** Each specimen underwent preconditioning followed by a distraction test to determine native stiffness. Each pair was assigned to undergo reconstruction with either a distal hamstring or fascia lata graft, then underwent preconditioning followed by pull to failure.\n**Primary Outcomes:** Failure load, elongation at failure, mode of failure, and stiffness."
+      "content_zh": "**类型**: 国际专家共识声明\n**方法**: 经验证的Delphi方法学\n**研究对象**: 来自14个国家的39名多学科专家\n**数据收集**: 3轮在线调查，采用5点Likert量表进行匿名评估，鼓励专家提出修改或补充\n**共识定义**: 预设为>75%的受访者同意且<10%不同意\n**主要结局**: MLKI命名、诊断、治疗、康复策略及未来研究优先事项的共识声明",
+      "content_en": "**Type**: International Expert Consensus Statement\n**Method**: Validated Delphi methodology\n**Participants**: Multidisciplinary panel of 39 members from 14 countries\n**Data Collection**: 3 rounds of online surveys using a 5-point Likert scale for anonymous rating, with encouragement for modifications or additional statements\n**Consensus Definition**: Defined a priori as >75% agreement and <10% disagreement\n**Primary outcome**: Consensus statements on MLKI nomenclature, diagnosis, treatment, rehabilitation strategies, and future research priorities"
     },
     {
       "id": "results",
@@ -38,52 +38,40 @@
       "title_en": "Key Numbers",
       "stats": [
         {
-          "label_zh": "远端腘绳肌组破坏载荷",
-          "label_en": "Distal Hamstring Group Failure Load",
-          "value": "334 ± 108 N",
-          "note": "P = .031 (vs 阔筋膜组)"
+          "label_zh": "达成共识的条目数",
+          "label_en": "Items reaching consensus",
+          "value": "50",
+          "note": "占总条目数的92.6%"
         },
         {
-          "label_zh": "阔筋膜组破坏载荷",
-          "label_en": "Fascia Lata Group Failure Load",
-          "value": "179 ± 78 N",
-          "note": "P = .031 (vs 远端腘绳肌组)"
+          "label_zh": "MLKI明确定义的意见一致性",
+          "label_en": "LoA for clear MLKI definition",
+          "value": "97.4%",
+          "note": "高度一致"
         },
         {
-          "label_zh": "远端腘绳肌组重建刚度",
-          "label_en": "Distal Hamstring Group Reconstruction Stiffness",
-          "value": "61.4 ± 13.4 N/mm",
-          "note": "与自然状态无显著差异"
+          "label_zh": "高能量MLKI行CT血管造影的意见一致性",
+          "label_en": "LoA for CT angiography in high-energy MLKI",
+          "value": "89.7%",
+          "note": "建议低阈值评估"
         },
         {
-          "label_zh": "远端腘绳肌组自然状态刚度",
-          "label_en": "Distal Hamstring Group Native Stiffness",
-          "value": "47.6 ± 16.0 N/mm",
-          "note": "作为对照"
+          "label_zh": "应力X线片或术中透视价值的意见一致性",
+          "label_en": "LoA for stress radiography or intraoperative fluoroscopy value",
+          "value": "89.7%",
+          "note": "强调其诊断价值"
         },
         {
-          "label_zh": "阔筋膜组重建刚度",
-          "label_en": "Fascia Lata Group Reconstruction Stiffness",
-          "value": "23.0 ± 11.2 N/mm",
-          "note": "P < .0001 (vs 自然状态)"
+          "label_zh": "MLKI手术治疗(尤其年轻患者)的普遍同意度",
+          "label_en": "General agreement for operative management of MLKI, especially for young patients",
+          "value": "100%",
+          "note": "现有文献普遍支持"
         },
         {
-          "label_zh": "阔筋膜组自然状态刚度",
-          "label_en": "Fascia Lata Group Native Stiffness",
-          "value": "60.1 ± 17.7 N/mm",
-          "note": "作为对照"
-        },
-        {
-          "label_zh": "远端腘绳肌组破坏时伸长量",
-          "label_en": "Distal Hamstring Group Elongation at Failure",
-          "value": "33.0 ± 6.6 mm",
-          "note": "P = .58 (vs 阔筋膜组)"
-        },
-        {
-          "label_zh": "阔筋膜组破坏时伸长量",
-          "label_en": "Fascia Lata Group Elongation at Failure",
-          "value": "29.2 ± 14.9 mm",
-          "note": "P = .58 (vs 远端腘绳肌组)"
+          "label_zh": "应尽可能进行一期手术的意见一致性",
+          "label_en": "LoA for single-stage surgery whenever possible",
+          "value": "92.3%",
+          "note": "优先策略"
         }
       ]
     },
@@ -93,24 +81,24 @@
       "title_zh": "方法学评价",
       "title_en": "Critical Appraisal",
       "pros_zh": [
-        "直接比较两种常用移植物的生物力学特性，填补了临床证据空白。",
-        "“时间零点”尸体研究，排除了生物愈合和患者个体差异的混杂因素，结果可控性强。",
-        "将重建后的刚度与自然状态进行比较，提供了重要的基准数据。"
+        "采用经验证的Delphi方法学，确保了共识过程的系统性和严谨性。",
+        "汇集了来自14个国家39位多学科专家的意见，代表了广泛的国际视角和专业知识。",
+        "对MLKI的关键方面（如定义、诊断和治疗原则）达成了高度共识，填补了临床实践和研究中的空白。"
       ],
       "cons_zh": [
-        "尸体模型无法模拟体内生物愈合过程、血供、肌肉活性及长期机械负荷，限制了结果的临床转化。",
-        "样本量较小（7对），可能影响统计效力及结果的普遍性。",
-        "尸体平均年龄偏大（60.4岁），可能与慢性腘绳肌损伤患者的典型年龄（通常更年轻、活跃）存在差异。"
+        "共识主要基于专家意见，而非直接的随机对照试验等高级别证据，可能存在一定的主观性。",
+        "虽然专家投票是匿名的，但专家组的构成和背景仍可能引入潜在的偏倚。",
+        "抽象内容未详细说明具体康复策略的细节，未来的研究可能需要更具体的指导和量化指标。"
       ],
       "pros_en": [
-        "Directly compares the biomechanical properties of two commonly used autografts, addressing a gap in clinical evidence.",
-        "\"Time-zero\" cadaveric study design eliminates confounding factors of biological healing and patient variability, offering strong experimental control.",
-        "Comparison of reconstructed stiffness to the native state provides an important benchmark for surgical success."
+        "Employed a validated Delphi methodology, ensuring a systematic and rigorous consensus process.",
+        "Engaged 39 multidisciplinary experts from 14 countries, representing a broad international perspective and specialized knowledge.",
+        "Achieved high consensus on critical aspects of MLKI (e.g., definition, diagnosis, treatment principles), addressing gaps in clinical practice and research."
       ],
       "cons_en": [
-        "Cadaveric model limitations: inability to simulate in-vivo biological healing, blood supply, muscle activity, or long-term mechanical loading, limiting clinical translatability.",
-        "Small sample size (7 pairs) may affect statistical power and generalizability of the results.",
-        "Mean age of cadavers (60.4 years) might not fully represent the typical patient population for chronic hamstring injuries (often younger, active individuals)."
+        "The consensus is primarily based on expert opinion rather than direct high-level evidence like randomized controlled trials, potentially introducing subjectivity.",
+        "Despite anonymous voting, potential biases related to the composition and backgrounds of the expert panel may still exist.",
+        "The abstract does not detail specific rehabilitation strategies, indicating a need for more concrete guidance and quantifiable metrics in future research."
       ]
     },
     {
@@ -118,12 +106,8 @@
       "icon": "◆",
       "title_zh": "研究启示",
       "title_en": "Takeaway",
-      "content_zh": "1.  **移植物选择优化：** 远端腘绳肌移植物在破坏载荷和刚度上优于阔筋膜移植物，且其重建后刚度与自然状态无显著差异，提示在近端腘绳肌重建中可能更具临床优势。\n\n2.  **康复策略指导：** 尽管远端腘绳肌重建表现优异，但其破坏载荷仍低于原发缝合锚定修复。这表明术后康复不应比急性损伤修复的标准方案更为激进，需谨慎渐进。\n\n3.  **生物力学评估与未来研究：** 本研究强调了体外生物力学测试在评价手术技术中的重要性。未来研究可结合运动捕捉、肌电图（sEMG）或植入式传感器等生物力学工具，在活体条件下评估不同移植物在特定康复动作中的表现及负荷分布，以指导个体化康复方案。\n\n4.  **失败模式的临床意义：** 两种移植物的破坏模式不同（远端腘绳肌：修复部位、移植物-肌肉界面、肌肉；阔筋膜：肌腱-移植物界面），这提示在手术操作中应特别注意特定移植物的薄弱环节，或可通过改进缝合技术、增强界面稳定性来降低特定模式的失败风险。",
-      "content_en": "1.  **Optimized Graft Selection:** Distal hamstring graft demonstrated superior failure load and stiffness compared to fascia lata graft, with its reconstructed stiffness not significantly different from the native state. This suggests it may be the preferred clinical choice for proximal hamstring reconstruction.\n\n2.  **Rehabilitation Protocol Guidance:** Despite its superior performance, the failure load of distal hamstring reconstruction was inferior to that of primary suture anchor repair. This indicates that postoperative rehabilitation should not be more aggressive than standard protocols for acute repairs, necessitating a cautious, progressive approach.\n\n3.  **Biomechanical Assessment and Future Research:** This study highlights the importance of in-vitro biomechanical testing in evaluating surgical techniques. Future research could utilize biomechanical tools like motion capture, sEMG, or implantable sensors to evaluate the in-vivo performance and load distribution of different grafts during specific rehabilitation exercises, guiding individualized rehabilitation protocols.\n\n4.  **Clinical Significance of Failure Modes:** The distinct failure modes (distal hamstring: repair site, graft-muscle interface, muscle; fascia lata: tendon-graft interface) suggest specific vulnerabilities for each graft. This insight can inform surgical technique refinement, such as enhancing interface stability or optimizing suture methods, to reduce the risk of failure at these particular locations."
+      "content_zh": "1.  **标准化至关重要**: 该共识为MLKI的命名、诊断、治疗和康复提供了急需的标准化框架。研究人员和临床医生应采纳MLKI的明确定义及更新的分类系统，该系统需包含损伤机制、非韧带结构受损程度以及是否脱位。\n\n2.  **诊断流程的优化**: 对于高能量损伤和特定模式（如双交叉韧带及后外侧角损伤），CT血管造影应作为低阈值评估手段，以排除血管损伤。应力X线片或术中透视同样被证实具有重要诊断价值，在术前或术中评估韧带损伤程度和稳定性方面不可或缺。\n\n3.  **积极的手术管理**: 对于MLKI，特别是年轻患者，现有文献普遍支持手术治疗。在条件允许的情况下，应尽可能进行一期手术，以期最大化恢复膝关节稳定性并减少并发症。\n\n4.  **生物力学在康复与评估中的应用**: MLKI的康复过程需要精确评估和定制方案。未来的研究和临床实践应利用 **运动捕捉系统** (motion capture systems) 和 **测力台** (force plates) 等生物力学工具，在不同运动任务中量化膝关节的稳定性、运动学和动力学参数，评估手术效果，监测功能恢复进展，并为患者提供基于数据的个性化康复指导，从而客观地支持回归运动的决策。",
+      "content_en": "1.  **Standardization is Crucial**: This consensus provides a much-needed standardized framework for MLKI nomenclature, diagnosis, treatment, and rehabilitation. Researchers and clinicians should adopt the clear definition of MLKI and the updated classification system, which should include injury mechanism, extent of non-ligamentous structures injured, and presence or absence of dislocation.\n\n2.  **Optimizing Diagnostic Flow**: For high-energy injuries and specific patterns (e.g., bicruciate and PLC injuries), CT angiography should be considered with a low threshold to rule out vascular compromise. Stress radiography or intraoperative fluoroscopy were also confirmed to be of significant diagnostic value, indispensable for assessing ligamentous injury extent and stability pre- or intraoperatively.\n\n3.  **Proactive Surgical Management**: For MLKI, existing literature generally favors operative management, particularly for young patients. Single-stage surgery should be performed whenever possible to maximize knee stability restoration and reduce complications.\n\n4.  **Biomechanics in Rehabilitation and Assessment**: The rehabilitation process for MLKI requires precise assessment and personalized protocols. Future research and clinical practice should leverage biomechanical tools such as **motion capture systems** and **force plates** to quantify knee stability, kinematics, and kinetics during various movement tasks. This can assess surgical outcomes, monitor functional recovery progress, and provide data-driven personalized rehabilitation guidance, objectively supporting return-to-sport decisions."
     }
-  ],
-  "pmid": "37975438",
-  "fulltext_url": "https://journals.sagepub.com/doi/pdf/10.1177/03635465231206464?download=true",
-  "fulltext_type": "oa_pdf",
-  "fulltext_label": "PDF 全文"
+  ]
 }
