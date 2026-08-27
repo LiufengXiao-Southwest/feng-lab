@@ -1,35 +1,35 @@
 {
-  "date": "2026-08-26",
-  "title_en": "Multiligament knee injury (MLKI): an expert consensus statement on nomenclature, diagnosis, treatment and rehabilitation",
-  "title_zh": "多韧带膝关节损伤 (MLKI)：命名、诊断、治疗和康复的专家共识声明",
-  "authors": "IR. Murray, N. Makaram, Andrew G. Geeslin, J. Chahla et al.",
-  "journal": "British Journal of Sports Medicine",
-  "year": 2024,
+  "date": "2026-08-27",
+  "title_en": "The Effect of Different Cognitive Demands on ACL Risk Biomechanics and Prefrontal Activation During a Single-Leg Drop Jump",
+  "title_zh": "不同认知负荷对单腿跳落时ACL损伤风险生物力学及前额叶激活的影响",
+  "authors": "J. Jiménez-Martínez, A. Gutiérrez-Capote, Francisco Alarcón-López, Jonathan D Hughes et al.",
+  "journal": "American Journal of Sports Medicine",
+  "year": 2026,
   "volume_page": "",
-  "doi": "10.1136/bjsports-2024-108089",
-  "impact_factor": "15.5",
+  "doi": "10.1177/03635465251412731",
+  "impact_factor": "5.4",
   "if_source": "JCR 2024",
-  "journal_tier": "运动科学1区 TOP",
+  "journal_tier": "骨科1区/运动科学1区 TOP",
   "is_open_access": false,
   "pdf_url": "",
   "category": "biomechanics",
-  "citation_count": 36,
+  "citation_count": 4,
   "sections": [
     {
       "id": "why",
       "icon": "◎",
       "title_zh": "为什么值得读",
       "title_en": "Why It Matters",
-      "content_zh": "本专家共识声明解决了多韧带膝关节损伤 (MLKI) 在术语、诊断和治疗方面长期存在的争议，这些争议曾严重阻碍临床护理和科学研究。通过提供明确的定义和标准化的管理策略，它为MLKI的实践提供了急需的统一框架，对于提高患者预后和推动未来高质量研究至关重要。该论文获得36次引用，彰显了其在统一MLKI领域认知方面的重要影响。",
-      "content_en": "This expert consensus statement addresses longstanding disagreements in the terminology, diagnosis, and treatment of multiligament knee injuries (MLKI) that previously hampered clinical care and research. By providing clear definitions and standardized management strategies, it offers a crucial unifying framework for MLKI practice, essential for improving patient outcomes and fostering high-quality future research. Its 36 citations highlight its significant impact in standardizing understanding within the MLKI field."
+      "content_zh": "本研究通过系统地操纵和量化认知负荷，弥补了现有ACL损伤研究中对认知因素关注不足的空白。它首次将生物力学、行为学和神经生理学数据相结合，揭示了认知负荷对ACL损伤风险生物力学的影响，并提出前额叶活动作为精神负荷的客观生物标志物。作为一篇发表于顶级期刊AJSM的早期引用论文，其创新性的多模态方法为ACL损伤预防和康复策略提供了新的视角。",
+      "content_en": "This study addresses a gap in current ACL injury research by systematically manipulating and quantifying cognitive load. It uniquely integrates biomechanical, behavioral, and neurophysiological data to reveal the impact of cognitive load on ACL injury risk biomechanics, and proposes prefrontal activation as an objective biomarker for mental workload. As an early-cited paper in the top-tier journal AJSM, its innovative multimodal approach offers a new perspective for ACL injury prevention and rehabilitation strategies."
     },
     {
       "id": "design",
       "icon": "⊞",
       "title_zh": "研究设计速览",
       "title_en": "Study Design",
-      "content_zh": "**类型**: 国际专家共识声明\n**方法**: 经验证的Delphi方法学\n**研究对象**: 来自14个国家的39名多学科专家\n**数据收集**: 3轮在线调查，采用5点Likert量表进行匿名评估，鼓励专家提出修改或补充\n**共识定义**: 预设为>75%的受访者同意且<10%不同意\n**主要结局**: MLKI命名、诊断、治疗、康复策略及未来研究优先事项的共识声明",
-      "content_en": "**Type**: International Expert Consensus Statement\n**Method**: Validated Delphi methodology\n**Participants**: Multidisciplinary panel of 39 members from 14 countries\n**Data Collection**: 3 rounds of online surveys using a 5-point Likert scale for anonymous rating, with encouragement for modifications or additional statements\n**Consensus Definition**: Defined a priori as >75% agreement and <10% disagreement\n**Primary outcome**: Consensus statements on MLKI nomenclature, diagnosis, treatment, rehabilitation strategies, and future research priorities"
+      "content_zh": "**类型**: 对照实验室研究\n**样本**: 30名团队运动运动员\n**研究对象**: 在5种不同认知复杂度的条件下（使用改进Go/No-Go任务）进行单腿跳落垂直跳（SL-DVJ）\n**主要结局**: 生物力学变量（峰值地面反作用力、膝关节屈曲/外翻）、行为学变量（认知表现：准确性、调整后反应时间）、前额叶血流动力学数据（氧合血红蛋白）\n**分析方法**: 统计比较（P < .001），相关性分析（r = −0.471, P < .01；r = 0.650, P < .001）",
+      "content_en": "**Type**: Controlled laboratory study\n**Sample**: 30 athletes engaged in team sports\n**Participants/Conditions**: Performed a single-leg drop vertical jump (SL-DVJ) under 5 cognitive conditions of varying complexity using a modified Go/No-Go task\n**Primary Outcomes**: Biomechanical variables (peak GRF, knee flexion/abduction), behavioral variables (cognitive performance: accuracy, precision-adjusted response time), prefrontal hemodynamic data (OxyHb)\n**Analysis**: Statistical comparisons (P < .001), correlation analysis (r = −0.471, P < .01; r = 0.650, P < .001)"
     },
     {
       "id": "results",
@@ -38,40 +38,28 @@
       "title_en": "Key Numbers",
       "stats": [
         {
-          "label_zh": "达成共识的条目数",
-          "label_en": "Items reaching consensus",
-          "value": "50",
-          "note": "占总条目数的92.6%"
+          "label_zh": "峰值地面反作用力、膝关节运动学改变",
+          "label_en": "Peak GRF, knee kinematics alteration",
+          "value": "增加/减少",
+          "note": "高认知负荷显著增加峰值地面反作用力，减少膝关节屈曲，增加膝关节外翻 (P < .001)"
         },
         {
-          "label_zh": "MLKI明确定义的意见一致性",
-          "label_en": "LoA for clear MLKI definition",
-          "value": "97.4%",
-          "note": "高度一致"
+          "label_zh": "前额叶氧合血红蛋白浓度",
+          "label_en": "Prefrontal OxyHb concentration",
+          "value": "增加",
+          "note": "高认知负荷下前额叶氧合血红蛋白浓度升高，表明皮层激活增加"
         },
         {
-          "label_zh": "高能量MLKI行CT血管造影的意见一致性",
-          "label_en": "LoA for CT angiography in high-energy MLKI",
-          "value": "89.7%",
-          "note": "建议低阈值评估"
+          "label_zh": "认知表现（准确性）与生物力学模式相关性",
+          "label_en": "Cognitive performance (accuracy) correlation with biomechanical patterns",
+          "value": "r = −0.471",
+          "note": "较低的认知准确性与更明显的生物力学模式（如更大地面反作用力）相关 (P < .01)"
         },
         {
-          "label_zh": "应力X线片或术中透视价值的意见一致性",
-          "label_en": "LoA for stress radiography or intraoperative fluoroscopy value",
-          "value": "89.7%",
-          "note": "强调其诊断价值"
-        },
-        {
-          "label_zh": "MLKI手术治疗(尤其年轻患者)的普遍同意度",
-          "label_en": "General agreement for operative management of MLKI, especially for young patients",
-          "value": "100%",
-          "note": "现有文献普遍支持"
-        },
-        {
-          "label_zh": "应尽可能进行一期手术的意见一致性",
-          "label_en": "LoA for single-stage surgery whenever possible",
-          "value": "92.3%",
-          "note": "优先策略"
+          "label_zh": "认知表现（调整后反应时间）与ACL风险相关性",
+          "label_en": "Cognitive performance (precision-adjusted response time) correlation with ACL risk",
+          "value": "r = 0.650",
+          "note": "较高的调整后反应时间与ACL损伤风险增加相关 (P < .001)"
         }
       ]
     },
@@ -81,24 +69,28 @@
       "title_zh": "方法学评价",
       "title_en": "Critical Appraisal",
       "pros_zh": [
-        "采用经验证的Delphi方法学，确保了共识过程的系统性和严谨性。",
-        "汇集了来自14个国家39位多学科专家的意见，代表了广泛的国际视角和专业知识。",
-        "对MLKI的关键方面（如定义、诊断和治疗原则）达成了高度共识，填补了临床实践和研究中的空白。"
+        "系统性地操纵和量化认知负荷，弥补了现有ACL研究的不足。",
+        "整合了生物力学、行为学和神经生理学多模态数据，提供了全面的视角。",
+        "探讨了运动表现中个体认知能力差异对ACL损伤风险的影响，具有临床预警价值。",
+        "提出前额叶激活作为精神工作负荷的客观生物标志物，开辟了新的研究方向。"
       ],
       "cons_zh": [
-        "共识主要基于专家意见，而非直接的随机对照试验等高级别证据，可能存在一定的主观性。",
-        "虽然专家投票是匿名的，但专家组的构成和背景仍可能引入潜在的偏倚。",
-        "抽象内容未详细说明具体康复策略的细节，未来的研究可能需要更具体的指导和量化指标。"
+        "样本量相对较小（30名运动员），可能限制结果的普适性。",
+        "研究在实验室环境下进行，生态学效度可能低于真实比赛场景。",
+        "为横断面设计，未能长期追踪认知负荷与ACL实际损伤发生率的关系。",
+        "“团队运动运动员”的背景较为宽泛，未具体说明运动项目，可能影响结果的特定性。"
       ],
       "pros_en": [
-        "Employed a validated Delphi methodology, ensuring a systematic and rigorous consensus process.",
-        "Engaged 39 multidisciplinary experts from 14 countries, representing a broad international perspective and specialized knowledge.",
-        "Achieved high consensus on critical aspects of MLKI (e.g., definition, diagnosis, treatment principles), addressing gaps in clinical practice and research."
+        "Systematically manipulated and quantified cognitive load, addressing a gap in existing ACL research.",
+        "Integrated multi-modal data (biomechanical, behavioral, neurophysiological), offering a comprehensive perspective.",
+        "Explored the impact of individual cognitive performance differences on ACL injury risk, providing clinical predictive value.",
+        "Proposed prefrontal activation as an objective biomarker for mental workload, opening new research avenues."
       ],
       "cons_en": [
-        "The consensus is primarily based on expert opinion rather than direct high-level evidence like randomized controlled trials, potentially introducing subjectivity.",
-        "Despite anonymous voting, potential biases related to the composition and backgrounds of the expert panel may still exist.",
-        "The abstract does not detail specific rehabilitation strategies, indicating a need for more concrete guidance and quantifiable metrics in future research."
+        "Relatively small sample size (30 athletes) may limit the generalizability of the findings.",
+        "Conducted in a laboratory setting, which may have lower ecological validity compared to real-game scenarios.",
+        "Cross-sectional design, not tracking the long-term relationship between cognitive load and actual ACL injury incidence.",
+        "The broad category of 'team sports athletes' without specific sport details might affect the specificity of the results."
       ]
     },
     {
@@ -106,8 +98,8 @@
       "icon": "◆",
       "title_zh": "研究启示",
       "title_en": "Takeaway",
-      "content_zh": "1.  **标准化至关重要**: 该共识为MLKI的命名、诊断、治疗和康复提供了急需的标准化框架。研究人员和临床医生应采纳MLKI的明确定义及更新的分类系统，该系统需包含损伤机制、非韧带结构受损程度以及是否脱位。\n\n2.  **诊断流程的优化**: 对于高能量损伤和特定模式（如双交叉韧带及后外侧角损伤），CT血管造影应作为低阈值评估手段，以排除血管损伤。应力X线片或术中透视同样被证实具有重要诊断价值，在术前或术中评估韧带损伤程度和稳定性方面不可或缺。\n\n3.  **积极的手术管理**: 对于MLKI，特别是年轻患者，现有文献普遍支持手术治疗。在条件允许的情况下，应尽可能进行一期手术，以期最大化恢复膝关节稳定性并减少并发症。\n\n4.  **生物力学在康复与评估中的应用**: MLKI的康复过程需要精确评估和定制方案。未来的研究和临床实践应利用 **运动捕捉系统** (motion capture systems) 和 **测力台** (force plates) 等生物力学工具，在不同运动任务中量化膝关节的稳定性、运动学和动力学参数，评估手术效果，监测功能恢复进展，并为患者提供基于数据的个性化康复指导，从而客观地支持回归运动的决策。",
-      "content_en": "1.  **Standardization is Crucial**: This consensus provides a much-needed standardized framework for MLKI nomenclature, diagnosis, treatment, and rehabilitation. Researchers and clinicians should adopt the clear definition of MLKI and the updated classification system, which should include injury mechanism, extent of non-ligamentous structures injured, and presence or absence of dislocation.\n\n2.  **Optimizing Diagnostic Flow**: For high-energy injuries and specific patterns (e.g., bicruciate and PLC injuries), CT angiography should be considered with a low threshold to rule out vascular compromise. Stress radiography or intraoperative fluoroscopy were also confirmed to be of significant diagnostic value, indispensable for assessing ligamentous injury extent and stability pre- or intraoperatively.\n\n3.  **Proactive Surgical Management**: For MLKI, existing literature generally favors operative management, particularly for young patients. Single-stage surgery should be performed whenever possible to maximize knee stability restoration and reduce complications.\n\n4.  **Biomechanics in Rehabilitation and Assessment**: The rehabilitation process for MLKI requires precise assessment and personalized protocols. Future research and clinical practice should leverage biomechanical tools such as **motion capture systems** and **force plates** to quantify knee stability, kinematics, and kinetics during various movement tasks. This can assess surgical outcomes, monitor functional recovery progress, and provide data-driven personalized rehabilitation guidance, objectively supporting return-to-sport decisions."
+      "content_zh": "1. **认知负荷与ACL风险：** 增加的认知负荷会显著改变运动生物力学，如提高地面反作用力、减少膝关节屈曲和增加膝关节外翻，从而潜在增加ACL损伤风险。这提示我们在训练和比赛中需关注运动员的心理压力。\n\n2. **个体认知能力的重要性：** 认知表现较差的运动员（准确性低、反应时间长）对高认知负荷的生物力学效应更敏感，面临更高的ACL损伤风险。这强调了将认知评估纳入运动员筛选和风险评估的重要性。\n\n3. **神经生理学监测的应用：** 前额叶皮层（PFC）活动，特别是氧合血红蛋白（OxyHb）浓度，可作为客观衡量精神工作负荷的指标，并揭示不同执行控制需求下的特定区域激活模式。未来研究可利用功能性近红外光谱（fNIRS）等技术更深入地探索脑功能与运动损伤的关系。\n\n4. **损伤预防与康复策略：** 结合运动生物力学仪器（如**高速摄像运动捕捉系统**、**测力台**）和认知任务，设计融入认知挑战的预防和康复训练方案，以更好地模拟比赛情境，提高运动员在压力下的运动表现和决策能力，从而有效降低ACL损伤风险。",
+      "content_en": "1. **Cognitive Load and ACL Risk:** Increased cognitive load significantly alters movement biomechanics, such as increasing ground-reaction forces, reducing knee flexion, and increasing knee abduction, thereby potentially increasing ACL injury risk. This highlights the need to pay attention to athletes' mental stress during training and competition.\n\n2. **Importance of Individual Cognitive Performance:** Athletes with poorer cognitive performance (lower accuracy, longer response time) are more susceptible to the biomechanical effects of high cognitive load and face a higher risk of ACL injury. This underscores the importance of integrating cognitive assessment into athlete screening and risk evaluation.\n\n3. **Application of Neurophysiological Monitoring:** Prefrontal cortex (PFC) activity, especially OxyHb concentration, can serve as an objective measure of mental workload and reveal specific regional activation patterns under different executive control demands. Future research can utilize techniques like functional near-infrared spectroscopy (fNIRS) to delve deeper into the relationship between brain function and sports injuries.\n\n4. **Injury Prevention and Rehabilitation Strategies:** Integrate cognitive challenges into injury prevention and rehabilitation strategies using biomechanical instrumentation (e.g., **high-speed motion capture systems**, **force platforms**) and cognitive tasks to better simulate game scenarios, improve athletes' performance and decision-making under pressure, and effectively reduce ACL injury risk."
     }
   ]
 }
