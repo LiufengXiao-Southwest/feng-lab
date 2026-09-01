@@ -4,6 +4,7 @@
   <url><loc>https://feng-lab.vercel.app/archive.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://feng-lab.vercel.app/deep-read.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://feng-lab.vercel.app/deep-read-archive.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://feng-lab.vercel.app/archive.html#date=2026-09-01</loc><lastmod>2026-09-01</lastmod><priority>0.5</priority></url>
   <url><loc>https://feng-lab.vercel.app/archive.html#date=2026-08-31</loc><lastmod>2026-08-31</lastmod><priority>0.5</priority></url>
   <url><loc>https://feng-lab.vercel.app/archive.html#date=2026-08-30</loc><lastmod>2026-08-30</lastmod><priority>0.5</priority></url>
   <url><loc>https://feng-lab.vercel.app/archive.html#date=2026-08-29</loc><lastmod>2026-08-29</lastmod><priority>0.5</priority></url>

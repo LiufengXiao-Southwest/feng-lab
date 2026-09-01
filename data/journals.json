@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31",
+  "updated": "2026-09-01",
   "jcr_year": "2024",
   "sources": {
     "easyscholar": "easyscholar.cc — JCR impact factor, JCR quartile, CAS tiers; refreshed every run",
@@ -55,7 +55,7 @@
         "Applied Sciences (Web)"
       ],
       "publisher": "Multidisciplinary Digital Publishing Institute",
-      "openalex_2yr": 3.864,
+      "openalex_2yr": 3.866,
       "h_index": 227,
       "works_count": 92081,
       "is_oa": true,
@@ -191,7 +191,7 @@
       ],
       "publisher": "Springer Science+Business Media",
       "openalex_id": "S205145379",
-      "openalex_2yr": 2.604,
+      "openalex_2yr": 2.605,
       "h_index": 223,
       "works_count": 12171,
       "is_oa": false,
@@ -935,7 +935,7 @@
       ],
       "publisher": "American Physical Therapy Association",
       "openalex_id": "S7609525",
-      "openalex_2yr": 4.594,
+      "openalex_2yr": 4.598,
       "h_index": 199,
       "works_count": 4866,
       "is_oa": false,
@@ -1255,7 +1255,7 @@
       ],
       "aliases": [],
       "publisher": "Multidisciplinary Digital Publishing Institute",
-      "openalex_2yr": 2.368,
+      "openalex_2yr": 2.37,
       "h_index": 59,
       "works_count": 7011,
       "is_oa": true,
@@ -1302,7 +1302,7 @@
         "Российский кардиологический журнал"
       ],
       "publisher": "Russian Society of Cardiology",
-      "openalex_2yr": 1.742,
+      "openalex_2yr": 1.743,
       "h_index": 50,
       "works_count": 3201,
       "is_oa": true,
@@ -1582,7 +1582,7 @@
       ],
       "publisher": "SAGE Publishing",
       "openalex_id": "S154904565",
-      "openalex_2yr": 5.259,
+      "openalex_2yr": 5.264,
       "h_index": 362,
       "works_count": 12856,
       "is_oa": false,
@@ -1707,11 +1707,11 @@
     "2025 4th international conference distributed computing electrical circuits electronics icdcece",
     "2025 international conference computational innovations engineering sustainability iccies",
     "advanced international journal research",
-    "annual international computer software applications conference",
     "current issues sport science ciss",
     "ieee international conference robotics biomimetics",
     "international conference bioinformatics computational biology",
     "mayo clinic proceedings digital health",
+    "molecular cellular biomechanics",
     "proceedings 2025 2nd international conference sports technology performance analysis",
     "social science reports"
   ]
