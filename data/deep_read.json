@@ -1,35 +1,35 @@
 {
-  "date": "2026-08-27",
-  "title_en": "The Effect of Different Cognitive Demands on ACL Risk Biomechanics and Prefrontal Activation During a Single-Leg Drop Jump",
-  "title_zh": "不同认知负荷对单腿跳落时ACL损伤风险生物力学及前额叶激活的影响",
-  "authors": "J. Jiménez-Martínez, A. Gutiérrez-Capote, Francisco Alarcón-López, Jonathan D Hughes et al.",
-  "journal": "American Journal of Sports Medicine",
-  "year": 2026,
+  "date": "2026-09-12",
+  "title_en": "Considerations with Open Kinetic Chain Knee Extension Exercise Following ACL Reconstruction",
+  "title_zh": "前交叉韧带重建术后开放链膝关节伸展运动的考量",
+  "authors": "K. Wilk, C. Arrigo, Michael S Bagwell, Adam Finck",
+  "journal": "Journal of Orthopaedic & Sports Physical Therapy",
+  "year": 2021,
   "volume_page": "",
-  "doi": "10.1177/03635465251412731",
-  "impact_factor": "5.4",
+  "doi": "10.26603/001c.18983",
+  "impact_factor": "6.9",
   "if_source": "JCR 2024",
-  "journal_tier": "骨科1区/运动科学1区 TOP",
-  "is_open_access": false,
-  "pdf_url": "",
+  "journal_tier": "康复医学1区/运动科学1区/骨科2区",
+  "is_open_access": true,
+  "pdf_url": "https://ijspt.scholasticahq.com/article/18983.pdf",
   "category": "biomechanics",
-  "citation_count": 4,
+  "citation_count": 11,
   "sections": [
     {
       "id": "why",
       "icon": "◎",
       "title_zh": "为什么值得读",
       "title_en": "Why It Matters",
-      "content_zh": "本研究通过系统地操纵和量化认知负荷，弥补了现有ACL损伤研究中对认知因素关注不足的空白。它首次将生物力学、行为学和神经生理学数据相结合，揭示了认知负荷对ACL损伤风险生物力学的影响，并提出前额叶活动作为精神负荷的客观生物标志物。作为一篇发表于顶级期刊AJSM的早期引用论文，其创新性的多模态方法为ACL损伤预防和康复策略提供了新的视角。",
-      "content_en": "This study addresses a gap in current ACL injury research by systematically manipulating and quantifying cognitive load. It uniquely integrates biomechanical, behavioral, and neurophysiological data to reveal the impact of cognitive load on ACL injury risk biomechanics, and proposes prefrontal activation as an objective biomarker for mental workload. As an early-cited paper in the top-tier journal AJSM, its innovative multimodal approach offers a new perspective for ACL injury prevention and rehabilitation strategies."
+      "content_zh": "这篇临床观点文章为前交叉韧带重建术后开放链膝关节伸展运动的争议提供了关键的平衡视角。它强调了该运动在股四头肌强化中的重要性，同时明确指出了不当使用（如过大阻力、不适宜的运动范围和时机）对移植物完整性和髌股关节健康的潜在危害。通过综合现有生物力学证据，文章为安全有效的康复策略提供了指导，填补了实践中对OKC运动应用时机的具体担忧，其引用的数量也反映了其对临床实践和研究的指导价值。",
+      "content_en": "This clinical viewpoint offers a crucial, balanced perspective on the controversial use of open kinetic chain (OKC) knee extension exercises following ACL reconstruction (ACLR). It highlights the exercise's importance for quadriceps strengthening while clearly identifying the potential harm (graft integrity, patellofemoral pain) from inappropriate application (excessive resistance, unsuitable ROM, incorrect timing). By synthesizing existing biomechanical evidence, the paper provides guidance for safe and effective rehabilitation, filling a gap in addressing specific concerns about OKC exercise timing in practice, and its citation count reflects its value in guiding clinical practice and research."
     },
     {
       "id": "design",
       "icon": "⊞",
       "title_zh": "研究设计速览",
       "title_en": "Study Design",
-      "content_zh": "**类型**: 对照实验室研究\n**样本**: 30名团队运动运动员\n**研究对象**: 在5种不同认知复杂度的条件下（使用改进Go/No-Go任务）进行单腿跳落垂直跳（SL-DVJ）\n**主要结局**: 生物力学变量（峰值地面反作用力、膝关节屈曲/外翻）、行为学变量（认知表现：准确性、调整后反应时间）、前额叶血流动力学数据（氧合血红蛋白）\n**分析方法**: 统计比较（P < .001），相关性分析（r = −0.471, P < .01；r = 0.650, P < .001）",
-      "content_en": "**Type**: Controlled laboratory study\n**Sample**: 30 athletes engaged in team sports\n**Participants/Conditions**: Performed a single-leg drop vertical jump (SL-DVJ) under 5 cognitive conditions of varying complexity using a modified Go/No-Go task\n**Primary Outcomes**: Biomechanical variables (peak GRF, knee flexion/abduction), behavioral variables (cognitive performance: accuracy, precision-adjusted response time), prefrontal hemodynamic data (OxyHb)\n**Analysis**: Statistical comparisons (P < .001), correlation analysis (r = −0.471, P < .01; r = 0.650, P < .001)"
+      "content_zh": "**类型**: 临床观点文章\n**研究目的**: 讨论前交叉韧带重建术后开放链膝关节伸展运动的潜在风险，并提出安全有效的股四头肌强化策略。\n**证据来源**: 对多项已发表文献的综述和专家意见\n**研究视角**: 对先前倡导OKC运动的观点进行平衡和审慎的补充",
+      "content_en": "**Type**: Clinical Viewpoint Article\n**Research Purpose**: To discuss concerns regarding open kinetic chain knee extension exercises post-ACLR and propose strategies for safe and effective quadriceps strengthening.\n**Evidence Source**: Review of multiple published literature and expert opinion\n**Research Perspective**: A balanced and cautious complement to previous viewpoints advocating OKC exercises"
     },
     {
       "id": "results",
@@ -38,28 +38,22 @@
       "title_en": "Key Numbers",
       "stats": [
         {
-          "label_zh": "峰值地面反作用力、膝关节运动学改变",
-          "label_en": "Peak GRF, knee kinematics alteration",
-          "value": "增加/减少",
-          "note": "高认知负荷显著增加峰值地面反作用力，减少膝关节屈曲，增加膝关节外翻 (P < .001)"
+          "label_zh": "40-0度膝屈曲范围内股四头肌力量增大",
+          "label_en": "Quadriceps force increase in 40-0 degrees knee flexion",
+          "value": "3-4倍",
+          "note": "在此膝关节伸展范围，所需股四头肌力量显著增加，导致ACL应变更高。"
         },
         {
-          "label_zh": "前额叶氧合血红蛋白浓度",
-          "label_en": "Prefrontal OxyHb concentration",
-          "value": "增加",
-          "note": "高认知负荷下前额叶氧合血红蛋白浓度升高，表明皮层激活增加"
+          "label_zh": "40-0度膝屈曲范围内ACL应变",
+          "label_en": "ACL strain in 40-0 degrees knee flexion",
+          "value": "最高",
+          "note": "Beynnon等人的体内研究证实，此范围为ACL应变的高危区，且随着阻力增加，应变也随之增加。"
         },
         {
-          "label_zh": "认知表现（准确性）与生物力学模式相关性",
-          "label_en": "Cognitive performance (accuracy) correlation with biomechanical patterns",
-          "value": "r = −0.471",
-          "note": "较低的认知准确性与更明显的生物力学模式（如更大地面反作用力）相关 (P < .01)"
-        },
-        {
-          "label_zh": "认知表现（调整后反应时间）与ACL风险相关性",
-          "label_en": "Cognitive performance (precision-adjusted response time) correlation with ACL risk",
-          "value": "r = 0.650",
-          "note": "较高的调整后反应时间与ACL损伤风险增加相关 (P < .001)"
+          "label_zh": "50-0度膝屈曲范围内髌股关节反作用力和压应力",
+          "label_en": "Patellofemoral joint reaction and compressive forces in 50-0 degrees knee flexion",
+          "value": "显著更高",
+          "note": "与闭链运动相比，在开放链膝关节伸展中髌股关节负荷更高。"
         }
       ]
     },
@@ -69,28 +63,26 @@
       "title_zh": "方法学评价",
       "title_en": "Critical Appraisal",
       "pros_zh": [
-        "系统性地操纵和量化认知负荷，弥补了现有ACL研究的不足。",
-        "整合了生物力学、行为学和神经生理学多模态数据，提供了全面的视角。",
-        "探讨了运动表现中个体认知能力差异对ACL损伤风险的影响，具有临床预警价值。",
-        "提出前额叶激活作为精神工作负荷的客观生物标志物，开辟了新的研究方向。"
+        "对前交叉韧带重建术后康复中开放链运动的争议提供了关键且平衡的观点。",
+        "综合了多项体外和体内生物力学研究数据，增强了论点的科学依据。",
+        "明确指出了可能对移植物完整性和髌股关节健康造成风险的具体运动范围和负荷条件。",
+        "作者团队在该领域具有深厚的临床和研究背景（K. Wilk是著名物理治疗师和研究员）。"
       ],
       "cons_zh": [
-        "样本量相对较小（30名运动员），可能限制结果的普适性。",
-        "研究在实验室环境下进行，生态学效度可能低于真实比赛场景。",
-        "为横断面设计，未能长期追踪认知负荷与ACL实际损伤发生率的关系。",
-        "“团队运动运动员”的背景较为宽泛，未具体说明运动项目，可能影响结果的特定性。"
+        "作为临床观点文章，并未提供新的原创实验数据或临床试验结果，主要基于对现有文献的解读和专家意见。",
+        "抽象层面未详细阐述具体的康复方案细节（如确切的负荷、组数、频率），读者需结合其他资源获取详细指导。",
+        "观点可能受限于所引用研究的局限性，例如早期体内应变研究样本量较小。"
       ],
       "pros_en": [
-        "Systematically manipulated and quantified cognitive load, addressing a gap in existing ACL research.",
-        "Integrated multi-modal data (biomechanical, behavioral, neurophysiological), offering a comprehensive perspective.",
-        "Explored the impact of individual cognitive performance differences on ACL injury risk, providing clinical predictive value.",
-        "Proposed prefrontal activation as an objective biomarker for mental workload, opening new research avenues."
+        "Provides a crucial and balanced perspective on the controversial use of open kinetic chain exercises in ACLR rehabilitation.",
+        "Synthesizes data from multiple in vitro and in vivo biomechanical studies, strengthening the scientific basis of its arguments.",
+        "Clearly identifies specific ranges of motion and load conditions that pose risks to graft integrity and patellofemoral joint health.",
+        "The author team (K. Wilk) has extensive clinical and research expertise in the field."
       ],
       "cons_en": [
-        "Relatively small sample size (30 athletes) may limit the generalizability of the findings.",
-        "Conducted in a laboratory setting, which may have lower ecological validity compared to real-game scenarios.",
-        "Cross-sectional design, not tracking the long-term relationship between cognitive load and actual ACL injury incidence.",
-        "The broad category of 'team sports athletes' without specific sport details might affect the specificity of the results."
+        "As a clinical viewpoint article, it does not present new original experimental data or clinical trial results, relying primarily on interpretation of existing literature and expert opinion.",
+        "The abstract does not detail specific rehabilitation protocol intricacies (e.g., exact loads, sets, frequency), requiring readers to consult additional resources for comprehensive guidance.",
+        "The viewpoint may be limited by the scope of the cited studies, for instance, early in-vivo strain studies often had small sample sizes."
       ]
     },
     {
@@ -98,12 +90,8 @@
       "icon": "◆",
       "title_zh": "研究启示",
       "title_en": "Takeaway",
-      "content_zh": "1. **认知负荷与ACL风险：** 增加的认知负荷会显著改变运动生物力学，如提高地面反作用力、减少膝关节屈曲和增加膝关节外翻，从而潜在增加ACL损伤风险。这提示我们在训练和比赛中需关注运动员的心理压力。\n\n2. **个体认知能力的重要性：** 认知表现较差的运动员（准确性低、反应时间长）对高认知负荷的生物力学效应更敏感，面临更高的ACL损伤风险。这强调了将认知评估纳入运动员筛选和风险评估的重要性。\n\n3. **神经生理学监测的应用：** 前额叶皮层（PFC）活动，特别是氧合血红蛋白（OxyHb）浓度，可作为客观衡量精神工作负荷的指标，并揭示不同执行控制需求下的特定区域激活模式。未来研究可利用功能性近红外光谱（fNIRS）等技术更深入地探索脑功能与运动损伤的关系。\n\n4. **损伤预防与康复策略：** 结合运动生物力学仪器（如**高速摄像运动捕捉系统**、**测力台**）和认知任务，设计融入认知挑战的预防和康复训练方案，以更好地模拟比赛情境，提高运动员在压力下的运动表现和决策能力，从而有效降低ACL损伤风险。",
-      "content_en": "1. **Cognitive Load and ACL Risk:** Increased cognitive load significantly alters movement biomechanics, such as increasing ground-reaction forces, reducing knee flexion, and increasing knee abduction, thereby potentially increasing ACL injury risk. This highlights the need to pay attention to athletes' mental stress during training and competition.\n\n2. **Importance of Individual Cognitive Performance:** Athletes with poorer cognitive performance (lower accuracy, longer response time) are more susceptible to the biomechanical effects of high cognitive load and face a higher risk of ACL injury. This underscores the importance of integrating cognitive assessment into athlete screening and risk evaluation.\n\n3. **Application of Neurophysiological Monitoring:** Prefrontal cortex (PFC) activity, especially OxyHb concentration, can serve as an objective measure of mental workload and reveal specific regional activation patterns under different executive control demands. Future research can utilize techniques like functional near-infrared spectroscopy (fNIRS) to delve deeper into the relationship between brain function and sports injuries.\n\n4. **Injury Prevention and Rehabilitation Strategies:** Integrate cognitive challenges into injury prevention and rehabilitation strategies using biomechanical instrumentation (e.g., **high-speed motion capture systems**, **force platforms**) and cognitive tasks to better simulate game scenarios, improve athletes' performance and decision-making under pressure, and effectively reduce ACL injury risk."
+      "content_zh": "1.  **开放链运动的谨慎应用**: 开放链膝关节伸展运动在重建术后康复中是股四头肌强化的重要手段，但必须在**合适的时机、运动范围和渐进负荷下谨慎使用**。过早、过大负荷或在特定高风险膝关节屈曲角度下使用，可能对前交叉韧带移植物造成损害并引起髌股关节疼痛。\n\n2.  **规避高风险运动区间**: 临床实践中应特别注意避免在膝关节屈曲**40至0度**（近乎完全伸展）的开放链膝关节伸展中施加最大阻力或进行高强度训练，因为此范围内的股四头肌力矩和前向剪切力最大，导致前交叉韧带应变显著增加。同时，需注意膝关节屈曲**50至0度**范围内髌股关节反作用力的升高。\n\n3.  **考虑移植物类型与共收缩**: 腘绳肌移植物和异体移植物对蠕变和伸长更敏感，在康复过程中应更小心。**股四头肌与腘绳肌的共收缩**对于减少胫骨前向剪切力和ACL应变至关重要，因此应在康复训练中强调并促进这种共收缩模式。\n\n4.  **生物力学技术辅助优化康复**: 研究中提及的ACL应变、肌力输出和关节反作用力都可通过先进的生物力学技术进行评估。例如，**表面肌电图 (sEMG)** 可实时监测股四头肌与腘绳肌的激活模式和共收缩指数，指导患者主动激活腘绳肌以保护移植物。结合**运动捕捉系统**精确分析膝关节角度、运动速度和肢体动力学，可以帮助康复师为患者定制个性化的开放链伸展方案，确保在安全阈值内有效强化股四头肌，最大限度地减少移植物和髌股关节的风险。",
+      "content_en": "1.  **Prudent Application of OKC Exercises**: Open kinetic chain knee extension exercises are an important component for quadriceps strengthening post-ACLR, but must be used **judiciously with appropriate timing, range of motion, and progressive loading**. Premature, excessive loading, or use within unsuitable knee flexion angles can potentially harm the ACL graft and lead to patellofemoral pain.\n\n2.  **Avoid High-Risk ROMs**: Clinical practice should specifically avoid applying maximum resistance or high-force exercises during OKC knee extension in the **40 to 0 degrees** of knee flexion (near full extension), as this range generates the greatest quadriceps moment and anterior shear forces, leading to significantly increased ACL strain. Additionally, elevated patellofemoral joint reaction forces are noted in the **50 to 0 degrees** flexion range.\n\n3.  **Graft Type and Co-contraction Considerations**: Given that hamstring grafts and allografts are more susceptible to creep and stretch-out, greater caution is warranted during rehabilitation. **Quadriceps-hamstring co-contraction** is crucial for reducing anterior tibiofemoral shear forces and ACL strain, and thus should be emphasized and promoted in rehabilitation exercises.\n\n4.  **Biomechanical Technology for Rehabilitation Optimization**: The ACL strain, muscle force output, and joint reaction forces discussed in the study can be evaluated using advanced biomechanical technologies. For instance, **surface electromyography (sEMG)** can monitor quadriceps and hamstring activation patterns and co-contraction indices in real-time, guiding patients to actively engage hamstrings to protect the graft. Coupled with **motion capture systems** for precise analysis of knee joint angles, movement speed, and limb kinetics, therapists can tailor individualized OKC knee extension protocols, ensuring effective quadriceps strengthening within safe thresholds and minimizing potential risks to the graft and patellofemoral joint."
     }
-  ],
-  "pmid": "41652935",
-  "fulltext_url": "https://doi.org/10.1177/03635465251412731",
-  "fulltext_type": "doi",
-  "fulltext_label": "仅摘要"
+  ]
 }
