@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16",
+  "updated": "2026-09-17",
   "jcr_year": "2024",
   "sources": {
     "easyscholar": "easyscholar.cc — JCR impact factor, JCR quartile, CAS tiers; refreshed every run",
@@ -8,7 +8,7 @@
     "openalex": "api.openalex.org — names, ISSNs, h-index, OA status; refreshed every run"
   },
   "attribution": "SCImago, (n.d.). SJR — SCImago Journal & Country Rank [Portal]. Powered by Scopus.",
-  "count": 54,
+  "count": 55,
   "journals": [
     {
       "name": "Annals of Biomedical Engineering",
@@ -758,6 +758,28 @@
       "esi": "临床医学",
       "jcr_year": "2024",
       "if_provider": "easyscholar"
+    },
+    {
+      "name": "International Journal of Strength and Conditioning",
+      "issn": [
+        "2634-2235"
+      ],
+      "aliases": [
+        "IJSC"
+      ],
+      "publisher": "",
+      "openalex_2yr": 1.359,
+      "h_index": 12,
+      "works_count": 251,
+      "is_oa": true,
+      "in_doaj": true,
+      "is_preprint_server": false,
+      "topics": [
+        "Medicine / Orthopedics and Sports Medicine",
+        "Engineering / Biomedical Engineering",
+        "Psychology / Developmental and Educational Psychology",
+        "Medicine / Complementary and alternative medicine"
+      ]
     },
     {
       "name": "JBJS Reviews",
@@ -1694,7 +1716,6 @@
   ],
   "unresolved": [
     "2023 3rd international conference smart generation computing communication networking smart gencon",
-    "2025 4th international conference distributed computing electrical circuits electronics icdcece",
     "2025 international conference computational innovations engineering sustainability iccies",
     "advanced international journal research",
     "current issues sport science ciss",
