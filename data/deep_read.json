@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-13",
+  "date": "2026-09-19",
   "title_en": "Considerations with Open Kinetic Chain Knee Extension Exercise Following ACL Reconstruction",
   "title_zh": "前交叉韧带重建术后开放链膝关节伸展运动的考量",
   "authors": "K. Wilk, C. Arrigo, Michael S Bagwell, Adam Finck",
@@ -20,16 +20,16 @@
       "icon": "◎",
       "title_zh": "为什么值得读",
       "title_en": "Why It Matters",
-      "content_zh": "本文作为对JOSPT上另一篇支持开放链（OKC）运动文章的反驳，深入探讨了ACL重建术后不当使用OKC膝关节伸展运动可能带来的危害。它通过整合现有生物力学证据，强调了在不当运动范围、过大阻力及不合时宜的情况下，OKC运动如何增加ACL移植物应变和髌股关节压力，从而为临床实践中如何安全有效地运用OKC股四头肌强化训练提供了关键的考量和策略。",
-      "content_en": "This paper serves as a rebuttal to a previous JOSPT article advocating for open kinetic chain (OKC) exercises, deeply exploring the potential harms of inappropriate OKC knee extension after ACL reconstruction. By integrating existing biomechanical evidence, it highlights how OKC exercises, when used with unsuitable range of motion, significant resistance, and at inappropriate time frames, can increase ACL graft strain and patellofemoral joint stress. This provides critical considerations and strategies for safe and effective OKC quadriceps strengthening in clinical practice."
+      "content_zh": "这篇临床观点文章回应了先前倡导早期开放链（OKC）膝关节伸展的观点，强调了在ACL重建术后使用OKC膝关节伸展运动时，在运动范围、负荷和时间框架上的重要考量。它通过整合生物力学证据，填补了在安全有效地强化股四头肌，同时保护移植物和预防髌股关节疼痛方面的临床决策空白。该文获得11次引用，表明它在当前ACL康复争议中提供了关键的生物力学警示和实用策略，对优化患者预后具有重要指导意义。",
+      "content_en": "This clinical viewpoint article responds to previous advocacy for early open kinetic chain (OKC) knee extension, emphasizing critical considerations regarding range of motion, load, and timing for OKC knee extension exercise following ACL reconstruction. By integrating biomechanical evidence, it addresses a gap in clinical decision-making for safely and effectively strengthening the quadriceps while protecting the graft and preventing patellofemoral pain. Its 11 citations underscore its relevance in an ongoing debate in ACL rehabilitation, offering crucial biomechanical warnings and practical strategies for optimizing patient outcomes."
     },
     {
       "id": "design",
       "icon": "⊞",
       "title_zh": "研究设计速览",
       "title_en": "Study Design",
-      "content_zh": "**类型**: 临床观点文章（Clinical Viewpoint）\n**目的**: 对先前发表的临床观点文章提出反驳和担忧，并提供安全使用开放链膝关节伸展运动的策略。\n**研究对象**: ACL重建术后患者的康复过程。\n**数据来源**: 主要基于对现有生物力学和临床研究的文献回顾和解读。\n**关注焦点**: 开放链膝关节伸展运动对ACL移植物完整性和髌股关节健康的影响。",
-      "content_en": "**Type**: Clinical Viewpoint Article\n**Objective**: To express concerns and counter a previously published clinical viewpoint, offering strategies for the safe use of open kinetic chain knee extension exercises.\n**Subjects**: Rehabilitation process of patients following ACL reconstruction.\n**Data Source**: Primarily based on a review and interpretation of existing biomechanical and clinical research literature.\n**Focus**: Impact of open kinetic chain knee extension exercises on ACL graft integrity and patellofemoral joint health."
+      "content_zh": "**类型**: 临床观点文章 / 专家意见\n**研究目的**: 探讨前交叉韧带（ACL）重建术后，开放链膝关节伸展运动在不适当的运动范围、负荷和时机下对移植物完整性和髌股关节健康的潜在危害，并提出安全实施策略。\n**证据基础**: 综合现有生物力学与临床研究文献，包括关于ACL应变、髌股关节反作用力、股四头肌与腘绳肌共收缩等数据。\n**核心关注**: 如何在确保股四头肌力量恢复的同时，最大程度降低ACL移植物前剪切力及髌股关节压力，避免并发症。",
+      "content_en": "**Type**: Clinical Viewpoint Article / Expert Opinion\n**Research Purpose**: To discuss the potential risks of open kinetic chain (OKC) knee extension exercises on graft integrity and patellofemoral joint health when performed at unsuitable range of motion, resistance, and timeframes following ACL reconstruction, and to propose safe implementation strategies.\n**Evidence Basis**: Synthesis of existing biomechanical and clinical literature, including data on ACL strain, patellofemoral joint reaction forces, and quadriceps-hamstring co-contraction.\n**Core Focus**: How to restore quadriceps strength while minimizing anterior shear forces on the ACL graft and patellofemoral joint stress to prevent complications."
     },
     {
       "id": "results",
@@ -38,28 +38,22 @@
       "title_en": "Key Numbers",
       "stats": [
         {
-          "label_zh": "股四头肌力量增加",
-          "label_en": "Quadriceps Force Increase",
+          "label_zh": "膝关节伸展力",
+          "label_en": "Knee Extension Force",
           "value": "3-4倍",
-          "note": "在膝关节屈曲40°至0°范围内，伸展膝关节所需的股四头肌力量显著增加，导致ACL应变升高。"
+          "note": "在膝关节屈曲40度至0度（接近完全伸展）范围内，股四头肌产生的外展力显著增高"
         },
         {
-          "label_zh": "ACL应变高峰",
-          "label_en": "Peak ACL Strain",
-          "value": "40°至0°",
-          "note": "Beynnon等报告，最高体内ACL应变发生在膝关节屈曲40°至0°（接近完全伸展）范围，且随阻力增加而升高。"
+          "label_zh": "ACL体内应变",
+          "label_en": "In Vivo ACL Strain",
+          "value": "最高",
+          "note": "在膝关节屈曲40度至0度范围内达到最高，随阻力增加而增大"
         },
         {
-          "label_zh": "髌股关节压力增加",
-          "label_en": "Patellofemoral Joint Stress Increase",
-          "value": "50°至0°",
-          "note": "Steinkamp等和Escamilla等发现，在膝关节屈曲50°至0°范围内，髌股关节反作用力和压缩力显著高于闭链运动。"
-        },
-        {
-          "label_zh": "腘绳肌活动",
-          "label_en": "Hamstring Activity",
-          "value": "最小或没有",
-          "note": "Wilk等报告，等张开放链膝关节伸展运动时，腘绳肌活动最小或没有，缺乏协同收缩保护。"
+          "label_zh": "髌股关节反作用力",
+          "label_en": "Patellofemoral Joint Reaction Force",
+          "value": "显著增高",
+          "note": "在膝关节屈曲50度至0度范围内，开放链膝关节伸展产生的髌股关节反作用力远高于闭链运动"
         }
       ]
     },
@@ -69,24 +63,28 @@
       "title_zh": "方法学评价",
       "title_en": "Critical Appraisal",
       "pros_zh": [
-        "针对ACL重建术后康复中开放链运动的争议提供了重要且基于证据的警示。",
-        "详细阐述了开放链膝关节伸展运动中增加ACL移植物应变和髌股关节压力的具体生物力学机制（如危险运动范围、缺乏协同收缩）。",
-        "为临床医生在设计和执行康复方案时，如何安全有效地使用开放链运动提供了具体指导和考量。"
+        "针对ACL重建术后康复中备受争议的开放链运动问题，提供了及时且强有力的生物力学和临床依据。",
+        "详细阐述了在特定运动范围和负荷下，开放链膝关节伸展对ACL移植物和髌股关节的潜在风险，具有高度临床相关性。",
+        "引用多项经典研究（如Beynnon、Grood、Steinkamp等），为所提出的担忧提供了坚实的科学支持。",
+        "为临床医生制定更安全、个性化的康复方案提供了明确的指导和策略，有助于预防并发症。"
       ],
       "cons_zh": [
-        "作为一篇临床观点文章，不包含新的实验数据或临床试验结果。",
-        "内容基于对现有文献的解读和综合，可能存在选择性偏倚，未采用系统综述或荟萃分析的严谨方法。",
-        "对于特定移植物类型（如腘绳肌移植物、同种异体移植物）虽然有所提及其脆弱性，但未深入探讨其差异化的康复策略。"
+        "作为一篇临床观点文章，并非原创实验研究，其论点基于对现有文献的解读和综合。",
+        "文章中提出的风险主要基于理论生物力学模型和既往研究发现，缺乏直接的比较性临床试验数据来验证其安全策略的优越性。",
+        "对于特定移植物类型（如腘绳肌腱或异体移植物）的风险强调较多，但未详细说明如何根据移植物类型调整具体康复方案。",
+        "虽然提供了安全使用的策略，但对于“不适合”的阻力或时机缺乏量化的定义，可能仍需临床医生经验判断。"
       ],
       "pros_en": [
-        "Provides a critical and evidence-based warning regarding the controversial use of open kinetic chain exercises in ACL rehabilitation.",
-        "Details specific biomechanical mechanisms (e.g., risky ROM, lack of co-contraction) that increase ACL graft strain and patellofemoral joint stress during OKC knee extension.",
-        "Offers practical guidance and considerations for clinicians to safely and effectively incorporate OKC exercises when designing and implementing rehabilitation protocols."
+        "Provides timely and strong biomechanical and clinical evidence regarding the controversial issue of open kinetic chain exercises in ACL reconstruction rehabilitation.",
+        "Details the potential risks of OKC knee extension on the ACL graft and patellofemoral joint at specific ranges of motion and loads, demonstrating high clinical relevance.",
+        "Cites multiple classic studies (e.g., Beynnon, Grood, Steinkamp) to provide solid scientific support for the concerns raised.",
+        "Offers clear guidance and strategies for clinicians to develop safer, individualized rehabilitation protocols, helping to prevent complications."
       ],
       "cons_en": [
-        "As a clinical viewpoint article, it does not present new experimental data or clinical trial results.",
-        "The content relies on interpretation and synthesis of existing literature, which may introduce selection bias and lacks the rigor of a systematic review or meta-analysis.",
-        "While mentioning the vulnerability of specific graft types (e.g., hamstring grafts, allografts), it does not delve deeply into differentiated rehabilitation strategies for them."
+        "As a clinical viewpoint article, it is not original experimental research; its arguments are based on the interpretation and synthesis of existing literature.",
+        "The risks highlighted are primarily based on theoretical biomechanical models and prior research findings, lacking direct comparative clinical trial data to validate the superiority of its safety strategies.",
+        "While emphasizing risks for specific graft types (e.g., hamstring tendon or allografts), it does not detail how to adjust specific rehabilitation protocols based on graft type.",
+        "Although it offers strategies for safe use, it lacks quantitative definitions for 'inappropriate' resistance or timing, which may still require clinical judgment."
       ]
     },
     {
@@ -94,14 +92,8 @@
       "icon": "◆",
       "title_zh": "研究启示",
       "title_en": "Takeaway",
-      "content_zh": "1.  **安全应用开放链**: 开放链膝关节伸展运动在ACL重建术后是有效的，但必须在严格控制的**运动范围**（避免40°-0°）、**阻力水平**（避免高阻力）和**康复阶段**下进行，以保护移植物和髌股关节。\n\n2.  **关注高风险运动范围**: 膝关节伸展的**40°至0°**区间对ACL移植物和髌股关节造成显著压力，应在该范围内谨慎使用或避免大阻力练习，尤其是在术后早期。\n\n3.  **强调协同收缩保护**: 股四头肌和腘绳肌的**协同收缩**对于减少胫骨前切应力至关重要。设计康复方案时，应优先考虑能促进这种协同保护的训练模式，而开放链运动往往缺乏腘绳肌的有效激活。\n\n4.  **生物力学监测指导康复**: 研究实验室可利用**运动捕捉系统**精确测量关节角度和运动范围，结合**表面肌电图（sEMG）**监测股四头肌和腘绳肌的激活模式及共激活指数，以及通过**力学传感器**评估地面反作用力或器械阻力，来实时指导和优化开放链膝关节伸展运动的参数，确保训练安全性和有效性，从而为个性化康复方案提供客观数据支持。",
-      "content_en": "1.  **Safe OKC Application**: Open kinetic chain knee extension exercises can be effective after ACL reconstruction, but must be performed under strictly controlled **range of motion** (avoiding 40°-0°), **resistance levels** (avoiding high resistance), and **rehabilitation phases** to protect the graft and patellofemoral joint.\n\n2.  **Beware of High-Risk ROM**: The **40° to 0°** knee extension range poses significant stress on the ACL graft and patellofemoral joint. High-resistance exercises should be used cautiously or avoided in this range, especially in the early postoperative period.\n\n3.  **Emphasize Co-contraction for Protection**: **Co-contraction** of the quadriceps and hamstrings is crucial for reducing anterior tibiofemoral shear forces. Rehabilitation programs should prioritize exercise modalities that promote this protective co-contraction, as OKC exercises often lack effective hamstring activation.\n\n4.  **Biomechanics Monitoring for Rehab Guidance**: Research labs can utilize **motion capture systems** for precise measurement of joint angles and range of motion, combined with **surface electromyography (sEMG)** to monitor quadriceps and hamstring activation patterns and co-activation indices. Furthermore, **force sensors** can assess ground reaction forces or resistance loads. This real-time data can guide and optimize the parameters of open kinetic chain knee extension exercises, ensuring both safety and effectiveness, thus providing objective support for personalized rehabilitation protocols."
+      "content_zh": "**精细化运动范围与负荷管理**：在ACL重建术后康复中，应极为谨慎地使用开放链膝关节伸展运动，尤其要避免在膝关节屈曲40度至0度的末端伸展范围施加高阻力，因其会显著增加ACL移植物应变和髌股关节压力。\n\n**理解移植物生物力学特性**：认识到腘绳肌腱移植物和异体移植物对“蠕变”或拉伸更敏感，因此，对于这些移植物类型，在涉及高前剪切力的开放链运动中需更加保守，以保护移植物的完整性。\n\n**重视肌电协同与髌股健康**：开放链膝关节伸展因缺乏腘绳肌的共收缩而无法有效抵消股四头肌产生的前剪切力，且在50度至0度屈曲范围内对髌股关节产生巨大压力。康复方案应考虑通过调整运动方式或联合其他训练来减轻这些负荷，降低髌股疼痛风险。\n\n**生物力学监测辅助临床决策**：利用**惯性测量单元 (IMU)** 和**运动捕捉系统**精确监测膝关节运动范围和速度，确保患者在安全范围内进行训练；使用**表面肌电图 (sEMG)** 实时评估股四头肌和腘绳肌的激活模式和共收缩情况，以优化移植物保护策略；结合**测力台**或**生物力学建模**来量化训练负荷和预测关节应力，从而实现更精准的康复干预。",
+      "content_en": "**Refined Range of Motion and Load Management**: During ACL reconstruction rehabilitation, open kinetic chain knee extension exercise should be used with extreme caution, particularly avoiding high resistance in the terminal extension range of 40 to 0 degrees of knee flexion, as this significantly increases ACL graft strain and patellofemoral joint pressure.\n\n**Understand Graft Biomechanical Properties**: Recognize that hamstring tendon grafts and allografts are more susceptible to 'creep' or stretch-out. Therefore, for these graft types, a more conservative approach is warranted in open kinetic chain exercises involving high anterior shear forces to protect graft integrity.\n\n**Prioritize Muscle Co-contraction and Patellofemoral Health**: OKC knee extension often lacks effective hamstring co-contraction to counteract quadriceps-induced anterior shear forces and places significant stress on the patellofemoral joint in the 50 to 0-degree flexion range. Rehabilitation protocols should consider modifying exercise techniques or combining with other training to mitigate these loads and reduce the risk of patellofemoral pain.\n\n**Biomechanical Monitoring for Clinical Decision-Making**: Utilize **Inertial Measurement Units (IMUs)** and **motion capture systems** to precisely monitor knee joint range of motion and velocity, ensuring patients train within safe limits; use **surface electromyography (sEMG)** for real-time assessment of quadriceps and hamstring activation patterns and co-contraction to optimize graft protection strategies; integrate **force plates** or **biomechanical modeling** to quantify training loads and predict joint stresses, enabling more precise rehabilitation interventions."
     }
-  ],
-  "fulltext_url": "https://europepmc.org/article/PMC/PMC8341750",
-  "fulltext_type": "pmc_xml",
-  "pmcid": "PMC8341750",
-  "pmid": "34395052",
-  "fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8341750/fullTextXML",
-  "fulltext_label": "全文 (结构化)"
+  ]
 }
