@@ -95,5 +95,11 @@
       "content_zh": "**精细化运动范围与负荷管理**：在ACL重建术后康复中，应极为谨慎地使用开放链膝关节伸展运动，尤其要避免在膝关节屈曲40度至0度的末端伸展范围施加高阻力，因其会显著增加ACL移植物应变和髌股关节压力。\n\n**理解移植物生物力学特性**：认识到腘绳肌腱移植物和异体移植物对“蠕变”或拉伸更敏感，因此，对于这些移植物类型，在涉及高前剪切力的开放链运动中需更加保守，以保护移植物的完整性。\n\n**重视肌电协同与髌股健康**：开放链膝关节伸展因缺乏腘绳肌的共收缩而无法有效抵消股四头肌产生的前剪切力，且在50度至0度屈曲范围内对髌股关节产生巨大压力。康复方案应考虑通过调整运动方式或联合其他训练来减轻这些负荷，降低髌股疼痛风险。\n\n**生物力学监测辅助临床决策**：利用**惯性测量单元 (IMU)** 和**运动捕捉系统**精确监测膝关节运动范围和速度，确保患者在安全范围内进行训练；使用**表面肌电图 (sEMG)** 实时评估股四头肌和腘绳肌的激活模式和共收缩情况，以优化移植物保护策略；结合**测力台**或**生物力学建模**来量化训练负荷和预测关节应力，从而实现更精准的康复干预。",
       "content_en": "**Refined Range of Motion and Load Management**: During ACL reconstruction rehabilitation, open kinetic chain knee extension exercise should be used with extreme caution, particularly avoiding high resistance in the terminal extension range of 40 to 0 degrees of knee flexion, as this significantly increases ACL graft strain and patellofemoral joint pressure.\n\n**Understand Graft Biomechanical Properties**: Recognize that hamstring tendon grafts and allografts are more susceptible to 'creep' or stretch-out. Therefore, for these graft types, a more conservative approach is warranted in open kinetic chain exercises involving high anterior shear forces to protect graft integrity.\n\n**Prioritize Muscle Co-contraction and Patellofemoral Health**: OKC knee extension often lacks effective hamstring co-contraction to counteract quadriceps-induced anterior shear forces and places significant stress on the patellofemoral joint in the 50 to 0-degree flexion range. Rehabilitation protocols should consider modifying exercise techniques or combining with other training to mitigate these loads and reduce the risk of patellofemoral pain.\n\n**Biomechanical Monitoring for Clinical Decision-Making**: Utilize **Inertial Measurement Units (IMUs)** and **motion capture systems** to precisely monitor knee joint range of motion and velocity, ensuring patients train within safe limits; use **surface electromyography (sEMG)** for real-time assessment of quadriceps and hamstring activation patterns and co-contraction to optimize graft protection strategies; integrate **force plates** or **biomechanical modeling** to quantify training loads and predict joint stresses, enabling more precise rehabilitation interventions."
     }
-  ]
+  ],
+  "fulltext_url": "https://europepmc.org/article/PMC/PMC8341750",
+  "fulltext_type": "pmc_xml",
+  "pmcid": "PMC8341750",
+  "pmid": "34395052",
+  "fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8341750/fullTextXML",
+  "fulltext_label": "全文 (结构化)"
 }
