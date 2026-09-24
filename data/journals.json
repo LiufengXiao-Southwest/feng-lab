@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23",
+  "updated": "2026-09-24",
   "jcr_year": "2024",
   "sources": {
     "easyscholar": "easyscholar.cc — JCR impact factor, JCR quartile, CAS tiers; refreshed every run",
@@ -23,7 +23,7 @@
       ],
       "publisher": "Springer Science+Business Media",
       "openalex_id": "S141152059",
-      "openalex_2yr": 2.633,
+      "openalex_2yr": 2.649,
       "h_index": 195,
       "works_count": 7968,
       "is_oa": false,
@@ -55,9 +55,9 @@
         "Applied Sciences (Web)"
       ],
       "publisher": "Multidisciplinary Digital Publishing Institute",
-      "openalex_2yr": 4.002,
+      "openalex_2yr": 3.999,
       "h_index": 228,
-      "works_count": 92756,
+      "works_count": 92964,
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
@@ -174,31 +174,6 @@
       "esi": "临床医学",
       "jcr_year": "2024",
       "if_provider": "easyscholar"
-    },
-    {
-      "name": "ECS Meeting Abstracts",
-      "issn": [
-        "1091-8213",
-        "2151-2035",
-        "2151-2043",
-        "2152-8365"
-      ],
-      "aliases": [
-        "ECS meeting"
-      ],
-      "publisher": "Institute of Physics",
-      "openalex_2yr": 0.097,
-      "h_index": 41,
-      "works_count": 106957,
-      "is_oa": false,
-      "in_doaj": false,
-      "is_preprint_server": false,
-      "topics": [
-        "Engineering / Electrical and Electronic Engineering",
-        "Energy / Renewable Energy, Sustainability and the Environment",
-        "Engineering / Automotive Engineering",
-        "Materials Science / Polymers and Plastics"
-      ]
     },
     {
       "name": "European Journal of Applied Physiology",
@@ -468,7 +443,7 @@
       ],
       "publisher": "Elsevier BV",
       "openalex_id": "S156006901",
-      "openalex_2yr": 1.335,
+      "openalex_2yr": 1.343,
       "h_index": 220,
       "works_count": 14416,
       "is_oa": false,
@@ -585,6 +560,27 @@
         "Engineering / Aerospace Engineering",
         "Engineering / Control and Systems Engineering",
         "Engineering / Biomedical Engineering"
+      ]
+    },
+    {
+      "name": "International Journal of Anatomy Radiology and Surgery",
+      "issn": [
+        "2277-8543",
+        "2455-6874"
+      ],
+      "aliases": [],
+      "publisher": "JCDR Research and Publications Pvt. Ltd.",
+      "openalex_2yr": 0.071,
+      "h_index": 5,
+      "works_count": 601,
+      "is_oa": true,
+      "in_doaj": true,
+      "is_preprint_server": false,
+      "topics": [
+        "Medicine / Radiology, Nuclear Medicine and Imaging",
+        "Medicine / Surgery",
+        "Engineering / Biomedical Engineering",
+        "Medicine / Epidemiology"
       ]
     },
     {
@@ -1271,9 +1267,9 @@
       ],
       "aliases": [],
       "publisher": "Multidisciplinary Digital Publishing Institute",
-      "openalex_2yr": 2.461,
+      "openalex_2yr": 2.462,
       "h_index": 60,
-      "works_count": 7067,
+      "works_count": 7087,
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
@@ -1316,7 +1312,7 @@
       "publisher": "Kazimierz Wielki University in Bydgoszcz",
       "openalex_2yr": 0.379,
       "h_index": 10,
-      "works_count": 2954,
+      "works_count": 2978,
       "is_oa": true,
       "in_doaj": false,
       "is_preprint_server": false,
@@ -1575,9 +1571,9 @@
       ],
       "publisher": "Springer Nature",
       "openalex_id": "S2736513330",
-      "openalex_2yr": 6.861,
+      "openalex_2yr": 6.877,
       "h_index": 81,
-      "works_count": 1099,
+      "works_count": 1100,
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
@@ -1618,7 +1614,7 @@
       ],
       "publisher": "SAGE Publishing",
       "openalex_id": "S154904565",
-      "openalex_2yr": 5.443,
+      "openalex_2yr": 5.523,
       "h_index": 362,
       "works_count": 12879,
       "is_oa": false,
