@@ -1,35 +1,35 @@
 {
-  "date": "2026-09-30",
-  "title_en": "Multiligament knee injury (MLKI): an expert consensus statement on nomenclature, diagnosis, treatment and rehabilitation",
-  "title_zh": "多韧带膝关节损伤 (MLKI)：关于命名、诊断、治疗和康复的专家共识声明",
-  "authors": "IR. Murray, N. Makaram, Andrew G. Geeslin, J. Chahla et al.",
-  "journal": "British Journal of Sports Medicine",
-  "year": 2024,
+  "date": "2026-10-10",
+  "title_en": "Biomechanics of Copenhagen Adduction Exercise and Eccentric Hip Adductor Exercises on a Novel Isokinetic Dynamometer With Within‐Session Repeatability",
+  "title_zh": "哥本哈根内收肌练习和偏心髋内收肌练习在新型等速测力计上的生物力学及其会话内重复性",
+  "authors": "J. Marušič, O. Cvjetičanin, M. Supej, J. Babič et al.",
+  "journal": "Scandinavian Journal of Medicine & Science in Sports",
+  "year": 2026,
   "volume_page": "",
-  "doi": "10.1136/bjsports-2024-108089",
-  "impact_factor": "15.5",
+  "doi": "10.1111/sms.70365",
+  "impact_factor": "4.0",
   "if_source": "JCR 2024",
-  "journal_tier": "运动科学1区 TOP",
+  "journal_tier": "运动科学2区 TOP",
   "is_open_access": true,
-  "pdf_url": "https://bjsm.bmj.com/content/bjsports/58/23/1385.full.pdf",
+  "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/sms.70365",
   "category": "biomechanics",
-  "citation_count": 41,
+  "citation_count": 0,
   "sections": [
     {
       "id": "why",
       "icon": "◎",
       "title_zh": "为什么值得读",
       "title_en": "Why It Matters",
-      "content_zh": "该专家共识声明（发表于影响因子高达15.5的《英国运动医学杂志》并已有41次引用）解决了多韧带膝关节损伤(MLKI)领域长期存在的术语、诊断和治疗分歧，这些分歧严重限制了临床实践和研究进展。通过Delphi法达成国际共识，本研究为MLKI的命名、诊断、治疗和康复提供了明确指导，并确定了未来的研究重点，对于统一临床沟通、优化患者护理和推动相关研究具有里程碑意义。",
-      "content_en": "This expert consensus statement (published in BJSM with an IF of 15.5 and 41 citations) addresses long-standing disagreements in the terminology, diagnosis, and treatment of Multiligament Knee Injuries (MLKIs), which have severely limited clinical care and research progress. By achieving international consensus via the Delphi methodology, this study provides clear guidance on MLKI nomenclature, diagnosis, treatment, and rehabilitation, while also identifying future research priorities. It serves as a landmark effort for unifying clinical communication, optimizing patient care, and advancing research in this complex field."
+      "content_zh": "这项研究首次详细比较了广泛使用的哥本哈根内收肌练习(CAE)与新型偏心髋内收肌测力计(EHAD)上的偏心练习的生物力学特性。它填补了量化不同内收肌训练方式负荷特征的空白，并评估了会话内重复性，为临床和研究应用奠定了基础。由于该论文发表年份为2026年，目前无引用是预期情况。",
+      "content_en": "This study provides the first detailed biomechanical comparison between the widely-used Copenhagen adduction exercise (CAE) and novel eccentric hip adductor exercises performed on an eccentric hip adductor dynamometer (EHAD). It fills a gap by quantifying the loading characteristics of different adductor training modalities and evaluates within-session repeatability, foundational for clinical and research applications. The absence of citations is expected as the paper is slated for publication in 2026."
     },
     {
       "id": "design",
       "icon": "⊞",
       "title_zh": "研究设计速览",
       "title_en": "Study Design",
-      "content_zh": "**类型**：国际专家共识过程，采用Delphi方法学。\n**样本**：来自14个国家的39名多学科专家组成的小组。\n**研究对象**：MLKI领域的专家。\n**主要结局**：就MLKI的命名、诊断、治疗、康复策略以及未来研究重点达成共识。\n**分析方法**：通过三轮匿名在线调查，专家在5点李克特量表上评估一致性水平（LoA）。共识的预定义标准为：超过75%的受访者同意且少于10%的受访者不同意。",
-      "content_en": "**Type**：International expert consensus process using validated Delphi methodology.\n**Sample**：A multidisciplinary panel of 39 members from 14 countries.\n**Participants**：Experts in the field of MLKI.\n**Primary outcome**：Consensus on nomenclature, diagnosis, treatment, rehabilitation strategies, and important research priorities for MLKI.\n**Analysis**：Three rounds of anonymous online surveys where experts rated Levels of Agreement (LoA) on a 5-point Likert scale. Consensus was 'a priori' defined as >75% agreement and <10% disagreement."
+      "content_zh": "**类型:** 生物力学评估研究；会话内重复性研究\n**样本:** 15名参与者\n**研究对象:** 参与者 (详细特征未说明)\n**干预/测试:** 两种CAE变体 (短杠杆、长杠杆)；五种EHAD偏心练习 (单侧、双侧)\n**主要结局:** 髋关节峰值力矩、运动范围(ROM)、峰值力矩时的角度\n**次要结局:** 峰值和平均外部力、体重标准化力矩、相对和绝对会话内重复性\n**测量方法:** 三维运动学数据；力学数据\n**分析方法:** 评估练习类型和杠杆长度对主要结局的影响；评估相对和绝对会话内重复性",
+      "content_en": "**Type:** Biomechanical evaluation study; Within-session repeatability study\n**Sample:** 15 participants\n**Participants:** Participants (detailed characteristics not specified)\n**Intervention/Tests:** Two CAE variations (short lever, long lever); Five EHAD eccentric exercises (unilateral, bilateral)\n**Primary Outcomes:** Peak hip joint torque, Range of Motion (ROM), Angle at peak torque\n**Secondary Outcomes:** Peak and mean external force, Body-mass-normalized torque, Relative and absolute within-session repeatability\n**Measurements:** Three-dimensional kinematics data; Force data\n**Analysis:** Evaluation of exercise type and lever length effects on primary dependent variables; Evaluation of relative and absolute within-session repeatability"
     },
     {
       "id": "results",
@@ -38,40 +38,40 @@
       "title_en": "Key Numbers",
       "stats": [
         {
-          "label_zh": "达成共识的声明总数",
-          "label_en": "Total statements reaching consensus",
-          "value": "50 项",
-          "note": "占总声明的92.6%"
+          "label_zh": "CAE与EHAD峰值偏心力矩",
+          "label_en": "CAE vs EHAD Peak Eccentric Torques",
+          "value": "CAE显著更低",
+          "note": "CAE峰值偏心力矩低于所有EHAD变体"
         },
         {
-          "label_zh": "MLKI明确定义共识度",
-          "label_en": "MLKI clear definition LoA",
-          "value": "97.4%",
-          "note": "高能量损伤背景下MLKI CT血管造影评估"
+          "label_zh": "长杠杆CAE与短杠杆CAE力矩",
+          "label_en": "Long vs Short Lever CAE Torques",
+          "value": "长杠杆更大",
+          "note": "长杠杆CAE产生更大峰值和平均力矩"
         },
         {
-          "label_zh": "CT血管造影评估共识度",
-          "label_en": "CT angiography assessment LoA",
-          "value": "89.7%",
-          "note": "针对高能量损伤MLKI，特定损伤模式"
+          "label_zh": "长杠杆CAE的ROM",
+          "label_en": "Long Lever CAE ROM",
+          "value": "显著更低",
+          "note": "在长杠杆条件下，ROM显著降低"
         },
         {
-          "label_zh": "应力X线摄影/术中透视价值共识度",
-          "label_en": "Stress radiography/intraoperative fluoroscopy value LoA",
-          "value": "89.7%",
-          "note": ""
+          "label_zh": "EHAD双侧促进效应",
+          "label_en": "EHAD Bilateral Facilitation",
+          "value": "27.9% ± 16.5%",
+          "note": "EHAD双侧练习产生显著更大峰值力矩"
         },
         {
-          "label_zh": "年轻患者手术管理共识度",
-          "label_en": "Operative management for young patients LoA",
-          "value": "100%",
-          "note": "现有文献普遍倾向手术治疗MLKI"
+          "label_zh": "所有练习峰值力矩时的角度",
+          "label_en": "Angle at Peak Torque (All Exercises)",
+          "value": "31°–39°",
+          "note": "所有练习中角度相似"
         },
         {
-          "label_zh": "单期手术可行性共识度",
-          "label_en": "Single-stage surgery whenever possible LoA",
-          "value": "92.3%",
-          "note": ""
+          "label_zh": "会话内重复性",
+          "label_en": "Within-Session Repeatability",
+          "value": "良好至优秀/中等到良好",
+          "note": "除CAE峰值力矩时的角度外，所有测量指标均显示良好至优秀的相对重复性，以及中等到良好的绝对重复性"
         }
       ]
     },
@@ -81,28 +81,32 @@
       "title_zh": "方法学评价",
       "title_en": "Critical Appraisal",
       "pros_zh": [
-        "**国际多学科专家参与：** 汇集了来自14个国家的39名专家，确保了观点的广度和多样性。",
-        "**严谨的Delphi方法学：** 采用经过验证的Delphi方法，符合BJSM指南，通过多轮匿名投票和反馈减少偏倚。",
-        "**高共识率：** 92.6%的声明达成共识，反映了专家组在关键领域的高度一致性。",
-        "**解决了关键临床和研究空白：** 为MLKI这一复杂病理提供了急需的标准化定义和管理策略。"
+        "首次对新型EHAD测力计上的练习进行生物力学评估。",
+        "提供了对CAE和EHAD练习的定量力矩数据，指导训练负荷选择。",
+        "评估了会话内重复性，确保测量结果的可靠性。",
+        "揭示了EHAD练习中的双侧促进效应，为训练机制提供了新见解。",
+        "采用三维运动学和力学数据，研究方法客观严谨。"
       ],
       "cons_zh": [
-        "**共识声明的固有局限性：** 结果基于专家意见而非前瞻性临床数据，可能受专家经验和偏好的影响。",
-        "**缺乏量化证据：** 抽象中未详细说明每项建议背后的证据等级（如RCTs、队列研究），尽管是共识声明，但缺乏实证支撑可能限制其最高等级的证据效力。",
-        "**抽象未提及具体分歧点：** 尽管记录了不同意见，但抽象中并未明确列出未能达成共识或争议较大的具体领域，这可能阻碍未来研究的针对性。",
-        "**未能纳入患者视角：** 仅为专家共识，未直接纳入患者偏好或长期生活质量等以患者为中心的结局指标。"
+        "样本量较小 (N=15)，可能限制结果的普适性。",
+        "仅评估了会话内重复性，缺乏跨日或长期重复性数据。",
+        "研究未将生物力学优势与实际的临床结果（如伤病预防或康复效果）联系起来。",
+        "参与者特征描述不详，可能影响结果外推至特定人群。",
+        "新型测力计的实用性和可及性可能有限。"
       ],
       "pros_en": [
-        "**International Multidisciplinary Expert Panel:** Involved 39 experts from 14 countries, ensuring broad and diverse perspectives.",
-        "**Rigorous Delphi Methodology:** Employed a validated Delphi method, in line with BJSM guidelines, using multiple rounds of anonymous voting and feedback to minimize bias.",
-        "**High Consensus Rates:** 92.6% of statements reached consensus, indicating a strong agreement among experts on key areas.",
-        "**Addresses Critical Clinical and Research Gaps:** Provides much-needed standardized definitions and management strategies for the complex pathology of MLKI."
+        "First biomechanical evaluation of exercises on a novel EHAD dynamometer.",
+        "Provides quantitative torque data for both CAE and EHAD exercises, guiding training load selection.",
+        "Evaluated within-session repeatability, ensuring reliability of measurements.",
+        "Revealed bilateral facilitation in EHAD exercises, offering new insights into training mechanisms.",
+        "Employed 3D kinematics and force data, indicating objective and rigorous methodology."
       ],
       "cons_en": [
-        "**Inherent Limitations of Consensus Statements:** Results are based on expert opinion rather than prospective clinical data, potentially influenced by expert experience and preferences.",
-        "**Lack of Quantified Evidence:** The abstract does not detail the level of evidence (e.g., RCTs, cohort studies) underpinning each recommendation, which, despite being a consensus, might limit its highest-grade evidence validity.",
-        "**Specific Dissenting Points Not Detailed:** While dissenting viewpoints were recorded, the abstract does not explicitly list specific areas where consensus was not reached or where significant debate occurred, potentially hindering targeted future research.",
-        "**Patient Perspective Not Included:** As an expert consensus, it does not directly incorporate patient preferences or patient-reported long-term quality of life outcomes."
+        "Small sample size (N=15), potentially limiting generalizability of results.",
+        "Only evaluated within-session repeatability, lacking inter-day or long-term repeatability data.",
+        "The study did not link biomechanical advantages to actual clinical outcomes (e.g., injury prevention or rehabilitation efficacy).",
+        "Participant characteristics are not detailed, which may affect the generalizability to specific populations.",
+        "The novelty of the dynamometer might imply limited practicality and accessibility."
       ]
     },
     {
@@ -110,12 +114,8 @@
       "icon": "◆",
       "title_zh": "研究启示",
       "title_en": "Takeaway",
-      "content_zh": "1. **统一MLKI命名与分类：** 本共识声明提供了MLKI的明确定义，并强调了更新分类系统的必要性，该系统应涵盖损伤机制、非韧带结构受累程度以及是否存在脱位。这对于FENG LAB进行跨中心数据比较和损伤机制研究至关重要。\n\n2. **优化诊断策略：** 强调了在高能量损伤背景下以及对于特定损伤模式（如双交叉韧带和后外侧角损伤），应低阈值进行CT血管造影评估的共识。此外，应力X线摄影或术中透视的价值也获得高度认可，这有助于精准评估MLKI的稳定性。\n\n3. **标准化治疗与康复：** 共识普遍支持对年轻MLKI患者进行手术治疗，并尽可能实施单期手术。这为临床医生提供了明确的治疗路径，并为康复研究奠定了基础，未来康复方案的优化可在此基础上展开。\n\n4. **生物力学在康复与评估中的应用：** 本共识为未来MLKI的康复研究设定了方向。FENG LAB可利用**惯性测量单元（IMUs）**、**运动捕捉系统**和**测力台**等生物力学工具，对MLKI术后患者的步态、关节稳定性、肌肉功能和功能性活动进行客观评估。这不仅能帮助个性化康复方案，还能作为评估患者重返运动标准的重要指标，提升康复策略的科学性和精准性。",
-      "content_en": "1. **Standardize MLKI Nomenclature and Classification:** This consensus provides a clear definition for MLKI and emphasizes the need for an updated classification system covering injury mechanism, extent of non-ligamentous structures injured, and presence or absence of dislocation. This is crucial for FENG LAB's cross-center data comparison and injury mechanism research.\n\n2. **Optimize Diagnostic Strategies:** Consensus was reached on having a low threshold for CT angiography assessment in high-energy contexts and for specific injury patterns (e.g., bicruciate and PLC injuries). The value of stress radiography or intraoperative fluoroscopy was also highly endorsed, aiding in precise assessment of MLKI stability.\n\n3. **Standardize Treatment and Rehabilitation:** There was general agreement favoring operative management for young MLKI patients and performing single-stage surgery whenever possible. This provides clear treatment pathways for clinicians and lays the groundwork for rehabilitation research, allowing for future optimization of rehabilitation protocols.\n\n4. **Application of Biomechanics in Rehabilitation and Assessment:** This consensus sets directions for future MLKI rehabilitation research. FENG LAB can leverage biomechanical tools such as **Inertial Measurement Units (IMUs)**, **motion capture systems**, and **force plates** to objectively assess gait, joint stability, muscle function, and functional activities in post-MLKI patients. This can not only help personalize rehabilitation programs but also serve as crucial metrics for evaluating return-to-sport criteria, enhancing the scientific rigor and precision of rehabilitation strategies."
+      "content_zh": "1.  **内收肌训练负荷进阶策略：** 对于内收肌强化训练，增加哥本哈根内收肌练习(CAE)的杠杆长度（长杠杆）可以有效提高负荷。而新型偏心髋内收肌测力计(EHAD)则能提供远超CAE的负荷，尤其在双侧练习中表现出显著的**双侧促进效应**，为高强度偏心训练提供了更优选择。\n\n2.  **新型器械在康复训练中的潜力：** 像EHAD这样的专用偏心测力计，能够对髋内收肌施加更大、更可控的偏心负荷，这对于预防和康复腹股沟伤病至关重要。研究提示，这类创新型生物力学训练设备可能成为未来高水平运动表现和伤病管理的重要工具。\n\n3.  **精确生物力学评估的重要性：** 峰值力矩、运动范围和峰值力矩时的角度是评估内收肌练习有效性的关键生物力学指标，且多数具有良好的会话内重复性。利用**三维运动捕捉和力传感器数据**进行精确测量，能够为训练处方和效果评估提供客观依据。\n\n4.  **从生物力学到临床转化的桥梁：** 尽管本研究量化了不同内收肌练习的生物力学优势，但未来的干预研究仍需验证这些优势是否能转化为临床上显著的腹股沟伤病预防和康复效果。",
+      "content_en": "1.  **Progression Strategies for Adductor Training Load:** To increase adductor strengthening load, extending the lever length of the Copenhagen adduction exercise (CAE) is effective. However, the novel eccentric hip adductor dynamometer (EHAD) offers significantly greater loads than CAE, especially demonstrating a pronounced **bilateral facilitation** effect in bilateral exercises, presenting a superior option for high-intensity eccentric training.\n\n2.  **Potential of Novel Instrumentation in Rehabilitation:** Specialized eccentric dynamometers like EHAD can apply greater and more controlled eccentric loads to the hip adductors, which is critical for groin injury prevention and rehabilitation. This study suggests that such innovative biomechanical training equipment could be crucial for future high-performance sport and injury management.\n\n3.  **Importance of Precise Biomechanical Assessment:** Peak torque, range of motion, and angle at peak torque are key biomechanical metrics for evaluating adductor exercise effectiveness, and most exhibit good within-session repeatability. Utilizing precise measurements from **3D motion capture and force sensor data** provides objective evidence for training prescription and outcome assessment.\n\n4.  **Bridging Biomechanics to Clinical Translation:** While this study quantifies the biomechanical advantages of various adductor exercises, future intervention studies are still needed to determine if these advantages translate into clinically meaningful improvements in groin injury prevention and rehabilitation outcomes."
     }
-  ],
-  "pmid": "39237264",
-  "fulltext_url": "https://bjsm.bmj.com/content/bjsports/58/23/1385.full.pdf",
-  "fulltext_type": "oa_pdf",
-  "fulltext_label": "PDF 全文"
+  ]
 }
