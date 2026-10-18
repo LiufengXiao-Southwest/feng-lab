@@ -1,35 +1,35 @@
 {
-  "date": "2026-10-12",
-  "title_en": "Multiligament knee injury (MLKI): an expert consensus statement on nomenclature, diagnosis, treatment and rehabilitation",
-  "title_zh": "膝关节多韧带损伤(MLKI)：关于命名、诊断、治疗与康复的专家共识声明",
-  "authors": "IR. Murray, N. Makaram, Andrew G. Geeslin, J. Chahla et al.",
-  "journal": "British Journal of Sports Medicine",
-  "year": 2024,
+  "date": "2026-10-18",
+  "title_en": "Neurocognitive Challenges During Drop Vertical Jumps Increase Sensitivity to Differentiate Atypical Landing Mechanics and Jump Height in Individuals With Anterior Cruciate Ligament Reconstruction",
+  "title_zh": "垂直下落跳跃中的神经认知挑战提高前交叉韧带重建个体异常着陆力学和跳跃高度的鉴别敏感性",
+  "authors": "Andrew Strong, Jonas L. Markström",
+  "journal": "American Journal of Sports Medicine",
+  "year": 2025,
   "volume_page": "",
-  "doi": "10.1136/bjsports-2024-108089",
-  "impact_factor": "15.5",
+  "doi": "10.1177/03635465251346145",
+  "impact_factor": "5.4",
   "if_source": "JCR 2024",
-  "journal_tier": "运动科学1区 TOP",
+  "journal_tier": "骨科1区/运动科学1区 TOP",
   "is_open_access": true,
-  "pdf_url": "https://bjsm.bmj.com/content/bjsports/58/23/1385.full.pdf",
+  "pdf_url": "https://doi.org/10.1177/03635465251346145",
   "category": "biomechanics",
-  "citation_count": 42,
+  "citation_count": 6,
   "sections": [
     {
       "id": "why",
       "icon": "◎",
       "title_zh": "为什么值得读",
       "title_en": "Why It Matters",
-      "content_zh": "膝关节多韧带损伤(MLKI)因其术语、诊断和治疗方法的争议，严重限制了临床诊疗和科学研究的进展。本研究通过国际专家共识，首次在MLKI的命名、诊断、治疗和康复方面达成一致，填补了该领域标准化实践的空白。其作为BJSM上的高影响力共识声明，已获得42次引用，证明了其在统一全球MLKI管理策略和指导未来研究方面的关键作用。",
-      "content_en": "Disagreement in the terminology, diagnosis, and treatment of multiligament knee injuries (MLKI) currently limits clinical care and research. This study establishes, for the first time, an international expert consensus on nomenclature, diagnosis, treatment, and rehabilitation for MLKI, filling a critical gap in standardized practice. As a high-impact consensus statement in BJSM, its 42 citations reflect its pivotal role in unifying global MLKI management strategies and guiding future research."
+      "content_zh": "本研究通过在垂直下落跳中加入神经认知挑战，旨在解决前交叉韧带重建（ACLR）后传统功能测试未能充分反映真实运动环境的缺陷。它揭示了在认知负荷下ACLR个体更显著的异常运动力学和跳跃表现，为更具生态学效度的康复和复训评估提供了新途径。其临床和科学意义在于能更早识别高风险个体，可能因此获得6次引用。",
+      "content_en": "This study addresses the limitation of traditional functional tests after ACLR by integrating neurocognitive challenges into drop vertical jumps, which often fail to reflect real sporting environments. It reveals more significant atypical movement mechanics and jump performance in ACLR individuals under cognitive load, offering a novel approach for more ecologically valid rehabilitation and return-to-sport screening. Its clinical and scientific relevance in identifying high-risk individuals earlier likely explains its 6 citations."
     },
     {
       "id": "design",
       "icon": "⊞",
       "title_zh": "研究设计速览",
       "title_en": "Study Design",
-      "content_zh": "<b>类型</b>：国际专家共识流程，采用经验证的Delphi方法学。\n<b>样本</b>：来自14个国家的39名多学科专家组成的小组。\n<b>研究对象</b>：膝关节多韧带损伤领域的专家。\n<b>主要结局</b>：就MLKI的命名、诊断、治疗、康复策略及未来研究重点达成共识。\n<b>分析方法</b>：完成3轮在线调查；匿名使用5点李克特量表对各项声明进行评分；共识的达成定义为：超过75%的受访者表示同意，且少于10%的受访者表示不同意。",
-      "content_en": "<b>Type</b>: International consensus process, using validated Delphi methodology.\n<b>Sample</b>: A multidisciplinary panel of 39 members from 14 countries.\n<b>Participants</b>: Experts in the field of multiligament knee injuries.\n<b>Primary outcome</b>: Consensus on nomenclature, diagnosis, treatment, rehabilitation strategies, and future research priorities for MLKI.\n<b>Analysis Method</b>: 3 rounds of online surveys were completed; levels of agreement were rated anonymously on a 5-point Likert scale; consensus was defined a priori if >75% of respondents agreed and fewer than 10% disagreed."
+      "content_zh": "**研究类型**: 对照实验室研究\n**研究对象**: 40名单侧前交叉韧带重建（ACLR）个体（术后24.9 ± 16.1个月）和40名健康对照组，两组均有50%女性，均为运动活跃者。\n**干预措施**: (1) 标准垂直下落跳（DVJ），(2) 带有次级认知任务的DVJ（在下落过程中呈现箭头颜色和方向提示，并伴随字母记忆任务）。\n**主要结局**: 跳跃高度、着陆前100ms的生物力学时间序列数据（包括髋关节功率、髋外展力矩、膝关节功率、膝屈曲力矩、踝关节功率、踝背屈力矩）。\n**测量工具**: 8相机运动捕捉系统和2个测力台。\n**分析方法**: 传统t检验（跳跃高度），功能t检验（生物力学时间序列数据）。",
+      "content_en": "**Type**: Controlled laboratory study\n**Participants**: 40 sports-active individuals 24.9 ± 16.1 months after unilateral ACLR and 40 uninjured controls (both groups 50% female).\n**Conditions**: (1) Standard drop vertical jump (DVJ), (2) DVJ with secondary cognitive tasks (arrow color/direction during drop with letter recalling memory task).\n**Primary outcomes**: Jump height, biomechanical time-series data (first 100 ms of landing) including hip power, hip abduction moment, knee power, knee flexion moment, ankle power, and ankle dorsiflexion moment.\n**Measurement tools**: 8-camera motion capture system and 2 force plates.\n**Analysis**: Conventional t-tests (jump height), functional t-tests (biomechanical time-series data)."
     },
     {
       "id": "results",
@@ -38,40 +38,16 @@
       "title_en": "Key Numbers",
       "stats": [
         {
-          "label_zh": "达成共识的条目数",
-          "label_en": "Items reaching consensus",
-          "value": "50",
-          "note": "占总数的92.6%"
+          "label_zh": "标准DVJ下ACLR组与对照组发现的显著差异数量",
+          "label_en": "Significant differences found between ACLR and control groups in Standard DVJ",
+          "value": "2",
+          "note": "髋关节功率（伤腿显著降低）、髋外展力矩（非伤腿显著增加）"
         },
         {
-          "label_zh": "MLKI定义共识度",
-          "label_en": "LoA for MLKI definition",
-          "value": "97.4%",
-          "note": ""
-        },
-        {
-          "label_zh": "CT血管造影评估共识度",
-          "label_en": "LoA for CT angiography assessment",
-          "value": "89.7%",
-          "note": "适用于高能量损伤和特定损伤模式"
-        },
-        {
-          "label_zh": "应力X线片/术中透视价值共识度",
-          "label_en": "LoA for stress radiography/intraoperative fluoroscopy",
-          "value": "89.7%",
-          "note": ""
-        },
-        {
-          "label_zh": "手术治疗（年轻患者）共识度",
-          "label_en": "LoA for operative management (young patients)",
-          "value": "100%",
-          "note": ""
-        },
-        {
-          "label_zh": "一期手术优先共识度",
-          "label_en": "LoA for single-stage surgery preference",
-          "value": "92.3%",
-          "note": "应尽可能执行"
+          "label_zh": "认知挑战DVJ下ACLR组与对照组发现的显著差异数量",
+          "label_en": "Significant differences found between ACLR and control groups in Cognitive Challenge DVJ",
+          "value": "7",
+          "note": "包括髋关节功率、髋外展力矩、膝关节功率、膝屈曲力矩、踝关节功率、踝背屈力矩（均显著降低或增加）、跳跃高度（显著降低）"
         }
       ]
     },
@@ -81,26 +57,24 @@
       "title_zh": "方法学评价",
       "title_en": "Critical Appraisal",
       "pros_zh": [
-        "采用BJSM指南认可的有效Delphi方法学，确保了共识过程的严谨性和可靠性。",
-        "汇集了来自14个国家的39位多学科专家，提供了广泛而全面的专业视角，增加了共识的普适性。",
-        "预先定义了明确的共识达成标准（>75%同意，<10%不同意），增强了结果的客观性。",
-        "明确指出了未来研究的重点，为该领域的发展指明了方向。"
+        "通过加入认知挑战，显著提高了功能测试的生态学效度。",
+        "采用8相机运动捕捉系统和测力台，获取了全面且高精度生物力学数据。",
+        "使用功能t检验对生物力学时间序列数据进行分析，方法学严谨。"
       ],
       "cons_zh": [
-        "作为专家共识声明，其证据等级相对较低，本质上基于专家意见而非前瞻性临床研究数据。",
-        "尽管记录了不同意见，但Delphi过程可能无法完全捕捉所有细微的临床实践差异或新兴观点。",
-        "专家小组的选择和参与意愿可能引入潜在的选择偏倚，影响共识的代表性。"
+        "横断面研究设计，无法建立因果关系或预测未来损伤风险。",
+        "尽管增加了认知挑战，但仍是实验室环境，未能完全模拟真实运动场景的复杂性。",
+        "摘要中未阐明认知任务导致生物力学改变的具体神经认知机制。"
       ],
       "pros_en": [
-        "Utilized validated Delphi methodology aligned with BJSM guidelines, ensuring rigor and reliability of the consensus process.",
-        "Included 39 multidisciplinary experts from 14 countries, providing a broad and comprehensive professional perspective, enhancing generalizability.",
-        "Clear a priori consensus definition (>75% agreement, <10% disagreement) improved the objectivity of the results.",
-        "Identified important future research priorities, guiding the development of the field."
+        "Significantly improved ecological validity of functional testing by incorporating cognitive challenges.",
+        "Comprehensive and high-precision biomechanical data collection using an 8-camera motion capture system and force plates.",
+        "Rigorous methodological approach using functional t-tests for biomechanical time-series data analysis."
       ],
       "cons_en": [
-        "As an expert consensus statement, its level of evidence is relatively low, fundamentally based on expert opinion rather than prospective clinical research data.",
-        "Despite recording dissenting viewpoints, the Delphi process may not fully capture all nuances of clinical practice variations or emerging perspectives.",
-        "Potential for selection bias may exist due to the choice of expert panel and their willingness to participate, affecting the representativeness of the consensus."
+        "Cross-sectional study design limits the ability to establish causality or predict future injury risk.",
+        "Despite added cognitive challenges, the laboratory setting does not fully replicate the complexity of real-world sporting environments.",
+        "The abstract does not elucidate the specific neurocognitive mechanisms linking the cognitive task to altered biomechanics."
       ]
     },
     {
@@ -108,12 +82,8 @@
       "icon": "◆",
       "title_zh": "研究启示",
       "title_en": "Takeaway",
-      "content_zh": "1. **标准化MLKI命名与分类**: 明确指出需要一个涵盖损伤机制、非韧带结构受累程度及有无脱位的更新MLKI分类系统，这为全球临床沟通和科研合作奠定了统一基础。\n\n2. **优化MLKI诊断流程**: 强调在高能量损伤背景下，应低阈值评估CT血管造影，特别是对双交叉韧带和后外侧角（PLC）损伤；同时确认了应力X线片或术中透视在评估关节稳定性方面的价值。\n\n3. **明确MLKI治疗策略**: 共识认为现有文献普遍支持对年轻MLKI患者进行手术治疗，并强调在条件允许下应尽可能实施一期手术，为临床决策提供了清晰指导。\n\n4. **生物力学研究的潜在机遇**: 新分类系统对损伤机制和非韧带结构受累程度的强调，为**生物力学研究**提供了新的切入点。研究人员可利用**肌电图（sEMG）、运动捕捉系统、足底压力板或惯性测量单元（IMU）等工具，量化评估不同MLKI类型（特别是涉及多结构损伤）的关节稳定性、运动学特征及康复进展**，从而为MLKI的个性化康复方案和手术效果评估提供客观的生物力学数据支持。",
-      "content_en": "1. **Standardized MLKI Nomenclature and Classification**: The consensus highlights the need for a clear definition of MLKI and an updated classification system covering injury mechanism, extent of non-ligamentous structures injured, and presence or absence of dislocation. This lays a unified foundation for global clinical communication and research collaboration.\n\n2. **Optimized MLKI Diagnostic Pathway**: It is emphasized that there should be a low threshold for assessing MLKI with CT angiography in a high-energy context, especially for bicruciate and PLC injuries. The value of stress radiography or intraoperative fluoroscopy for assessing joint stability was also confirmed.\n\n3. **Established MLKI Treatment Principles**: The consensus generally favors operative management for young MLKI patients and advocates for single-stage surgery whenever possible, providing clear guidance for clinical decision-making.\n\n4. **Opportunities for Biomechanical Research**: The emphasis of the new classification system on injury mechanism and the extent of non-ligamentous structure involvement presents new avenues for **biomechanical research**. Researchers can utilize tools such as **electromyography (sEMG), motion capture systems, plantar pressure plates, or inertial measurement units (IMUs) to quantitatively assess joint stability, kinematic characteristics, and rehabilitation progress across different MLKI types (especially those involving multiple structural injuries)**. This will provide objective biomechanical data to support personalized rehabilitation protocols and evaluate surgical outcomes for MLKI."
+      "content_zh": "1.  **提升筛查敏感性**: 将次级认知任务整合到垂直下落跳（DVJ）中，能显著提高识别前交叉韧带重建（ACLR）患者异常着陆力学和跳跃表现的敏感性，揭示标准测试下可能被忽略的缺陷。\n\n2.  **康复训练新方向**: 康复和复训方案应纳入神经认知挑战，以更好地模拟竞技体育环境，促进ACLR患者更全面的功能恢复，降低二次损伤风险。\n\n3.  **生物力学测量价值**: 精密的8相机运动捕捉系统和测力台对于捕捉着陆过程中（尤其是在认知负荷下）细微且动态的关节功率和力矩变化至关重要，是深入理解运动损伤机制和评估康复效果的核心工具。\n\n4.  **生态学效度评估**: 建议在复训和回归运动筛查中逐步引入具有神经认知挑战的测试，作为提高测试生态学效度和最终改善康复结果的第一步。",
+      "content_en": "1.  **Enhanced Screening Sensitivity**: Integrating secondary cognitive tasks into Drop Vertical Jumps (DVJs) significantly increases the sensitivity to identify atypical landing mechanics and jump performance in individuals with ACLR, revealing deficits that might be missed by standard tests.\n\n2.  **New Rehabilitation Directions**: Rehabilitation and return-to-sport programs should incorporate neurocognitive challenges to better simulate competitive sport environments, fostering more comprehensive functional recovery and reducing the risk of secondary injury in ACLR individuals.\n\n3.  **Value of Biomechanics Instrumentation**: Precise 8-camera motion capture systems and force plates are crucial for capturing subtle and dynamic changes in joint power and moments during landing, especially under cognitive load, serving as core tools for understanding injury mechanisms and evaluating rehabilitation effectiveness.\n\n4.  **Ecologically Valid Assessment**: It is recommended to progressively introduce tests with neurocognitive challenges into return-to-sport screening as a critical first step towards improving ecological validity and ultimately achieving better rehabilitation outcomes."
     }
-  ],
-  "pmid": "39237264",
-  "fulltext_url": "https://bjsm.bmj.com/content/bjsports/58/23/1385.full.pdf",
-  "fulltext_type": "oa_pdf",
-  "fulltext_label": "PDF 全文"
+  ]
 }
