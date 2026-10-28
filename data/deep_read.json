@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "title_en": "Multiligament knee injury (MLKI): an expert consensus statement on nomenclature, diagnosis, treatment and rehabilitation",
-  "title_zh": "多韧带膝关节损伤（MLKI）：关于命名、诊断、治疗和康复的专家共识声明",
+  "title_zh": "多韧带膝关节损伤（MLKI）：关于其术语、诊断、治疗和康复的专家共识声明",
   "authors": "IR. Murray, N. Makaram, Andrew G. Geeslin, J. Chahla et al.",
   "journal": "British Journal of Sports Medicine",
   "year": 2024,
@@ -20,16 +20,16 @@
       "icon": "◎",
       "title_zh": "为什么值得读",
       "title_en": "Why It Matters",
-      "content_zh": "多韧带膝关节损伤（MLKI）因其术语、诊断和治疗上的分歧，长期限制了临床实践和科学研究。本共识声明首次通过国际专家Delphi法，统一了MLKI的命名、诊断、治疗及康复策略，为临床决策和未来研究提供了权威指导。其解决了关键痛点，并促进了跨学科沟通与患者管理，因此获得了较高的引用，是该领域的重要里程碑。",
-      "content_en": "Multiligament knee injury (MLKI) has long been hampered by disagreements in terminology, diagnosis, and treatment, limiting both clinical practice and scientific research. This consensus statement, developed through an international expert Delphi process, unifies MLKI nomenclature, diagnosis, treatment, and rehabilitation strategies, providing authoritative guidance for clinical decision-making and future research. It addresses critical pain points, fosters interdisciplinary communication, and improves patient management, thus earning high citations as a significant milestone in the field."
+      "content_zh": "该研究通过国际专家共识解决了多韧带膝关节损伤（MLKI）在术语、诊断、治疗和康复方面长期存在的分歧，填补了临床实践和研究标准化方面的空白。其提供的统一框架对于改善MLKI患者的临床护理、促进跨学科沟通以及指导未来研究方向至关重要，因此获得了显著的引用量。",
+      "content_en": "This study addresses long-standing disagreements in the terminology, diagnosis, treatment, and rehabilitation of multiligament knee injuries (MLKI) through an international expert consensus, thereby filling a critical gap in standardizing clinical practice and research. Its established unified framework is crucial for improving MLKI patient care, fostering interdisciplinary communication, and guiding future research directions, hence its significant citation count."
     },
     {
       "id": "design",
       "icon": "⊞",
       "title_zh": "研究设计速览",
       "title_en": "Study Design",
-      "content_zh": "**类型**: 专家共识声明（Delphi 方法学）\n**研究目标**: 针对多韧带膝关节损伤（MLKI）的命名、诊断、治疗和康复策略达成共识，并确定未来研究重点。\n**研究对象**: 39名来自14个国家的多学科专家小组。\n**主要方法**: 采用BJSM指南认可的Delphi方法，通过3轮在线匿名调查问卷收集专家意见，允许专家修改或添加声明。\n**共识定义**: 最终轮中，若超过75%的受访者同意且少于10%的受访者不同意，则达成共识。",
-      "content_en": "**Type**: Expert Consensus Statement (Delphi Methodology)\n**Objective**: To develop consensus on nomenclature, diagnosis, treatment, and rehabilitation strategies for Multiligament Knee Injury (MLKI), and identify future research priorities.\n**Participants**: A multidisciplinary panel of 39 members from 14 countries.\n**Primary Methodology**: Conducted using validated Delphi methodology in line with British Journal of Sports Medicine guidelines, involving 3 rounds of anonymous online surveys, with experts encouraged to suggest modifications or additions.\n**Consensus Definition**: In the final round, consensus was defined 'a priori' if >75% of respondents agreed and fewer than 10% disagreed."
+      "content_zh": "**类型**: 国际专家共识声明\n**方法**: 经验证的Delphi方法学\n**研究对象**: 多韧带膝关节损伤 (MLKI)\n**参与者**: 39名多学科专家\n**国家**: 来自14个国家\n**轮次**: 3轮在线问卷调查\n**达成共识标准**: >75% 同意且 <10% 不同意 (先验定义)\n**主要目的**: 针对MLKI的命名、诊断、治疗和康复策略达成共识，并确定未来研究重点",
+      "content_en": "**Type**: International Expert Consensus Statement\n**Methodology**: Validated Delphi methodology\n**Study Subject**: Multiligament Knee Injuries (MLKI)\n**Panel**: 39 multidisciplinary members\n**Origin**: From 14 countries\n**Rounds**: 3 rounds of online surveys\n**Consensus Definition**: >75% agreement and <10% disagreement (a priori)\n**Primary Aim**: To develop consensus on MLKI nomenclature, diagnosis, treatment, and rehabilitation strategies, and identify future research priorities"
     },
     {
       "id": "results",
@@ -38,40 +38,40 @@
       "title_en": "Key Numbers",
       "stats": [
         {
-          "label_zh": "共识达成项目数",
-          "label_en": "Number of items reaching consensus",
+          "label_zh": "达成共识项目总数",
+          "label_en": "Total consensus items",
           "value": "50",
           "note": "占总项目数的92.6%"
         },
         {
-          "label_zh": "MLKI明确定义共识度",
-          "label_en": "LoA for MLKI clear definition",
+          "label_zh": "MLKI定义共识水平",
+          "label_en": "LoA for MLKI definition",
           "value": "97.4%",
-          "note": "关于MLKI明确定义声明的同意程度"
+          "note": "明确的MLKI定义达成高度共识"
         },
         {
-          "label_zh": "高能MLKI CT血管造影评估共识度",
-          "label_en": "LoA for CT angiography in high-energy MLKI",
+          "label_zh": "CT血管造影评估共识水平",
+          "label_en": "LoA for CT angiography assessment",
           "value": "89.7%",
-          "note": "包括双交叉韧带和后外侧角损伤"
+          "note": "针对高能量、双交叉韧带及后外侧角损伤"
         },
         {
-          "label_zh": "应力位X线或术中透视价值共识度",
+          "label_zh": "应力X线摄影/术中透视共识水平",
           "label_en": "LoA for stress radiography/intraoperative fluoroscopy",
           "value": "89.7%",
-          "note": "诊断中的重要性"
+          "note": "诊断价值达成共识"
         },
         {
-          "label_zh": "年轻患者手术治疗共识度",
-          "label_en": "LoA for operative management in young patients",
+          "label_zh": "手术治疗共识水平 (年轻患者)",
+          "label_en": "LoA for operative management (young patients)",
           "value": "100%",
-          "note": "普遍认同"
+          "note": "现有文献普遍支持"
         },
         {
-          "label_zh": "单期手术共识度",
+          "label_zh": "单期手术共识水平",
           "label_en": "LoA for single-stage surgery",
           "value": "92.3%",
-          "note": "在可能的情况下"
+          "note": "应尽可能实施"
         }
       ]
     },
@@ -81,28 +81,24 @@
       "title_zh": "方法学评价",
       "title_en": "Critical Appraisal",
       "pros_zh": [
-        "国际多学科专家小组参与，增强了共识的普适性和代表性。",
-        "采用经过验证的Delphi方法学，确保了意见收集过程的系统性和严谨性。",
-        "在关键领域（如年轻患者的手术管理）达成了高度共识，提供了明确的临床指导。",
-        "明确指出了未来研究的优先方向，对推动MLKI领域发展具有指导意义。"
+        "**国际多学科专家参与**：汇集了来自14个国家的39名多学科专家，确保了共识的广泛代表性和临床相关性。",
+        "**严谨的Delphi方法学**：采用经过验证的Delphi方法，系统性地构建共识，提高了结果的可靠性和权威性。",
+        "**填补临床空白**：解决了MLKI在术语、诊断、治疗和康复方面长期存在的争议和标准化不足，对临床实践具有直接指导意义。"
       ],
       "cons_zh": [
-        "作为专家共识，其主要基于专家意见而非前瞻性临床数据，缺乏直接的患者结局证据。",
-        "摘要未详细阐述具体的康复策略内容或协议，可能导致实施时存在解读差异。",
-        "专家意见可能受限于个人经验和地域差异，尽管采用匿名机制，仍可能存在潜在偏倚。",
-        "“年轻患者”等术语在抽象层面未给出明确年龄定义，可能影响其在不同临床环境中的应用。"
+        "**基于专家意见而非新证据**：共识声明本质上是现有知识的综合，而非产生新的实证研究数据，其建议的证据等级可能不一。",
+        "**具体分类系统未详述**：虽然强调了需要更新MLKI分类系统，但抽象中并未提供该新系统的具体细节，研究者仍需进一步探索。",
+        "**潜在的利益冲突或选择偏倚未提及**：抽象中未提及专家选择的标准或潜在的利益冲突管理，这可能影响共识的公正性。"
       ],
       "pros_en": [
-        "Involvement of an international, multidisciplinary panel enhances the generalizability and representativeness of the consensus.",
-        "Utilized a validated Delphi methodology, ensuring a systematic and rigorous process for opinion gathering.",
-        "Achieved high levels of agreement on critical areas (e.g., operative management in young patients), providing clear clinical guidance.",
-        "Explicitly identified future research priorities, providing valuable direction for advancing the MLKI field."
+        "**International Multidisciplinary Expert Panel**: Comprising 39 multidisciplinary experts from 14 countries, ensuring broad representation and clinical relevance.",
+        "**Rigorous Delphi Methodology**: Utilized a validated Delphi method for systematic consensus building, enhancing the reliability and authority of the findings.",
+        "**Fills a Critical Clinical Gap**: Addresses long-standing disagreements and lack of standardization in MLKI terminology, diagnosis, treatment, and rehabilitation, providing direct clinical guidance."
       ],
       "cons_en": [
-        "As an expert consensus, it relies on expert opinion rather than prospective clinical data, lacking direct patient outcome evidence.",
-        "The abstract does not detail specific rehabilitation strategies or protocols, which might lead to variations in implementation.",
-        "Expert opinions might be influenced by individual experiences and regional differences, despite the anonymous process, posing a potential for bias.",
-        "Terms like 'young patients' are not explicitly defined by age in the abstract, which could affect application across different clinical settings."
+        "**Based on Expert Opinion, Not New Evidence**: Consensus statements synthesize existing knowledge rather than generating new empirical research data, thus the evidence level of recommendations may vary.",
+        "**Specific Classification System Not Detailed**: Although the need for an updated MLKI classification system was highlighted, the abstract does not provide specific details of this new system, requiring further exploration by researchers.",
+        "**Potential Conflicts of Interest or Selection Bias Not Mentioned**: The abstract does not mention the criteria for expert selection or the management of potential conflicts of interest, which could affect the impartiality of the consensus."
       ]
     },
     {
@@ -110,8 +106,7 @@
       "icon": "◆",
       "title_zh": "研究启示",
       "title_en": "Takeaway",
-      "content_zh": "1. **统一MLKI概念与分类**: 本共识声明为MLKI提供了明确定义，并强调更新分类系统应考虑损伤机制、非韧带结构受累程度以及是否存在脱位。这为生物力学研究提供了统一的诊断基准，有助于FENG LAB在MLKI损伤模式和分类的生物力学分析上形成国际通用语言。\n\n2. **诊断标准与影像学**：对于高能量MLKI和特定损伤模式（如双交叉韧带及后外侧角损伤），应以低门槛进行CT血管造影评估以排除血管损伤。应力位X线片或术中透视对于评估韧带松弛度具有重要价值，这与生物力学中负荷位评估损伤机制和稳定性紧密相关，FENG LAB可考虑将应力测试纳入生物力学评估协议。\n\n3. **手术管理原则**：普遍认为年轻患者的MLKI应优先考虑手术治疗，并尽可能进行单期手术。这提示了早期干预对于恢复膝关节生物力学稳定性和功能的重要性，也为FENG LAB在探讨MLKI患者术后康复的时机和介入方案时，提供了明确的临床时间窗口。\n\n4. **康复策略与未来研究**：虽然共识明确了康复策略，但本声明也强调了识别未来的研究优先事项。对于康复研究而言，FENG LAB可以进一步探索基于生物力学评估（如使用惯性测量单元IMU、表面肌电图sEMG或三维运动捕捉系统进行步态分析、运动功能测试）的个体化康复方案，以优化患者功能恢复和预防再损伤。",
-      "content_en": "1. **Unified MLKI Definition and Classification**: This consensus statement provides a clear definition for MLKI and emphasizes the need for an updated classification system considering injury mechanism, extent of non-ligamentous structures injured, and presence of dislocation. This offers a unified diagnostic baseline for biomechanical research, helping FENG LAB establish an internationally consistent language for biomechanical analysis of MLKI injury patterns and classification.\n\n2. **Diagnostic Standards and Imaging**: For high-energy MLKI and specific injury patterns (e.g., bicruciate and PLC injuries), a low threshold for CT angiography assessment is crucial to rule out vascular compromise. Stress radiography or intraoperative fluoroscopy are highly valuable for assessing ligamentous laxity, directly relevant to biomechanical assessments of injury mechanisms and stability under load. FENG LAB could consider incorporating stress testing into their biomechanical assessment protocols.\n\n3. **Surgical Management Principles**: There is a strong consensus that operative management is generally favored for MLKI, particularly in young patients, with a preference for single-stage surgery whenever possible. This highlights the importance of early intervention for restoring knee joint biomechanical stability and function, and provides a clear clinical timeframe for FENG LAB when investigating the timing and intervention strategies for postoperative rehabilitation in MLKI patients.\n\n4. **Rehabilitation Strategies and Future Research**: While consensus was reached on rehabilitation strategies, the statement also identified important research priorities. For rehabilitation research, FENG LAB can further explore individualized rehabilitation protocols based on biomechanical assessments (e.g., using inertial measurement units (IMU), surface electromyography (sEMG), or 3D motion capture systems for gait analysis and functional testing) to optimize patient recovery and prevent re-injury."
+      "content_zh": "1.  **标准化MLKI管理**：该共识声明为多韧带膝关节损伤（MLKI）的命名、诊断、治疗和康复提供了统一的框架。这意味着未来的临床实践和研究将有更清晰、更一致的指导，有助于提升患者护理质量。\n\n2.  **更新分类系统的重要性**：共识强调需要更新MLKI分类系统，应涵盖损伤机制、非韧带结构受损范围以及脱位情况。对于生物力学研究而言，这提示在MLKI损伤机制分析中，应更全面地考虑多因素复合损伤的特征，例如通过**运动捕捉 (Motion Capture)** 技术精确量化膝关节多平面上的运动学和动力学异常。\n\n3.  **诊断工具的临床价值**：应力X线摄影和术中透视被认为在MLKI诊断中具有重要价值。在康复研究中，**肌电图 (sEMG)** 等技术可用于评估MLKI患者术后肌肉功能恢复情况，为个性化康复方案的制定提供客观数据。\n\n4.  **手术治疗与单期修复**：普遍倾向于对年轻MLKI患者进行手术治疗，并尽可能进行单期手术。这提示康复研究应着重优化单期术后的早期康复策略，探索如何平衡早期负重与关节稳定性，减少并发症，并通过**足底压力 (Plantar Pressure)** 分析评估步态恢复。"
     }
   ]
 }
