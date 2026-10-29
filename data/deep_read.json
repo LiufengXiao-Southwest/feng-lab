@@ -1,35 +1,35 @@
 {
-  "date": "2026-10-28",
-  "title_en": "Multiligament knee injury (MLKI): an expert consensus statement on nomenclature, diagnosis, treatment and rehabilitation",
-  "title_zh": "多韧带膝关节损伤（MLKI）：关于其术语、诊断、治疗和康复的专家共识声明",
-  "authors": "IR. Murray, N. Makaram, Andrew G. Geeslin, J. Chahla et al.",
-  "journal": "British Journal of Sports Medicine",
-  "year": 2024,
+  "date": "2026-10-29",
+  "title_en": "High Rate of Initially Overlooked Kaplan Fiber Complex Injuries in Patients With Isolated Anterior Cruciate Ligament Injury: Letter to the Editor",
+  "title_zh": "孤立性前交叉韧带损伤患者Kaplan纤维复合体损伤高漏诊率：致编辑的信",
+  "authors": "B. Devitt, L. Batty",
+  "journal": "American Journal of Sports Medicine",
+  "year": 2022,
   "volume_page": "",
-  "doi": "10.1136/bjsports-2024-108089",
-  "impact_factor": "15.5",
+  "doi": "10.1177/03635465211049385",
+  "impact_factor": "5.4",
   "if_source": "JCR 2024",
-  "journal_tier": "运动科学1区 TOP",
+  "journal_tier": "骨科1区/运动科学1区 TOP",
   "is_open_access": true,
-  "pdf_url": "https://bjsm.bmj.com/content/bjsports/58/23/1385.full.pdf",
+  "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/03635465211049385",
   "category": "biomechanics",
-  "citation_count": 45,
+  "citation_count": 2,
   "sections": [
     {
       "id": "why",
       "icon": "◎",
       "title_zh": "为什么值得读",
       "title_en": "Why It Matters",
-      "content_zh": "该研究通过国际专家共识解决了多韧带膝关节损伤（MLKI）在术语、诊断、治疗和康复方面长期存在的分歧，填补了临床实践和研究标准化方面的空白。其提供的统一框架对于改善MLKI患者的临床护理、促进跨学科沟通以及指导未来研究方向至关重要，因此获得了显著的引用量。",
-      "content_en": "This study addresses long-standing disagreements in the terminology, diagnosis, treatment, and rehabilitation of multiligament knee injuries (MLKI) through an international expert consensus, thereby filling a critical gap in standardizing clinical practice and research. Its established unified framework is crucial for improving MLKI patient care, fostering interdisciplinary communication, and guiding future research directions, hence its significant citation count."
+      "content_zh": "这封致编辑的信对最近一项关于Kaplan纤维复合体 (KFC) 损伤在ACL患者中高发生率的研究提出了批判性评估，质疑了MRI诊断KFC损伤的临床实用性和其与前外侧旋转不稳或ACL重建失败的关联。它强调了当前诊断标准的不确定性，并呼吁在这一新兴领域进行更严格的临床证据和标准化诊断。作为一篇评论文章，它提醒研究人员和临床医生在接受新兴诊断概念时应保持谨慎，确保其具有明确的临床意义和可重复的诊断标准，因此引用次数较少，但对学术讨论至关重要。",
+      "content_en": "This Letter to the Editor critically appraises a recent study on the high rate of Kaplan Fiber Complex (KFC) injuries in ACL patients, questioning the clinical utility of MRI diagnosis for KFC injuries and its association with anterolateral rotatory instability or ACL reconstruction failure. It highlights the uncertainty in current diagnostic criteria and calls for more rigorous clinical evidence and standardized diagnosis in this emerging field. As a commentary, it reminds researchers and clinicians to exercise caution when adopting new diagnostic concepts, ensuring clear clinical significance and reproducible diagnostic criteria, hence fewer citations but crucial for academic discourse."
     },
     {
       "id": "design",
       "icon": "⊞",
       "title_zh": "研究设计速览",
       "title_en": "Study Design",
-      "content_zh": "**类型**: 国际专家共识声明\n**方法**: 经验证的Delphi方法学\n**研究对象**: 多韧带膝关节损伤 (MLKI)\n**参与者**: 39名多学科专家\n**国家**: 来自14个国家\n**轮次**: 3轮在线问卷调查\n**达成共识标准**: >75% 同意且 <10% 不同意 (先验定义)\n**主要目的**: 针对MLKI的命名、诊断、治疗和康复策略达成共识，并确定未来研究重点",
-      "content_en": "**Type**: International Expert Consensus Statement\n**Methodology**: Validated Delphi methodology\n**Study Subject**: Multiligament Knee Injuries (MLKI)\n**Panel**: 39 multidisciplinary members\n**Origin**: From 14 countries\n**Rounds**: 3 rounds of online surveys\n**Consensus Definition**: >75% agreement and <10% disagreement (a priori)\n**Primary Aim**: To develop consensus on MLKI nomenclature, diagnosis, treatment, and rehabilitation strategies, and identify future research priorities"
+      "content_zh": "**类型**: 致编辑的信 / 评论性文章\n**目的**: 批判性评估Berthold等人关于孤立性前交叉韧带损伤患者中Kaplan纤维复合体 (KFC) 损伤高发生率的研究，并讨论MRI诊断KFC损伤的临床实用性和相关证据。\n**方法**: 文献回顾与专家观点分析，对现有临床和影像学证据进行批判性讨论。\n**主要论点**: 质疑MRI诊断KFC损伤的临床价值，强调缺乏KFC损伤与前外侧旋转不稳或ACL重建失败之间的临床关联证据，并呼吁完善诊断标准。",
+      "content_en": "**Type**: Letter to the Editor / Commentary\n**Objective**: To critically evaluate the study by Berthold et al. on the high rate of Kaplan Fiber Complex (KFC) injuries in patients with isolated ACL injury, and discuss the clinical utility and evidence for MRI diagnosis of KFC injuries.\n**Methods**: Literature review and expert opinion analysis, critically discussing existing clinical and radiological evidence.\n**Main Argument**: Questioning the clinical utility of MRI for diagnosing KFC injuries, highlighting the lack of clinical association between KFC injury and anterolateral rotatory instability or ACLR failure, and calling for refinement of diagnostic criteria."
     },
     {
       "id": "results",
@@ -38,40 +38,28 @@
       "title_en": "Key Numbers",
       "stats": [
         {
-          "label_zh": "达成共识项目总数",
-          "label_en": "Total consensus items",
-          "value": "50",
-          "note": "占总项目数的92.6%"
+          "label_zh": "Berthold等报告的KFC损伤发生率",
+          "label_en": "Prevalence of KFC injury reported by Berthold et al.",
+          "value": "35.6% - 53.8%",
+          "note": "在不同评估者之间存在差异"
         },
         {
-          "label_zh": "MLKI定义共识水平",
-          "label_en": "LoA for MLKI definition",
-          "value": "97.4%",
-          "note": "明确的MLKI定义达成高度共识"
+          "label_zh": "Monaco等研究的患者数量",
+          "label_en": "Number of patients in Monaco et al. study",
+          "value": "26",
+          "note": "评估MRI与手术探查在急性膝关节损伤中的相关性"
         },
         {
-          "label_zh": "CT血管造影评估共识水平",
-          "label_en": "LoA for CT angiography assessment",
-          "value": "89.7%",
-          "note": "针对高能量、双交叉韧带及后外侧角损伤"
+          "label_zh": "Ferretti等研究的患者数量",
+          "label_en": "Number of patients in Ferretti et al. study",
+          "value": "200",
+          "note": "进行急性初次ACL重建的队列，发现前外侧结构损伤与3级轴移试验相关"
         },
         {
-          "label_zh": "应力X线摄影/术中透视共识水平",
-          "label_en": "LoA for stress radiography/intraoperative fluoroscopy",
-          "value": "89.7%",
-          "note": "诊断价值达成共识"
-        },
-        {
-          "label_zh": "手术治疗共识水平 (年轻患者)",
-          "label_en": "LoA for operative management (young patients)",
-          "value": "100%",
-          "note": "现有文献普遍支持"
-        },
-        {
-          "label_zh": "单期手术共识水平",
-          "label_en": "LoA for single-stage surgery",
-          "value": "92.3%",
-          "note": "应尽可能实施"
+          "label_zh": "Boden等研究的ACL撕裂视频分析数量",
+          "label_en": "Number of ACL disruptions in Boden et al. video analysis",
+          "value": "27",
+          "note": "分析非接触性ACL损伤机制"
         }
       ]
     },
@@ -81,24 +69,24 @@
       "title_zh": "方法学评价",
       "title_en": "Critical Appraisal",
       "pros_zh": [
-        "**国际多学科专家参与**：汇集了来自14个国家的39名多学科专家，确保了共识的广泛代表性和临床相关性。",
-        "**严谨的Delphi方法学**：采用经过验证的Delphi方法，系统性地构建共识，提高了结果的可靠性和权威性。",
-        "**填补临床空白**：解决了MLKI在术语、诊断、治疗和康复方面长期存在的争议和标准化不足，对临床实践具有直接指导意义。"
+        "对Kaplan纤维这一新兴概念的临床实用性和诊断标准进行了及时且重要的批判性评估。",
+        "综合了多项相关研究的证据，强调了现有研究中的局限性和矛盾，促使领域内更深入思考。",
+        "呼吁更严格的诊断标准和基于临床结果的证据，对于促进该领域的科学严谨性和临床转化具有重要意义。"
       ],
       "cons_zh": [
-        "**基于专家意见而非新证据**：共识声明本质上是现有知识的综合，而非产生新的实证研究数据，其建议的证据等级可能不一。",
-        "**具体分类系统未详述**：虽然强调了需要更新MLKI分类系统，但抽象中并未提供该新系统的具体细节，研究者仍需进一步探索。",
-        "**潜在的利益冲突或选择偏倚未提及**：抽象中未提及专家选择的标准或潜在的利益冲突管理，这可能影响共识的公正性。"
+        "作为一篇评论文章，本身不提供新的原始研究数据来解决其提出的临床问题。",
+        "主要集中在对他人研究的讨论和质疑，而非提出新的实证解决方案或建立新的诊断共识。",
+        "由于是致编辑的信，篇幅和范围有限，可能无法全面深入探讨所有相关细节和复杂的解剖-生物力学关系。"
       ],
       "pros_en": [
-        "**International Multidisciplinary Expert Panel**: Comprising 39 multidisciplinary experts from 14 countries, ensuring broad representation and clinical relevance.",
-        "**Rigorous Delphi Methodology**: Utilized a validated Delphi method for systematic consensus building, enhancing the reliability and authority of the findings.",
-        "**Fills a Critical Clinical Gap**: Addresses long-standing disagreements and lack of standardization in MLKI terminology, diagnosis, treatment, and rehabilitation, providing direct clinical guidance."
+        "Provides a timely and important critical appraisal of the clinical utility and diagnostic criteria for the emerging concept of Kaplan fibers.",
+        "Synthesizes evidence from multiple related studies, highlighting limitations and contradictions in current research, encouraging deeper thought within the field.",
+        "Calls for more rigorous diagnostic criteria and evidence based on clinical outcomes, which is crucial for promoting scientific rigor and clinical translation in this area."
       ],
       "cons_en": [
-        "**Based on Expert Opinion, Not New Evidence**: Consensus statements synthesize existing knowledge rather than generating new empirical research data, thus the evidence level of recommendations may vary.",
-        "**Specific Classification System Not Detailed**: Although the need for an updated MLKI classification system was highlighted, the abstract does not provide specific details of this new system, requiring further exploration by researchers.",
-        "**Potential Conflicts of Interest or Selection Bias Not Mentioned**: The abstract does not mention the criteria for expert selection or the management of potential conflicts of interest, which could affect the impartiality of the consensus."
+        "As a commentary, it does not present new primary research data to resolve the clinical questions it raises.",
+        "Primarily focuses on discussing and questioning others' research rather than proposing new empirical solutions or establishing new diagnostic consensus.",
+        "Due to its nature as a Letter to the Editor, its scope and length are limited, potentially preventing comprehensive exploration of all relevant details and complex anatomical-biomechanical relationships."
       ]
     },
     {
@@ -106,7 +94,8 @@
       "icon": "◆",
       "title_zh": "研究启示",
       "title_en": "Takeaway",
-      "content_zh": "1.  **标准化MLKI管理**：该共识声明为多韧带膝关节损伤（MLKI）的命名、诊断、治疗和康复提供了统一的框架。这意味着未来的临床实践和研究将有更清晰、更一致的指导，有助于提升患者护理质量。\n\n2.  **更新分类系统的重要性**：共识强调需要更新MLKI分类系统，应涵盖损伤机制、非韧带结构受损范围以及脱位情况。对于生物力学研究而言，这提示在MLKI损伤机制分析中，应更全面地考虑多因素复合损伤的特征，例如通过**运动捕捉 (Motion Capture)** 技术精确量化膝关节多平面上的运动学和动力学异常。\n\n3.  **诊断工具的临床价值**：应力X线摄影和术中透视被认为在MLKI诊断中具有重要价值。在康复研究中，**肌电图 (sEMG)** 等技术可用于评估MLKI患者术后肌肉功能恢复情况，为个性化康复方案的制定提供客观数据。\n\n4.  **手术治疗与单期修复**：普遍倾向于对年轻MLKI患者进行手术治疗，并尽可能进行单期手术。这提示康复研究应着重优化单期术后的早期康复策略，探索如何平衡早期负重与关节稳定性，减少并发症，并通过**足底压力 (Plantar Pressure)** 分析评估步态恢复。"
+      "content_zh": "1.  **影像学诊断需谨慎：** 对Kaplan纤维复合体 (KFC) 损伤的MRI诊断应持谨慎态度。目前缺乏MRI诊断的KFC损伤与患者术后持续性前外侧旋转不稳或ACL重建失败率增加之间的明确临床关联。\n\n2.  **诊断标准待完善：** 临床上亟需统一和完善KFC损伤的诊断标准，以区分真正具有临床意义的损伤与广泛的膝关节损伤相关信号（如水肿和出血）。不应仅凭MRI上的出血或水肿信号，就假定KFC存在严重结构损伤，需考虑相邻解剖结构受损的可能性。\n\n3.  **多因素综合评估：** 在评估前交叉韧带 (ACL) 损伤患者的膝关节前外侧结构损伤时，应综合考虑影像学、临床体格检查和关节镜探查结果。影像学发现应结合患者的症状和功能表现进行解读，避免孤立判断。\n\n4.  **生物力学功能评估：** 鉴于目前影像学诊断在关联KFC损伤与膝关节旋转不稳方面存在的局限性，未来研究应更侧重于结合**运动捕捉 (Motion Capture)**、**表面肌电图 (sEMG)** 或**惯性测量单元 (IMUs)** 等生物力学工具，客观测定膝关节的旋转稳定性、运动学和相关肌群活动模式，以更好地理解KFC损伤的临床影响及其与ACL重建失败的潜在关联。",
+      "content_en": "1.  **Caution in Radiological Diagnosis:** MRI diagnosis of Kaplan Fiber Complex (KFC) injuries should be approached with caution. There is currently a lack of clear clinical association between MRI-diagnosed KFC injuries and persistent anterolateral rotatory instability or increased ACL reconstruction (ACLR) failure rates post-surgery.\n\n2.  **Refinement of Diagnostic Criteria Needed:** There is an urgent clinical need to standardize and refine diagnostic criteria for KFC injuries to differentiate clinically relevant injuries from diffuse knee injury-related signals (e.g., edema and hemorrhage). One should not assume serious structural damage to the KFC based solely on hemorrhage or edema signals on MRI, as damage to adjacent anatomical structures should also be considered.\n\n3.  **Multifactorial Assessment is Key:** When assessing anterolateral knee structure injuries in patients with ACL injuries, a comprehensive approach integrating radiological findings, clinical physical examination, and arthroscopic exploration is essential. Radiological findings should be interpreted in conjunction with the patient's symptoms and functional performance, avoiding isolated judgments.\n\n4.  **Biomechanical Functional Assessment:** Given the current limitations of radiological diagnosis in correlating KFC injuries with knee rotatory instability, future research should focus on integrating biomechanical tools such as **motion capture**, **surface electromyography (sEMG)**, or **inertial measurement units (IMUs)** to objectively quantify knee rotatory stability, kinematics, and associated muscle activation patterns. This will provide a better understanding of the clinical impact of KFC injuries and their potential association with ACLR failure."
     }
   ]
 }
