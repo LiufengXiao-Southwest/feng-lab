@@ -99,5 +99,11 @@
       "content_zh": "1.  **股四头肌强化与安全性平衡**: 股四头肌力量恢复对ACL重建术后功能恢复至关重要，但开链膝关节伸展运动必须在适当的时机、合适的运动范围和负荷下谨慎使用，以避免对移植物和髌股关节造成伤害。\n\n2.  **避免高风险膝关节角度与负荷**: 康复过程中应特别注意避免在膝关节伸展近末端（40-0度）进行大负荷的开链膝关节伸展，因为此范围内的ACL应变和髌股关节压力显著升高。\n\n3.  **强调腘绳肌协同收缩的重要性**: 开链膝关节伸展运动由于缺乏腘绳肌的协同收缩，可能导致更大的胫骨前剪切力。康复师应考虑在康复后期引入能促进腘绳肌和股四头肌共同激活的训练，或在早期阶段限制剪切力。\n\n4.  **生物力学监测的潜在应用**: 借助如**惯性测量单元 (IMU)** 监测运动范围和速度，或**表面肌电图 (sEMG)** 实时评估股四头肌和腘绳肌的激活模式和协同收缩，可以为康复师提供客观数据，指导患者在开链膝关节伸展训练中精准控制负荷和ROM，从而优化康复效果并降低风险。",
       "content_en": "1.  **Balance Quadriceps Strengthening with Safety**: Quadriceps strength restoration is critical for functional recovery post-ACLR, but open kinetic chain (OKC) knee extension exercises must be used judiciously at appropriate timeframes, ranges of motion, and loads to prevent harm to the graft and patellofemoral joint.\n\n2.  **Avoid High-Risk Knee Angles and Loads**: During rehabilitation, special care should be taken to avoid high-load OKC knee extension near terminal extension (40-0 degrees), as both ACL strain and patellofemoral joint pressure are significantly elevated in this range.\n\n3.  **Emphasize Hamstring Co-contraction Importance**: OKC knee extension exercises often lack hamstring co-contraction, which can lead to greater anterior tibial shear forces. Clinicians should consider incorporating exercises that promote quadriceps-hamstring co-activation in later stages of rehab, or limit shear forces in earlier stages.\n\n4.  **Potential Application of Biomechanical Monitoring**: Utilizing tools like **Inertial Measurement Units (IMUs)** to monitor range of motion and velocity, or **surface Electromyography (sEMG)** to assess real-time quadriceps and hamstring activation patterns and co-contraction, can provide objective data for clinicians. This can guide patients in precisely controlling load and ROM during OKC knee extension training, optimizing rehabilitation outcomes and minimizing risks."
     }
-  ]
+  ],
+  "fulltext_url": "https://europepmc.org/article/PMC/PMC8341750",
+  "fulltext_type": "pmc_xml",
+  "pmcid": "PMC8341750",
+  "pmid": "34395052",
+  "fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8341750/fullTextXML",
+  "fulltext_label": "全文 (结构化)"
 }
