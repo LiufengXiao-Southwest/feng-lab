@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "jcr_year": "2024",
   "sources": {
     "easyscholar": "easyscholar.cc — JCR impact factor, JCR quartile, CAS tiers; refreshed every run",
@@ -23,9 +23,9 @@
       ],
       "publisher": "Springer Science+Business Media",
       "openalex_id": "S141152059",
-      "openalex_2yr": 2.944,
+      "openalex_2yr": 2.948,
       "h_index": 194,
-      "works_count": 8014,
+      "works_count": 8016,
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
@@ -33,7 +33,6 @@
         "Engineering / Biomedical Engineering",
         "Biochemistry, Genetics and Molecular Biology / Cell Biology",
         "Medicine / Surgery",
-        "Medicine / Pulmonary and Respiratory Medicine",
         "Medicine / Cardiology and Cardiovascular Medicine"
       ],
       "jcr_if": "5.2",
@@ -56,16 +55,15 @@
         "Applied Sciences (Web)"
       ],
       "publisher": "Multidisciplinary Digital Publishing Institute",
-      "openalex_2yr": 4.842,
+      "openalex_2yr": 4.849,
       "h_index": 238,
-      "works_count": 94803,
+      "works_count": 94853,
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
       "topics": [
         "Computer Science / Computer Vision and Pattern Recognition",
         "Engineering / Mechanics of Materials",
-        "Engineering / Safety, Risk, Reliability and Quality",
         "Engineering / Civil and Structural Engineering",
         "Engineering / Control and Systems Engineering"
       ]
@@ -100,16 +98,16 @@
       ],
       "publisher": "BioMed Central",
       "openalex_id": "S4210191135",
-      "openalex_2yr": 3.905,
+      "openalex_2yr": 3.911,
       "h_index": 64,
-      "works_count": 2311,
+      "works_count": 2315,
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
       "topics": [
         "Medicine / Orthopedics and Sports Medicine",
-        "Medicine / Complementary and alternative medicine",
         "Medicine / Physiology (medical)",
+        "Medicine / Public Health, Environmental and Occupational Health",
         "Engineering / Biomedical Engineering",
         "Psychology / Developmental and Educational Psychology"
       ],
@@ -145,17 +143,17 @@
       ],
       "publisher": "BMJ",
       "openalex_id": "S136578784",
-      "openalex_2yr": 4.018,
+      "openalex_2yr": 4.024,
       "h_index": 316,
-      "works_count": 13935,
+      "works_count": 13937,
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
       "topics": [
         "Medicine / Orthopedics and Sports Medicine",
-        "Medicine / Physiology (medical)",
+        "Medicine / Public Health, Environmental and Occupational Health",
         "Engineering / Biomedical Engineering",
-        "Medicine / Complementary and alternative medicine",
+        "Medicine / Physiology (medical)",
         "Medicine / Surgery"
       ],
       "sjr": 4.847,
@@ -194,19 +192,17 @@
       ],
       "publisher": "Springer Science+Business Media",
       "openalex_id": "S205145379",
-      "openalex_2yr": 3.181,
+      "openalex_2yr": 3.186,
       "h_index": 223,
       "works_count": 12203,
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
       "topics": [
-        "Medicine / Complementary and alternative medicine",
-        "Medicine / Orthopedics and Sports Medicine",
-        "Medicine / Rehabilitation",
-        "Engineering / Biomedical Engineering",
         "Medicine / Physiology (medical)",
-        "Biochemistry, Genetics and Molecular Biology / Cell Biology"
+        "Medicine / Orthopedics and Sports Medicine",
+        "Engineering / Biomedical Engineering",
+        "Nursing / Nutrition and Dietetics"
       ],
       "sjr": 0.985,
       "sjr_quartile": "Q1",
@@ -238,19 +234,18 @@
       ],
       "publisher": "Taylor & Francis",
       "openalex_id": "S18135458",
-      "openalex_2yr": 3.887,
+      "openalex_2yr": 3.895,
       "h_index": 111,
-      "works_count": 3006,
+      "works_count": 3007,
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
       "topics": [
         "Medicine / Orthopedics and Sports Medicine",
-        "Medicine / Complementary and alternative medicine",
-        "Psychology / Developmental and Educational Psychology",
         "Medicine / Physiology (medical)",
-        "Engineering / Biomedical Engineering",
-        "Medicine / Rehabilitation"
+        "Psychology / Developmental and Educational Psychology",
+        "Medicine / Public Health, Environmental and Occupational Health",
+        "Engineering / Biomedical Engineering"
       ],
       "sjr": 1.137,
       "sjr_quartile": "Q1",
@@ -282,18 +277,18 @@
       ],
       "publisher": "BioMed Central",
       "openalex_id": "S64516541",
-      "openalex_2yr": 4.033,
+      "openalex_2yr": 4.041,
       "h_index": 82,
-      "works_count": 5761,
+      "works_count": 5763,
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
       "topics": [
-        "Medicine / Epidemiology",
+        "Medicine / Critical Care and Intensive Care Medicine",
         "Medicine / Endocrinology, Diabetes and Metabolism",
         "Medicine / Oncology",
-        "Medicine / Pulmonary and Respiratory Medicine",
-        "Biochemistry, Genetics and Molecular Biology / Cancer Research"
+        "Biochemistry, Genetics and Molecular Biology / Cancer Research",
+        "Medicine / Clinical Neurology"
       ],
       "jcr_if": "4.8",
       "jcr_if5": "4.4",
@@ -316,16 +311,15 @@
         "Official Journal of the Korea Exercise Science Academy"
       ],
       "publisher": "",
-      "openalex_2yr": 0.576,
+      "openalex_2yr": 0.572,
       "h_index": 12,
-      "works_count": 931,
+      "works_count": 932,
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
       "topics": [
-        "Medicine / Complementary and alternative medicine",
         "Medicine / Physiology (medical)",
-        "Medicine / Rehabilitation",
+        "Medicine / Public Health, Environmental and Occupational Health",
         "Medicine / Orthopedics and Sports Medicine",
         "Health Professions / Physical Therapy, Sports Therapy and Rehabilitation",
         "Biochemistry, Genetics and Molecular Biology / Molecular Biology"
@@ -376,9 +370,9 @@
       ],
       "publisher": "Frontiers Media",
       "openalex_id": "S2596909297",
-      "openalex_2yr": 5.085,
+      "openalex_2yr": 5.091,
       "h_index": 152,
-      "works_count": 15364,
+      "works_count": 15381,
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
@@ -408,18 +402,18 @@
       ],
       "publisher": "Frontiers Media",
       "openalex_id": "S4210180255",
-      "openalex_2yr": 3.482,
+      "openalex_2yr": 3.489,
       "h_index": 60,
-      "works_count": 4174,
+      "works_count": 4178,
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
       "topics": [
         "Medicine / Orthopedics and Sports Medicine",
         "Psychology / Developmental and Educational Psychology",
-        "Medicine / Physiology (medical)",
+        "Medicine / Public Health, Environmental and Occupational Health",
         "Social Sciences / Sociology and Political Science",
-        "Medicine / Complementary and alternative medicine"
+        "Medicine / Physiology (medical)"
       ],
       "sjr": 0.825,
       "sjr_quartile": "Q2",
@@ -452,7 +446,7 @@
       ],
       "publisher": "Elsevier BV",
       "openalex_id": "S156006901",
-      "openalex_2yr": 1.567,
+      "openalex_2yr": 1.568,
       "h_index": 217,
       "works_count": 14424,
       "is_oa": false,
@@ -461,9 +455,8 @@
       "topics": [
         "Engineering / Biomedical Engineering",
         "Health Professions / Physical Therapy, Sports Therapy and Rehabilitation",
-        "Medicine / Psychiatry and Mental health",
-        "Neuroscience / Cognitive Neuroscience",
         "Medicine / Rehabilitation",
+        "Neuroscience / Cognitive Neuroscience",
         "Medicine / Orthopedics and Sports Medicine"
       ],
       "sjr": 0.842,
@@ -494,7 +487,7 @@
       "publisher": "Research Foundation of Ribeirão Preto",
       "openalex_2yr": 0.071,
       "h_index": 71,
-      "works_count": 10010,
+      "works_count": 10014,
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
@@ -516,9 +509,9 @@
       ],
       "publisher": "Institute of Electrical and Electronics Engineers",
       "openalex_id": "S2495854775",
-      "openalex_2yr": 6.54,
+      "openalex_2yr": 6.559,
       "h_index": 168,
-      "works_count": 6877,
+      "works_count": 6879,
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
@@ -552,14 +545,14 @@
       ],
       "aliases": [],
       "publisher": "",
-      "openalex_2yr": 0.364,
+      "openalex_2yr": 0.363,
       "h_index": 32,
-      "works_count": 35437,
+      "works_count": 35510,
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
       "topics": [
-        "Arts and Humanities / Philosophy",
+        "Arts and Humanities / History",
         "Social Sciences / Sociology and Political Science",
         "Business, Management and Accounting / Marketing",
         "Arts and Humanities / Religious studies",
@@ -586,9 +579,8 @@
       "is_preprint_server": false,
       "topics": [
         "Engineering / Control and Systems Engineering",
-        "Engineering / Aerospace Engineering",
-        "Engineering / Biomedical Engineering",
-        "Computer Science / Computer Vision and Pattern Recognition"
+        "Computer Science / Computer Vision and Pattern Recognition",
+        "Engineering / Biomedical Engineering"
       ]
     },
     {
@@ -610,8 +602,8 @@
         "Engineering / Biomedical Engineering",
         "Arts and Humanities / Archeology (arts and humanities)",
         "Medicine / Surgery",
-        "Medicine / Radiology, Nuclear Medicine and Imaging",
-        "Medicine / Pulmonary and Respiratory Medicine"
+        "Medicine / Clinical Neurology",
+        "Medicine / Gastroenterology"
       ]
     },
     {
@@ -633,7 +625,7 @@
       "topics": [
         "Medicine / Health Informatics",
         "Biochemistry, Genetics and Molecular Biology / Molecular Biology",
-        "Medicine / Physiology (medical)",
+        "Medicine / Public Health, Environmental and Occupational Health",
         "Medicine / Endocrinology, Diabetes and Metabolism",
         "Psychology / Experimental and Cognitive Psychology",
         "Health Professions / General Health Professions"
@@ -657,8 +649,9 @@
         "Medicine / Orthopedics and Sports Medicine",
         "Health Professions / Physical Therapy, Sports Therapy and Rehabilitation",
         "Psychology / Developmental and Educational Psychology",
+        "Medicine / Public Health, Environmental and Occupational Health",
         "Medicine / Physiology (medical)",
-        "Medicine / Complementary and alternative medicine"
+        "Social Sciences / Education"
       ]
     },
     {
@@ -673,7 +666,7 @@
       ],
       "publisher": "Human Kinetics",
       "openalex_id": "S54215592",
-      "openalex_2yr": 3.692,
+      "openalex_2yr": 3.71,
       "h_index": 112,
       "works_count": 1581,
       "is_oa": false,
@@ -681,11 +674,8 @@
       "is_preprint_server": false,
       "topics": [
         "Medicine / Orthopedics and Sports Medicine",
-        "Biochemistry, Genetics and Molecular Biology / Cell Biology",
-        "Medicine / Rehabilitation",
-        "Medicine / Complementary and alternative medicine",
-        "Medicine / Physiology (medical)",
-        "Nursing / Nutrition and Dietetics"
+        "Nursing / Nutrition and Dietetics",
+        "Medicine / Physiology (medical)"
       ],
       "sjr": 1.007,
       "sjr_quartile": "Q1",
@@ -718,7 +708,7 @@
       ],
       "publisher": "Thieme Medical Publishers (Germany)",
       "openalex_id": "S26699211",
-      "openalex_2yr": 4.889,
+      "openalex_2yr": 4.892,
       "h_index": 180,
       "works_count": 6504,
       "is_oa": false,
@@ -726,10 +716,9 @@
       "is_preprint_server": false,
       "topics": [
         "Medicine / Orthopedics and Sports Medicine",
-        "Medicine / Complementary and alternative medicine",
-        "Medicine / Rehabilitation",
         "Medicine / Physiology (medical)",
-        "Biochemistry, Genetics and Molecular Biology / Cell Biology"
+        "Medicine / Public Health, Environmental and Occupational Health",
+        "Nursing / Nutrition and Dietetics"
       ],
       "sjr": 0.773,
       "sjr_quartile": "Q2",
@@ -760,15 +749,15 @@
       ],
       "publisher": "Human Kinetics",
       "openalex_id": "S2502187214",
-      "openalex_2yr": 3.478,
+      "openalex_2yr": 3.49,
       "h_index": 129,
-      "works_count": 3239,
+      "works_count": 3241,
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
       "topics": [
         "Medicine / Orthopedics and Sports Medicine",
-        "Medicine / Complementary and alternative medicine",
+        "Medicine / Physiology (medical)",
         "Psychology / Developmental and Educational Psychology",
         "Health Professions / Physical Therapy, Sports Therapy and Rehabilitation",
         "Engineering / Biomedical Engineering"
@@ -800,7 +789,7 @@
         "IJSC"
       ],
       "publisher": "",
-      "openalex_2yr": 1.757,
+      "openalex_2yr": 1.763,
       "h_index": 14,
       "works_count": 258,
       "is_oa": true,
@@ -811,7 +800,7 @@
         "Health Professions / Physical Therapy, Sports Therapy and Rehabilitation",
         "Psychology / Developmental and Educational Psychology",
         "Engineering / Biomedical Engineering",
-        "Medicine / Complementary and alternative medicine"
+        "Medicine / Physiology (medical)"
       ]
     },
     {
@@ -825,7 +814,7 @@
       ],
       "publisher": "Lippincott Williams & Wilkins",
       "openalex_id": "S2764567295",
-      "openalex_2yr": 3.566,
+      "openalex_2yr": 3.578,
       "h_index": 61,
       "works_count": 1150,
       "is_oa": false,
@@ -833,7 +822,6 @@
       "is_preprint_server": false,
       "topics": [
         "Medicine / Surgery",
-        "Medicine / Epidemiology",
         "Medicine / Orthopedics and Sports Medicine"
       ],
       "sjr": 0.994,
@@ -915,7 +903,7 @@
         "Engineering / Biomedical Engineering",
         "Health Professions / Physical Therapy, Sports Therapy and Rehabilitation",
         "Medicine / Surgery",
-        "Medicine / Epidemiology"
+        "Medicine / Clinical Neurology"
       ],
       "sjr": 1.166,
       "sjr_quartile": "Q1",
@@ -947,7 +935,7 @@
       ],
       "publisher": "Elsevier BV",
       "openalex_id": "S181675524",
-      "openalex_2yr": 3.097,
+      "openalex_2yr": 3.101,
       "h_index": 325,
       "works_count": 24547,
       "is_oa": false,
@@ -1036,7 +1024,7 @@
       ],
       "publisher": "American Physical Therapy Association",
       "openalex_id": "S7609525",
-      "openalex_2yr": 5.554,
+      "openalex_2yr": 5.558,
       "h_index": 200,
       "works_count": 4716,
       "is_oa": false,
@@ -1044,7 +1032,7 @@
       "is_preprint_server": false,
       "topics": [
         "Engineering / Biomedical Engineering",
-        "Medicine / Pharmacology (medical)",
+        "Health Professions / Physical Therapy, Sports Therapy and Rehabilitation",
         "Medicine / Surgery",
         "Medicine / Orthopedics and Sports Medicine"
       ],
@@ -1079,17 +1067,17 @@
       "openalex_id": "S95965737",
       "openalex_2yr": 3.839,
       "h_index": 219,
-      "works_count": 8295,
+      "works_count": 8297,
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
       "topics": [
         "Medicine / Orthopedics and Sports Medicine",
         "Psychology / Developmental and Educational Psychology",
-        "Medicine / Complementary and alternative medicine",
+        "Medicine / Physiology (medical)",
         "Engineering / Biomedical Engineering",
         "Health Professions / Physical Therapy, Sports Therapy and Rehabilitation",
-        "Medicine / Physiology (medical)"
+        "Medicine / Public Health, Environmental and Occupational Health"
       ],
       "sjr": 1.018,
       "sjr_quartile": "Q1",
@@ -1122,18 +1110,17 @@
       ],
       "publisher": "Elsevier BV",
       "openalex_id": "S2485047394",
-      "openalex_2yr": 12.173,
+      "openalex_2yr": 12.218,
       "h_index": 108,
       "works_count": 1259,
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
       "topics": [
+        "Medicine / Public Health, Environmental and Occupational Health",
         "Medicine / Physiology (medical)",
-        "Medicine / Complementary and alternative medicine",
         "Medicine / Orthopedics and Sports Medicine",
-        "Engineering / Biomedical Engineering",
-        "Medicine / Rehabilitation"
+        "Engineering / Biomedical Engineering"
       ],
       "sjr": 3.715,
       "sjr_quartile": "Q1",
@@ -1166,7 +1153,7 @@
       ],
       "publisher": "Springer Science+Business Media",
       "openalex_id": "S51654951",
-      "openalex_2yr": 5.901,
+      "openalex_2yr": 5.916,
       "h_index": 195,
       "works_count": 10404,
       "is_oa": false,
@@ -1205,7 +1192,7 @@
       ],
       "publisher": "Wolters Kluwer",
       "openalex_id": "S28966261",
-      "openalex_2yr": 2.346,
+      "openalex_2yr": 2.352,
       "h_index": 288,
       "works_count": 52380,
       "is_oa": true,
@@ -1214,8 +1201,8 @@
       "topics": [
         "Biochemistry, Genetics and Molecular Biology / Genetics",
         "Medicine / Complementary and alternative medicine",
-        "Medicine / Surgery",
-        "Medicine / Pulmonary and Respiratory Medicine"
+        "Medicine / Anesthesiology and Pain Medicine",
+        "Medicine / Oncology"
       ],
       "jcr_if": "2.0",
       "jcr_if5": "2.1",
@@ -1242,19 +1229,18 @@
       ],
       "publisher": "Lippincott Williams & Wilkins",
       "openalex_id": "S14544163",
-      "openalex_2yr": 0.452,
+      "openalex_2yr": 0.453,
       "h_index": 363,
       "works_count": 94275,
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
       "topics": [
-        "Medicine / Complementary and alternative medicine",
-        "Medicine / Orthopedics and Sports Medicine",
         "Medicine / Physiology (medical)",
-        "Medicine / Rehabilitation",
+        "Medicine / Orthopedics and Sports Medicine",
+        "Medicine / Public Health, Environmental and Occupational Health",
         "Engineering / Biomedical Engineering",
-        "Biochemistry, Genetics and Molecular Biology / Cell Biology"
+        "Nursing / Nutrition and Dietetics"
       ],
       "sjr": 1.481,
       "sjr_quartile": "Q1",
@@ -1299,9 +1285,9 @@
       ],
       "publisher": "SAGE Publishing",
       "openalex_id": "S2755168269",
-      "openalex_2yr": 1.578,
+      "openalex_2yr": 1.582,
       "h_index": 91,
-      "works_count": 10129,
+      "works_count": 10132,
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
@@ -1334,16 +1320,16 @@
       ],
       "publisher": "Multidisciplinary Digital Publishing Institute",
       "openalex_id": "S2738274844",
-      "openalex_2yr": 2.803,
+      "openalex_2yr": 2.811,
       "h_index": 61,
-      "works_count": 7110,
+      "works_count": 7112,
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
       "topics": [
         "Materials Science / Electronic, Optical and Magnetic Materials",
         "Engineering / Electrical and Electronic Engineering",
-        "Engineering / Biomedical Engineering"
+        "Physics and Astronomy / Atomic and Molecular Physics, and Optics"
       ],
       "jcr_if": "2.1",
       "jcr_if5": "2.1",
@@ -1367,7 +1353,7 @@
       ],
       "publisher": "Association for Computing Machinery",
       "openalex_id": "S4210219751",
-      "openalex_2yr": 7.543,
+      "openalex_2yr": 7.559,
       "h_index": 93,
       "works_count": 1989,
       "is_oa": false,
@@ -1391,17 +1377,16 @@
       ],
       "aliases": [],
       "publisher": "Kazimierz Wielki University in Bydgoszcz",
-      "openalex_2yr": 0.64,
+      "openalex_2yr": 0.642,
       "h_index": 12,
       "works_count": 3033,
       "is_oa": true,
       "in_doaj": false,
       "is_preprint_server": false,
       "topics": [
-        "Medicine / Physiology (medical)",
+        "Medicine / Public Health, Environmental and Occupational Health",
         "Medicine / Orthopedics and Sports Medicine",
-        "Medicine / Rehabilitation",
-        "Medicine / Complementary and alternative medicine",
+        "Medicine / Physiology (medical)",
         "Biochemistry, Genetics and Molecular Biology / Molecular Biology"
       ]
     },
@@ -1422,7 +1407,7 @@
         "Medicine / Orthopedics and Sports Medicine",
         "Psychology / Developmental and Educational Psychology",
         "Health Professions / Physical Therapy, Sports Therapy and Rehabilitation",
-        "Medicine / Physiology (medical)",
+        "Medicine / Public Health, Environmental and Occupational Health",
         "Social Sciences / Life-span and Life-course Studies",
         "Social Sciences / Gender Studies"
       ]
@@ -1441,16 +1426,16 @@
       ],
       "publisher": "Wiley",
       "openalex_id": "S199863227",
-      "openalex_2yr": 4.889,
+      "openalex_2yr": 4.9,
       "h_index": 190,
-      "works_count": 5291,
+      "works_count": 5292,
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
       "topics": [
         "Medicine / Orthopedics and Sports Medicine",
-        "Medicine / Complementary and alternative medicine",
         "Medicine / Physiology (medical)",
+        "Medicine / Public Health, Environmental and Occupational Health",
         "Engineering / Biomedical Engineering",
         "Medicine / Surgery"
       ],
@@ -1517,10 +1502,10 @@
       "is_preprint_server": false,
       "topics": [
         "Social Sciences / Political Science and International Relations",
-        "Computer Science / Information Systems",
         "Social Sciences / Education",
         "Social Sciences / Sociology and Political Science",
-        "Arts and Humanities / Archeology (arts and humanities)"
+        "Arts and Humanities / Archeology (arts and humanities)",
+        "Arts and Humanities / History"
       ]
     },
     {
@@ -1531,17 +1516,17 @@
       ],
       "aliases": [],
       "publisher": "Emerald Publishing Limited",
-      "openalex_2yr": 2.044,
+      "openalex_2yr": 2.051,
       "h_index": 72,
       "works_count": 3687,
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
       "topics": [
-        "Computer Science / Computer Networks and Communications",
+        "Physics and Astronomy / Instrumentation",
         "Engineering / Industrial and Manufacturing Engineering",
         "Engineering / Electrical and Electronic Engineering",
-        "Chemical Engineering / Bioengineering",
+        "Chemistry / Analytical Chemistry",
         "Engineering / Control and Systems Engineering"
       ]
     },
@@ -1567,18 +1552,18 @@
       ],
       "publisher": "Multidisciplinary Digital Publishing Institute",
       "openalex_id": "S4210234981",
-      "openalex_2yr": 4.425,
+      "openalex_2yr": 4.428,
       "h_index": 72,
-      "works_count": 2736,
+      "works_count": 2739,
       "is_oa": true,
       "in_doaj": true,
       "is_preprint_server": false,
       "topics": [
         "Medicine / Orthopedics and Sports Medicine",
         "Psychology / Developmental and Educational Psychology",
-        "Medicine / Complementary and alternative medicine",
+        "Medicine / Physiology (medical)",
         "Health Professions / Physical Therapy, Sports Therapy and Rehabilitation",
-        "Medicine / Physiology (medical)"
+        "Medicine / Public Health, Environmental and Occupational Health"
       ],
       "sjr": 0.888,
       "sjr_quartile": "Q1",
@@ -1607,18 +1592,17 @@
       ],
       "publisher": "Springer Science+Business Media",
       "openalex_id": "S137994755",
-      "openalex_2yr": 11.99,
+      "openalex_2yr": 12.007,
       "h_index": 323,
-      "works_count": 4398,
+      "works_count": 4399,
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
       "topics": [
         "Medicine / Orthopedics and Sports Medicine",
-        "Medicine / Complementary and alternative medicine",
         "Medicine / Physiology (medical)",
-        "Medicine / Rehabilitation",
-        "Biochemistry, Genetics and Molecular Biology / Cell Biology"
+        "Medicine / Public Health, Environmental and Occupational Health",
+        "Nursing / Nutrition and Dietetics"
       ],
       "sjr": 4.065,
       "sjr_quartile": "Q1",
@@ -1651,7 +1635,7 @@
       ],
       "publisher": "Springer Nature",
       "openalex_id": "S2736513330",
-      "openalex_2yr": 8.552,
+      "openalex_2yr": 8.593,
       "h_index": 85,
       "works_count": 1121,
       "is_oa": true,
@@ -1659,8 +1643,8 @@
       "is_preprint_server": false,
       "topics": [
         "Medicine / Orthopedics and Sports Medicine",
-        "Medicine / Complementary and alternative medicine",
         "Medicine / Physiology (medical)",
+        "Medicine / Public Health, Environmental and Occupational Health",
         "Psychology / Developmental and Educational Psychology",
         "Engineering / Biomedical Engineering"
       ],
@@ -1694,7 +1678,7 @@
       ],
       "publisher": "SAGE Publishing",
       "openalex_id": "S154904565",
-      "openalex_2yr": 6.051,
+      "openalex_2yr": 6.06,
       "h_index": 361,
       "works_count": 12899,
       "is_oa": false,
@@ -1738,15 +1722,15 @@
       ],
       "publisher": "Lippincott Williams & Wilkins",
       "openalex_id": "S150708336",
-      "openalex_2yr": 2.675,
+      "openalex_2yr": 2.679,
       "h_index": 222,
-      "works_count": 10154,
+      "works_count": 10155,
       "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
       "topics": [
         "Medicine / Orthopedics and Sports Medicine",
-        "Medicine / Complementary and alternative medicine",
+        "Medicine / Physiology (medical)",
         "Health Professions / Physical Therapy, Sports Therapy and Rehabilitation",
         "Engineering / Biomedical Engineering",
         "Psychology / Developmental and Educational Psychology"
@@ -1779,9 +1763,9 @@
         "ArXiv.org"
       ],
       "publisher": "Cornell University",
-      "openalex_2yr": 1.105,
+      "openalex_2yr": 1.109,
       "h_index": 847,
-      "works_count": 1083178,
+      "works_count": 1083849,
       "is_oa": true,
       "in_doaj": false,
       "is_preprint_server": true,
