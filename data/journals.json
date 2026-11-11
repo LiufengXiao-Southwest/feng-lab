@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "jcr_year": "2024",
   "sources": {
     "easyscholar": "easyscholar.cc — JCR impact factor, JCR quartile, CAS tiers; refreshed every run",
@@ -667,26 +667,26 @@
       ]
     },
     {
-      "name": "International Journal of Physical Education Fitness and Sports",
+      "name": "International Journal of Physical Education Sports Management and Yogic Sciences",
       "issn": [
-        "2277-5447",
-        "2457-0753"
+        "2231-1394",
+        "2278-795X"
       ],
       "aliases": [],
       "publisher": "",
-      "openalex_2yr": 1.354,
-      "h_index": 13,
-      "works_count": 519,
-      "is_oa": true,
+      "openalex_2yr": 0.022,
+      "h_index": 4,
+      "works_count": 296,
+      "is_oa": false,
       "in_doaj": false,
       "is_preprint_server": false,
       "topics": [
-        "Medicine / Orthopedics and Sports Medicine",
         "Health Professions / Physical Therapy, Sports Therapy and Rehabilitation",
+        "Medicine / Orthopedics and Sports Medicine",
         "Psychology / Developmental and Educational Psychology",
         "Medicine / Public Health, Environmental and Occupational Health",
         "Medicine / Physiology (medical)",
-        "Social Sciences / Education"
+        "Social Sciences / Life-span and Life-course Studies"
       ]
     },
     {
