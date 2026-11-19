@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "jcr_year": "2024",
   "sources": {
     "easyscholar": "easyscholar.cc — JCR impact factor, JCR quartile, CAS tiers; refreshed every run",
@@ -8,8 +8,31 @@
     "openalex": "api.openalex.org — names, ISSNs, h-index, OA status; refreshed every run"
   },
   "attribution": "SCImago, (n.d.). SJR — SCImago Journal & Country Rank [Portal]. Powered by Scopus.",
-  "count": 60,
+  "count": 59,
   "journals": [
+    {
+      "name": "ACTIVE Journal of Physical Education Sport Health and Recreation",
+      "issn": [
+        "2252-6773",
+        "2460-724X"
+      ],
+      "aliases": [
+        "Journal of physical education, sport, health and recreation"
+      ],
+      "publisher": "State University of Semarang",
+      "openalex_2yr": 1.11,
+      "h_index": 19,
+      "works_count": 816,
+      "is_oa": true,
+      "in_doaj": true,
+      "is_preprint_server": false,
+      "topics": [
+        "Health Professions / Physical Therapy, Sports Therapy and Rehabilitation",
+        "Social Sciences / Education",
+        "Medicine / Orthopedics and Sports Medicine",
+        "Social Sciences / Life-span and Life-course Studies"
+      ]
+    },
     {
       "name": "Annals of Biomedical Engineering",
       "aliases": [
@@ -175,31 +198,6 @@
       "esi": "临床医学",
       "jcr_year": "2024",
       "if_provider": "easyscholar"
-    },
-    {
-      "name": "ECS Meeting Abstracts",
-      "issn": [
-        "1091-8213",
-        "2151-2035",
-        "2151-2043",
-        "2152-8365"
-      ],
-      "aliases": [
-        "ECS meeting"
-      ],
-      "publisher": "Institute of Physics",
-      "openalex_2yr": 0.13,
-      "h_index": 46,
-      "works_count": 106930,
-      "is_oa": false,
-      "in_doaj": false,
-      "is_preprint_server": false,
-      "topics": [
-        "Engineering / Electrical and Electronic Engineering",
-        "Energy / Renewable Energy, Sustainability and the Environment",
-        "Engineering / Automotive Engineering",
-        "Materials Science / Materials Chemistry"
-      ]
     },
     {
       "name": "European Journal of Applied Physiology",
@@ -536,24 +534,6 @@
       "if_provider": "easyscholar"
     },
     {
-      "name": "Genetics and Molecular Research",
-      "issn": [
-        "1676-5680"
-      ],
-      "aliases": [],
-      "publisher": "Research Foundation of Ribeirão Preto",
-      "openalex_2yr": 0.6,
-      "h_index": 79,
-      "works_count": 10057,
-      "is_oa": false,
-      "in_doaj": false,
-      "is_preprint_server": false,
-      "topics": [
-        "Biochemistry, Genetics and Molecular Biology / Genetics",
-        "Agricultural and Biological Sciences / Plant Science"
-      ]
-    },
-    {
       "name": "IEEE Journal of Biomedical and Health Informatics",
       "aliases": [
         "Biomedical and health informatics",
@@ -649,6 +629,29 @@
       "esi": "工程科学",
       "jcr_year": "2024",
       "if_provider": "easyscholar"
+    },
+    {
+      "name": "International Journal of Anatomy Radiology and Surgery",
+      "issn": [
+        "2277-8543",
+        "2455-6874"
+      ],
+      "aliases": [],
+      "publisher": "JCDR Research and Publications Pvt. Ltd.",
+      "openalex_2yr": 0.28,
+      "h_index": 6,
+      "works_count": 594,
+      "is_oa": true,
+      "in_doaj": true,
+      "is_preprint_server": false,
+      "topics": [
+        "Medicine / Anatomy",
+        "Engineering / Biomedical Engineering",
+        "Arts and Humanities / Archeology (arts and humanities)",
+        "Medicine / Surgery",
+        "Medicine / Clinical Neurology",
+        "Medicine / Gastroenterology"
+      ]
     },
     {
       "name": "International Journal of Innovative Technologies in Social Science",
@@ -1481,26 +1484,6 @@
       "if_provider": "easyscholar"
     },
     {
-      "name": "Quality in Sport",
-      "issn": [
-        "2450-3118"
-      ],
-      "aliases": [],
-      "publisher": "Kazimierz Wielki University in Bydgoszcz",
-      "openalex_2yr": 0.66,
-      "h_index": 15,
-      "works_count": 3077,
-      "is_oa": true,
-      "in_doaj": false,
-      "is_preprint_server": false,
-      "topics": [
-        "Medicine / Public Health, Environmental and Occupational Health",
-        "Medicine / Orthopedics and Sports Medicine",
-        "Medicine / Physiology (medical)",
-        "Biochemistry, Genetics and Molecular Biology / Molecular Biology"
-      ]
-    },
-    {
       "name": "Research in Sports Science",
       "issn": [
         "2687-3907"
@@ -1896,9 +1879,11 @@
     "ieee international conference robotics biomimetics",
     "international conference bioinformatics computational biology",
     "international journal humanities social sciences development studies ijhsd",
+    "international journal multidimensional research perspectives",
+    "journal rol sport sciences",
     "mayo clinic proceedings digital health",
     "proceedings 2025 2nd international conference sports technology performance analysis",
-    "social science reports",
-    "strength conditioning journal"
+    "retos",
+    "social science reports"
   ]
 }
