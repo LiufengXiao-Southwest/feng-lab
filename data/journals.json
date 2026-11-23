@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "jcr_year": "2024",
   "sources": {
     "easyscholar": "easyscholar.cc — JCR impact factor, JCR quartile, CAS tiers; refreshed every run",
@@ -8,8 +8,31 @@
     "openalex": "api.openalex.org — names, ISSNs, h-index, OA status; refreshed every run"
   },
   "attribution": "SCImago, (n.d.). SJR — SCImago Journal & Country Rank [Portal]. Powered by Scopus.",
-  "count": 61,
+  "count": 64,
   "journals": [
+    {
+      "name": "ACTIVE Journal of Physical Education Sport Health and Recreation",
+      "issn": [
+        "2252-6773",
+        "2460-724X"
+      ],
+      "aliases": [
+        "Journal of physical education, sport, health and recreation"
+      ],
+      "publisher": "State University of Semarang",
+      "openalex_2yr": 1.13,
+      "h_index": 19,
+      "works_count": 816,
+      "is_oa": true,
+      "in_doaj": true,
+      "is_preprint_server": false,
+      "topics": [
+        "Health Professions / Physical Therapy, Sports Therapy and Rehabilitation",
+        "Social Sciences / Education",
+        "Medicine / Orthopedics and Sports Medicine",
+        "Social Sciences / Life-span and Life-course Studies"
+      ]
+    },
     {
       "name": "Annals of Biomedical Engineering",
       "aliases": [
@@ -699,29 +722,6 @@
       ]
     },
     {
-      "name": "International Journal of Physical Education Sports Management and Yogic Sciences",
-      "issn": [
-        "2231-1394",
-        "2278-795X"
-      ],
-      "aliases": [],
-      "publisher": "",
-      "openalex_2yr": 0.15,
-      "h_index": 8,
-      "works_count": 296,
-      "is_oa": false,
-      "in_doaj": false,
-      "is_preprint_server": false,
-      "topics": [
-        "Health Professions / Physical Therapy, Sports Therapy and Rehabilitation",
-        "Medicine / Orthopedics and Sports Medicine",
-        "Psychology / Developmental and Educational Psychology",
-        "Medicine / Public Health, Environmental and Occupational Health",
-        "Medicine / Physiology (medical)",
-        "Social Sciences / Life-span and Life-course Studies"
-      ]
-    },
-    {
       "name": "International Journal of Sport Nutrition and Exercise Metabolism",
       "aliases": [
         "IJSNEM",
@@ -1242,6 +1242,30 @@
       "if_provider": "easyscholar"
     },
     {
+      "name": "Journal of the International Society of Sports Nutrition",
+      "issn": [
+        "1550-2783"
+      ],
+      "aliases": [
+        "Sports nutrition review journal",
+        "JISSN",
+        "J Int Soc Sports Nutr"
+      ],
+      "publisher": "Springer Science+Business Media",
+      "openalex_2yr": 7.54,
+      "h_index": 112,
+      "works_count": 1541,
+      "is_oa": true,
+      "in_doaj": true,
+      "is_preprint_server": false,
+      "topics": [
+        "Nursing / Nutrition and Dietetics",
+        "Medicine / Orthopedics and Sports Medicine",
+        "Medicine / Physiology (medical)",
+        "Medicine / Pharmacology (medical)"
+      ]
+    },
+    {
       "name": "Knee Surgery Sports Traumatology Arthroscopy",
       "aliases": [
         "KSSTA",
@@ -1361,6 +1385,28 @@
       "esi": "临床医学",
       "jcr_year": "2024",
       "if_provider": "easyscholar"
+    },
+    {
+      "name": "Natural Resources for Human Health",
+      "issn": [
+        "2583-1194"
+      ],
+      "aliases": [],
+      "publisher": "",
+      "openalex_2yr": 2.38,
+      "h_index": 15,
+      "works_count": 2889,
+      "is_oa": false,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "topics": [
+        "Agricultural and Biological Sciences / Plant Science",
+        "Agricultural and Biological Sciences / Food Science",
+        "Health Professions / Health Information Management",
+        "Pharmacology, Toxicology and Pharmaceutics / Drug Discovery",
+        "Medicine / Endocrinology, Diabetes and Metabolism",
+        "Medicine / Health Informatics"
+      ]
     },
     {
       "name": "Nutrients",
@@ -1546,6 +1592,29 @@
       ]
     },
     {
+      "name": "Riyadhoh Jurnal Pendidikan Olahraga",
+      "issn": [
+        "2656-2936"
+      ],
+      "aliases": [
+        "Jurnal Pendidikan Olahraga"
+      ],
+      "publisher": "Universitas Islam Kalimantan Muhammad Arsyad Al Banjary",
+      "openalex_2yr": 1.47,
+      "h_index": 18,
+      "works_count": 305,
+      "is_oa": true,
+      "in_doaj": true,
+      "is_preprint_server": false,
+      "topics": [
+        "Health Professions / Physical Therapy, Sports Therapy and Rehabilitation",
+        "Medicine / Orthopedics and Sports Medicine",
+        "Social Sciences / Education",
+        "Social Sciences / Life-span and Life-course Studies",
+        "Psychology / Developmental and Educational Psychology"
+      ]
+    },
+    {
       "name": "Scandinavian Journal of Medicine and Science in Sports",
       "aliases": [
         "SJMSS",
@@ -1618,28 +1687,6 @@
       "esi": "多学科",
       "jcr_year": "2024",
       "if_provider": "easyscholar"
-    },
-    {
-      "name": "Scientific and Social Research",
-      "issn": [
-        "2661-4332",
-        "2981-9946"
-      ],
-      "aliases": [],
-      "publisher": "Bio-Byword Scientific Publishing, Pty. Ltd.",
-      "openalex_2yr": 0.4,
-      "h_index": 10,
-      "works_count": 1587,
-      "is_oa": false,
-      "in_doaj": false,
-      "is_preprint_server": false,
-      "topics": [
-        "Social Sciences / Political Science and International Relations",
-        "Social Sciences / Education",
-        "Social Sciences / Sociology and Political Science",
-        "Arts and Humanities / Archeology (arts and humanities)",
-        "Arts and Humanities / History"
-      ]
     },
     {
       "name": "Sensor Review",
@@ -1888,6 +1935,30 @@
       "if_provider": "easyscholar"
     },
     {
+      "name": "The Open Biochemistry Journal",
+      "issn": [
+        "1874-091X"
+      ],
+      "aliases": [
+        "TOBJ"
+      ],
+      "publisher": "Bentham Science Publishers",
+      "openalex_2yr": 1.31,
+      "h_index": 31,
+      "works_count": 182,
+      "is_oa": true,
+      "in_doaj": false,
+      "is_preprint_server": false,
+      "topics": [
+        "Biochemistry, Genetics and Molecular Biology / Molecular Biology",
+        "Medicine / Biochemistry (medical)",
+        "Medicine / Physiology (medical)",
+        "Biochemistry, Genetics and Molecular Biology / Structural Biology",
+        "Neuroscience / Cellular and Molecular Neuroscience",
+        "Medicine / Endocrinology, Diabetes and Metabolism"
+      ]
+    },
+    {
       "name": "arXiv (Cornell University)",
       "issn": [
         "2331-8422"
@@ -1911,16 +1982,13 @@
     }
   ],
   "unresolved": [
-    "2026 international conference advancements smart secure intelligent computing assic",
-    "2026 systems technologies digital healthcare stdh",
-    "advanced international journal research",
     "current issues sport science ciss",
     "gymnasium",
-    "ieee international conference robotics biomimetics",
     "international conference bioinformatics computational biology",
-    "international journal humanities social sciences development studies ijhsd",
+    "international journal multidimensional research perspectives",
+    "journal rol sport sciences",
     "mayo clinic proceedings digital health",
-    "proceedings 2025 2nd international conference sports technology performance analysis",
-    "social science reports"
+    "nursing edi o brasileira",
+    "retos"
   ]
 }
